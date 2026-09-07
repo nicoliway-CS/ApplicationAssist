@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-05T04:52:55.443507+00:00",
+  "last_checked": "2026-09-07T22:08:31.642331+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1821,6 +1821,11 @@
       "company": "University of Maine System",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Postdoctoral Research Associate"
+    },
+    "0bfe00a47361252c": {
+      "company": "NXP Semiconductors",
+      "first_seen": "2026-09-07T22:08:31.642331+00:00",
+      "title": "AI/ML ASIC Design and Implementation Automation Intern - Summer 2027"
     },
     "0c022f2e29be36d7": {
       "company": "Springs Window Fashions",
@@ -16217,6 +16222,11 @@
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "New Grad 2026: Research Scientist Graduate: TikTok Recommendation"
     },
+    "68b0f41900c33b39": {
+      "company": "NXP Semiconductors",
+      "first_seen": "2026-09-07T22:08:31.642331+00:00",
+      "title": "Digital Design Intern"
+    },
     "68b818f36143ef51": {
       "company": "Sopra Steria",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
@@ -19616,6 +19626,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Machine Learning and Artificial Intelligence Undergraduate Intern"
+    },
+    "7e799ffd85616855": {
+      "company": "NXP Semiconductors",
+      "first_seen": "2026-09-07T22:08:31.642331+00:00",
+      "title": "Embedded Machine Learning & Radar Processing Intern - Summer 2027"
     },
     "7e7a3fb4f586d713": {
       "company": "RTX",
@@ -33462,6 +33477,11 @@
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Junior Security Engineer - Cloud Foundation"
     },
+    "d7f65aeb5cc3f2bc": {
+      "company": "NXP Semiconductors",
+      "first_seen": "2026-09-07T22:08:31.642331+00:00",
+      "title": "Design for Test Engineer Intern - Summer 2027"
+    },
     "d7f9116047355669": {
       "company": "Analog Devices",
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
@@ -33621,6 +33641,11 @@
       "company": "Gartner",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Data Analyst Intern"
+    },
+    "d8dbacc9a977f091": {
+      "company": "NXP Semiconductors",
+      "first_seen": "2026-09-07T22:08:31.642331+00:00",
+      "title": "Digital Design Intern - Spring 2027"
     },
     "d8e6516e31405732": {
       "company": "Snap-on",
