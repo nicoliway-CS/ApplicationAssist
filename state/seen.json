@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-08T21:30:07.714549+00:00",
+  "last_checked": "2026-09-08T23:43:19.497123+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -7607,6 +7607,11 @@
       "first_seen": "2026-09-01T17:34:01.786468+00:00",
       "title": "Software Tester"
     },
+    "308d05543ef5ad7d": {
+      "company": "Boeing",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Artificial Intelligence Software Engineer Intern - Graduate Researcher Program"
+    },
     "309a604cff947744": {
       "company": "Metropolitan Transportation Authority",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
@@ -10372,6 +10377,11 @@
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Junior Intelligence Program Analyst"
     },
+    "41b572808e3dcb3a": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Digital Design Electrical Engineer Intern - Summer 2027"
+    },
     "41bfaf042a6b5a71": {
       "company": "LinkedIn",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -11036,6 +11046,11 @@
       "company": "Blue Origin",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Developer Intern - Avionics Software"
+    },
+    "46a19a127375ee3b": {
+      "company": "Datadog",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Software Engineer Intern - Summer"
     },
     "46a5a483b0a5992a": {
       "company": "Copart",
@@ -16141,6 +16156,11 @@
       "company": "1KOMMA5°",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "Initiativbewerbung: Elektriker / Elektroniker / Elektrohelfer (m/w/d) Photovoltaik & Energiesysteme - 1KOMMA5° Handwerk - Deutschlandweit"
+    },
+    "684d181b51200ce2": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Software Engineer Intern"
     },
     "684e4792486796fb": {
       "company": "AQR Capital Management",
@@ -24692,6 +24712,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Junior Software Engineer"
     },
+    "9fc2ca0a23d5f1c7": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Software Engineer Intern - Summer/Fall 2027 - Mission Engineering / Operational Analysis"
+    },
     "9fc46f1e8066b1f0": {
       "company": "ByteDance",
       "first_seen": "2026-08-21T03:54:52.304795+00:00",
@@ -25942,6 +25967,11 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad 2026: Product Manager (SMB)"
     },
+    "a7db35731aef810f": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "FPGA Electrical Design Engineer Intern"
+    },
     "a7e61d90cbf2c8ad": {
       "company": "Cisco",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
@@ -26241,6 +26271,11 @@
       "company": "City of Greeley",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Asset Technician - Multiple Teams"
+    },
+    "a9f727350a71055d": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Software Engineer Intern"
     },
     "a9fd4383ec5428b9": {
       "company": "MSX International",
@@ -27201,6 +27236,11 @@
       "company": "Sajix",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Python Developer"
+    },
+    "b0e92369a47b90f1": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Engineering Intern - ASIC Verification"
     },
     "b0fce7cfb4b75d59": {
       "company": "NRG Energy",
@@ -29386,6 +29426,11 @@
       "company": "University of Texas at Austin",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Undergraduate Research Assistant Programmer"
+    },
+    "be75636260ee118d": {
+      "company": "Textron",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Software Engineer Intern"
     },
     "be79f4c6ff4839ff": {
       "company": "RTX",
@@ -31612,6 +31657,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Software Engineer"
     },
+    "cc711a5d75265519": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Software Engineer Co-op"
+    },
     "cc7b28b3d2219d50": {
       "company": "Stripe",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
@@ -33391,6 +33441,11 @@
       "company": "Hudson River Trading",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "New Grad 2026: Algorithm Developer"
+    },
+    "d778ee47207f2cf1": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Electrical Firmware Co-op"
     },
     "d78097cbc37072ff": {
       "company": "Axos Bank",
@@ -38026,6 +38081,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Technical Support Engineer"
+    },
+    "f3256bcfb047b0cc": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T23:43:19.497123+00:00",
+      "title": "Software Engineering Co-op"
     },
     "f32980ded5fb5998": {
       "company": "Kite Ping",
