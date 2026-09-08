@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-08T05:23:31.433563+00:00",
+  "last_checked": "2026-09-08T10:08:20.856012+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -23042,6 +23042,11 @@
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Associate Data Scientist - Tools & Automation"
     },
+    "95208bcdcb403b26": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T10:08:20.856012+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
+    },
     "95223fbf042a1293": {
       "company": "Liksi",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
@@ -26746,6 +26751,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "TAS-I Cyber Security Authority"
+    },
+    "adc2f6fa297b6c82": {
+      "company": "RTX",
+      "first_seen": "2026-09-08T10:08:20.856012+00:00",
+      "title": "Software Engineer Intern"
     },
     "add233d69e089749": {
       "company": "EDF",
@@ -37291,6 +37301,11 @@
       "company": "Carnegie Mellon University",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Research Assistant - College of Engineering - Department of Chemical Engineering"
+    },
+    "ef184a7be8103a45": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-08T10:08:20.856012+00:00",
+      "title": "Software Engineer Intern - Mask Technology Center"
     },
     "ef1a90c1b8e0939a": {
       "company": "AlphaSense",
