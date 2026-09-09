@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-08T23:43:19.497123+00:00",
+  "last_checked": "2026-09-09T01:41:58.918299+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -28721,6 +28721,11 @@
       "company": "Texas Sports Academy",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Junior Software Engineer - AI-Forward"
+    },
+    "ba16e93a5f6d2e37": {
+      "company": "Applied Materials",
+      "first_seen": "2026-09-09T01:41:58.918299+00:00",
+      "title": "Software Engineering Intern - Masters"
     },
     "ba2109d25bc9b807": {
       "company": "Novartis",
