@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-09T01:41:58.918299+00:00",
+  "last_checked": "2026-09-09T06:47:28.906304+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -7286,6 +7286,11 @@
       "company": "Garmin",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Software Engineer 1 - Embedded Aviation"
+    },
+    "2e4161bfbdfaa3eb": {
+      "company": "Tesla",
+      "first_seen": "2026-09-09T06:47:28.906304+00:00",
+      "title": "Software Engineer Intern - Service Engineering"
     },
     "2e4f28d779f26cb1": {
       "company": "VWH Capital Management",
