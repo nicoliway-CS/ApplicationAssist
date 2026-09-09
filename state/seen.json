@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-09T11:59:50.433830+00:00",
+  "last_checked": "2026-09-09T15:59:13.086876+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -17281,6 +17281,11 @@
       "company": "Duracell",
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Electronics Tech Intern"
+    },
+    "6f74a8d9cdbe12a0": {
+      "company": "Applied Materials",
+      "first_seen": "2026-09-09T15:59:13.086876+00:00",
+      "title": "Electrical Engineer Co-op"
     },
     "6f7573057dcf332c": {
       "company": "PIMCO",
