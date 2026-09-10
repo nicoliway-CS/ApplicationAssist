@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-10T05:23:25.980515+00:00",
+  "last_checked": "2026-09-10T10:06:33.991840+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -6486,6 +6486,11 @@
       "company": "Vanguard",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Technology Leadership Program - Risk & Security - Engineering"
+    },
+    "28df0ddc082d865b": {
+      "company": "RTX",
+      "first_seen": "2026-09-10T10:06:33.991840+00:00",
+      "title": "Software Engineering Intern"
     },
     "28e17bcf38949230": {
       "company": "Novartis",
