@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-09T22:01:51.291932+00:00",
+  "last_checked": "2026-09-10T00:40:43.436629+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -21007,6 +21007,11 @@
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Data Analyst Supply Chain"
     },
+    "87629ce0377dfcd8": {
+      "company": "RTX",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Software Engineer Intern"
+    },
     "8766092143936e1a": {
       "company": "Eureden",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -21056,6 +21061,11 @@
       "company": "Thales",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "AOCS Design Junior_Engineer"
+    },
+    "87b9641272c62f67": {
+      "company": "Tesla",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Software Engineer Intern - Autonomy Systems Foundations"
     },
     "87bb6ae4e9ab0cb0": {
       "company": "Nomagic",
@@ -24277,6 +24287,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Associate Software Engineer - Serviceview"
     },
+    "9cc59cdc54186ef3": {
+      "company": "RTX",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
+    },
     "9cd5152be466724e": {
       "company": "Trace Systems",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -27022,6 +27037,11 @@
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Directeur Technique National Adjoint H/F"
     },
+    "af3fdb57e9fd2447": {
+      "company": "Motorola",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "FPGA Design Engineering Intern"
+    },
     "af4c035408881b0e": {
       "company": "LexisNexis Risk Solutions",
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
@@ -28456,6 +28476,11 @@
       "company": "SpaceX",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Software Engineer - Platform / Infrastructure - Starlink"
+    },
+    "b87f3d290853c169": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Software Engineer Intern"
     },
     "b885fe503cf7865f": {
       "company": "Orb Aerospace",
@@ -30607,6 +30632,11 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "SW engineer for PSP solutions"
     },
+    "c56ad5280033bd0f": {
+      "company": "Tesla",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Software Engineer Intern - IT Apps"
+    },
     "c585479a92768514": {
       "company": "Tesla",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -31056,6 +31086,11 @@
       "company": "Just Eat Takeaway.com",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Event Coordinator"
+    },
+    "c81aac42635e0dae": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Software Engineer Intern"
     },
     "c81fad233832c762": {
       "company": "Agile Defense",
@@ -32871,6 +32906,11 @@
       "company": "The Walt Disney Company",
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Systems Software Engineer Intern"
+    },
+    "d42f9874c07dcbcb": {
+      "company": "RTX",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Software Engineering Co-op"
     },
     "d4331145e9601920": {
       "company": "Internet Brands",
@@ -36201,6 +36241,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Multimodal Generative AI Research Scientist - Intelligent Creation"
+    },
+    "e812f0f08f0ee66d": {
+      "company": "Tesla",
+      "first_seen": "2026-09-10T00:40:43.436629+00:00",
+      "title": "Machine Learning Engineer Intern - Factory Software"
     },
     "e8342ef20c2aac2c": {
       "company": "Microsoft",
