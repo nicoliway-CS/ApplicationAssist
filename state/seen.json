@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-10T00:40:43.436629+00:00",
+  "last_checked": "2026-09-10T05:23:25.980515+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1651,6 +1651,11 @@
       "company": "ArianeGroup",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Produktionsmitarbeiter (m/w/d) im Bereich Oberflächentechnik"
+    },
+    "0a8ec55c34795d6f": {
+      "company": "Rocket Lab USA",
+      "first_seen": "2026-09-10T05:23:25.980515+00:00",
+      "title": "Flight Software Intern"
     },
     "0a938a995372b219": {
       "company": "Hubs.is",
@@ -26622,6 +26627,11 @@
       "first_seen": "2026-08-31T22:23:38.257373+00:00",
       "title": "AI Applications Engineer - Wired and Wireless Business Team - Adaptive and Embedded Computing Group"
     },
+    "ac911ce68fb43b78": {
+      "company": "Shield AI",
+      "first_seen": "2026-09-10T05:23:25.980515+00:00",
+      "title": "Software Engineer Intern"
+    },
     "acaffdea5384023b": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -30702,6 +30712,11 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Ingénieur Conception Mécanique h/f"
     },
+    "c5ee1bc6bed03339": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-09-10T05:23:25.980515+00:00",
+      "title": "Hardware Engineering Intern - Client Solutions Group Engineering"
+    },
     "c5fffb4ac0811957": {
       "company": "Meta",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
@@ -34441,6 +34456,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Ingénieur Développement Logiciel F/H"
+    },
+    "dd16031a0d02da4b": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-09-10T05:23:25.980515+00:00",
+      "title": "Software Engineer Intern - Client Solutions Group Engineering"
     },
     "dd297f344ab18c55": {
       "company": "BTI Solutions",
