@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-10T20:08:11.073889+00:00",
+  "last_checked": "2026-09-10T22:49:21.758871+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4846,6 +4846,11 @@
       "company": "Legora",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Solutions Engineer - Milan"
+    },
+    "1f007cbf81442461": {
+      "company": "Intel",
+      "first_seen": "2026-09-10T22:49:21.758871+00:00",
+      "title": "AI Software Engineer Intern - Artificial Intelligence"
     },
     "1f23092ce45c5f84": {
       "company": "Dutch Bros",
