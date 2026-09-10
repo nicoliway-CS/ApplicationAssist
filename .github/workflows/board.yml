@@ -2,21 +2,18 @@ name: job-board
 
 on:
   schedule:
-    # 11:17 UTC = 7:17 AM US Eastern during EDT, 6:17 AM during EST.
+    # Three times a day. Minute is :17, not :00 -- the top of the hour is the
+    # most congested slot for GitHub's shared runners, so off-the-hour cuts the
+    # scheduling delay.
     #
-    # Deliberately mid-morning ET rather than the 00:00 UTC this used to be.
-    # GitHub cron has no timezone support, so 00:00 UTC is 8 PM ET the *previous
-    # evening*: the run on the evening of Aug 25 produced a page stamped
-    # "August 26". Mid-morning ET is the same calendar day in both zones all
-    # year, so the build date can no longer disagree with the reader's.
+    # 11/17/23 UTC lands ~7 AM / 1 PM / 7 PM US Eastern during EDT (an hour
+    # earlier during EST). All three are daytime ET and none is near 00:00 UTC,
+    # so a delayed run can't slip across a calendar day -- the page stamps its
+    # "rebuilt" date in America/New_York and it has to stay correct.
     #
-    # GitHub also delays scheduled runs on shared runners -- the 00:00 slot was
-    # landing at 00:51. Off-the-hour avoids the worst of the queue, and an hour
-    # of slippage here still cannot push the run across midnight either way.
-    #
-    # This is the ONLY thing that rebuilds the page. If the board appears to
-    # update twice in a day, check for a manual workflow_dispatch run.
-    - cron: "17 11 * * *"
+    # workflow_dispatch below rebuilds on demand; a build outside these slots is
+    # a manual run.
+    - cron: "17 11,17,23 * * *"
   workflow_dispatch:
 
 # `pages` + `id-token` are what actions/deploy-pages needs. `contents: read`
