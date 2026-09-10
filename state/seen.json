@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-10T14:40:35.740310+00:00",
+  "last_checked": "2026-09-10T17:55:14.930802+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -21906,6 +21906,11 @@
       "company": "Ascension",
       "first_seen": "2026-08-22T13:28:23.721118+00:00",
       "title": "Application Technology Specialist - Clinical Imaging"
+    },
+    "8d2d81c4d2270dc3": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-10T17:55:14.930802+00:00",
+      "title": "Software Engineer Intern"
     },
     "8d326391ca8cd1f0": {
       "company": "Eaton",
