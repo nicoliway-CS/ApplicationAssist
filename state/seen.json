@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-10T10:06:33.991840+00:00",
+  "last_checked": "2026-09-10T14:40:35.740310+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4116,6 +4116,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Forward Deployed Engineer - Public Sector, Nonprofit & Education"
+    },
+    "1ab2ab62fbb62eb1": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-10T14:40:35.740310+00:00",
+      "title": "Software Engineer Intern - Software Engineering"
     },
     "1abe8a9c392f3a6b": {
       "company": "Kimley-Horn",
@@ -23737,6 +23742,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Data Innovation Research Data Analyst"
     },
+    "99562586086382c1": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-10T14:40:35.740310+00:00",
+      "title": "Software Engineering Intern"
+    },
     "99567b93043b66d1": {
       "company": "Alan",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
@@ -31982,6 +31992,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Jr. Software Engineer"
     },
+    "cdde9095e820b87f": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-10T14:40:35.740310+00:00",
+      "title": "Software Engineer Intern"
+    },
     "cde2f448508a9c3e": {
       "company": "AMAX",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
@@ -33706,6 +33721,11 @@
       "company": "Nebius",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Technical Due Diligence Manager- Data Centers, EMEA"
+    },
+    "d85efd645a9d31db": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-10T14:40:35.740310+00:00",
+      "title": "Integration/Test Engineer Intern"
     },
     "d867d03c4d381db5": {
       "company": "Amgen",
