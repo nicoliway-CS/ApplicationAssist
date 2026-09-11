@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-10T22:49:21.758871+00:00",
+  "last_checked": "2026-09-11T00:37:41.232592+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -14972,6 +14972,11 @@
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Systems Analyst - Entry-Level"
     },
+    "60f80d188b5c61ee": {
+      "company": "Tesla",
+      "first_seen": "2026-09-11T00:37:41.232592+00:00",
+      "title": "Data Engineer Intern - Fleet Data - Self-Driving"
+    },
     "60f8bb1d83ab33c2": {
       "company": "Amazon",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
@@ -23612,6 +23617,11 @@
       "first_seen": "2026-08-31T03:25:45.070362+00:00",
       "title": "Design Engineer New Grad - Digital"
     },
+    "98558ae43877500f": {
+      "company": "RTX",
+      "first_seen": "2026-09-11T00:37:41.232592+00:00",
+      "title": "Software Engineer Intern"
+    },
     "9857d0ef4efdb1f3": {
       "company": "Apple",
       "first_seen": "2026-08-18T07:34:47.632154+00:00",
@@ -24796,6 +24806,11 @@
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Entry Level Software Engineer"
+    },
+    "9fe588b85de0e795": {
+      "company": "RTX",
+      "first_seen": "2026-09-11T00:37:41.232592+00:00",
+      "title": "Software Engineering Co-op"
     },
     "9fe6de174a9285b5": {
       "company": "NTT DATA",
@@ -27086,6 +27101,11 @@
       "company": "MSA Safety",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Software Engineer Co-op - Product Development"
+    },
+    "af56626b4aa15e54": {
+      "company": "RTX",
+      "first_seen": "2026-09-11T00:37:41.232592+00:00",
+      "title": "Software Engineer Co-op"
     },
     "af5bd97a1073ede6": {
       "company": "le1817",
@@ -34836,6 +34856,11 @@
       "company": "RAVE Aerospace",
       "first_seen": "2026-08-25T11:23:38.468711+00:00",
       "title": "Test Lab Technician 1 - System Test Lab - Rack Room"
+    },
+    "deff073a38cbd149": {
+      "company": "RTX",
+      "first_seen": "2026-09-11T00:37:41.232592+00:00",
+      "title": "Software Engineering Intern"
     },
     "df023dca987f1d9d": {
       "company": "Qualcomm",
