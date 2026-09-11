@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-11T14:39:27.192726+00:00",
+  "last_checked": "2026-09-11T17:57:40.186578+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -21486,6 +21486,11 @@
       "company": "Boston Scientific",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Software Engineer 1 - Engineering"
+    },
+    "8a5efcb414427e42": {
+      "company": "Tesla",
+      "first_seen": "2026-09-11T17:57:40.186578+00:00",
+      "title": "Software Engineer Intern - Data Platforms"
     },
     "8a6cfa940a31973c": {
       "company": "IONOS",
