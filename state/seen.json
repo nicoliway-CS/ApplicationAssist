@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-11T20:18:17.879836+00:00",
+  "last_checked": "2026-09-11T22:50:02.576498+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -21201,6 +21201,11 @@
       "company": "Boston Consulting Group",
       "first_seen": "2026-08-20T09:30:37.108491+00:00",
       "title": "Forward Deployed AI Scientist"
+    },
+    "889f1aa9e918873d": {
+      "company": "RTX",
+      "first_seen": "2026-09-11T22:50:02.576498+00:00",
+      "title": "Software Engineer Co-op - Spring/Summer 2027"
     },
     "88a289cbe8d8e5c2": {
       "company": "Ginkgo Bioworks",
