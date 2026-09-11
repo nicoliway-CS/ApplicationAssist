@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-11T10:03:56.749970+00:00",
+  "last_checked": "2026-09-11T14:39:27.192726+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -32161,6 +32161,11 @@
       "company": "ByteDance",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Machine Learning Engineer Intern - Security-Data"
+    },
+    "cec9503c21151510": {
+      "company": "Tesla",
+      "first_seen": "2026-09-11T14:39:27.192726+00:00",
+      "title": "Software Engineer Intern - Fullstack Engineer - Infrastructure Engineering"
     },
     "cecbad46a4c36625": {
       "company": "Cadence Design Systems",
