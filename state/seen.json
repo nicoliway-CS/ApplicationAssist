@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-11T22:50:02.576498+00:00",
+  "last_checked": "2026-09-12T00:44:28.817345+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2171,6 +2171,11 @@
       "company": "University of St. Thomas",
       "first_seen": "2026-08-18T08:32:44.073927+00:00",
       "title": "Semiconductor Test AI Intern - Minnesota Semiconductor AI Hub"
+    },
+    "0e364648b4914e4d": {
+      "company": "Motorola",
+      "first_seen": "2026-09-12T00:44:28.817345+00:00",
+      "title": "Digital Signal Processing Software Engineering Intern - Digital Signal Processing"
     },
     "0e4c84053d5e6d0a": {
       "company": "TikTok",
@@ -11347,6 +11352,11 @@
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Customer Success Engineer, French Speaking"
     },
+    "487757d13e000674": {
+      "company": "Tesla",
+      "first_seen": "2026-09-12T00:44:28.817345+00:00",
+      "title": "Data Engineer Intern - Fleet Analytics"
+    },
     "48785b9fcb0bffee": {
       "company": "Amazon",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
@@ -13971,6 +13981,11 @@
       "company": "EquipmentShare",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
       "title": "Telematics Installer"
+    },
+    "5a6997003afebccf": {
+      "company": "NXP Semiconductors",
+      "first_seen": "2026-09-12T00:44:28.817345+00:00",
+      "title": "Test Engineer Intern"
     },
     "5a69bcfc269285d2": {
       "company": "NTT DATA",
@@ -19351,6 +19366,11 @@
       "company": "SumUp",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "Merchant Security Expert with French and English"
+    },
+    "7c767044de88a835": {
+      "company": "Motorola",
+      "first_seen": "2026-09-12T00:44:28.817345+00:00",
+      "title": "Software Engineering Intern"
     },
     "7c78e5a86659fe7f": {
       "company": "Momentum",
@@ -28337,6 +28357,11 @@
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "Backend Engineer - Balance Management"
     },
+    "b74fd0d37fcc0a71": {
+      "company": "Tesla",
+      "first_seen": "2026-09-12T00:44:28.817345+00:00",
+      "title": "Content Integration Engineer Intern - Vehicle Firmware"
+    },
     "b75272f1d96cb694": {
       "company": "TikTok",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
@@ -36192,6 +36217,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Internship - Software Development Engineer in Test"
     },
+    "e70888bc51f947a8": {
+      "company": "RTX",
+      "first_seen": "2026-09-12T00:44:28.817345+00:00",
+      "title": "Electrical Engineer Intern - Test"
+    },
     "e711714eea65986f": {
       "company": "The Walt Disney Company",
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
@@ -39231,6 +39261,11 @@
       "company": "Ancestry",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Machine Learning Engineer Co-op"
+    },
+    "f96c395366b5364f": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-12T00:44:28.817345+00:00",
+      "title": "Software Engineer Intern"
     },
     "f9731031c7c84f96": {
       "company": "MetroStar",
