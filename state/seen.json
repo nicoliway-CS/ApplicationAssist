@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-12T16:34:50.794022+00:00",
+  "last_checked": "2026-09-12T18:50:01.007279+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -10541,6 +10541,11 @@
       "company": "Groupe Randstad France",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Chargé de relations Clients et Talents"
+    },
+    "429e68f32aa298fd": {
+      "company": "Klaviyo",
+      "first_seen": "2026-09-12T18:50:01.007279+00:00",
+      "title": "Software Engineer Co-op"
     },
     "429efaab706551aa": {
       "company": "SumUp",
@@ -27461,6 +27466,11 @@
       "company": "Johns Hopkins Applied Physics Laboratory",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Cyber Engineer - Capabilities Development"
+    },
+    "b18099ecb2b04847": {
+      "company": "Klaviyo",
+      "first_seen": "2026-09-12T18:50:01.007279+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
     },
     "b18ad017daaf231e": {
       "company": "Stage",
