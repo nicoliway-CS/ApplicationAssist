@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-12T00:44:28.817345+00:00",
+  "last_checked": "2026-09-12T05:11:48.544201+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -30391,6 +30391,11 @@
       "company": "Samaya",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "ML Research Intern"
+    },
+    "c3c0aa4faf0822bf": {
+      "company": "TikTok",
+      "first_seen": "2026-09-12T05:11:48.544201+00:00",
+      "title": "Software Engineer Intern - Ads Infrastructure - 2026 Summer - BS/MS"
     },
     "c3c524e47762b021": {
       "company": "Sopra Steria",
