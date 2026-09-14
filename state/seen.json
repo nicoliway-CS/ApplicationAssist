@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-14T14:27:51.368728+00:00",
+  "last_checked": "2026-09-14T19:38:32.234726+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -10612,6 +10612,11 @@
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "Data Scientist – Practice IA chez MARGO | Projets Marketing & Optimisation"
     },
+    "43127ccc292f3e29": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-14T19:38:32.234726+00:00",
+      "title": "IT Software Engineer Intern"
+    },
     "4318d9562283affe": {
       "company": "SumUp",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -15521,6 +15526,11 @@
       "company": "HP",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Presales Technical Consultant"
+    },
+    "63d4893ddd21027a": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-09-14T19:38:32.234726+00:00",
+      "title": "Hardware Engineering Intern - Infrastructure Solutions Group"
     },
     "63dcb166fff0b6e5": {
       "company": "West Virginia University",
@@ -25422,6 +25432,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Machine Learning Infrastructure Simulation Engineer, Optimus"
     },
+    "a325097e2974f4b6": {
+      "company": "RTX",
+      "first_seen": "2026-09-14T19:38:32.234726+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
+    },
     "a337e6cd0bd3fbcd": {
       "company": "Mesotech International",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
@@ -29921,6 +29936,11 @@
       "company": "Apple",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Camera Framework Engineer, Photo Capture"
+    },
+    "c118aab63dbcad0f": {
+      "company": "RTX",
+      "first_seen": "2026-09-14T19:38:32.234726+00:00",
+      "title": "Electrical Engineer Intern - RDP"
     },
     "c1198b78c75d6d65": {
       "company": "BRG",
@@ -35997,6 +36017,11 @@
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Software Development Engineer"
     },
+    "e5986391ec3e4658": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-14T19:38:32.234726+00:00",
+      "title": "PHY Digital Design & Automation Engineer Intern - HBM"
+    },
     "e598a3f7a536a523": {
       "company": "Aircall",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -38981,6 +39006,11 @@
       "company": "Westinghouse Electric Company",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Electrical Engineer - Safety System Products"
+    },
+    "f795a531ffa995de": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-09-14T19:38:32.234726+00:00",
+      "title": "Software Engineering Intern"
     },
     "f799cda5799d096b": {
       "company": "Johnson & Johnson",
