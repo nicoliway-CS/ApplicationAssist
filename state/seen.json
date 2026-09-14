@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-14T19:38:32.234726+00:00",
+  "last_checked": "2026-09-14T22:47:49.941818+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3487,6 +3487,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "New Grad Electrical Engineer - Computer Engineer - Engineering Automation"
     },
+    "16871d32acfbb6ab": {
+      "company": "Google",
+      "first_seen": "2026-09-14T22:47:49.941818+00:00",
+      "title": "Hardware Engineer Intern - PhD"
+    },
     "16a995448cb5c3aa": {
       "company": "Alarm.com",
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
@@ -6962,6 +6967,11 @@
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "FPGA Engineer 1"
     },
+    "2bd25fc66fc70178": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-14T22:47:49.941818+00:00",
+      "title": "Software Engineer Intern - Aeronautics Systems"
+    },
     "2bd5a23a3b7395b6": {
       "company": "Marvell",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
@@ -9036,6 +9046,11 @@
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-08-24T23:19:20.028808+00:00",
       "title": "Software Systems Engineer - Surface Ship Systems Programs"
+    },
+    "38ee2c54da3846a5": {
+      "company": "Tesla",
+      "first_seen": "2026-09-14T22:47:49.941818+00:00",
+      "title": "Software Engineer Intern - Camera & Robotics"
     },
     "38ffe301ffdd3b90": {
       "company": "Samsara",
@@ -16612,6 +16627,11 @@
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Network Test Specialist  (Netværk, VoIP eller RF)"
     },
+    "6a5fbdc9a15ca71b": {
+      "company": "Tesla",
+      "first_seen": "2026-09-14T22:47:49.941818+00:00",
+      "title": "Software Integration Engineer Intern - Factory Firmware"
+    },
     "6a6d3e8d7ba050f8": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -18246,6 +18266,11 @@
       "company": "PNC Financial Services",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Technology Analyst/Associate"
+    },
+    "74bcc94965831c89": {
+      "company": "Google",
+      "first_seen": "2026-09-14T22:47:49.941818+00:00",
+      "title": "Hardware Engineer Intern"
     },
     "74c10f7a62d411b8": {
       "company": "NVIDIA",
@@ -25866,6 +25891,11 @@
       "company": "i3",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Full-Stack Software Engineer"
+    },
+    "a5fddc4720f1aaab": {
+      "company": "Tesla",
+      "first_seen": "2026-09-14T22:47:49.941818+00:00",
+      "title": "System Integration and Test Automation Engineer Intern - Energy Engineering"
     },
     "a61d71a4b483589c": {
       "company": "FlexAI",
