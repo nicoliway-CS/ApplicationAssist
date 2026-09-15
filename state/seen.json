@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-15T12:16:11.112657+00:00",
+  "last_checked": "2026-09-15T17:20:06.597424+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3816,6 +3816,11 @@
       "company": "Medpace, Inc.",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "AI Engineer Intern"
+    },
+    "18d2b0dcb5c6649c": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-15T17:20:06.597424+00:00",
+      "title": "Software Engineer Intern"
     },
     "18e87451c15b739e": {
       "company": "Sysmex",
@@ -17797,6 +17802,11 @@
       "first_seen": "2026-09-02T18:27:00.115446+00:00",
       "title": "Professional Services Engineer"
     },
+    "71c522a0f818d443": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-15T17:20:06.597424+00:00",
+      "title": "Engineer Intern - Software Engineering"
+    },
     "71c864dabee3e2e0": {
       "company": "Exelixis",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -25431,6 +25441,11 @@
       "company": "Marriott International",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Associate Software Engineer - Android - Mobile"
+    },
+    "a2d7fb57e43a3daa": {
+      "company": "RTX",
+      "first_seen": "2026-09-15T17:20:06.597424+00:00",
+      "title": "Software Engineer Intern"
     },
     "a2e22f466fa6f145": {
       "company": "Super Micro Computer",
@@ -39676,6 +39691,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Research Scientist Intern - AI Infra Compute"
+    },
+    "fb3c426210b721d7": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-09-15T17:20:06.597424+00:00",
+      "title": "Software Development Intern"
     },
     "fb4501db61999d3f": {
       "company": "Salesforce",
