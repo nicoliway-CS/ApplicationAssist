@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-14T22:47:49.941818+00:00",
+  "last_checked": "2026-09-15T01:00:53.850988+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -36367,6 +36367,11 @@
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Electrical Testing Technician"
     },
+    "e7a0c628f6890d7b": {
+      "company": "Waymo",
+      "first_seen": "2026-09-15T01:00:53.850988+00:00",
+      "title": "Software Engineering Intern - Commercialization"
+    },
     "e7ac7867e949aee3": {
       "company": "Microchip Technology",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
@@ -38296,6 +38301,11 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Quality Control"
+    },
+    "f2b7674921ad4748": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-15T01:00:53.850988+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "f2b8170064700353": {
       "company": "Truist Bank",
