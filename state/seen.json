@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-15T01:00:53.850988+00:00",
+  "last_checked": "2026-09-15T06:49:17.377400+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4266,6 +4266,11 @@
       "company": "CACI",
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "AI Prompt Engineer"
+    },
+    "1b7f8380a37b07bb": {
+      "company": "Tesla",
+      "first_seen": "2026-09-15T06:49:17.377400+00:00",
+      "title": "Computer Vision Engineer Intern - Cell Engineering"
     },
     "1b8699fb2376bd23": {
       "company": "xAI",
@@ -17501,6 +17506,11 @@
       "company": "Flexcompute",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Scientific Computing New Grad - Rising Stars"
+    },
+    "706e2f07c1b12737": {
+      "company": "RTX",
+      "first_seen": "2026-09-15T06:49:17.377400+00:00",
+      "title": "Software Engineer Co-op - Summer/Fall 2027"
     },
     "7072f1a801527f05": {
       "company": "Constellation Energy",
@@ -31677,6 +31687,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Sensing Software Engineer"
     },
+    "cb6781fa263cec2d": {
+      "company": "Tesla",
+      "first_seen": "2026-09-15T06:49:17.377400+00:00",
+      "title": "Internship - Software Integration Engineer - Factory Firmware Team - Winter/Spring 2027"
+    },
     "cb681ef943d52ae0": {
       "company": "Doctolib",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
@@ -32886,6 +32901,11 @@
       "company": "Barkback",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Software Intern"
+    },
+    "d2c3f8348ae64c0d": {
+      "company": "RTX",
+      "first_seen": "2026-09-15T06:49:17.377400+00:00",
+      "title": "Software Engineering Co-op"
     },
     "d2cac5d6196467cc": {
       "company": "Tesla",
@@ -36381,6 +36401,11 @@
       "company": "Tesla",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Field Reliability Engineer - Autopilot Hardware"
+    },
+    "e7b11a828c310faf": {
+      "company": "DoorDash",
+      "first_seen": "2026-09-15T06:49:17.377400+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
     },
     "e7c2e2ee773cade4": {
       "company": "Applied Materials",
