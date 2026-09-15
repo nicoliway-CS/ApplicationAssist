@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-15T20:29:57.431984+00:00",
+  "last_checked": "2026-09-15T23:13:22.894563+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -716,6 +716,11 @@
       "company": "Brandeis University",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Chinese UMR Annotator - Uniform Meaning Representation"
+    },
+    "04791398e43580b4": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Data Center SSD Firmware Intern"
     },
     "04807a2954164550": {
       "company": "GlobalFoundries",
@@ -4301,6 +4306,11 @@
       "company": "CSI",
       "first_seen": "2026-08-17T15:21:52.123639+00:00",
       "title": "Product Manager - Business Banking & Treasury Management"
+    },
+    "1ba7916a52aa97b6": {
+      "company": "Anduril",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Flight Software Engineer Intern"
     },
     "1bbe7b2881d2860a": {
       "company": "TikTok",
@@ -16832,6 +16842,11 @@
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Coordinateur supply chain"
     },
+    "6bb192fddb38cc23": {
+      "company": "Anduril",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Electrical Engineer Co-op"
+    },
     "6bbae8f6be6a0fbf": {
       "company": "Savannah River National Laboratory",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
@@ -24382,6 +24397,11 @@
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "PC Support"
     },
+    "9c85ad731eef946b": {
+      "company": "RTX",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Software Engineering Co-op"
+    },
     "9c8a9e800b51586a": {
       "company": "TSC",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
@@ -26577,6 +26597,11 @@
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Early Career Development Program Associate - Analytics"
     },
+    "aae0f647f900763d": {
+      "company": "Analog Devices",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Embedded Software Engineer Intern"
+    },
     "aae280020c43e801": {
       "company": "Tesla",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
@@ -26806,6 +26831,11 @@
       "company": "Comcast",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Software Engineer 1"
+    },
+    "acd2fe4f4b2f020d": {
+      "company": "Anduril",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Software Engineer Co-op"
     },
     "acd90d41fc5ef774": {
       "company": "Microchip Technology",
@@ -30387,6 +30417,11 @@
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Quantitative Systematic Trading Intern"
     },
+    "c343b532339b18e9": {
+      "company": "Anduril",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "PCB Layout Engineer Co-op"
+    },
     "c34794068ef869fa": {
       "company": "Northrop Grumman",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -32417,6 +32452,11 @@
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Exploitation Specialist - Data Scientist - Junior"
     },
+    "cf91a48c8444b979": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Cyber Software Engineer Intern"
+    },
     "cf92e58c7fbbd97e": {
       "company": "Procter & Gamble",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
@@ -34391,6 +34431,11 @@
       "company": "Torc Robotics",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Machine Learning Engineer - MLOps Framework"
+    },
+    "db455a7b78fd691b": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "Firmware Engineer Intern"
     },
     "db4eeb597b9626c2": {
       "company": "SpaceX",
@@ -39091,6 +39136,11 @@
       "company": "Westinghouse Electric Company",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Electrical Engineer - Safety System Products"
+    },
+    "f78f45c4862ce9e6": {
+      "company": "Micron Technology",
+      "first_seen": "2026-09-15T23:13:22.894563+00:00",
+      "title": "ASIC Validation Intern"
     },
     "f795a531ffa995de": {
       "company": "Dell Technologies",
