@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-15T06:49:17.377400+00:00",
+  "last_checked": "2026-09-15T12:16:11.112657+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -18051,6 +18051,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Research Scientist in Generative AI - Intelligent Creation"
+    },
+    "737abc493791e13d": {
+      "company": "Tesla",
+      "first_seen": "2026-09-15T12:16:11.112657+00:00",
+      "title": "Solar Hardware Engineer Intern - Energy Engineering"
     },
     "7387165a1b5ac77b": {
       "company": "Atos",
