@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-16T12:15:15.384885+00:00",
+  "last_checked": "2026-09-16T17:19:42.078060+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -13766,6 +13766,11 @@
       "company": "Cigna Group",
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Healthcare Policy & Regulated Markets Intern"
+    },
+    "5872005db0afb1e1": {
+      "company": "RTX",
+      "first_seen": "2026-09-16T17:19:42.078060+00:00",
+      "title": "Software Engineer Intern"
     },
     "58735683c229a8cb": {
       "company": "TikTok",
@@ -34282,6 +34287,11 @@
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
       "title": "Engineering Technician B"
     },
+    "da2f16ae031b8db4": {
+      "company": "RTX",
+      "first_seen": "2026-09-16T17:19:42.078060+00:00",
+      "title": "Software Engineer Intern - Receiver Exciter and Processing Architecture"
+    },
     "da3008d45c66f0c1": {
       "company": "Prairie View A&M University",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -34851,6 +34861,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Fullstack Software Engineer, Energy Products Software"
+    },
+    "ddbd3a28274a6e71": {
+      "company": "General Dynamics",
+      "first_seen": "2026-09-16T17:19:42.078060+00:00",
+      "title": "Information Technology Intern - Software Engineering - Computer Science"
     },
     "ddd1ab45a3fb6a93": {
       "company": "MARGO",
