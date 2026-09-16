@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-16T20:29:24.182675+00:00",
+  "last_checked": "2026-09-16T23:18:11.833845+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -8626,6 +8626,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
       "title": "Data Knowledge System Research Scientist Graduate - Data Platform-Global Live"
+    },
+    "3663d778c9d321ee": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-16T23:18:11.833845+00:00",
+      "title": "Software Engineer Intern"
     },
     "3668f59103a2c5c1": {
       "company": "Texas A&M Transportation Institute",
@@ -21312,6 +21317,11 @@
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "In Vehicle Test Engineer, Steering, Vehicle Software"
     },
+    "888cbae5dcb6f828": {
+      "company": "AMD",
+      "first_seen": "2026-09-16T23:18:11.833845+00:00",
+      "title": "AI Model Optimization & Software Engineer Intern/Co-op"
+    },
     "888ee4cf90dc4cb5": {
       "company": "LPL Financial Holdings",
       "first_seen": "2026-08-21T18:31:55.450328+00:00",
@@ -22356,6 +22366,11 @@
       "company": "HarmonyTech",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Junior Software Developer - .NET"
+    },
+    "8f3cd4b3174296b5": {
+      "company": "Waymo",
+      "first_seen": "2026-09-16T23:18:11.833845+00:00",
+      "title": "Software Engineer Intern - MS/PhD"
     },
     "8f40fb405a1bc12a": {
       "company": "Theodo Cloud",
@@ -30977,6 +30992,11 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Software Engineer"
     },
+    "c63a505a8a08441c": {
+      "company": "Tesla",
+      "first_seen": "2026-09-16T23:18:11.833845+00:00",
+      "title": "Factory Firmware Integration Intern - Energy Engineering"
+    },
     "c63fbf595f41bee3": {
       "company": "Analog Devices",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
@@ -34326,6 +34346,11 @@
       "company": "AMD",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Field Application Engineer Graduate Rotational Program"
+    },
+    "da75320696844eb7": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-16T23:18:11.833845+00:00",
+      "title": "Hardware Electrical Engineer Intern - Crypto and Cross Domain Solutions"
     },
     "da893a9c26ec270a": {
       "company": "Thales",
@@ -39257,6 +39282,11 @@
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Software Engineer Intern"
     },
+    "f80e47bc45a0f1c2": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-16T23:18:11.833845+00:00",
+      "title": "Software Engineer Intern - Crypto and Cross Domain Solutions"
+    },
     "f819ea37143adcd3": {
       "company": "Citadel Securities",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -39486,6 +39516,11 @@
       "company": "MetroStar",
       "first_seen": "2026-09-04T00:43:10.028157+00:00",
       "title": "Associate Software Developer"
+    },
+    "f97fee3dc83c1852": {
+      "company": "RTX",
+      "first_seen": "2026-09-16T23:18:11.833845+00:00",
+      "title": "Software Engineer Co-op - Winter/Spring 2027"
     },
     "f9a33d96d9de7fef": {
       "company": "Stripe",
