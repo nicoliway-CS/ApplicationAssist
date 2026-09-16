@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-15T23:13:22.894563+00:00",
+  "last_checked": "2026-09-16T01:51:08.499242+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -9216,6 +9216,11 @@
       "company": "Aquatic Capital Management",
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
       "title": "Quantitative Researcher – Intern"
+    },
+    "39b9c2ebb889e559": {
+      "company": "Amazon",
+      "first_seen": "2026-09-16T01:51:08.499242+00:00",
+      "title": "Junior Software Engineer Intern - Jr. Developer Program"
     },
     "39c6a554b5d8d730": {
       "company": "Unseenlabs",
@@ -31591,6 +31596,11 @@
       "company": "VINCI Construction",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Responsable Travaux Maritimes F/H"
+    },
+    "c9f6fec5cb4c14a9": {
+      "company": "Nokia",
+      "first_seen": "2026-09-16T01:51:08.499242+00:00",
+      "title": "Embedded Software Co-op"
     },
     "ca0f16cf8d620dd5": {
       "company": "TikTok",
