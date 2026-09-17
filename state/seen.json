@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-16T23:18:11.833845+00:00",
+  "last_checked": "2026-09-17T01:54:56.085549+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -17246,6 +17246,11 @@
       "company": "Hello Pomelo",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "VIE - Ingénieur DevOps"
+    },
+    "6ead8aeeadb8cc0b": {
+      "company": "Waymo",
+      "first_seen": "2026-09-17T01:54:56.085549+00:00",
+      "title": "Quantitative Software Engineer Intern"
     },
     "6eaf4d1bcbc7ee7d": {
       "company": "Amazon",
