@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-17T20:36:35.658521+00:00",
+  "last_checked": "2026-09-17T23:09:39.530982+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3256,6 +3256,11 @@
       "company": "Goldman Sachs",
       "first_seen": "2026-09-03T07:44:50.065300+00:00",
       "title": "Structured Finance Analytics"
+    },
+    "14cd5d7866aa1210": {
+      "company": "RTX",
+      "first_seen": "2026-09-17T23:09:39.530982+00:00",
+      "title": "FPGA Design Intern"
     },
     "14ddf90f2ba243b5": {
       "company": "Apple",
@@ -7967,6 +7972,11 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Product Installation Engineer"
     },
+    "320ac153a1edf030": {
+      "company": "RTX",
+      "first_seen": "2026-09-17T23:09:39.530982+00:00",
+      "title": "Software Development Intern - Summer 2027"
+    },
     "3218ecd52c92d3f5": {
       "company": "Analog Devices",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
@@ -11201,6 +11211,11 @@
       "company": "Fidelity Investments",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "Software Engineer New Grad - LEAP"
+    },
+    "47056dc26e5d6e34": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-17T23:09:39.530982+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "470e4c3b458cb9a7": {
       "company": "Bial-X",
@@ -22787,6 +22802,11 @@
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Quantitative Analytics Program - Multiple Teams"
     },
+    "926305e92cb557c4": {
+      "company": "Marvell",
+      "first_seen": "2026-09-17T23:09:39.530982+00:00",
+      "title": "SRAM Software Engineer Intern"
+    },
     "926d7f1a7d74f500": {
       "company": "Tesla",
       "first_seen": "2026-08-23T09:24:09.197614+00:00",
@@ -23396,6 +23416,11 @@
       "company": "PennState University",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Maps and Geospatial Assistant"
+    },
+    "964dbb0b4fa9f5c7": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-09-17T23:09:39.530982+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "96503320b0b67c67": {
       "company": "University of Virginia",
@@ -34031,6 +34056,11 @@
       "company": "American Fidelity",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Software Development Intern"
+    },
+    "d8a4711e3eae3661": {
+      "company": "Honeywell",
+      "first_seen": "2026-09-17T23:09:39.530982+00:00",
+      "title": "Software Engineer Co-op"
     },
     "d8adbc0f4439c89c": {
       "company": "Crowdstrike",
