@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-17T23:09:39.530982+00:00",
+  "last_checked": "2026-09-18T01:42:01.768751+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -6901,6 +6901,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Embedded Software Engineer Intern - Keys & Authentication"
+    },
+    "2b2d4851a8391bff": {
+      "company": "RTX",
+      "first_seen": "2026-09-18T01:42:01.768751+00:00",
+      "title": "Electrical Engineer Co-op - Summer/Fall"
     },
     "2b37879c93e92960": {
       "company": "RTX",
@@ -15062,6 +15067,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Backend Engineer"
     },
+    "60d9ef0aa42d0089": {
+      "company": "TikTok",
+      "first_seen": "2026-09-18T01:42:01.768751+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Mall"
+    },
     "60e04e0a27581646": {
       "company": "Assystem",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
@@ -18397,6 +18407,11 @@
       "first_seen": "2026-08-18T07:34:47.632154+00:00",
       "title": "Entry Level Application Engineer"
     },
+    "7519264687733847": {
+      "company": "RTX",
+      "first_seen": "2026-09-18T01:42:01.768751+00:00",
+      "title": "Electrical Firmware Co-op"
+    },
     "751fa99ae1d2f5ad": {
       "company": "Kodiak Robotics",
       "first_seen": "2026-08-25T09:31:34.606759+00:00",
@@ -20496,6 +20511,11 @@
       "company": "Ambarella",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Verification Engineer Intern"
+    },
+    "837d9495ef9e9574": {
+      "company": "Amazon",
+      "first_seen": "2026-09-18T01:42:01.768751+00:00",
+      "title": "Software Development Engineer Intern - Summer"
     },
     "837e4cb0a56c2c74": {
       "company": "Adyen",
@@ -37336,6 +37356,11 @@
       "company": "Flowdesk",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Back-End Developer"
+    },
+    "eca1daf803d37c93": {
+      "company": "RTX",
+      "first_seen": "2026-09-18T01:42:01.768751+00:00",
+      "title": "Software Engineer Intern"
     },
     "eca7f30641e2c43b": {
       "company": "NEXTON",
