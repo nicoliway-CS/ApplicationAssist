@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-18T01:42:01.768751+00:00",
+  "last_checked": "2026-09-18T06:44:43.489893+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1076,6 +1076,11 @@
       "company": "JetBrains",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "QA Performance Engineer (YouTrack)"
+    },
+    "06e4630c8954700f": {
+      "company": "Tesla",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Site Controller Software Engineer Intern - Energy Engineering"
     },
     "06eb4744ab444cfb": {
       "company": "OVHcloud",
@@ -5032,6 +5037,11 @@
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Multilingual AI Quality Specialist"
     },
+    "201e6f4644be07cd": {
+      "company": "Tesla",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Software Engineer Intern - Energy Engineering"
+    },
     "2023150f3bd4bfdb": {
       "company": "Asana",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
@@ -7586,6 +7596,11 @@
       "company": "mc2i",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Business Analyste / Analyste Fonctionnel Sharepoint & Power Platform - Bruxelles (H/F)"
+    },
+    "2fea078517cb55d1": {
+      "company": "Tesla",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Internship - Software Engineering - People Products - Summer 2027"
     },
     "2febb9c1bee56fc6": {
       "company": "Stripe",
@@ -11927,6 +11942,11 @@
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
       "title": "Data Scientist"
     },
+    "4c701e7f0e47fec5": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Electrical Engineer Intern - 6-Month Program"
+    },
     "4c7e164db931c64c": {
       "company": "Edwards Lifesciences",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
@@ -12476,6 +12496,11 @@
       "company": "Guidehouse",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Public Health Data Engineer"
+    },
+    "4f9516d129837c99": {
+      "company": "Tesla",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Internship - Software Engineering - People Products - Winter/Spring 2027"
     },
     "4fa2ffbb59d484b5": {
       "company": "Back Market",
@@ -20292,6 +20317,11 @@
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "IT Software Support Engineer New Grad"
     },
+    "81a54baecd4311f3": {
+      "company": "Tesla",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Internship - System Integration & Test Automation Engineer - Energy Engineering - Winter/Spring 2027"
+    },
     "81c7399e384376c6": {
       "company": "Techtronic Industries",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
@@ -20446,6 +20476,11 @@
       "company": "Clicks",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Software-Entwickler PHP (m/w/d) in Dresden"
+    },
+    "82fe021dce0a3f9a": {
+      "company": "Tesla",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Internship - Electrical Engineer - Power Electronics - Optimus - Winter/Spring 2027"
     },
     "830312da6cf4e888": {
       "company": "Chevron Corporation",
@@ -24021,6 +24056,11 @@
       "company": "Ripple",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "IT Support Specialist (12 Month Fixed Term Contract)"
+    },
+    "99a8ff941e4b7fd6": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-18T06:44:43.489893+00:00",
+      "title": "Software Engineer Intern"
     },
     "99adf726a9500c13": {
       "company": "Salesforce",
