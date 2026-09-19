@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-19T01:46:37.766972+00:00",
+  "last_checked": "2026-09-19T06:44:14.656588+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -17317,6 +17317,11 @@
       "first_seen": "2026-09-17T01:54:56.085549+00:00",
       "title": "Quantitative Software Engineer Intern"
     },
+    "6eae8d3b52b414bd": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-19T06:44:14.656588+00:00",
+      "title": "Hardware Engineering Intern"
+    },
     "6eaf4d1bcbc7ee7d": {
       "company": "Amazon",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -31196,6 +31201,11 @@
       "company": "Mastercard",
       "first_seen": "2026-09-04T23:41:20.502615+00:00",
       "title": "Associate Product Specialist - Product Management"
+    },
+    "c6b953f1898ba3d7": {
+      "company": "RTX",
+      "first_seen": "2026-09-19T06:44:14.656588+00:00",
+      "title": "Software Engineering Intern"
     },
     "c6bf84ab184510ae": {
       "company": "Schweitzer Engineering Laboratories",
