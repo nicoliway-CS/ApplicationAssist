@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-21T01:49:54.898454+00:00",
+  "last_checked": "2026-09-21T07:18:10.474448+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -32836,6 +32836,11 @@
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Associate Integration and Test Engineering"
+    },
+    "d121dccb937fcae1": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-21T07:18:10.474448+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "d1239cf524c2a019": {
       "company": "Rambus",
