@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-21T19:46:11.475458+00:00",
+  "last_checked": "2026-09-21T22:52:21.617438+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -5386,6 +5386,11 @@
       "company": "Stryker",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Associate Installation Technician"
+    },
+    "220077a1cd2ff010": {
+      "company": "Cadence Design Systems",
+      "first_seen": "2026-09-21T22:52:21.617438+00:00",
+      "title": "Software Engineering Intern"
     },
     "2207ae67e22e1691": {
       "company": "American Express",
