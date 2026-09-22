@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-21T22:52:21.617438+00:00",
+  "last_checked": "2026-09-22T01:17:47.319675+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11172,6 +11172,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Research Engineering Intern"
     },
+    "4678f72d99504544": {
+      "company": "Marvell",
+      "first_seen": "2026-09-22T01:17:47.319675+00:00",
+      "title": "Digital IC Design Intern"
+    },
     "467f4d5094ebbc16": {
       "company": "Garmin",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
@@ -19462,6 +19467,11 @@
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Data Labeling Analyst - Speech & Voice AI Analyst - German Speakers"
     },
+    "7bcc73e82d47e6ff": {
+      "company": "Marvell",
+      "first_seen": "2026-09-22T01:17:47.319675+00:00",
+      "title": "Digital IC Design Intern - MS - Multiple Teams"
+    },
     "7bd9544493ac07c0": {
       "company": "NewsBreak",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -21591,6 +21601,11 @@
       "company": "Crédit Agricole CIB",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "Data Modeler H/F"
+    },
+    "895bf9e9a93e6706": {
+      "company": "RTX",
+      "first_seen": "2026-09-22T01:17:47.319675+00:00",
+      "title": "Software Engineer Intern"
     },
     "8984a1c8cb0618eb": {
       "company": "TikTok",
@@ -29236,6 +29251,11 @@
       "company": "Hermès",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Chef d'atelier galvanisation"
+    },
+    "badcb8c4639f6941": {
+      "company": "Marvell",
+      "first_seen": "2026-09-22T01:17:47.319675+00:00",
+      "title": "Digital IC Design Intern - BS"
     },
     "bae169f7daf8d194": {
       "company": "Oracle",
