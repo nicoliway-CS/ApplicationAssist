@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-22T06:54:05.494840+00:00",
+  "last_checked": "2026-09-22T12:08:50.955745+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -13036,6 +13036,11 @@
       "company": "Revionics",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "New Grad: Machine Learning Engineer"
+    },
+    "52ed74fb3b0e51a9": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-22T12:08:50.955745+00:00",
+      "title": "Software Engineer Intern - Navigation Intelligence and Connectivity Division"
     },
     "52fa72f7d6dcb367": {
       "company": "Deliveroo",
