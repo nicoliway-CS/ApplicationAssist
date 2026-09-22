@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-22T01:17:47.319675+00:00",
+  "last_checked": "2026-09-22T06:54:05.494840+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1692,6 +1692,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Engineering Development Program"
     },
+    "0af41bdc6903eb77": {
+      "company": "Tesla",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Reliability Test Engineer Intern - Energy Engineering"
+    },
     "0b0f3b37f207c4e1": {
       "company": "Link Consulting",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -1701,6 +1706,11 @@
       "company": "Agave (W22)",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad 2025: Software Engineer"
+    },
+    "0b1a10900cdccdf7": {
+      "company": "Tesla",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Firmware Integration Engineer Intern - Factory Firmware"
     },
     "0b223d7995d2b6b3": {
       "company": "Thales",
@@ -4977,6 +4987,11 @@
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieure / Ingénieur logiciel fullstack"
     },
+    "1fcf1a8d11da5da3": {
+      "company": "Rivian",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Software Engineer Co-op Intern - Enterprise Applications"
+    },
     "1fd4ad72b3d13762": {
       "company": "Amazon",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
@@ -5026,6 +5041,11 @@
       "company": "RTX",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Software Engineer Intern - Summer 2027"
+    },
+    "2003604e83d6b9f4": {
+      "company": "Rivian",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Software Engineer Intern Co-op - Design Automation"
     },
     "20070cb57c8406f4": {
       "company": "GRVTY",
@@ -12837,6 +12857,11 @@
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "Architecte charge utile numérique - Projet Iris² F/H"
     },
+    "516ccc492c51e936": {
+      "company": "Rivian",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Software Engineer Intern Co-op - Product Lifecycle Management"
+    },
     "5172873a317b60a1": {
       "company": "Rice University",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
@@ -17962,6 +17987,11 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Software Engineer - PostgresSQL"
     },
+    "71f08a14d51376c7": {
+      "company": "Tesla",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Residential Energy Device Software Engineer Intern - Energy Engineering"
+    },
     "720113e182e9a2a0": {
       "company": "Anduril",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
@@ -21161,6 +21191,11 @@
       "company": "Panasonic Holdings",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Software Engineer 1 - Embedded Systems"
+    },
+    "86cd02594cd91235": {
+      "company": "Tesla",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Power Electronics Firmware Engineer Intern"
     },
     "86d2e5d838586e94": {
       "company": "TikTok",
@@ -25372,6 +25407,11 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Graduate Financial Analyst - EMEA Supply Chain Operations"
     },
+    "a16e10b352ce4ae6": {
+      "company": "Waymo",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Software Engineer Intern - Simulation Evaluation ML Model"
+    },
     "a1723ec0a9a7023c": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -29032,6 +29072,11 @@
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Investment Analyst Development Program"
     },
+    "b92990eaae1f42eb": {
+      "company": "Rivian",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Software Engineer Co-op Intern - Product Development Portal"
+    },
     "b93eb8c50d95bb45": {
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -30301,6 +30346,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Mobile App Build Engineer, Vehicle Software"
+    },
+    "c1800f18d49f9f18": {
+      "company": "Waymo",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Embedded Intern - Software Engineer"
     },
     "c1858e17938575c7": {
       "company": "Major League Baseball",
@@ -36311,6 +36361,11 @@
       "company": "Open",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "Concepteur Développeur .NET / React H/F"
+    },
+    "e53d5c5cb06f03e8": {
+      "company": "Waymo",
+      "first_seen": "2026-09-22T06:54:05.494840+00:00",
+      "title": "Software Engineer Intern - MS/PhD - Simulation"
     },
     "e542b79a7d19a7fe": {
       "company": "Edgehog Trading",
