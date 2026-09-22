@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-22T12:08:50.955745+00:00",
+  "last_checked": "2026-09-22T17:22:42.501530+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -8586,6 +8586,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-21T01:05:05.928595+00:00",
       "title": "Machine Learning Engineer, Embodied Intelligence, Optimus"
+    },
+    "3589c9dae7476bd2": {
+      "company": "RTX",
+      "first_seen": "2026-09-22T17:22:42.501530+00:00",
+      "title": "Software Engineer Intern"
     },
     "3592e17bdda1a88f": {
       "company": "Jump Trading",
