@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-23T20:44:21.882701+00:00",
+  "last_checked": "2026-09-23T23:15:19.794046+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2177,6 +2177,11 @@
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Fullstack Developer (.NET & Angular) | Cloud-Native Focus"
     },
+    "0e2a0180d00b8604": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Software Engineer Intern"
+    },
     "0e2a079cdedc25b9": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -3036,6 +3041,11 @@
       "company": "X Development",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Machine Learning Engineer - Tapestry"
+    },
+    "133b24a116073b36": {
+      "company": "Waymo",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Software Engineer Intern - MS/PhD"
     },
     "1347c2375b7be9b4": {
       "company": "Navvis",
@@ -5182,6 +5192,11 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Software Engineer, Analysis/Tool"
     },
+    "20a9be820053f133": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Software Engineer Intern"
+    },
     "20b09f18653879e1": {
       "company": "Stryker",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
@@ -5196,6 +5211,11 @@
       "company": "EDF",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Ingenieur(e) méthodes F/H"
+    },
+    "20bea1de47ed6e50": {
+      "company": "Waymo",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Machine Learning Engineer Intern - Road Understanding"
     },
     "20c02dda02fa978e": {
       "company": "TikTok",
@@ -17717,6 +17737,11 @@
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Intern"
     },
+    "709fa5e6832f9327": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Software Development Intern"
+    },
     "70a3d13accba9e1c": {
       "company": "Western Digital",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -27697,6 +27722,11 @@
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Back-end engineer"
     },
+    "b08ec9529f2bd3c3": {
+      "company": "Klaviyo",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Machine Learning Engineer Intern"
+    },
     "b0917c775eaf596f": {
       "company": "RTX",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
@@ -30691,6 +30721,11 @@
       "company": "Northrop Grumman",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Space Flight Operations – Engineer/Principal Engineer Systems"
+    },
+    "c34b73ad5e070d5d": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Generative AI Software Development Intern"
     },
     "c352877cbf5c5713": {
       "company": "Netflix",
@@ -40586,6 +40621,11 @@
       "company": "Mission Critical Group",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Production Technician - Integrated Solutions"
+    },
+    "fec786fda99dd81a": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-23T23:15:19.794046+00:00",
+      "title": "Software Engineer Intern"
     },
     "fed9f394ec9a3e86": {
       "company": "ISAGRI",
