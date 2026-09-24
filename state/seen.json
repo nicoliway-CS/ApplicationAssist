@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-24T01:45:50.802810+00:00",
+  "last_checked": "2026-09-24T06:49:59.458693+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11952,6 +11952,11 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Applied AI Engineer - AI Agent"
     },
+    "4bcc1d95e7e40daf": {
+      "company": "Tesla",
+      "first_seen": "2026-09-24T06:49:59.458693+00:00",
+      "title": "Solar Hardware Engineer Intern - PV Cell - Energy Engineering"
+    },
     "4bd5ce8521e8f909": {
       "company": "Axon",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
@@ -18181,6 +18186,11 @@
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Integrated Insight Business Partner (m/w/d)"
+    },
+    "72bd98bca312b636": {
+      "company": "Tesla",
+      "first_seen": "2026-09-24T06:49:59.458693+00:00",
+      "title": "Software Engineer Industrial Firmware Intern - Energy Engineering"
     },
     "72c2225f3f898ae2": {
       "company": "Groupe VYV",
