@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-24T20:50:40.778006+00:00",
+  "last_checked": "2026-09-24T23:35:56.698165+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -31967,6 +31967,11 @@
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Software Engineer - Network Systems"
     },
+    "ca853a97d034f56d": {
+      "company": "Motorola",
+      "first_seen": "2026-09-24T23:35:56.698165+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
+    },
     "ca8869586d36c107": {
       "company": "Doctolib",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
@@ -35772,6 +35777,11 @@
       "first_seen": "2026-08-25T10:27:59.122738+00:00",
       "title": "Applied AI Engineer - Advertising Agents"
     },
+    "e1217cfbea1f2490": {
+      "company": "Klaviyo",
+      "first_seen": "2026-09-24T23:35:56.698165+00:00",
+      "title": "AI Engineer Intern"
+    },
     "e12335ccf9022b63": {
       "company": "NorthAB",
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
@@ -37856,6 +37866,11 @@
       "company": "Pennsylvania State University",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "CSE Researcher-Narayanan Intern - V"
+    },
+    "edbd1bd871d83ecd": {
+      "company": "RTX",
+      "first_seen": "2026-09-24T23:35:56.698165+00:00",
+      "title": "Software Engineer Intern"
     },
     "edbe11d5e1a44fc8": {
       "company": "SOGECLAIR",
