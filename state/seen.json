@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-25T02:02:29.781333+00:00",
+  "last_checked": "2026-09-25T08:13:41.459699+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -27581,6 +27581,11 @@
       "company": "Leidos",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Soldering Technician"
+    },
+    "af8d2ece6f268957": {
+      "company": "ByteDance",
+      "first_seen": "2026-09-25T08:13:41.459699+00:00",
+      "title": "Software Engineer Project Intern - Security Data"
     },
     "afa430acc33f8452": {
       "company": "Vertiv",
