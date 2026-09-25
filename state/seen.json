@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-24T23:35:56.698165+00:00",
+  "last_checked": "2026-09-25T02:02:29.781333+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -6956,6 +6956,11 @@
       "company": "The Nuclear Company",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "Data Science Intern"
+    },
+    "2b24decb69273c2c": {
+      "company": "Snowflake",
+      "first_seen": "2026-09-25T02:02:29.781333+00:00",
+      "title": "Software Engineer Intern - Database Engineering"
     },
     "2b2c2f90087c17aa": {
       "company": "Tesla",
@@ -19637,6 +19642,11 @@
       "first_seen": "2026-08-30T01:00:31.565111+00:00",
       "title": "Customer Success Engineer"
     },
+    "7c5458d90c6d5248": {
+      "company": "Snowflake",
+      "first_seen": "2026-09-25T02:02:29.781333+00:00",
+      "title": "Software Engineer Intern - Core, Infrastructure & Security"
+    },
     "7c57ccd0adb6a165": {
       "company": "TikTok",
       "first_seen": "2026-08-17T14:23:25.090008+00:00",
@@ -26671,6 +26681,11 @@
       "company": "Coherent",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Systems Software Engineer - Test & Automation Infrastructure"
+    },
+    "a93c9ddd55ac28ad": {
+      "company": "Snowflake",
+      "first_seen": "2026-09-25T02:02:29.781333+00:00",
+      "title": "Software Engineer Intern"
     },
     "a95ee9057643614f": {
       "company": "Pennsylvania State University",
