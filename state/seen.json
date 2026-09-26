@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-26T00:18:58.053590+00:00",
+  "last_checked": "2026-09-26T05:38:17.898953+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11666,6 +11666,11 @@
       "company": "SOGECLAIR",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Concepteur aéronautique (H/F)"
+    },
+    "49a405c731644b93": {
+      "company": "Tesla",
+      "first_seen": "2026-09-26T05:38:17.898953+00:00",
+      "title": "Mobile Application Software Engineer Intern - Energy Engineering"
     },
     "49b981ac656b92b5": {
       "company": "AstraZeneca",
@@ -24506,6 +24511,11 @@
       "company": "Genuine Parts Company",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Motion Automation Intelligence-Service Technician 1"
+    },
+    "9afdab81901abf54": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-26T05:38:17.898953+00:00",
+      "title": "Software Engineer Intern"
     },
     "9b18f352744ec137": {
       "company": "Freddie Mac",
