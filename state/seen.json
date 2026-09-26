@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-25T21:57:42.051147+00:00",
+  "last_checked": "2026-09-26T00:18:58.053590+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1781,6 +1781,11 @@
       "company": "Four Seasons",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Retail Attendant"
+    },
+    "0ba1913bd3a03feb": {
+      "company": "RTX",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Software Engineer Intern"
     },
     "0ba8fd2317ec2c3c": {
       "company": "RTX",
@@ -4177,6 +4182,11 @@
       "first_seen": "2026-09-10T14:40:35.740310+00:00",
       "title": "Software Engineer Intern - Software Engineering"
     },
+    "1abc3f51378bc91e": {
+      "company": "Intel",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "System Software Engineer PhD Intern - Intel Foundry - LTD CMT Litho Tools"
+    },
     "1abe8a9c392f3a6b": {
       "company": "Kimley-Horn",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
@@ -5806,6 +5816,11 @@
       "company": "National Laboratory of the Rockies",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Postdoctoral Researcher - Statistical Learning and Modeling"
+    },
+    "241d16dc27d193fc": {
+      "company": "Waymo",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Software Engineer Intern - Driver Refinement Foundations"
     },
     "243aea438f250dc5": {
       "company": "Vanguard",
@@ -12127,6 +12142,11 @@
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Intern"
     },
+    "4cf4a3fcee2e1531": {
+      "company": "Motorola",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
+    },
     "4cf8e412fc1561fd": {
       "company": "GlobalFoundries",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
@@ -14037,6 +14057,11 @@
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "BI & Data Engineer - data visualization skills"
     },
+    "59593ddd165e3aea": {
+      "company": "RTX",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
+    },
     "595dd77ae8f55408": {
       "company": "Booz Allen",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -14426,6 +14451,11 @@
       "company": "Starburst",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Security Engineer"
+    },
+    "5c03cc976eebc831": {
+      "company": "DoorDash",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Machine Learning Engineer Intern - Masters"
     },
     "5c0fa28d2f529bc4": {
       "company": "Comet Meetings",
@@ -24247,6 +24277,11 @@
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Field Service Technician 1"
     },
+    "99c775fb0ec6b9c7": {
+      "company": "Waymo",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Software Engineer Intern - MS/PhD - Systems Intelligence & Machine Learning"
+    },
     "99d30e8723ed0f4a": {
       "company": "The Campbell's Company",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
@@ -24401,6 +24436,11 @@
       "company": "Geisinger",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "GME Analytics & Dashboard Development Intern"
+    },
+    "9ab8e61f8142f37a": {
+      "company": "Rivian and Volkswagen Group Technologies",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Embedded Systems Software Engineering Intern - January - August 2027"
     },
     "9ac09cfc1116357f": {
       "company": "Menasha Corporation",
@@ -25776,6 +25816,11 @@
       "company": "SAM",
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
       "title": "Lidar Technician"
+    },
+    "a2fc849060e4412f": {
+      "company": "Waymo",
+      "first_seen": "2026-09-26T00:18:58.053590+00:00",
+      "title": "Software Engineering Intern - MS/PhD - Sys Intel & ML"
     },
     "a30a2e5243ce6fd2": {
       "company": "Thales",
