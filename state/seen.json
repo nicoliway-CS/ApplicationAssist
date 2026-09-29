@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-29T00:39:08.430447+00:00",
+  "last_checked": "2026-09-29T06:18:27.377364+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -19051,6 +19051,11 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Acheteur Catégorie (Technologies  RF et Equipement Systèmes Sol) - F/H"
+    },
+    "77e35b1c19231b09": {
+      "company": "Cloudflare",
+      "first_seen": "2026-09-29T06:18:27.377364+00:00",
+      "title": "Software Engineer Intern"
     },
     "77e8b2ff9af947dd": {
       "company": "BlaBlaCar",
@@ -38386,6 +38391,11 @@
       "company": "General Motors",
       "first_seen": "2026-08-21T20:21:44.821595+00:00",
       "title": "Software Engineer - AV Data Collection"
+    },
+    "f05079353bd55d3b": {
+      "company": "RTX",
+      "first_seen": "2026-09-29T06:18:27.377364+00:00",
+      "title": "Software Engineering Co-op"
     },
     "f050d424bc5230d8": {
       "company": "Urban Science",
