@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-29T18:55:33.089992+00:00",
+  "last_checked": "2026-09-29T22:43:36.420233+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3881,6 +3881,11 @@
       "company": "Taro",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "Founding Software Engineer"
+    },
+    "18f0851cda4d26f2": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-29T22:43:36.420233+00:00",
+      "title": "Software Engineer Intern"
     },
     "18f49aa2cda9cee6": {
       "company": "RTX",
@@ -13851,6 +13856,11 @@
       "company": "Inbolt",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Robotics Application Engineer (Poland)"
+    },
+    "57eff38b2884cbca": {
+      "company": "Marvell",
+      "first_seen": "2026-09-29T22:43:36.420233+00:00",
+      "title": "AI-Native Development Platform Engineer Intern"
     },
     "57fc56e187b1e72b": {
       "company": "Novartis",
