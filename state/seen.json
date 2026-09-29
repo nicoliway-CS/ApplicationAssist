@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-29T13:27:09.680294+00:00",
+  "last_checked": "2026-09-29T18:55:33.089992+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1686,6 +1686,11 @@
       "company": "Zip",
       "first_seen": "2026-08-20T01:02:09.664623+00:00",
       "title": "New Grad 2026: Software Engineer"
+    },
+    "0ac239eb33b02f4c": {
+      "company": "RTX",
+      "first_seen": "2026-09-29T18:55:33.089992+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "0acd6e2f89165c4b": {
       "company": "GE Healthcare",
@@ -11087,6 +11092,11 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Data Operations Intern"
     },
+    "457e16c126bf3405": {
+      "company": "RTX",
+      "first_seen": "2026-09-29T18:55:33.089992+00:00",
+      "title": "Software Engineer Intern"
+    },
     "458680f9f7de9528": {
       "company": "Ivo",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
@@ -12896,6 +12906,11 @@
       "company": "ExxonMobil",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Geology Specialist"
+    },
+    "512e5cf7a7ab3dad": {
+      "company": "RTX",
+      "first_seen": "2026-09-29T18:55:33.089992+00:00",
+      "title": "Production Hardware Electrical Engineer Intern"
     },
     "5143fc30ec8b4619": {
       "company": "Innovation Works, Inc.",
@@ -18351,6 +18366,11 @@
       "company": "ServiceNow",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Associate Software Engineer - Core Infrastructure"
+    },
+    "73a9d1668c1a00c0": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-29T18:55:33.089992+00:00",
+      "title": "Software Engineer Intern"
     },
     "73ad8fabd9a41a84": {
       "company": "Tesla",
