@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-30T14:17:25.920064+00:00",
+  "last_checked": "2026-09-30T19:40:38.772787+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -15197,6 +15197,11 @@
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Undergraduate Cartographer"
     },
+    "607cd66f1dba6927": {
+      "company": "RTX",
+      "first_seen": "2026-09-30T19:40:38.772787+00:00",
+      "title": "Embedded Software Security Engineer Intern - S3E"
+    },
     "60844f56bf87af30": {
       "company": "ByteDance",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
@@ -17621,6 +17626,11 @@
       "company": "Amazon",
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Hardware Simulator SDE I, AWS Machine Learning Accelerators, Annapurna Labs"
+    },
+    "6f3d188b095ad6af": {
+      "company": "KLA",
+      "first_seen": "2026-09-30T19:40:38.772787+00:00",
+      "title": "Software Engineer Intern"
     },
     "6f54e0178e09574f": {
       "company": "Amazon",
@@ -20321,6 +20331,11 @@
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Ekspert procesnih tehnologij za aseptične procese (m/ž/d) / Technical Steward for Aseptic Operations (m/f/d)"
+    },
+    "7fda567f85104b6f": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-09-30T19:40:38.772787+00:00",
+      "title": "Software Engineer Intern"
     },
     "7fdf7f2439545cd6": {
       "company": "1X",
@@ -25416,6 +25431,11 @@
       "company": "Fortive",
       "first_seen": "2026-08-25T03:45:01.753920+00:00",
       "title": "Field Service Engineer Co-op"
+    },
+    "a02e3525652bd61e": {
+      "company": "RTX",
+      "first_seen": "2026-09-30T19:40:38.772787+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
     },
     "a02e7fccad2c8cb5": {
       "company": "Citadel Securities",
