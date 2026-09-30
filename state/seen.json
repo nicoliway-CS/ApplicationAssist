@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-30T01:40:31.474875+00:00",
+  "last_checked": "2026-09-30T07:33:17.993305+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -12001,6 +12001,11 @@
       "company": "Fanatics",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Collectibles - Software Engineer"
+    },
+    "4b97c71d7d79aa51": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-30T07:33:17.993305+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "4bb047a965e516e5": {
       "company": "Shadow",
