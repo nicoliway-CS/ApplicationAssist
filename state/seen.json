@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-29T22:43:36.420233+00:00",
+  "last_checked": "2026-09-30T01:40:31.474875+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2727,6 +2727,11 @@
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Responsable du service Ingénierie Telecom/Réseaux H/F"
     },
+    "110e7b38d4a9cce4": {
+      "company": "RTX",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Software Engineer Intern - Summer 2027"
+    },
     "11155f8bdeedd959": {
       "company": "CaseGuard",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
@@ -3086,6 +3091,11 @@
       "company": "Adyen",
       "first_seen": "2026-09-01T17:34:01.786468+00:00",
       "title": "Platform Engineer"
+    },
+    "1380656a12d9a20d": {
+      "company": "RTX",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Software Engineer Co-op - Spring/Summer 2027"
     },
     "13854172d6f215ed": {
       "company": "Boson Ai",
@@ -4651,6 +4661,11 @@
       "company": "Amwins",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Insurance Brokerage Relationship Management Associate"
+    },
+    "1d3bf1b2730c3bda": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Test Engineer Intern"
     },
     "1d4292b2008697d1": {
       "company": "MongoDB",
@@ -8366,6 +8381,11 @@
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-25T03:45:01.753920+00:00",
       "title": "Optical Engineer Associate"
+    },
+    "33cda7c293a7e846": {
+      "company": "Tesla",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "AI Hardware RTL Design Engineer Intern - AI Hardware"
     },
     "33d428791da216dd": {
       "company": "Atlassian",
@@ -17792,6 +17812,11 @@
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Junior Stress Engineer (m/w/d)"
     },
+    "708521a30aafc4db": {
+      "company": "RTX",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "FPGA Engineer Co-op"
+    },
     "7087eedb9be350c9": {
       "company": "GE Healthcare",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
@@ -18531,6 +18556,11 @@
       "company": "ElevenLabs",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Enterprise Solutions Engineer - Germany"
+    },
+    "748385149afdbd97": {
+      "company": "Tesla",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Embedded Software Developer Intern - Vehicle Suspension"
     },
     "748ac41ea028e429": {
       "company": "Joko",
@@ -21217,6 +21247,11 @@
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Java Developer"
     },
+    "86419a98e926cb53": {
+      "company": "Tesla",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "AI Hardware Design Verification Engineer Intern - AI Hardware - Tesla AI"
+    },
     "86428637ff6ad9ef": {
       "company": "Emerge Career",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
@@ -23596,6 +23631,11 @@
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "Gestionnaire financier H/F"
+    },
+    "954430bafc99aa0a": {
+      "company": "Honeywell",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Software Engineering Co-op"
     },
     "95453a8b90df29ae": {
       "company": "NXP Semiconductors",
@@ -27872,6 +27912,11 @@
       "first_seen": "2026-09-08T23:43:19.497123+00:00",
       "title": "Engineering Intern - ASIC Verification"
     },
+    "b0f81e02dc8a09ab": {
+      "company": "Microsoft",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Electrical Engineer Intern"
+    },
     "b0fce7cfb4b75d59": {
       "company": "NRG Energy",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
@@ -30411,6 +30456,11 @@
       "company": "Amgen",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Specialist Cybersecurity Ops Analyst"
+    },
+    "c0e828daf7345c0b": {
+      "company": "Tesla",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Software Developer Intern - Integration Tools"
     },
     "c0f1743e0ebcfa6b": {
       "company": "Zoox",
@@ -34947,6 +34997,11 @@
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "New Grad: Software Engineer"
     },
+    "db827ef6557226f0": {
+      "company": "Tesla",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Embedded Software Engineer Intern - Silicon Development"
+    },
     "db840b271c88a6fd": {
       "company": "Citizens Financial Group",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -35556,6 +35611,11 @@
       "company": "Jumio",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Research Engineer - Machine Learning & Robotics"
+    },
+    "df12b9d9e9a6beed": {
+      "company": "RTX",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Electrical Engineer Intern - Summer 2027"
     },
     "df2c2b9d26ef91c2": {
       "company": "TikTok",
@@ -38032,6 +38092,11 @@
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Software Development Engineer - Prime Video Personalization & Discovery"
     },
+    "ee1af0b573b3c1ed": {
+      "company": "Tesla",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "Software Engineer Intern - Data Transformations"
+    },
     "ee1be9d2c4b43c3e": {
       "company": "Chicago Trading Company",
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
@@ -39161,6 +39226,11 @@
       "company": "Oracle",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
       "title": "Customer Solutions Analyst Intern - Ovip"
+    },
+    "f46cb7caf6012f0c": {
+      "company": "NVIDIA",
+      "first_seen": "2026-09-30T01:40:31.474875+00:00",
+      "title": "PhD Research Intern - AI Accelerator Design and VLSI"
     },
     "f47ff37a3d9f3d5e": {
       "company": "L2TMedia",
