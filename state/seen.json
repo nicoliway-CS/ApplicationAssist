@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-30T19:40:38.772787+00:00",
+  "last_checked": "2026-09-30T23:14:31.855596+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -76,6 +76,11 @@
       "company": "East Penn Manufacturing Company",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Product Engineer Intern"
+    },
+    "007217f8a9c639fc": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-30T23:14:31.855596+00:00",
+      "title": "Cyber Software Engineer Intern"
     },
     "0077e4af83da6e5e": {
       "company": "CoreWeave",
@@ -1341,6 +1346,11 @@
       "company": "Groupe SII",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Ingénieur Réseau DevOps (F/H)"
+    },
+    "0876731e615e68da": {
+      "company": "Waymo",
+      "first_seen": "2026-09-30T23:14:31.855596+00:00",
+      "title": "Software Engineering Intern - Labeling"
     },
     "087994aa22217be6": {
       "company": "TMEIC Corporation Americas",
@@ -5977,6 +5987,11 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Computational Engineering Graduate Intern - Fall 2026"
     },
+    "24ff4a2bc1a73ce9": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-09-30T23:14:31.855596+00:00",
+      "title": "Software Engineer Intern"
+    },
     "2505513cf3879346": {
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
@@ -6156,6 +6171,11 @@
       "company": "Famileo",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Product Designer Junior (H/F)"
+    },
+    "25e244252fc31e21": {
+      "company": "Marvell",
+      "first_seen": "2026-09-30T23:14:31.855596+00:00",
+      "title": "Test Engineer Intern"
     },
     "25e39d79d6ab38f6": {
       "company": "Aleph",
@@ -21637,6 +21657,11 @@
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "Customer Engineer"
     },
+    "88558b9006b705f8": {
+      "company": "Marvell",
+      "first_seen": "2026-09-30T23:14:31.855596+00:00",
+      "title": "Firmware Engineer Intern"
+    },
     "885eaf26285b2d9b": {
       "company": "ByteDance",
       "first_seen": "2026-08-19T02:53:50.075198+00:00",
@@ -27021,6 +27046,11 @@
       "company": "Deloitte",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "AI and Data Engineering Summer Scholar Intern - Government & Public Services"
+    },
+    "aa9d26cf3b9e5eea": {
+      "company": "Rivian",
+      "first_seen": "2026-09-30T23:14:31.855596+00:00",
+      "title": "Audio Hardware Engineer Intern Co-op - Audio Hardware and DSP"
     },
     "aaa4bd6284e5178b": {
       "company": "Adobe",
@@ -40546,6 +40576,11 @@
       "company": "Hasbro",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Corporate Sustainability Analyst"
+    },
+    "fc8f4b36e0ab7afb": {
+      "company": "Waymo",
+      "first_seen": "2026-09-30T23:14:31.855596+00:00",
+      "title": "Software Engineer Intern - MS/PhD - Onboard Developer Platform"
     },
     "fc93184581fc6e92": {
       "company": "Global Partners",
