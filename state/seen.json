@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-01T02:35:39.147997+00:00",
+  "last_checked": "2026-10-01T09:28:22.952772+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -38816,6 +38816,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Software Engineer Intern - Software Engineer - AI Hardware Infrastructure"
+    },
+    "f1834653bfe45348": {
+      "company": "RTX",
+      "first_seen": "2026-10-01T09:28:22.952772+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "f18acbabe93f2f94": {
       "company": "Helsing",
