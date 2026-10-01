@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-09-30T23:14:31.855596+00:00",
+  "last_checked": "2026-10-01T02:35:39.147997+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -122,6 +122,11 @@
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Machine Learning Engineer Graduate - Ads Targeting"
     },
+    "0097c3ed75613331": {
+      "company": "Rivian",
+      "first_seen": "2026-10-01T02:35:39.147997+00:00",
+      "title": "Software Engineer Intern Co-op - Applied AI"
+    },
     "00a16b827b5fc1ca": {
       "company": "Nucor",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
@@ -221,6 +226,11 @@
       "company": "Western Digital",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Failure Analysis Automation Engineer Intern - Failure Analysis Automation Engineering"
+    },
+    "0104d7f7b9d6d2d4": {
+      "company": "Tesla",
+      "first_seen": "2026-10-01T02:35:39.147997+00:00",
+      "title": "Data Engineer Intern - Data Engineer - Applications Engineering"
     },
     "0114f01133e73157": {
       "company": "NeoCognition",
@@ -5681,6 +5691,11 @@
       "company": "Groupement Mousquetaires",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Chargé d'Études Qualité H/F"
+    },
+    "2331b3a48d01bd48": {
+      "company": "Tesla",
+      "first_seen": "2026-10-01T02:35:39.147997+00:00",
+      "title": "Commercial UI Software Engineer Intern"
     },
     "2340270b49239900": {
       "company": "Databricks",
@@ -11281,6 +11296,11 @@
       "company": "Naval Group [FR]",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "CDI - Ingénieur(e) expérimenté(e) systèmes embarqués Lutte Air Surface (H/F)"
+    },
+    "466a7d96112bf283": {
+      "company": "Tesla",
+      "first_seen": "2026-10-01T02:35:39.147997+00:00",
+      "title": "Data Engineer Intern - Data Engineering & Business Intelligence"
     },
     "466ae4649207d338": {
       "company": "HP",
@@ -38091,6 +38111,11 @@
       "company": "Pennsylvania State University",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "CSE Researcher-Narayanan Intern - V"
+    },
+    "edba9d5a1dda5533": {
+      "company": "Stripe",
+      "first_seen": "2026-10-01T02:35:39.147997+00:00",
+      "title": "Software Engineer Intern"
     },
     "edbd1bd871d83ecd": {
       "company": "RTX",
