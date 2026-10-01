@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-01T09:28:22.952772+00:00",
+  "last_checked": "2026-10-01T16:43:16.046380+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -18362,6 +18362,11 @@
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Software Engineering Intern"
     },
+    "72e329ed6cfce29c": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-01T16:43:16.046380+00:00",
+      "title": "Integration and Test Engineer Intern"
+    },
     "72e7c1ddf0c816c7": {
       "company": "Bottom Line",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
@@ -25027,6 +25032,11 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Ingénieur Support produits Hardware (F/H)"
     },
+    "9d7a50d7d34da7e2": {
+      "company": "RTX",
+      "first_seen": "2026-10-01T16:43:16.046380+00:00",
+      "title": "Electrical Engineer Co-op"
+    },
     "9d7a649b209473a9": {
       "company": "Voyager Technologies",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
@@ -25516,6 +25526,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "SVP, Solution Engineering Data Foundation"
+    },
+    "a0a224a9065cb64d": {
+      "company": "RTX",
+      "first_seen": "2026-10-01T16:43:16.046380+00:00",
+      "title": "Software Engineer Intern"
     },
     "a0bdd7ae43d03bf3": {
       "company": "Marmon Holdings",
@@ -29481,6 +29496,11 @@
       "company": "Legora",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Solutions Engineer"
+    },
+    "b9fe8b1f8e74b728": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-01T16:43:16.046380+00:00",
+      "title": "Software Engineer Intern - Azure Databases"
     },
     "ba0e880db406df43": {
       "company": "General Dynamics Information Technology",
@@ -35397,6 +35417,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Analytics Intern"
     },
+    "dd8e035b9b496683": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-01T16:43:16.046380+00:00",
+      "title": "Software Engineer Intern"
+    },
     "dd94ddbd13b9e63a": {
       "company": "Quora",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
@@ -38302,6 +38327,11 @@
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Chargé d'affaires approvisionnement Bois B - CSR et stratégie déchets - Réseau Paris Chaleur F/H"
     },
+    "eeac9c84e5160b7c": {
+      "company": "Tesla",
+      "first_seen": "2026-10-01T16:43:16.046380+00:00",
+      "title": "Backend Engineer Intern - Infrastructure Engineering"
+    },
     "eeb997749973bb59": {
       "company": "Just Eat Takeaway.com",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
@@ -38901,6 +38931,11 @@
       "company": "Nokia",
       "first_seen": "2026-09-19T01:46:37.766972+00:00",
       "title": "Software Development Co-op - AI Assisted"
+    },
+    "f1f6f531cd1c4887": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-01T16:43:16.046380+00:00",
+      "title": "Software Engineer Intern"
     },
     "f2081b552c48e79d": {
       "company": "NTT DATA",
