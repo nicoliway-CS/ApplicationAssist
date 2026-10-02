@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-01T21:26:20.474852+00:00",
+  "last_checked": "2026-10-02T01:07:12.919422+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3207,6 +3207,11 @@
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "CHEF DE PROJET SEO (F/H)"
     },
+    "14476cfea1aec7a3": {
+      "company": "Marvell",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Analog Design Intern"
+    },
     "1447e01b90cfde9d": {
       "company": "TikTok",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
@@ -6381,6 +6386,11 @@
       "company": "Verne Robotics",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Engineering Intern"
+    },
+    "27220e9014920221": {
+      "company": "Intel",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Software Engineering Intern"
     },
     "272dbe49507a6a0b": {
       "company": "Qualcomm",
@@ -16402,6 +16412,11 @@
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Product ML Engineer"
     },
+    "6763dbfb2de2b2ad": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Software Engineer Intern"
+    },
     "6766b308f5fa7c0d": {
       "company": "ByteDance",
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
@@ -21647,6 +21662,11 @@
       "first_seen": "2026-08-21T21:20:36.409958+00:00",
       "title": "Machine Learning Materials Science Postdoctoral Researcher - Molecular Foundry"
     },
+    "8818082e1957d3ee": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Electrical Engineering Co-op"
+    },
     "8819b52d1a8be327": {
       "company": "Readystate Asset Management",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
@@ -23461,6 +23481,11 @@
       "company": "Celonis",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Associate (AI) Solution Consultant (DACH) - Orbit Program"
+    },
+    "94201cb5c6124ade": {
+      "company": "Amazon",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Software Engineer Intern"
     },
     "9422e7c58a45faa4": {
       "company": "Asana",
@@ -28847,6 +28872,11 @@
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
       "title": "Investment Associate - Quantitative Research - FT Investment Solutions"
     },
+    "b64771e4f9d7e143": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Electrical Engineering Intern"
+    },
     "b64bc916f7f905da": {
       "company": "Cennox",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -33542,6 +33572,11 @@
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
       "title": "Software Engineer - New College Grad-Master's"
     },
+    "d2b54529fd9d2d01": {
+      "company": "RTX",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Flight Control Software Engineer Intern"
+    },
     "d2b5ba0ad47c3b44": {
       "company": "NRG Energy",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
@@ -36722,6 +36757,11 @@
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "Concepteur Développeur .NET / React H/F"
     },
+    "e52fa2372e8215f1": {
+      "company": "Marvell",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Firmware Engineer Intern - MS - Summer 2027"
+    },
     "e53d5c5cb06f03e8": {
       "company": "Waymo",
       "first_seen": "2026-09-22T06:54:05.494840+00:00",
@@ -39566,6 +39606,11 @@
       "company": "MSX International",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "LCV Dealer Network Analyst"
+    },
+    "f5af9e6092c16000": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-02T01:07:12.919422+00:00",
+      "title": "Software Engineering Intern"
     },
     "f5bbfa48d88fe7cc": {
       "company": "Thales",
