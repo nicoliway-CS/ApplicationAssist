@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-02T19:35:26.540586+00:00",
+  "last_checked": "2026-10-02T23:19:51.689827+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -9067,6 +9067,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Software Engineer 1"
     },
+    "3809bc6e4537c90a": {
+      "company": "xAI",
+      "first_seen": "2026-10-02T23:19:51.689827+00:00",
+      "title": "Software Engineer Intern/Co-op"
+    },
     "380d9fd581d98634": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -9761,6 +9766,11 @@
       "company": "Meridian Partners",
       "first_seen": "2026-08-25T06:40:15.629625+00:00",
       "title": "Data Scientist Co-op"
+    },
+    "3c543a97f80403a0": {
+      "company": "Tesla",
+      "first_seen": "2026-10-02T23:19:51.689827+00:00",
+      "title": "Distributed Systems Software Engineer Intern - Energy Engineering"
     },
     "3c64bd4c4d248d46": {
       "company": "Neoptim",
@@ -20776,6 +20786,11 @@
       "company": "SentiLink",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Quantitative Scientist New Grad - Multiple Teams"
+    },
+    "82cef4da385e24ce": {
+      "company": "xAI",
+      "first_seen": "2026-10-02T23:19:51.689827+00:00",
+      "title": "Software Engineering Intern Co-op"
     },
     "82d074f433d16761": {
       "company": "iSoftStone",
