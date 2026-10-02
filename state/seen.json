@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-02T01:07:12.919422+00:00",
+  "last_checked": "2026-10-02T07:35:38.490813+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -16126,6 +16126,11 @@
       "company": "Mistral Ai",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "AI Deployment Strategist"
+    },
+    "6587a7e8edcd1e56": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-02T07:35:38.490813+00:00",
+      "title": "Software Engineer Security & Identity Intern"
     },
     "6587b61d6538597b": {
       "company": "Tesla",
