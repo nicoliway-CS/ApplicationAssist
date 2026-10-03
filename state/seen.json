@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-03T20:15:04.295985+00:00",
+  "last_checked": "2026-10-03T23:24:00.383199+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1466,6 +1466,11 @@
       "company": "Deloitte",
       "first_seen": "2026-08-25T04:35:14.202312+00:00",
       "title": "Technology Transformation Analyst"
+    },
+    "0975105ebed45c0f": {
+      "company": "Rocket Lab USA",
+      "first_seen": "2026-10-03T23:24:00.383199+00:00",
+      "title": "Electrical Engineering Intern"
     },
     "097617a1f0a9fb80": {
       "company": "Helsing",
@@ -16726,6 +16731,11 @@
       "company": "The Walt Disney Company",
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Labor Systems Data Analytics & Integration Intern - Spring 2027"
+    },
+    "6902a97e542230f5": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-10-03T23:24:00.383199+00:00",
+      "title": "Software Engineer Intern"
     },
     "690ef07c0c984f44": {
       "company": "AMD",
