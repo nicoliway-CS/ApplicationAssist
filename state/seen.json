@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-04T09:11:23.700517+00:00",
+  "last_checked": "2026-10-04T15:00:44.444159+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -15312,6 +15312,11 @@
       "first_seen": "2026-08-16T02:56:21.811136+00:00",
       "title": "Lead Software Engineer"
     },
+    "60a53d4b9d70b2da": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-04T15:00:44.444159+00:00",
+      "title": "Software Engineer/ Software Engineer SkillBridge Intern"
+    },
     "60ab194d5cac3b21": {
       "company": "Solar Turbines",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -26856,6 +26861,11 @@
       "company": "Castleton Commodities International",
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Data Engineering Intern"
+    },
+    "a8aa068964e7ab0c": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-04T15:00:44.444159+00:00",
+      "title": "Associate Multimedia Web Developer/Programmer Intern - Technical Training"
     },
     "a8af3f5685459075": {
       "company": "Culligan",
