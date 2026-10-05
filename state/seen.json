@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-05T01:19:58.513780+00:00",
+  "last_checked": "2026-10-05T07:46:00.832678+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -14126,6 +14126,11 @@
       "company": "Northrop Grumman",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Engineer or Principal Engineer - Fluid Subsystems Design"
+    },
+    "590d08cba7c1c70f": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-05T07:46:00.832678+00:00",
+      "title": "Firmware Engineer Intern"
     },
     "5913c7ce220caf37": {
       "company": "Intel",
