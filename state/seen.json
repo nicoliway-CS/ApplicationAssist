@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-05T16:27:59.813349+00:00",
+  "last_checked": "2026-10-05T22:56:53.176662+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3086,6 +3086,11 @@
       "company": "Waymo",
       "first_seen": "2026-09-23T23:15:19.794046+00:00",
       "title": "Software Engineer Intern - MS/PhD"
+    },
+    "133be5eb378c9a50": {
+      "company": "Marvell",
+      "first_seen": "2026-10-05T22:56:53.176662+00:00",
+      "title": "Analog Design Intern"
     },
     "1347c2375b7be9b4": {
       "company": "Navvis",
@@ -22567,6 +22572,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Implementation Intern"
     },
+    "8d476f5391a566de": {
+      "company": "Marvell",
+      "first_seen": "2026-10-05T22:56:53.176662+00:00",
+      "title": "Hardware Engineer Intern"
+    },
     "8d61722fb2f45725": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
@@ -26062,6 +26072,11 @@
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
       "title": "Lidar Technician"
     },
+    "a2f5852de4f824b1": {
+      "company": "Atlassian",
+      "first_seen": "2026-10-05T22:56:53.176662+00:00",
+      "title": "Data Engineer Intern"
+    },
     "a2fc849060e4412f": {
       "company": "Waymo",
       "first_seen": "2026-09-26T00:18:58.053590+00:00",
@@ -26191,6 +26206,11 @@
       "company": "PlanetArt",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Associate Product Manager - Web"
+    },
+    "a3e8df6c9e1120b1": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-05T22:56:53.176662+00:00",
+      "title": "Software Engineer Intern"
     },
     "a3edd6b744818c65": {
       "company": "NVIDIA",
@@ -27461,6 +27481,11 @@
       "company": "SoloPulse",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Software Engineer Intern/Co-op"
+    },
+    "acf1b609755c8f19": {
+      "company": "Waymo",
+      "first_seen": "2026-10-05T22:56:53.176662+00:00",
+      "title": "Software Engineer Intern - MS/PhD - Eval Data Infra"
     },
     "acf2d0611be72648": {
       "company": "Coallia",
