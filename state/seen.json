@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-05T07:46:00.832678+00:00",
+  "last_checked": "2026-10-05T16:27:59.813349+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -8771,6 +8771,11 @@
       "company": "Copart",
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
       "title": "QA Engineering Intern"
+    },
+    "35f1853c22307a98": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-05T16:27:59.813349+00:00",
+      "title": "Hardware Engineering Intern"
     },
     "361510fcb4992e5e": {
       "company": "Salesforce",
@@ -23492,6 +23497,11 @@
       "first_seen": "2026-08-24T16:32:47.095394+00:00",
       "title": "Android Application Developer Intern - Summer 2027"
     },
+    "93f33394f81d045c": {
+      "company": "Motorola",
+      "first_seen": "2026-10-05T16:27:59.813349+00:00",
+      "title": "Android Applications Developer Intern"
+    },
     "93f8d6e91cbbbbe3": {
       "company": "Lumotive",
       "first_seen": "2026-08-16T14:18:48.978112+00:00",
@@ -26496,6 +26506,11 @@
       "company": "Paragon",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Forward Deployed Engineer (FDE) Intern"
+    },
+    "a5e71e1f4ee3816f": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-05T16:27:59.813349+00:00",
+      "title": "Software Engineer Intern"
     },
     "a5e83e1b5946bd3c": {
       "company": "University of St. Thomas",
