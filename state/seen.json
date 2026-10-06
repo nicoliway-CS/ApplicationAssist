@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-05T22:56:53.176662+00:00",
+  "last_checked": "2026-10-06T02:36:24.800917+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -13812,6 +13812,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Graduate AI Model Optimization Engineer - Data Speech Product R&D Engineering"
     },
+    "57252ccde25620f6": {
+      "company": "Rivian",
+      "first_seen": "2026-10-06T02:36:24.800917+00:00",
+      "title": "Software Engineer Intern Co-op - Embedded Software"
+    },
     "572b09d9ccc6077e": {
       "company": "Hager",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
@@ -20397,6 +20402,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Software Engineer Intern - Energy Engineering"
     },
+    "7f7ec71952545a4d": {
+      "company": "Meta",
+      "first_seen": "2026-10-06T02:36:24.800917+00:00",
+      "title": "Electrical Engineer Intern"
+    },
     "7f80bf738a705bb9": {
       "company": "Helsing",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
@@ -22471,6 +22481,11 @@
       "company": "N26",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "Backend Engineer - Subscriptions"
+    },
+    "8cb8c359f6df6f36": {
+      "company": "Cloudflare",
+      "first_seen": "2026-10-06T02:36:24.800917+00:00",
+      "title": "People Analytics Data Engineer Intern"
     },
     "8cbd212047025e60": {
       "company": "Boston Consulting Group",
@@ -29177,6 +29192,11 @@
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Trading System Engineering Intern"
     },
+    "b78a2cec83a155e1": {
+      "company": "RTX",
+      "first_seen": "2026-10-06T02:36:24.800917+00:00",
+      "title": "Software Engineer Intern"
+    },
     "b78de6257651b363": {
       "company": "Grant Thornton",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
@@ -31766,6 +31786,11 @@
       "company": "FAST Enterprises",
       "first_seen": "2026-08-17T15:21:52.123639+00:00",
       "title": "Implementation Intern"
+    },
+    "c6f5722b9666a8c8": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-06T02:36:24.800917+00:00",
+      "title": "Software Engineer Intern - CWL"
     },
     "c6fa653664be9488": {
       "company": "Hardin Design",
@@ -36227,6 +36252,11 @@
       "first_seen": "2026-08-17T20:22:27.941773+00:00",
       "title": "ASIC FPGA Engineer"
     },
+    "e1aa16443e0001d7": {
+      "company": "Tesla",
+      "first_seen": "2026-10-06T02:36:24.800917+00:00",
+      "title": "Embedded Software Engineer Intern - Thermal Systems"
+    },
     "e1b37e21cde2fbbe": {
       "company": "General Dynamics Information Technology",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
@@ -38301,6 +38331,11 @@
       "company": "MongoDB",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Associate Technical Services Engineer II"
+    },
+    "edcf7ae940a54150": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-06T02:36:24.800917+00:00",
+      "title": "AI Engineer Intern - SMAI TD AI Engineering Team"
     },
     "edd3fbf90c87f8be": {
       "company": "Linking Talents",
