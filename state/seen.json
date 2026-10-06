@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-06T02:36:24.800917+00:00",
+  "last_checked": "2026-10-06T09:28:51.267550+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -886,6 +886,11 @@
       "company": "American Express",
       "first_seen": "2026-09-01T20:29:50.139147+00:00",
       "title": "Software Engineer 2 - Enterprise Technology Services"
+    },
+    "059f9c2994804b31": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "Systems Software Engineer Intern"
     },
     "05b2e19ced1e40b6": {
       "company": "Amgen",
@@ -7296,6 +7301,11 @@
       "company": "AstraZeneca",
       "first_seen": "2026-09-02T18:27:00.115446+00:00",
       "title": "Thesis Work, 30/45 Credits – Generation and Optimization of 3D Kidney Organoids for Assay Development"
+    },
+    "2c9f11371c43d62d": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "Hardware Engineer Intern"
     },
     "2ca12e6e8b9bca8d": {
       "company": "State Street",
@@ -18457,6 +18467,11 @@
       "first_seen": "2026-08-25T07:40:43.965301+00:00",
       "title": "Digital Field Technician - Night Shift"
     },
+    "734a1e971512890d": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "ASIC Engineer Intern"
+    },
     "73593f48634f2056": {
       "company": "Elastic",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -19356,6 +19371,11 @@
       "company": "Groupement Mousquetaires",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Aide cuisinier"
+    },
+    "7898f21c7c71d817": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "ASIC Firmware and Diagnostic Intern"
     },
     "78a7918778e88ec6": {
       "company": "Apple",
@@ -28492,6 +28512,11 @@
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Responsable Assurance Qualité Projet/Produit F/H"
     },
+    "b3490ca983131771": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "Firmware Engineer Intern"
+    },
     "b35a0a7ba4fd1af3": {
       "company": "Amentum",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
@@ -29522,6 +29547,11 @@
       "first_seen": "2026-08-24T14:38:02.195646+00:00",
       "title": "Investment Analyst Development Program"
     },
+    "b92491a8be2de247": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "Software Engineer Intern"
+    },
     "b92990eaae1f42eb": {
       "company": "Rivian",
       "first_seen": "2026-09-22T06:54:05.494840+00:00",
@@ -30466,6 +30496,11 @@
       "company": "Hiebing",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "AI Agent Developer Intern"
+    },
+    "bf22941d18cbc847": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "VLSI Design Verification Intern"
     },
     "bf34b0d53a82e11a": {
       "company": "Hershey",
@@ -36097,6 +36132,11 @@
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Data Analyst Per Diem - Neurology"
     },
+    "e098605f6f6b2225": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "Electric Hardware Engineer Intern"
+    },
     "e09dfc2e65a8adf5": {
       "company": "Helsing",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
@@ -39511,6 +39551,11 @@
       "company": "NVIDIA",
       "first_seen": "2026-09-30T01:40:31.474875+00:00",
       "title": "PhD Research Intern - AI Accelerator Design and VLSI"
+    },
+    "f47bc5a1550cba65": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-06T09:28:51.267550+00:00",
+      "title": "Electrical Hardware Engineer Intern"
     },
     "f47ff37a3d9f3d5e": {
       "company": "L2TMedia",
