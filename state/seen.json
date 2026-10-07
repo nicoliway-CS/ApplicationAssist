@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-07T01:03:37.311380+00:00",
+  "last_checked": "2026-10-07T07:46:14.609012+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -13732,6 +13732,11 @@
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Quantitative Researcher"
     },
+    "565da82ac814e616": {
+      "company": "Amazon",
+      "first_seen": "2026-10-07T07:46:14.609012+00:00",
+      "title": "Software Engineer Intern - Embedded Systems"
+    },
     "566fa980c2b75a16": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -24347,6 +24352,11 @@
       "first_seen": "2026-08-31T03:25:45.070362+00:00",
       "title": "Design Engineer New Grad - Digital"
     },
+    "98493ef4a4c095b9": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-07T07:46:14.609012+00:00",
+      "title": "Hardware Engineer Intern"
+    },
     "98558ae43877500f": {
       "company": "RTX",
       "first_seen": "2026-09-11T00:37:41.232592+00:00",
@@ -31217,6 +31227,11 @@
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
       "title": "AI/ML Scientist Intern - AIMS AI Foundations"
     },
+    "c359cac1b71af129": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-07T07:46:14.609012+00:00",
+      "title": "PCB Layout Automation Intern"
+    },
     "c35dd66f2842827c": {
       "company": "Tesla",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
@@ -36347,6 +36362,11 @@
       "first_seen": "2026-08-17T20:22:27.941773+00:00",
       "title": "ASIC FPGA Engineer"
     },
+    "e171bea996b5df11": {
+      "company": "Cloudflare",
+      "first_seen": "2026-10-07T07:46:14.609012+00:00",
+      "title": "Software Engineer Intern"
+    },
     "e1aa16443e0001d7": {
       "company": "Tesla",
       "first_seen": "2026-10-06T02:36:24.800917+00:00",
@@ -37751,6 +37771,11 @@
       "company": "BATIBIG",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Chargé d'Affaires Etanchéité - Marché public H/F"
+    },
+    "ea3a34ac7396c7f4": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-07T07:46:14.609012+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "ea3d4d6ea921cd51": {
       "company": "TikTok",
