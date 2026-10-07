@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-06T21:18:59.475824+00:00",
+  "last_checked": "2026-10-07T01:03:37.311380+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -156,6 +156,11 @@
       "company": "Diverge Health",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Associate Software Developer"
+    },
+    "00bd3e7c7e3a8a58": {
+      "company": "Nokia",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "Mixed Signal Circuit Design Co-op"
     },
     "00bf609284146741": {
       "company": "RTX",
@@ -8167,6 +8172,11 @@
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "FPGA Systems Development Engineer"
     },
+    "321bb7aebc82fabf": {
+      "company": "Rivian",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "Engineering Intern Co-op - AI/ML ASIC CAD"
+    },
     "322931fcd38130e9": {
       "company": "eXalt",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
@@ -13027,6 +13037,11 @@
       "first_seen": "2026-09-29T18:55:33.089992+00:00",
       "title": "Production Hardware Electrical Engineer Intern"
     },
+    "5142c45b1cb0bbcf": {
+      "company": "RTX",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "FPGA Engineer Intern"
+    },
     "5143fc30ec8b4619": {
       "company": "Innovation Works, Inc.",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
@@ -14146,6 +14161,11 @@
       "company": "Axos Bank",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "AI Automation Developer"
+    },
+    "58fee1e35d74932a": {
+      "company": "Nokia",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "AI Engineer Co-op"
     },
     "590c00fcbcb202c7": {
       "company": "Northrop Grumman",
@@ -20782,6 +20802,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Software Engineering Intern/Co-op"
     },
+    "826d5353c71c751e": {
+      "company": "Nokia",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "ASIC Physical Design Co-op"
+    },
     "82706d6b28277a4c": {
       "company": "Enova",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
@@ -20881,6 +20906,11 @@
       "company": "Tesla",
       "first_seen": "2026-09-18T06:44:43.489893+00:00",
       "title": "Internship - Electrical Engineer - Power Electronics - Optimus - Winter/Spring 2027"
+    },
+    "8301be02b49a1b79": {
+      "company": "Meta",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "Software Engineer Intern"
     },
     "830312da6cf4e888": {
       "company": "Chevron Corporation",
@@ -22081,6 +22111,11 @@
       "company": "Synchrony Financial",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Technology Intern - Technology"
+    },
+    "8a0b8d771d29940f": {
+      "company": "RTX",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "Software Engineer Co-op"
     },
     "8a18754df0a94333": {
       "company": "SumUp",
@@ -27927,6 +27962,11 @@
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "Data Center Installer"
     },
+    "af6b27054485dc0f": {
+      "company": "RTX",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "Software Engineer Intern"
+    },
     "af6f777c95c1b924": {
       "company": "Texas A&M International University",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
@@ -28125,6 +28165,11 @@
     "b0917c775eaf596f": {
       "company": "RTX",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
+      "title": "Software Engineer Intern"
+    },
+    "b09ff2aa6b96ce71": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
       "title": "Software Engineer Intern"
     },
     "b0aa96144b7dd2c0": {
@@ -28511,6 +28556,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Responsable Assurance Qualité Projet/Produit F/H"
+    },
+    "b33f064cf44e3bec": {
+      "company": "Meta",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "Software Engineer Intern - Systems and Infrastructure - PhD"
     },
     "b3490ca983131771": {
       "company": "Hewlett Packard Enterprise",
@@ -36131,6 +36181,11 @@
       "company": "Mass General Brigham",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Data Analyst Per Diem - Neurology"
+    },
+    "e0972549e156f12f": {
+      "company": "Meta",
+      "first_seen": "2026-10-07T01:03:37.311380+00:00",
+      "title": "Software Engineer Intern - Machine Learning"
     },
     "e098605f6f6b2225": {
       "company": "Hewlett Packard Enterprise",
