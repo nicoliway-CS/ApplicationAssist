@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-07T14:47:51.317191+00:00",
+  "last_checked": "2026-10-07T20:14:20.308005+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -16131,6 +16131,11 @@
       "company": "Adyen",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Java Software Engineer - Payments"
+    },
+    "6542f2002589860f": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-07T20:14:20.308005+00:00",
+      "title": "Software Developer Intern"
     },
     "6550122eeddcc44d": {
       "company": "RegDesk",
