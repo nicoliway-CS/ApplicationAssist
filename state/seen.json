@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-07T20:14:20.308005+00:00",
+  "last_checked": "2026-10-08T00:29:21.849064+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4142,6 +4142,11 @@
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Research and Development Intern"
     },
+    "1a57c4377d867351": {
+      "company": "RTX",
+      "first_seen": "2026-10-08T00:29:21.849064+00:00",
+      "title": "Software Engineering Co-op - Summer/Fall 2027"
+    },
     "1a5bfc0bdc17d1a1": {
       "company": "ADVANCED SCHEMA",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -4451,6 +4456,11 @@
       "company": "Susquehanna International Group (SIG)",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Quantitative Strategy Developer Intern"
+    },
+    "1bee0ba6335499d1": {
+      "company": "RTX",
+      "first_seen": "2026-10-08T00:29:21.849064+00:00",
+      "title": "Software Engineering Co-op"
     },
     "1bf38397aec53e59": {
       "company": "NTT DATA",
@@ -8387,6 +8397,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Data Analysis Intern"
     },
+    "337bb8e50e1eeca6": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-08T00:29:21.849064+00:00",
+      "title": "Test Engineer Intern"
+    },
     "3382052d4ab9ea2a": {
       "company": "Amgen",
       "first_seen": "2026-09-01T17:34:01.786468+00:00",
@@ -10666,6 +10681,11 @@
       "company": "MSX International",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Polestar Product Quality Engineer"
+    },
+    "41879bec7b414b98": {
+      "company": "RTX",
+      "first_seen": "2026-10-08T00:29:21.849064+00:00",
+      "title": "Software Engineer Co-op"
     },
     "418cbe59329b7e1e": {
       "company": "Mayflower",
@@ -13746,6 +13766,11 @@
       "company": "Atos",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Developpeur Fullstack .NET H/F"
+    },
+    "567b7e2b759af4be": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-08T00:29:21.849064+00:00",
+      "title": "ASIC Design Engineer Intern"
     },
     "567c75fb3de86c0f": {
       "company": "PlusAI",
@@ -27562,6 +27587,11 @@
       "first_seen": "2026-09-04T10:31:37.516686+00:00",
       "title": "Research Scientist Graduate - Intelligent Creation"
     },
+    "acebce6fda0649f9": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-08T00:29:21.849064+00:00",
+      "title": "Analog Design Engineer Intern"
+    },
     "acf15b3b14178a66": {
       "company": "SoloPulse",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -33091,6 +33121,11 @@
       "company": "PayPal",
       "first_seen": "2026-09-04T23:41:20.502615+00:00",
       "title": "Senior Machine Learning Engineer - Machine Learning Engineering"
+    },
+    "ce39ebd4da9c2748": {
+      "company": "RTX",
+      "first_seen": "2026-10-08T00:29:21.849064+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "ce3ddce42abcd2b6": {
       "company": "TikTok",
