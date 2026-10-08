@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-08T00:29:21.849064+00:00",
+  "last_checked": "2026-10-08T06:43:41.074868+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -7337,6 +7337,11 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Investment Analyst"
     },
+    "2ca4981445bdfba3": {
+      "company": "Amazon",
+      "first_seen": "2026-10-08T06:43:41.074868+00:00",
+      "title": "Data Engineer Intern"
+    },
     "2cbc4190c69bb6ef": {
       "company": "NTT DATA",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -9301,6 +9306,11 @@
       "company": "Thera",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Founding Engineer"
+    },
+    "38e76fad0c2c3e82": {
+      "company": "Meta",
+      "first_seen": "2026-10-08T06:43:41.074868+00:00",
+      "title": "Manufacturing Test Engineer Intern"
     },
     "38e950e0b8d3b11a": {
       "company": "HireSweet",
@@ -21407,6 +21417,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Video and Analytics Intern - Baseball"
     },
+    "85d3663e9a1aa3fb": {
+      "company": "Motorola",
+      "first_seen": "2026-10-08T06:43:41.074868+00:00",
+      "title": "Software Engineer Intern"
+    },
     "85d7250e28550e2a": {
       "company": "Lynk",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
@@ -26817,6 +26832,11 @@
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "New College Grad - Memory Design Engineer - Hbm"
     },
+    "a75596757e3dd090": {
+      "company": "Motorola",
+      "first_seen": "2026-10-08T06:43:41.074868+00:00",
+      "title": "Software Development Intern"
+    },
     "a764c0207bf11b02": {
       "company": "Unisys",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
@@ -27301,6 +27321,11 @@
       "company": "Rivian",
       "first_seen": "2026-09-30T23:14:31.855596+00:00",
       "title": "Audio Hardware Engineer Intern Co-op - Audio Hardware and DSP"
+    },
+    "aaa35a680061e9f9": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-08T06:43:41.074868+00:00",
+      "title": "Hardware Engineer Intern"
     },
     "aaa4bd6284e5178b": {
       "company": "Adobe",
@@ -31652,6 +31677,11 @@
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Field Engineer Apprentice"
     },
+    "c5276347494e219a": {
+      "company": "TikTok",
+      "first_seen": "2026-10-08T06:43:41.074868+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Video"
+    },
     "c52d89397ca84904": {
       "company": "Profound",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
@@ -32716,6 +32746,11 @@
       "company": "HumanSignal (Label Studio)",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Data Collection Contributor"
+    },
+    "cbf66897cad138de": {
+      "company": "TikTok",
+      "first_seen": "2026-10-08T06:43:41.074868+00:00",
+      "title": "Machine Learning Engineer Intern"
     },
     "cbfa8ad8fbf3fc7b": {
       "company": "Microsoft",
