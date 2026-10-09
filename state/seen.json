@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-09T13:53:43.580404+00:00",
+  "last_checked": "2026-10-09T19:05:30.589882+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -16106,6 +16106,11 @@
       "company": "Cisco",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
       "title": "Software Engineer 2 - ENG/CPO/WTG ETR"
+    },
+    "64d748cc5443992e": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-09T19:05:30.589882+00:00",
+      "title": "Electrical Engineer Intern - Controls/PCB"
     },
     "64dbfd76d2086ec2": {
       "company": "BP",
