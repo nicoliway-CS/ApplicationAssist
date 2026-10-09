@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-09T00:43:16.066467+00:00",
+  "last_checked": "2026-10-09T06:50:52.657002+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -8296,6 +8296,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "TAS-I Cyber Security Authority"
+    },
+    "32bf854d52065c48": {
+      "company": "TikTok",
+      "first_seen": "2026-10-09T06:50:52.657002+00:00",
+      "title": "Machine Learning Engineer Intern"
     },
     "32c2c17ded71ebf3": {
       "company": "AMD",
@@ -25672,6 +25677,11 @@
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Mechanical Designer (m/w/d)"
     },
+    "9ffb98883cf4586e": {
+      "company": "TikTok",
+      "first_seen": "2026-10-09T06:50:52.657002+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce User Growth"
+    },
     "9ffc186bec5e096f": {
       "company": "EDF",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -30182,6 +30192,11 @@
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "F-15 Mission Systems Software Engineer Senior - Associate"
     },
+    "bc3c41884c45d842": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-09T06:50:52.657002+00:00",
+      "title": "ASIC Verification/Design Engineering Intern"
+    },
     "bc42c9258a4a6333": {
       "company": "Bosch Home Comfort",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
@@ -31466,6 +31481,11 @@
       "company": "SBG Systems",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Field Application Engineer"
+    },
+    "c3f85602889ebb29": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-09T06:50:52.657002+00:00",
+      "title": "Analog IC Design Engineer Intern"
     },
     "c3f8d3511b3ec064": {
       "company": "General Dynamics Mission Systems",
