@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-08T20:16:36.423195+00:00",
+  "last_checked": "2026-10-09T00:43:16.066467+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11912,6 +11912,11 @@
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Device Engineer 1 - Device Engineering"
     },
+    "4a4ebe2738bfb00b": {
+      "company": "RTX",
+      "first_seen": "2026-10-09T00:43:16.066467+00:00",
+      "title": "Software Engineer Co-op"
+    },
     "4a533cfe10485252": {
       "company": "Kingfisher",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -12281,6 +12286,11 @@
       "company": "Citadel Securities",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
       "title": "Quantitative Research Analyst Bachelor's or master's degree Intern"
+    },
+    "4cc71f04297bc20f": {
+      "company": "RTX",
+      "first_seen": "2026-10-09T00:43:16.066467+00:00",
+      "title": "Software Engineer Intern"
     },
     "4ccb971e69bd025f": {
       "company": "PayPal",
@@ -25506,6 +25516,11 @@
       "company": "SAFRAN POWER UNITS",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "Tourneur CN 2x2 axes F/H"
+    },
+    "9f3a3cd84c3ddcd5": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-09T00:43:16.066467+00:00",
+      "title": "Software Engineer Intern"
     },
     "9f3b8b3b58bc22e0": {
       "company": "TikTok",
@@ -41151,6 +41166,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "Frontend Engineer Intern - Ads Interface"
+    },
+    "fd853254944fcdbb": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-09T00:43:16.066467+00:00",
+      "title": "Software Engineer Intern"
     },
     "fd9526fd9a1d6b66": {
       "company": "Pennsylvania State University",
