@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-09T19:05:30.589882+00:00",
+  "last_checked": "2026-10-09T23:36:54.640192+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -951,6 +951,11 @@
       "company": "Charles Schwab",
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "Business Strategy Specialist - Trading Services"
+    },
+    "061552759b58bd0c": {
+      "company": "AMD",
+      "first_seen": "2026-10-09T23:36:54.640192+00:00",
+      "title": "AI Agentic Flow for GPU ASIC Design Co-op Intern"
     },
     "061e14d9d40af331": {
       "company": "RTX",
@@ -13892,6 +13897,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Graduate AI Model Optimization Engineer - Data Speech Product R&D Engineering"
     },
+    "571d188e06bf138b": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-09T23:36:54.640192+00:00",
+      "title": "Software Engineer Intern"
+    },
     "57252ccde25620f6": {
       "company": "Rivian",
       "first_seen": "2026-10-06T02:36:24.800917+00:00",
@@ -21837,6 +21847,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Quantitative Developer Intern"
     },
+    "87fae41e1970090d": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-09T23:36:54.640192+00:00",
+      "title": "Software Engineer Intern"
+    },
     "88046a6e9aa9b0b8": {
       "company": "TikTok",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
@@ -21971,6 +21986,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
       "title": "Graduate Machine Learning Engineer - Global E-commerce Recommendation/Search - PhD"
+    },
+    "88c14291c5e029a4": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-09T23:36:54.640192+00:00",
+      "title": "ASIC Engineer Intern"
     },
     "88c184c08ea8c181": {
       "company": "Apple",
@@ -23366,6 +23386,11 @@
       "company": "triPica",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Java Fullstack Développeur H/F"
+    },
+    "921cf00142a37eeb": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-09T23:36:54.640192+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "9220ec2854f5f919": {
       "company": "Springs Window Fashions",
@@ -26736,6 +26761,11 @@
       "company": "Zebra Technologies",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Repair Services Associate 1"
+    },
+    "a64a25880e25070e": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-09T23:36:54.640192+00:00",
+      "title": "Software Engineer Intern"
     },
     "a64b5fc652b8ad26": {
       "company": "Northrop Grumman",
@@ -36161,6 +36191,11 @@
       "company": "Nebius",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "IT infrastructure engineer (RMA & Diag)"
+    },
+    "df88b77f62825f25": {
+      "company": "Meta",
+      "first_seen": "2026-10-09T23:36:54.640192+00:00",
+      "title": "ASIC Engineer Intern - Architecture"
     },
     "df89039f0277b0ca": {
       "company": "Fragile",
