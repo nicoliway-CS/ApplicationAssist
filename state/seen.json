@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-10T09:08:03.005417+00:00",
+  "last_checked": "2026-10-10T15:35:57.490340+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2252,6 +2252,11 @@
       "first_seen": "2026-09-12T00:44:28.817345+00:00",
       "title": "Digital Signal Processing Software Engineering Intern - Digital Signal Processing"
     },
+    "0e4c5a9ae734c1ce": {
+      "company": "RTX",
+      "first_seen": "2026-10-10T15:35:57.490340+00:00",
+      "title": "Software Engineer Intern"
+    },
     "0e4c84053d5e6d0a": {
       "company": "TikTok",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
@@ -2746,6 +2751,11 @@
       "company": "Oyster",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Payroll Specialist (Portugal)"
+    },
+    "10defc747b965817": {
+      "company": "RTX",
+      "first_seen": "2026-10-10T15:35:57.490340+00:00",
+      "title": "Software Engineering Intern"
     },
     "10eb63b85a3b5016": {
       "company": "Micron Technology",
