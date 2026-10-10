@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-09T23:36:54.640192+00:00",
+  "last_checked": "2026-10-10T02:52:45.624573+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -17127,6 +17127,11 @@
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Chargé d'études EIA F/H"
     },
+    "6a6e7c74139c79bb": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-10T02:52:45.624573+00:00",
+      "title": "IT Software Engineer Intern"
+    },
     "6a6fceb90e25276a": {
       "company": "Databricks",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
@@ -29916,6 +29921,11 @@
       "company": "Legora",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Software Engineer"
+    },
+    "ba55d7c526f0ad43": {
+      "company": "TikTok",
+      "first_seen": "2026-10-10T02:52:45.624573+00:00",
+      "title": "Machine Learning Engineer Intern - Conversational AI"
     },
     "ba6dcabb9c6daf54": {
       "company": "Belacom",
