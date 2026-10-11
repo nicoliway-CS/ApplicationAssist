@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-11T07:54:33.494132+00:00",
+  "last_checked": "2026-10-11T14:25:42.599273+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -30916,6 +30916,11 @@
       "company": "Stellar Science",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Emerging Modern C++ Software Developer"
+    },
+    "c0dc592af4a2622c": {
+      "company": "ByteDance",
+      "first_seen": "2026-10-11T14:25:42.599273+00:00",
+      "title": "Software Engineer Project Intern - AI Infrastructure - PhD"
     },
     "c0ddabfde05f1970": {
       "company": "CANAL+ Group",
