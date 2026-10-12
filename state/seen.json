@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-12T09:51:05.891457+00:00",
+  "last_checked": "2026-10-12T19:26:02.245149+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -6821,6 +6821,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Frontend Engineer Intern - Global CRM"
+    },
+    "295b12c038c0d4ad": {
+      "company": "GE Aerospace",
+      "first_seen": "2026-10-12T19:26:02.245149+00:00",
+      "title": "Engines Engineering Co-op - Computer or Software Engineering"
     },
     "2960087a073f3fba": {
       "company": "Twitch",
@@ -22846,6 +22851,11 @@
       "company": "Invesco",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "ETF Quantitative Developer"
+    },
+    "8e101cc7b4c6fb0d": {
+      "company": "GE Aerospace",
+      "first_seen": "2026-10-12T19:26:02.245149+00:00",
+      "title": "Engines Engineering Intern - Computer or Software Engineering - Returning Students"
     },
     "8e1ed20d36901b9c": {
       "company": "Feedier",
@@ -39906,6 +39916,11 @@
       "company": "Jacobs",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Software Engineer, Entry"
+    },
+    "f509bbc1492fac0e": {
+      "company": "RTX",
+      "first_seen": "2026-10-12T19:26:02.245149+00:00",
+      "title": "Software Engineer Intern"
     },
     "f517779d04284b51": {
       "company": "Novartis",
