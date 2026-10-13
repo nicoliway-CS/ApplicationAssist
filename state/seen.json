@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-12T19:26:02.245149+00:00",
+  "last_checked": "2026-10-13T01:39:55.146973+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1361,6 +1361,11 @@
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
       "title": "Software Engineer - Entry Level"
+    },
+    "0866e26c305d55aa": {
+      "company": "KLA",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "AI/ML Software Engineer Intern"
     },
     "086b4ff550143c69": {
       "company": "Adobe",
@@ -11797,6 +11802,11 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Junior Product Engineer - Run / TMA"
     },
+    "4923068aecf047c5": {
+      "company": "Meta",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "Signal Integrity Intern"
+    },
     "4927d63bbbb2ae7a": {
       "company": "Blackstone",
       "first_seen": "2026-08-21T18:31:55.450328+00:00",
@@ -12566,6 +12576,11 @@
       "company": "Gritt Robotics Inc",
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Robot Learning Engineer Intern"
+    },
+    "4e15d3850bdadad2": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "SSD Hardware Engineering Intern"
     },
     "4e1cee420058ff0a": {
       "company": "TikTok",
@@ -16452,6 +16467,11 @@
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Banking Operations - OCC FR Specialist (Part-time)"
     },
+    "66b7f1a6f9e672e2": {
+      "company": "RTX",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "Electrical Engineer Intern"
+    },
     "66c4e6f332699d3c": {
       "company": "NTT DATA",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
@@ -16697,6 +16717,11 @@
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
       "title": "Associate Technical Integration Specialist"
     },
+    "67fefceff780e776": {
+      "company": "RTX",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "Electrical Engineer Co-op"
+    },
     "6815c8dd8d9a2deb": {
       "company": "Oracle",
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
@@ -16846,6 +16871,11 @@
       "company": "SpaceX",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "New Grad Engineer - Silicon Engineering"
+    },
+    "68c909549dba1a6a": {
+      "company": "RTX",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "Software Engineering Co-op"
     },
     "68cb40e899f1cd2d": {
       "company": "ByteDance",
@@ -18206,6 +18236,11 @@
       "company": "General Motors",
       "first_seen": "2026-09-01T20:29:50.139147+00:00",
       "title": "Entry Level Hardware Design and Validation - Vehicle Software and Electronics Engineering"
+    },
+    "713bbab48ccfffce": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "Software Development Intern"
     },
     "713efd2767a0031e": {
       "company": "American Express",
@@ -24296,6 +24331,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Machine Learning Engineer Graduate - Agent Evaluation & Evolution"
+    },
+    "9762c23f7e7af723": {
+      "company": "Databricks",
+      "first_seen": "2026-10-13T01:39:55.146973+00:00",
+      "title": "Software Engineer Intern"
     },
     "976fd9d09d80b29e": {
       "company": "LFB",
