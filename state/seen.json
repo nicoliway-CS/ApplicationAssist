@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-13T08:34:01.936930+00:00",
+  "last_checked": "2026-10-13T16:30:31.614511+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -16851,6 +16851,11 @@
       "company": "Vector Atomic",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Associate Firmware Engineer - Firmware"
+    },
+    "688c658664cdcbfe": {
+      "company": "RTX",
+      "first_seen": "2026-10-13T16:30:31.614511+00:00",
+      "title": "Software Engineer Intern"
     },
     "689548621625321d": {
       "company": "MongoDB",
