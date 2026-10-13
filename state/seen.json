@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-13T01:39:55.146973+00:00",
+  "last_checked": "2026-10-13T08:34:01.936930+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -327,6 +327,11 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Digital Solutions Associate - Workplace Consulting"
     },
+    "01c058fd6a6a7df7": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-13T08:34:01.936930+00:00",
+      "title": "Firmware Engineer Intern"
+    },
     "01c34b48df0ffd34": {
       "company": "TikTok",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
@@ -456,6 +461,11 @@
       "company": "HelloFresh",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "IT Operations Engineer, Intelligent Platforms Alliance"
+    },
+    "02d99d718f3e9321": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-10-13T08:34:01.936930+00:00",
+      "title": "Software Developer Intern - Defense Agencies - Software Development"
     },
     "02e7e73ee3b42879": {
       "company": "Chevron Corporation",
@@ -761,6 +771,11 @@
       "company": "Canon",
       "first_seen": "2026-08-20T16:30:52.119549+00:00",
       "title": "Printer Field Service Technician 1"
+    },
+    "04921e26c4e268c7": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-13T08:34:01.936930+00:00",
+      "title": "VLSI Logic Design Intern"
     },
     "049908f0f015071d": {
       "company": "Constellation Energy",
@@ -6141,6 +6156,11 @@
       "company": "Rocket Companies",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "IOS Mobile Software Developer 1"
+    },
+    "255e7ab1699cd867": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-13T08:34:01.936930+00:00",
+      "title": "ASIC Intern"
     },
     "256bb9566f12d9c5": {
       "company": "Tesla",
@@ -14422,6 +14442,11 @@
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "BS/MS Rotational Discovery Program"
     },
+    "5a1928afd7f91c45": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-13T08:34:01.936930+00:00",
+      "title": "VLSI Design Verification Intern"
+    },
     "5a1c403295fc8b31": {
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
@@ -15301,6 +15326,11 @@
       "company": "Adobe",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Software Development Engineer"
+    },
+    "5fd31c3bf49cacd8": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-13T08:34:01.936930+00:00",
+      "title": "ASIC Verification Engineer Intern"
     },
     "5fd47be177a207d0": {
       "company": "Rivian and Volkswagen Group Technologies",
