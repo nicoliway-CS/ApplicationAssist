@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-14T05:32:24.238762+00:00",
+  "last_checked": "2026-10-14T10:41:33.690320+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3416,6 +3416,11 @@
       "company": "Kodiak Robotics",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Planning Intern - Mission Planning"
+    },
+    "14f144240ed20b28": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-14T10:41:33.690320+00:00",
+      "title": "Software Embedded Engineer Intern"
     },
     "15005928417748c9": {
       "company": "DoorDash",
@@ -38526,6 +38531,11 @@
       "company": "3S Business Corporation",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "iOS Training"
+    },
+    "ecb91969e97b7736": {
+      "company": "Blue Origin",
+      "first_seen": "2026-10-14T10:41:33.690320+00:00",
+      "title": "Avionics Software Intern"
     },
     "ecbc8e8b97feac14": {
       "company": "Applied Materials",
