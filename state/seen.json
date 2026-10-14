@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-14T00:40:43.533895+00:00",
+  "last_checked": "2026-10-14T05:32:24.238762+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1706,6 +1706,11 @@
       "company": "Twilio",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Software Engineer"
+    },
+    "0a7802b35b70456c": {
+      "company": "TikTok",
+      "first_seen": "2026-10-14T05:32:24.238762+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce User Growth"
     },
     "0a7f9f4ceb2ac4a7": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
@@ -27907,6 +27912,11 @@
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
       "title": "Systems and Database Analyst"
     },
+    "ad87982f7a3be5db": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-14T05:32:24.238762+00:00",
+      "title": "Associate Software Engineering Intern"
+    },
     "ad9117d2bd4adea7": {
       "company": "Generation West Virginia",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
@@ -35266,6 +35276,11 @@
       "company": "Nexstar",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
       "title": "Studio Technician"
+    },
+    "d954f6bb19c748f3": {
+      "company": "Anduril",
+      "first_seen": "2026-10-14T05:32:24.238762+00:00",
+      "title": "Firmware Engineer Intern"
     },
     "d95c0865d33f96ec": {
       "company": "Credit Genie",
