@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-14T19:45:48.241514+00:00",
+  "last_checked": "2026-10-14T22:44:07.483578+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -28467,6 +28467,11 @@
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Python Developer"
     },
+    "b0d24974c1caabe1": {
+      "company": "Skydio",
+      "first_seen": "2026-10-14T22:44:07.483578+00:00",
+      "title": "Software Engineer Intern"
+    },
     "b0e92369a47b90f1": {
       "company": "Microchip Technology",
       "first_seen": "2026-09-08T23:43:19.497123+00:00",
@@ -39912,6 +39917,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Associate Software Engineer 1"
     },
+    "f42275cb5b5a3885": {
+      "company": "Skydio",
+      "first_seen": "2026-10-14T22:44:07.483578+00:00",
+      "title": "Manufacturing Software Engineer Intern"
+    },
     "f42e244a5caf20f9": {
       "company": "Micron Technology",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -41561,6 +41571,11 @@
       "company": "Eaton",
       "first_seen": "2026-09-01T07:11:59.514123+00:00",
       "title": "Product Engineer - Engineering"
+    },
+    "fe7caa6d64fb3ad3": {
+      "company": "RTX",
+      "first_seen": "2026-10-14T22:44:07.483578+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "fe7e5bbf512dff04": {
       "company": "NVIDIA",
