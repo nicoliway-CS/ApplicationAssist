@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-13T21:36:13.385872+00:00",
+  "last_checked": "2026-10-14T00:40:43.533895+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -14907,6 +14907,11 @@
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Junior Credit Management Analyst w/ English"
     },
+    "5cfb20344b9f4d26": {
+      "company": "KLA",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Software Engineer Intern - AI"
+    },
     "5cfd74374e863252": {
       "company": "ASSA ABLOY",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
@@ -16071,6 +16076,11 @@
       "company": "West Virginia University",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Postdoctoral Research Associate - Department of Physics and Astronomy"
+    },
+    "63de00f09174d6c0": {
+      "company": "Meta",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Signal Integrity Intern"
     },
     "63e2ac17fe5934ce": {
       "company": "AMD",
@@ -17537,6 +17547,11 @@
       "first_seen": "2026-08-17T15:21:52.123639+00:00",
       "title": "Data Analyst 1"
     },
+    "6ceaa27329334407": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "VLSI Design Verification Masters Level Intern"
+    },
     "6cf32fbb076b67e0": {
       "company": "Cadence Design Systems",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
@@ -17831,6 +17846,11 @@
       "company": "Neuralink",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Software Engineer Intern - Internal Apps"
+    },
+    "6edd7922679c56e9": {
+      "company": "Armadin",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Frontend Engineer Intern - Member of Technical Staff"
     },
     "6ee00d2c8c25ddc4": {
       "company": "Epic Games",
@@ -25892,6 +25912,11 @@
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "New Grad 2026: Software Engineer Graduate (Monetization Technology - Brand Ads)"
     },
+    "a054708912dfa0f1": {
+      "company": "KLA",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Machine Learning Engineer Intern"
+    },
     "a09ab50334a9d3b4": {
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-20T16:30:52.119549+00:00",
@@ -32972,6 +32997,11 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Téléconseiller H/F 100 % Télétravail devis"
     },
+    "cc1b560d7ae2cde5": {
+      "company": "Netflix",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Software Engineer Intern"
+    },
     "cc22dfd8b567f1fe": {
       "company": "TikTok",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
@@ -35177,6 +35207,11 @@
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Core platform growth engineering"
     },
+    "d903fd02e77b43a4": {
+      "company": "Motorola",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Software Engineering Co-op Intern"
+    },
     "d9177afd9a233f7f": {
       "company": "The Brookings Institution",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
@@ -36266,6 +36301,11 @@
       "company": "Bosch Home Comfort",
       "first_seen": "2026-08-19T19:21:53.032708+00:00",
       "title": "Electrochemistry Modeling Intern"
+    },
+    "df76230f9e16981c": {
+      "company": "ServiceNow",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Software Engineer Intern"
     },
     "df7a61be60d37239": {
       "company": "TikTok",
@@ -37821,6 +37861,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Data Science Intern - Tiktok Shop-Supply Chain & Logistics"
+    },
+    "e8a9461b4124b877": {
+      "company": "KLA",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "AI Engineer Intern"
     },
     "e8c3c1c3b41bb53a": {
       "company": "MACIF",
@@ -39442,6 +39487,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Conversions Diagnostic Technician 1 - Shift"
     },
+    "f1ce0d6d9450bc4b": {
+      "company": "Motorola",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Electrical Engineer / PCB Designer Intern"
+    },
     "f1d3dea63f4798e2": {
       "company": "Fannie Mae",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
@@ -39501,6 +39551,11 @@
       "company": "Aramark",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Sustainability Data Analyst Student Manager - Food Service Operations"
+    },
+    "f223b67cbcdcf6b3": {
+      "company": "ServiceNow",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "AI Engineering Associate Software Engineer Intern"
     },
     "f226230730674704": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
@@ -40251,6 +40306,11 @@
       "company": "Garmin",
       "first_seen": "2026-08-24T23:19:20.028808+00:00",
       "title": "Software Engineer 1"
+    },
+    "f6560bedbeadf94e": {
+      "company": "Skydio",
+      "first_seen": "2026-10-14T00:40:43.533895+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "f6565fa85f31716d": {
       "company": "Amgen",
