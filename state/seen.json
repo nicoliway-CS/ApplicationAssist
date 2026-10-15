@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-14T22:44:07.483578+00:00",
+  "last_checked": "2026-10-15T00:59:50.597975+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -251,6 +251,11 @@
       "company": "Thales",
       "first_seen": "2026-09-04T18:03:06.768808+00:00",
       "title": "Ingénieur IA - Digitalisation des Services F/H"
+    },
+    "013bbc3e0e1a0a15": {
+      "company": "Meta",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "ASIC Engineer Intern - Design Verification - Silicon Engineering"
     },
     "014931aa1acc724d": {
       "company": "Apple",
@@ -1171,6 +1176,11 @@
       "company": "Tesla",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Automated Diagnostics Intern - Software Engineer"
+    },
+    "07433cc6d5e4466b": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Associate Software Engineer Intern"
     },
     "0746e96e6493d994": {
       "company": "TikTok",
@@ -5052,6 +5062,11 @@
       "first_seen": "2026-09-10T22:49:21.758871+00:00",
       "title": "AI Software Engineer Intern - Artificial Intelligence"
     },
+    "1f05b5d1f8b117ab": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Mall"
+    },
     "1f23092ce45c5f84": {
       "company": "Dutch Bros",
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
@@ -5451,6 +5466,11 @@
       "company": "Schneider Electric",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "CoE Business Solutions Engineer - F/H"
+    },
+    "21368cafef8694ac": {
+      "company": "Meta",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Hardware Engineer Intern - Camera & Sensing Architecture"
     },
     "213d96450c68da1a": {
       "company": "BlaBlaCar",
@@ -6916,6 +6936,11 @@
       "company": "Cisco",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Machine Learning Engineer 2 Intern"
+    },
+    "29abd3a1c0e88a2f": {
+      "company": "Meta",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Computer Vision Engineer Intern - Advanced Manufacturing - Reality Labs"
     },
     "29b2f7be4f5a9a1e": {
       "company": "Groupe SII",
@@ -13532,6 +13557,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Applied Scientist - Unsecured Underwriting Machine Learning"
     },
+    "54453e9ab7061890": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Governance"
+    },
     "545ded915a630c43": {
       "company": "M.C. Dean",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
@@ -18212,6 +18242,11 @@
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Assistant(e) gestion de patrimoine - Middle Office"
     },
+    "70cf473bca5d4388": {
+      "company": "Meta",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "ASIC Design Engineer Intern"
+    },
     "70d8b167ec158b3d": {
       "company": "Tesla",
       "first_seen": "2026-08-15T15:16:21.353676+00:00",
@@ -22322,6 +22357,11 @@
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "Residential Service Technician"
     },
+    "89eeee56698febf5": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Supply Chain & Logistics-LLM / Agent"
+    },
     "8a02223a4edd0441": {
       "company": "Finto",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
@@ -24032,6 +24072,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Junior Software Engineer Intern"
     },
+    "94f8591c8538252e": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Video"
+    },
     "9504668ac3568bf9": {
       "company": "JobTeaser",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -24141,6 +24186,11 @@
       "company": "Open",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "Chef de projet IT H/F"
+    },
+    "95d3070edca59afd": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Knowledge Graph"
     },
     "95db2b01acb8c4f8": {
       "company": "Circle K",
@@ -25056,6 +25106,11 @@
       "company": "Microsoft",
       "first_seen": "2026-09-26T05:38:17.898953+00:00",
       "title": "Software Engineer Intern"
+    },
+    "9b16c37e99c1d809": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Recommendation/Search Alliance"
     },
     "9b18f352744ec137": {
       "company": "Freddie Mac",
@@ -29086,6 +29141,11 @@
       "company": "Wyetech",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Software Engineer 1"
+    },
+    "b4f6b7d42c248e3b": {
+      "company": "Meta",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Manufacturing Test Engineer Intern - AI"
     },
     "b503d0840a231f86": {
       "company": "NVIDIA",
@@ -38676,6 +38736,11 @@
       "company": "Owens & Minor",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "Associate Product Manager"
+    },
+    "ed49410f462d6855": {
+      "company": "TikTok",
+      "first_seen": "2026-10-15T00:59:50.597975+00:00",
+      "title": "Machine Learning Engineer Intern - E-Commerce Recommendation Live"
     },
     "ed496023fab68126": {
       "company": "L3Harris Technologies",
