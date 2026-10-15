@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-15T15:22:04.433264+00:00",
+  "last_checked": "2026-10-15T19:30:05.649467+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -35191,6 +35191,11 @@
       "company": "IXL Learning",
       "first_seen": "2026-09-01T07:11:59.514123+00:00",
       "title": "Associate Product Manager New Grad"
+    },
+    "d8800621916b417b": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-15T19:30:05.649467+00:00",
+      "title": "Software Engineer Intern"
     },
     "d882b0aecb5ddd54": {
       "company": "Thales",
