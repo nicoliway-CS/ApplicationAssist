@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-15T19:30:05.649467+00:00",
+  "last_checked": "2026-10-15T22:43:12.658558+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -7196,6 +7196,11 @@
       "company": "KLA Corporation",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Product Installation Engineer"
+    },
+    "2b6e7fc926f3ac1f": {
+      "company": "RTX",
+      "first_seen": "2026-10-15T22:43:12.658558+00:00",
+      "title": "Software Engineer Co-op"
     },
     "2b7285e5626b97db": {
       "company": "Tucson Talent",
@@ -15026,6 +15031,11 @@
       "company": "SA Technologies",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": ".Net Developer"
+    },
+    "5d64d91ce2aea310": {
+      "company": "RTX",
+      "first_seen": "2026-10-15T22:43:12.658558+00:00",
+      "title": "Software Engineering Co-op"
     },
     "5d75ec0dbd69ae0d": {
       "company": "Truist Bank",
@@ -23272,6 +23282,11 @@
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "Software Engineer - Screening Controls"
     },
+    "8fffe16d63057ffc": {
+      "company": "RTX",
+      "first_seen": "2026-10-15T22:43:12.658558+00:00",
+      "title": "Software Engineer Intern"
+    },
     "900e4c73b8ed301c": {
       "company": "ElevenLabs",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
@@ -27681,6 +27696,11 @@
       "company": "National Laboratory of the Rockies",
       "first_seen": "2026-08-15T19:19:06.417635+00:00",
       "title": "Graduate Intern"
+    },
+    "ab5bbbe1c6c53bd9": {
+      "company": "RTX",
+      "first_seen": "2026-10-15T22:43:12.658558+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "ab60d3f5cc9024cd": {
       "company": "Boond",
@@ -32231,6 +32251,11 @@
       "company": "Doctolib",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Software Engineer Fullstack - React / Java (x/f/m)"
+    },
+    "c6d0eb3d9dec3acf": {
+      "company": "Rivian",
+      "first_seen": "2026-10-15T22:43:12.658558+00:00",
+      "title": "Software Engineer Intern Co-op - Machine Learning Research - Perception"
     },
     "c6e14b0a5522db09": {
       "company": "Salesforce",
