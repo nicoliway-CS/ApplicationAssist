@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-16T05:11:55.015587+00:00",
+  "last_checked": "2026-10-16T10:12:26.344334+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -34466,6 +34466,11 @@
       "company": "SpaceX",
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
       "title": "Diamond Turning Machinist - Starshield"
+    },
+    "d45bee2658817937": {
+      "company": "Tesla",
+      "first_seen": "2026-10-16T10:12:26.344334+00:00",
+      "title": "Software Engineer Intern - SI Data Infrastructure"
     },
     "d46a27a3b3a840ca": {
       "company": "ByteDance",
