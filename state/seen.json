@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-16T00:50:39.344282+00:00",
+  "last_checked": "2026-10-16T05:11:55.015587+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3986,6 +3986,11 @@
       "company": "Sysmex",
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Field Service Technician - Field Service"
+    },
+    "18e9b45a919d9932": {
+      "company": "TikTok",
+      "first_seen": "2026-10-16T05:11:55.015587+00:00",
+      "title": "Software Engineer Intern - Recommendation Performance Efficiency"
     },
     "18ea6f49098c8e1c": {
       "company": "Taro",
@@ -21592,6 +21597,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Junior Software Engineer - AI-Forward"
     },
+    "85b20ef167749365": {
+      "company": "Apple",
+      "first_seen": "2026-10-16T05:11:55.015587+00:00",
+      "title": "SoC Machine Learning Software Engineer Intern"
+    },
     "85b4a0a72040ae00": {
       "company": "Cooper Companies",
       "first_seen": "2026-08-16T07:27:50.256453+00:00",
@@ -27251,6 +27261,11 @@
       "company": "Framatome",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "Ingénieur.e Conception Thermique Echangeurs F/H"
+    },
+    "a867f3c163854089": {
+      "company": "Axiom Space",
+      "first_seen": "2026-10-16T05:11:55.015587+00:00",
+      "title": "Software Engineer Intern"
     },
     "a8739449e4773414": {
       "company": "EquipmentShare",
