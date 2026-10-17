@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-17T16:41:31.056967+00:00",
+  "last_checked": "2026-10-17T18:54:26.638006+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3396,6 +3396,11 @@
       "company": "IXL Learning",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Associate Product Manager New Grad"
+    },
+    "14ba5331af906b5f": {
+      "company": "ServiceNow",
+      "first_seen": "2026-10-17T18:54:26.638006+00:00",
+      "title": "Associate Software Engineer Intern, AI Engineering"
     },
     "14baf91908bb69fd": {
       "company": "Goldman Sachs",
@@ -7547,6 +7552,11 @@
       "first_seen": "2026-09-04T10:31:37.516686+00:00",
       "title": "Research Scientist Graduate - Intelligent Editing and AI Agent - Multimodality"
     },
+    "2d77c280c04aba8a": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-17T18:54:26.638006+00:00",
+      "title": "Software Engineer Intern, Crypto & Cross Domain Solutions"
+    },
     "2d814f41751a9883": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -8456,6 +8466,11 @@
       "company": "B-HIVE",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Projeteur Structure F/H"
+    },
+    "3324ea21e21b5a32": {
+      "company": "Armadin",
+      "first_seen": "2026-10-17T18:54:26.638006+00:00",
+      "title": "Member of Technical Staff Intern, Frontend"
     },
     "332637c81a0d2f00": {
       "company": "Arcane",
@@ -22556,6 +22571,11 @@
       "company": "Dremio",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Software Engineer - Developer Experience"
+    },
+    "8b1314b10755307a": {
+      "company": "KLA",
+      "first_seen": "2026-10-17T18:54:26.638006+00:00",
+      "title": "Software Engineering Intern"
     },
     "8b1cec36a73b6922": {
       "company": "Worldwide TechServices",
