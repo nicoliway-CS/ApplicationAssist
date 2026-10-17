@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-16T22:15:11.058174+00:00",
+  "last_checked": "2026-10-17T00:51:01.040518+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11476,6 +11476,11 @@
       "company": "Naval Group [FR]",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "CDI - Ingénieur(e) expérimenté(e) systèmes embarqués Lutte Air Surface (H/F)"
+    },
+    "4665ae73c65c0a6f": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-17T00:51:01.040518+00:00",
+      "title": "Software Engineer Intern"
     },
     "466a7d96112bf283": {
       "company": "Tesla",
@@ -23412,6 +23417,11 @@
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "AGENT POLYVALENT RESTAURATION"
     },
+    "907f2b213500f9b9": {
+      "company": "Meta",
+      "first_seen": "2026-10-17T00:51:01.040518+00:00",
+      "title": "Signal Integrity Intern"
+    },
     "908ebf7d5044e38c": {
       "company": "John Deere",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
@@ -27871,6 +27881,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Deployment Strategist - Public sector, Nonprofit and Education"
+    },
+    "acb212fb856b3c7b": {
+      "company": "DoorDash",
+      "first_seen": "2026-10-17T00:51:01.040518+00:00",
+      "title": "Electrical Engineer Intern - Labs"
     },
     "acb6a499e71da4b1": {
       "company": "AARP",
@@ -33146,6 +33161,11 @@
       "company": "Wolt",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Software Engineer"
+    },
+    "cc370207295e6024": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-17T00:51:01.040518+00:00",
+      "title": "Software Engineering Intern"
     },
     "cc3774cc54feda8b": {
       "company": "NovaTech Automation",
