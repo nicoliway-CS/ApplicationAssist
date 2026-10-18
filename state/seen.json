@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-18T21:57:58.601562+00:00",
+  "last_checked": "2026-10-18T23:51:47.176253+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1586,6 +1586,11 @@
       "company": "IMC",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Hardware Engineer Intern"
+    },
+    "09f9dee56feaaaf4": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-18T23:51:47.176253+00:00",
+      "title": "Electrical Engineer 1 Intern"
     },
     "09fa373a1cfc7251": {
       "company": "PayPal",
