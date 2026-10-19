@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-19T20:45:19.254112+00:00",
+  "last_checked": "2026-10-19T23:58:50.892752+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -10422,6 +10422,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Machine Learning Engineer New Grad - Search Ads"
     },
+    "3f29b89bd24a54d3": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-19T23:58:50.892752+00:00",
+      "title": "Software Engineer Intern"
+    },
     "3f2bf3fe578fd42f": {
       "company": "Analog Devices",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
@@ -18267,6 +18272,11 @@
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Intern"
     },
+    "70b0fed779a4624a": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-10-19T23:58:50.892752+00:00",
+      "title": "Software Developer Intern"
+    },
     "70b1126bed931f92": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -23346,6 +23356,11 @@
       "company": "ElevenLabs",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Forward Deployed Engineer - Software Engineer - Spain"
+    },
+    "901ab0a01f019ded": {
+      "company": "RTX",
+      "first_seen": "2026-10-19T23:58:50.892752+00:00",
+      "title": "Software Engineering Co-op - Summer / Fall 2027"
     },
     "901c82402b61f27c": {
       "company": "VINCI Construction",
@@ -32836,6 +32851,11 @@
       "company": "Ancestry",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Postdoctoral Fellow - Applied AI Document Understanding"
+    },
+    "c9affc903bb80927": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-19T23:58:50.892752+00:00",
+      "title": "Software Engineering Intern"
     },
     "c9b8dcdd68d5225a": {
       "company": "Tesla",
