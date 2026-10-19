@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-18T23:51:47.176253+00:00",
+  "last_checked": "2026-10-19T01:57:18.161776+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1091,6 +1091,11 @@
       "company": "TikTok",
       "first_seen": "2026-09-04T10:31:37.516686+00:00",
       "title": "Applied Scientist - Trust and Safety - Multimodal Foundation Model"
+    },
+    "069517bb35dcfc50": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-19T01:57:18.161776+00:00",
+      "title": "Software Engineering Intern"
     },
     "069b1be3d81fed7e": {
       "company": "BCforward",
@@ -12241,6 +12246,11 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Forward Deployed Engineer - Public Sector, Nonprofit & Education"
+    },
+    "4b815ba28dcf2034": {
+      "company": "TikTok",
+      "first_seen": "2026-10-19T01:57:18.161776+00:00",
+      "title": "Software Engineer Intern, Recommendation Performance Efficiency"
     },
     "4b84c71123eafe1b": {
       "company": "TikTok",
@@ -33782,6 +33792,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Associate Product Manager - Pricing"
     },
+    "cfc96ee70017b968": {
+      "company": "Databricks",
+      "first_seen": "2026-10-19T01:57:18.161776+00:00",
+      "title": "Software Engineering Intern"
+    },
     "cfce7491956ac01e": {
       "company": "Roku",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
@@ -37731,6 +37746,11 @@
       "company": "Atria Group",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Java Developer - Multiple Teams"
+    },
+    "e6a930192babe904": {
+      "company": "Apple",
+      "first_seen": "2026-10-19T01:57:18.161776+00:00",
+      "title": "SoC Machine Learning Software Engineer Intern"
     },
     "e6b07aee828d6ca4": {
       "company": "Block",
