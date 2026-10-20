@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-19T23:58:50.892752+00:00",
+  "last_checked": "2026-10-20T03:16:53.489074+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2286,6 +2286,11 @@
       "company": "GlobalFoundries",
       "first_seen": "2026-09-04T23:41:20.502615+00:00",
       "title": "Software Engineer - Cloud Platform"
+    },
+    "0e2f7240a1a76b1a": {
+      "company": "RTX",
+      "first_seen": "2026-10-20T03:16:53.489074+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "0e3025ad2f33567d": {
       "company": "University of St. Thomas",
@@ -19892,6 +19897,11 @@
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Image Correction Technician - Photogrammetric Image Corrections"
     },
+    "7a319bfc13d7f7b1": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-20T03:16:53.489074+00:00",
+      "title": "ASIC Intern"
+    },
     "7a3f7c36da387e9a": {
       "company": "EDF",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
@@ -21861,6 +21871,11 @@
       "company": "Panasonic Holdings",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Software Engineer 1 - Embedded Systems"
+    },
+    "86c52b873cf253c0": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-20T03:16:53.489074+00:00",
+      "title": "Hardware Engineering Design Intern"
     },
     "86cd02594cd91235": {
       "company": "Tesla",
