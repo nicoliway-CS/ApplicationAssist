@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-20T08:54:52.077516+00:00",
+  "last_checked": "2026-10-20T13:54:00.388727+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -15911,6 +15911,11 @@
       "company": "Doctolib",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Implementation Specialist -AI Phone Assistant (x/f/m)"
+    },
+    "6260c6d928277212": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-20T13:54:00.388727+00:00",
+      "title": "Software Engineer Intern"
     },
     "6267ec3b6a1b72d6": {
       "company": "Esri",
