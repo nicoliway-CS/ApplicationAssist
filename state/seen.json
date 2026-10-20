@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-20T13:54:00.388727+00:00",
+  "last_checked": "2026-10-20T18:09:02.321672+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1416,6 +1416,11 @@
       "company": "TMEIC Corporation Americas",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Engineer Intern - Spring 2027"
+    },
+    "089cde12ecac2e68": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-20T18:09:02.321672+00:00",
+      "title": "Software Engineer Intern - Compiler"
     },
     "08a31564aa2a5fb7": {
       "company": "Nuro",
@@ -29092,6 +29097,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Software Engineer I - Engineering - Development"
     },
+    "b3d3fc55267e9981": {
+      "company": "Textron",
+      "first_seen": "2026-10-20T18:09:02.321672+00:00",
+      "title": "Industrial Software Engineer Intern"
+    },
     "b3d6a49da9cc7fde": {
       "company": "Stockholm Environment Institute - U.S.",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
@@ -32147,6 +32157,11 @@
       "first_seen": "2026-09-10T00:40:43.436629+00:00",
       "title": "Software Engineer Intern - IT Apps"
     },
+    "c57b341d0992a6ed": {
+      "company": "Adobe",
+      "first_seen": "2026-10-20T18:09:02.321672+00:00",
+      "title": "Security Engineer Intern"
+    },
     "c585479a92768514": {
       "company": "Tesla",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
@@ -33296,6 +33311,11 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "ServiceNow"
+    },
+    "cc7feb825bc14de9": {
+      "company": "Together AI",
+      "first_seen": "2026-10-20T18:09:02.321672+00:00",
+      "title": "Hardware Security Engineer Intern"
     },
     "cc87ba9dcd8aef81": {
       "company": "Garmin",
@@ -37327,6 +37347,11 @@
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Data Engineer Databricks - Paris"
     },
+    "e40f39e91feabdee": {
+      "company": "RTX",
+      "first_seen": "2026-10-20T18:09:02.321672+00:00",
+      "title": "Software Engineer Co-op"
+    },
     "e410d9f2aa0eca91": {
       "company": "Proception Inc",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -38531,6 +38556,11 @@
       "company": "Barrios",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Software Developer"
+    },
+    "eb81f903d098c649": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-20T18:09:02.321672+00:00",
+      "title": "Software Engineer Intern, Security/Government"
     },
     "eb8685e26cd14670": {
       "company": "Qualtrics",
@@ -40231,6 +40261,11 @@
       "company": "L2TMedia",
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Junior Digital Media Data Analyst"
+    },
+    "f4a16372355e441e": {
+      "company": "RTX",
+      "first_seen": "2026-10-20T18:09:02.321672+00:00",
+      "title": "Software Engineer Intern"
     },
     "f4ad4da7d80c865f": {
       "company": "iFLIP4",
