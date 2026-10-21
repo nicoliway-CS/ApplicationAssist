@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-21T05:25:54.136307+00:00",
+  "last_checked": "2026-10-21T10:40:27.777572+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -16496,6 +16496,11 @@
       "company": "Scientific Research Corporation",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Engineering Technician 1"
+    },
+    "65aa094f209da05b": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-21T10:40:27.777572+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "65b8e8c789101929": {
       "company": "Qonto",
@@ -33411,6 +33416,11 @@
       "company": "Stoïk",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "Cyber Underwriter (BE/NL)"
+    },
+    "ccb6cd42f797c33b": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-21T10:40:27.777572+00:00",
+      "title": "Electrical Engineering Intern"
     },
     "cccd223d150214d6": {
       "company": "Samsung",
