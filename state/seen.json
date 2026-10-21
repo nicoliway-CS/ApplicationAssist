@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-21T10:40:27.777572+00:00",
+  "last_checked": "2026-10-21T15:40:49.917575+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -9842,6 +9842,11 @@
       "first_seen": "2026-08-20T15:30:02.191911+00:00",
       "title": "E-commerce Product Enablement Assistant"
     },
+    "3b47bbbff6644382": {
+      "company": "RTX",
+      "first_seen": "2026-10-21T15:40:49.917575+00:00",
+      "title": "Software Engineer Intern"
+    },
     "3b5c21b5d2bda571": {
       "company": "SpaceX",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
@@ -13631,6 +13636,11 @@
       "company": "Integration Innovation (i3)",
       "first_seen": "2026-08-21T20:21:44.821595+00:00",
       "title": "Software Engineer"
+    },
+    "542d17bd8f7ae504": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-21T15:40:49.917575+00:00",
+      "title": "Software Engineer Intern"
     },
     "5437176bd3705d69": {
       "company": "ASM International",
