@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-21T00:16:27.358787+00:00",
+  "last_checked": "2026-10-21T05:25:54.136307+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -12612,6 +12612,11 @@
       "first_seen": "2026-08-21T20:21:44.821595+00:00",
       "title": "Computer Science Intern - Digital Services"
     },
+    "4d911069dddfc854": {
+      "company": "RTX",
+      "first_seen": "2026-10-21T05:25:54.136307+00:00",
+      "title": "Software Engineer Intern"
+    },
     "4da592f16727de00": {
       "company": "Tesla",
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
@@ -21102,6 +21107,11 @@
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Site Reliability Engineer in Network Infrastructure"
     },
+    "8211dedbdcb3e8e7": {
+      "company": "Uber",
+      "first_seen": "2026-10-21T05:25:54.136307+00:00",
+      "title": "Software Engineer Intern"
+    },
     "822d4f67f99821be": {
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
@@ -28136,6 +28146,11 @@
       "company": "Goodwill Industries International",
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
       "title": "Systems and Database Analyst"
+    },
+    "ad78a52e93c61620": {
+      "company": "LinkedIn",
+      "first_seen": "2026-10-21T05:25:54.136307+00:00",
+      "title": "Software Engineer Intern"
     },
     "ad87982f7a3be5db": {
       "company": "L3Harris Technologies",
@@ -42136,6 +42151,11 @@
       "company": "Meritis",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "C# .NET Developer (M/W)"
+    },
+    "ffbaf9a02eaca011": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-21T05:25:54.136307+00:00",
+      "title": "Software Engineer Intern"
     },
     "ffceab778a7099f5": {
       "company": "Texas Capital Bank",
