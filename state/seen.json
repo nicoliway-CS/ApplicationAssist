@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-20T21:57:22.360028+00:00",
+  "last_checked": "2026-10-21T00:16:27.358787+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1811,6 +1811,11 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Ingénieur homologation et remédiation (H/F)"
+    },
+    "0b266587db396556": {
+      "company": "Skydio",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Wireless Hardware Engineer Intern"
     },
     "0b2b1c0db855c384": {
       "company": "MARGO",
@@ -9497,6 +9502,11 @@
       "first_seen": "2026-08-15T17:17:58.081227+00:00",
       "title": "Low Voltage Technician"
     },
+    "393cbbac4be9e6ae": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "AI Engineer Intern"
+    },
     "39538619e5ff1d71": {
       "company": "NTT DATA",
       "first_seen": "2026-09-02T18:27:00.115446+00:00",
@@ -11912,6 +11922,11 @@
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Junior Product Engineer - Run / TMA"
     },
+    "491cf6438c4231f8": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Software Engineer Intern"
+    },
     "4923068aecf047c5": {
       "company": "Meta",
       "first_seen": "2026-10-13T01:39:55.146973+00:00",
@@ -13391,6 +13406,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Machine Learning Engineer Graduate - Multiple Teams"
+    },
+    "529484916dd39077": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "SSD Firmware Intern"
     },
     "52a250c1efdbebbf": {
       "company": "Roblox",
@@ -19462,6 +19482,11 @@
       "first_seen": "2026-08-21T10:26:15.239909+00:00",
       "title": "Programmatic Analyst - Precision"
     },
+    "7735f946a2ef6b8c": {
+      "company": "Salesforce",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Software Engineer Intern"
+    },
     "773856d77a2cb95a": {
       "company": "Innodata",
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
@@ -20387,6 +20412,11 @@
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Intern - Maps & Navigation - Robotaxi"
     },
+    "7d52929c569a095d": {
+      "company": "Skydio",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Embedded Software Engineer Intern"
+    },
     "7d5408f841902b6b": {
       "company": "Doppel",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
@@ -20956,6 +20986,11 @@
       "company": "Codesphere",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Site Reliability Engineer (m/f/d)"
+    },
+    "81052602060547d6": {
+      "company": "RTX",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Electrical Test Engineer Intern"
     },
     "8108687212790869": {
       "company": "Apple",
@@ -31842,6 +31877,11 @@
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Intern - Vehicle UI Development"
     },
+    "c3ec36b03ffa7b83": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Software Developer Intern"
+    },
     "c3eeec6b3ab4e891": {
       "company": "Cerebras",
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
@@ -32101,6 +32141,11 @@
       "company": "Varsity Brands",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
       "title": "Data Engineer 1"
+    },
+    "c524040840625814": {
+      "company": "Intel",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Data Science / Software Engineering PhD Intern"
     },
     "c525f6b62111ac40": {
       "company": "GE Healthcare",
@@ -32981,6 +33026,11 @@
       "company": "Doctolib",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "Software Engineer II - Java/Python - Backend Platform Team (x/f/m)"
+    },
+    "ca8b45072beece49": {
+      "company": "RTX",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Software Engineering Co-op"
     },
     "ca8b82cf8ad9e44e": {
       "company": "Glide",
@@ -34171,6 +34221,11 @@
       "company": "L3Harris Technologies",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Manufacturing Technician - Support"
+    },
+    "d1e774fbaf983b32": {
+      "company": "RTX",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Software Engineering Intern"
     },
     "d1f97168ed8435ea": {
       "company": "Capgemini",
@@ -35597,6 +35652,11 @@
       "first_seen": "2026-08-16T03:48:06.834103+00:00",
       "title": "Systems Engineer - Linux - AI"
     },
+    "d9b6dde246e4587b": {
+      "company": "Intel",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "AI Data Science / Software Engineering PhD Intern"
+    },
     "d9b6e56576c30d99": {
       "company": "Cotiviti",
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
@@ -35691,6 +35751,11 @@
       "company": "Cadence Design Systems",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
       "title": "Software Intern"
+    },
+    "da3acb13a0a74d5e": {
+      "company": "Skydio",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Mobile Software Engineer Intern"
     },
     "da40bce050174c28": {
       "company": "Welo Global",
@@ -36336,6 +36401,11 @@
       "company": "RTX",
       "first_seen": "2026-08-18T06:37:11.543032+00:00",
       "title": "Systems Engineering Intern"
+    },
+    "de18be8fe02b52f4": {
+      "company": "Palantir",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Software Engineer Intern, Query Engines"
     },
     "de1f558b151757bd": {
       "company": "Lesaffre",
@@ -38247,6 +38317,11 @@
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
       "title": "Data Scientist 1 - Full Stack Management Trainee"
     },
+    "e989a7e9d120064a": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Hardware Engineer 1 Intern"
+    },
     "e98acfee2d169dde": {
       "company": "Sharp DX (ex Apsia)",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
@@ -38656,6 +38731,11 @@
       "company": "American Fidelity",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Software Mobile Intern"
+    },
+    "ec175a114885c050": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Hardware Engineering Design Intern"
     },
     "ec2562e140cf27de": {
       "company": "ASML",
@@ -39767,6 +39847,11 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "FPGA Engineer 1"
     },
+    "f1bb85db1ec9a3a0": {
+      "company": "RTX",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Software Engineering Intern"
+    },
     "f1c05d3dcd55f2fc": {
       "company": "Just Eat Takeaway.com",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
@@ -40631,6 +40716,11 @@
       "company": "Garmin",
       "first_seen": "2026-09-02T00:56:04.972795+00:00",
       "title": "Software Engineer I - Embedded Software"
+    },
+    "f66f688e4ba3be53": {
+      "company": "Adobe",
+      "first_seen": "2026-10-21T00:16:27.358787+00:00",
+      "title": "Security Engineer Intern"
     },
     "f67cca03982b3d9b": {
       "company": "BlaBlaCar",
