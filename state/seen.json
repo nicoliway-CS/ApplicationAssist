@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-21T15:40:49.917575+00:00",
+  "last_checked": "2026-10-21T19:42:03.419180+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4396,6 +4396,11 @@
       "company": "Expedia Group",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
       "title": "Software Development Engineer 1"
+    },
+    "1b14de18ea84dfc1": {
+      "company": "LinkedIn",
+      "first_seen": "2026-10-21T19:42:03.419180+00:00",
+      "title": "Software Engineer Intern"
     },
     "1b181803a5c3a03c": {
       "company": "Circet USA",
@@ -14816,6 +14821,11 @@
       "company": "SquareTrade",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Associate Software Engineer"
+    },
+    "5b8fcde881e9dc6a": {
+      "company": "Applied Materials",
+      "first_seen": "2026-10-21T19:42:03.419180+00:00",
+      "title": "Software Engineer Intern"
     },
     "5b9110fe15234eea": {
       "company": "Marvell",
@@ -27722,6 +27732,11 @@
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Software Engineer - Aura, Instances"
     },
+    "aa5b3e22cd99ba0a": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-21T19:42:03.419180+00:00",
+      "title": "Software Engineer Intern"
+    },
     "aa607f0f25f08012": {
       "company": "United Parcel Service (UPS)",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
@@ -27976,6 +27991,11 @@
       "company": "Figure",
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Special Projects Intern"
+    },
+    "ac672463244c34f0": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-21T19:42:03.419180+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "ac7be96f4f99c373": {
       "company": "Logos Space",
@@ -40886,6 +40906,11 @@
       "company": "Westinghouse Electric Company",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Electrical Engineer - Safety System Products"
+    },
+    "f784848c9db043d1": {
+      "company": "Uber",
+      "first_seen": "2026-10-21T19:42:03.419180+00:00",
+      "title": "Software Engineer Intern"
     },
     "f78f45c4862ce9e6": {
       "company": "Micron Technology",
