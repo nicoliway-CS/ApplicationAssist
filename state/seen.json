@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-21T19:42:03.419180+00:00",
+  "last_checked": "2026-10-21T22:49:34.929016+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -40836,6 +40836,11 @@
       "company": "Humana",
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "Technology Intern - Early ID Participants"
+    },
+    "f6e5e56b7d94b9ec": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-21T22:49:34.929016+00:00",
+      "title": "Software Engineer Intern"
     },
     "f6e6b24d71d6935d": {
       "company": "Advanced Energy",
