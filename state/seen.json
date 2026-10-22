@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-21T22:49:34.929016+00:00",
+  "last_checked": "2026-10-22T01:01:07.071154+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11957,6 +11957,11 @@
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Operater v pakirnici (m/ž/d)"
     },
+    "494a2af76a98a889": {
+      "company": "Motorola Solutions",
+      "first_seen": "2026-10-22T01:01:07.071154+00:00",
+      "title": "Software Engineering Co-op"
+    },
     "494b5252d2cc9175": {
       "company": "Les Compagnons du Devoir et du Tour de France",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -12401,6 +12406,11 @@
       "company": "Parsons",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Software Engineer"
+    },
+    "4c838a891aa563bc": {
+      "company": "Sierra Space",
+      "first_seen": "2026-10-22T01:01:07.071154+00:00",
+      "title": "Flight Software Engineer Intern"
     },
     "4c876d8339aea35e": {
       "company": "Micron Technology",
@@ -30887,6 +30897,11 @@
       "first_seen": "2026-08-22T03:38:33.989840+00:00",
       "title": "Yield Enhancement Intern - Data Analysis"
     },
+    "bd866a6ea6adbbd8": {
+      "company": "RTX",
+      "first_seen": "2026-10-22T01:01:07.071154+00:00",
+      "title": "Software Engineering Co-op"
+    },
     "bd89e9403d79b42b": {
       "company": "ByteDance",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
@@ -32471,6 +32486,11 @@
       "company": "Rivian",
       "first_seen": "2026-10-15T22:43:12.658558+00:00",
       "title": "Software Engineer Intern Co-op - Machine Learning Research - Perception"
+    },
+    "c6df1a89e03939e7": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-22T01:01:07.071154+00:00",
+      "title": "Software Engineer Intern - Cloud Platform"
     },
     "c6e14b0a5522db09": {
       "company": "Salesforce",
