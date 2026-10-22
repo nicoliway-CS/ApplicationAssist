@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-22T17:41:14.484764+00:00",
+  "last_checked": "2026-10-22T20:52:57.869225+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -40101,6 +40101,11 @@
       "company": "Wells Fargo",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Quantitative Analytics Intern - Capital Markets - Masters"
+    },
+    "f2615eb9ce9b4cc6": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-22T20:52:57.869225+00:00",
+      "title": "Cyber Software Engineer Intern"
     },
     "f26fb62763e2f6ea": {
       "company": "Pika",
