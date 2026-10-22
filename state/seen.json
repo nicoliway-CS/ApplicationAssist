@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-22T12:33:21.306631+00:00",
+  "last_checked": "2026-10-22T17:41:14.484764+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -38341,6 +38341,11 @@
       "company": "Culligan",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Chauffeur - Livreur VL - CDD 1 mois (H/F)"
+    },
+    "e8fb360a9dc8614e": {
+      "company": "RTX",
+      "first_seen": "2026-10-22T17:41:14.484764+00:00",
+      "title": "Software Engineer Intern"
     },
     "e900d6d504c85cf7": {
       "company": "Amentum",
