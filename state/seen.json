@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-22T01:01:07.071154+00:00",
+  "last_checked": "2026-10-22T06:42:01.339078+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11472,6 +11472,11 @@
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Autonomous Systems Seeker and Sensor Engineer"
     },
+    "45f88bbacb430725": {
+      "company": "Cisco",
+      "first_seen": "2026-10-22T06:42:01.339078+00:00",
+      "title": "Software Engineer Intern, Embedded Systems II"
+    },
     "4608437f99cb715a": {
       "company": "JP Morgan Chase",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
@@ -13906,6 +13911,11 @@
       "company": "Noblis",
       "first_seen": "2026-08-20T16:30:52.119549+00:00",
       "title": "Targeting Analyst - Multiple Levels"
+    },
+    "55d3d500fd7546b0": {
+      "company": "Sierra Space",
+      "first_seen": "2026-10-22T06:42:01.339078+00:00",
+      "title": "Flight Software Engineer Intern"
     },
     "55eecc17c431e805": {
       "company": "ByteDance",
@@ -23451,6 +23461,11 @@
       "company": "Wise",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "Software Engineer - Screening Controls"
+    },
+    "8fe0db4cc5e01fbc": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-22T06:42:01.339078+00:00",
+      "title": "Software Engineer Intern, Security & Identity"
     },
     "8fffe16d63057ffc": {
       "company": "RTX",
@@ -34057,6 +34072,11 @@
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Medical Science Liaison GI Oncology"
     },
+    "d060108a5d92cebc": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-10-22T06:42:01.339078+00:00",
+      "title": "Engineering Intern, ASIC Verification"
+    },
     "d084dbf3c7b2bbe4": {
       "company": "Twilio",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
@@ -40491,6 +40511,11 @@
       "company": "Clarity AI",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Junior Associate - Data Strategy"
+    },
+    "f4feac24a172bc82": {
+      "company": "Tesla",
+      "first_seen": "2026-10-22T06:42:01.339078+00:00",
+      "title": "Internship - Electrical Engineer - Embedded Systems & Test Engineering - Supply Chain - Winter/Spring 2027"
     },
     "f508e3500c78df3c": {
       "company": "Assystem",
