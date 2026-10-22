@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-22T20:52:57.869225+00:00",
+  "last_checked": "2026-10-22T23:42:10.548402+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -14952,6 +14952,11 @@
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Forward Deployed Engineer – Agents & Apps Agentic Builders Experience team"
     },
+    "5c3dbbabd4dffba3": {
+      "company": "RTX",
+      "first_seen": "2026-10-22T23:42:10.548402+00:00",
+      "title": "Software Engineer Co-op"
+    },
     "5c3ef3e88b0a1f89": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -16351,6 +16356,11 @@
       "company": "DRW",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Software Developer"
+    },
+    "64b0c1e79f3bd9d3": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-22T23:42:10.548402+00:00",
+      "title": "Software Engineer Intern"
     },
     "64bf2b98f9d95de4": {
       "company": "Snowflake",
@@ -26967,6 +26977,11 @@
       "first_seen": "2026-08-16T20:17:59.830480+00:00",
       "title": "Student Researcher - Large Language Model - Seed"
     },
+    "a4f88cfcc4622240": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-22T23:42:10.548402+00:00",
+      "title": "ASIC Engineering Intern"
+    },
     "a4fe1a886eecfc87": {
       "company": "Periodic Labs",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
@@ -27881,6 +27896,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Backend Software Engineer New Grad - Emerging Products & AI Safety"
+    },
+    "ab33f3f42982c8b2": {
+      "company": "Skydio",
+      "first_seen": "2026-10-22T23:42:10.548402+00:00",
+      "title": "Frontend Software Engineer Intern"
     },
     "ab3fb36ee17eedb0": {
       "company": "Ensign-Bickford Industries",
