@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-23T07:59:07.938716+00:00",
+  "last_checked": "2026-10-23T13:03:57.276469+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -6111,6 +6111,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "Software Engineer Intern - AI Platform"
+    },
+    "24b7699250fb6bb7": {
+      "company": "TikTok",
+      "first_seen": "2026-10-23T13:03:57.276469+00:00",
+      "title": "Software Engineer Project Intern - Lead Ads"
     },
     "24b89b08f08d19ca": {
       "company": "Citadel Securities",
@@ -14406,6 +14411,11 @@
       "company": "Augsburg University",
       "first_seen": "2026-08-19T01:01:59.073134+00:00",
       "title": "Career Peer Advisor - Data & Analytics"
+    },
+    "5884f703a6ec6e06": {
+      "company": "TikTok",
+      "first_seen": "2026-10-23T13:03:57.276469+00:00",
+      "title": "Software Engineer Project Intern - Recommendation Infrastructure"
     },
     "589b62a020975e25": {
       "company": "Thales",
