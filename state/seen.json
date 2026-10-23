@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-23T20:57:45.305233+00:00",
+  "last_checked": "2026-10-23T23:42:16.991557+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1501,6 +1501,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Self-Built Engineer Intern - CDN Platform"
+    },
+    "093b17d40d05752d": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "Software Engineer Intern"
     },
     "093ee55f50087da7": {
       "company": "Novartis",
@@ -3147,6 +3152,11 @@
       "first_seen": "2026-08-15T06:32:38.138939+00:00",
       "title": "Data Scientist Graduate - TikTok-Search"
     },
+    "1308e1360ba0de83": {
+      "company": "Waymo",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "Software Engineer Intern - MS/PhD - ML Frameworks and Efficiency"
+    },
     "130a6dc3de1fa9fd": {
       "company": "Cloudflare",
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
@@ -3196,6 +3206,11 @@
       "company": "Navvis",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "IT Support Specialist (F/M/D)"
+    },
+    "1353731ce48768bf": {
+      "company": "RTX",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "Software Engineer Intern"
     },
     "136452e83065f168": {
       "company": "Brainlab",
@@ -11452,6 +11467,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Software Engineer, Backend"
     },
+    "458db09e56953aa2": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "New Product Development Test Engineer Intern"
+    },
     "45945e1a5bbe9a00": {
       "company": "Deloitte",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
@@ -11846,6 +11866,11 @@
       "company": "General Motors",
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Battery & Sustainability Intern - Battery Research and Development"
+    },
+    "47e02fd73c9840e4": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "Software Engineer Intern - C++ - Linux"
     },
     "47e1326e641aa4d5": {
       "company": "NVIDIA",
@@ -19926,6 +19951,11 @@
       "company": "B-HIVE",
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Ingénieur Etudes Electriques F/H"
+    },
+    "791cbd27844f0a3e": {
+      "company": "Intel",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "AI Hardware Engineer Intern"
     },
     "7922fb74c3efbce0": {
       "company": "Thales",
@@ -33242,6 +33272,11 @@
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Full Stack Engineer Mid Level"
     },
+    "ca8d8d2c6e736eba": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "Software Engineer Intern - AI/ML for Diagnostics & Calibration"
+    },
     "ca95950836affe94": {
       "company": "Isahit - Compte de tests",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -41357,6 +41392,11 @@
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "Software Development Engineer"
     },
+    "f9035a282fcd30c3": {
+      "company": "Microsoft",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "Software Engineer Intern - Security & Identity"
+    },
     "f90cd7eef5572e9f": {
       "company": "Avnet",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
@@ -42376,6 +42416,11 @@
       "company": "Doctrine",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "Junior / Intermediate Machine Learning Engineer - Squad Distribute"
+    },
+    "ff94d26c76a7f44d": {
+      "company": "Skydio",
+      "first_seen": "2026-10-23T23:42:16.991557+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "ff9868e0d78337cb": {
       "company": "TP-Link Systems",
