@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-23T13:03:57.276469+00:00",
+  "last_checked": "2026-10-23T17:59:03.236376+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1462,6 +1462,11 @@
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "B2B Growth Marketer - Netherlands"
     },
+    "08da69d015417308": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Development Engineer Intern, Embedded Systems"
+    },
     "08e04ffbab969d31": {
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
@@ -1476,6 +1481,11 @@
       "company": "General Dynamics Information Technology",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "Engineering Technician 1"
+    },
+    "08f9eae0c35e83ac": {
+      "company": "RTX",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "AGS Software Engineering Co-op"
     },
     "091b03d8cb84d3ef": {
       "company": "Intel",
@@ -2531,6 +2541,11 @@
       "company": "Accenture",
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
       "title": "Associate Software Engineer - Pega"
+    },
+    "0f3654b54ef31d0d": {
+      "company": "Cisco",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Engineer Data & AI II Intern"
     },
     "0f37e188a8d385f7": {
       "company": "Crowe",
@@ -6292,6 +6307,11 @@
       "first_seen": "2026-08-24T17:27:14.641023+00:00",
       "title": "Associate Experience Analytics Advisor"
     },
+    "25a672e697e89dbb": {
+      "company": "RTX",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Electrical Engineer Intern"
+    },
     "25a929d0b2570945": {
       "company": "Pendulum Intelligence",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
@@ -6321,6 +6341,11 @@
       "company": "Cadence Design Systems",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Application Software Developer New Grad"
+    },
+    "25caa1887869a38c": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Associate Integration & Test Engineer Intern"
     },
     "25cc98b2a0be7e04": {
       "company": "Uline",
@@ -7526,6 +7551,11 @@
       "company": "Johns Hopkins Applied Physics Laboratory",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Data Scientist New Grad - Data Science - System Performance Evaluation"
+    },
+    "2d0cc5596f7d28c1": {
+      "company": "MongoDB",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Engineer Intern"
     },
     "2d0d08131f241e22": {
       "company": "Doctolib",
@@ -11601,6 +11631,11 @@
       "company": "Blue Origin",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Developer Intern - Avionics Software"
+    },
+    "469855e6534c465b": {
+      "company": "ASML",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Engineer In Test Intern, MOD"
     },
     "46a19a127375ee3b": {
       "company": "Datadog",
@@ -21682,6 +21717,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "AI Innovation Engineer"
     },
+    "85102b1b7a843c1a": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Engineer Intern, Embedded Systems"
+    },
     "8511e13a4428878b": {
       "company": "Helsing",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
@@ -23122,6 +23162,11 @@
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "PhD Quantitative Researcher Intern"
     },
+    "8d382c9b5860cc63": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Reliability Test Engineer Intern"
+    },
     "8d38f3bff0df60ef": {
       "company": "Framatome",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -23596,6 +23641,11 @@
       "company": "JP Morgan Chase",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
       "title": "Innovation Development Analyst - Commercial & Investment Bank"
+    },
+    "905e93c6cd111cd1": {
+      "company": "Palantir",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Forward Deployed Software Engineer Intern, Warp Speed"
     },
     "90644479000642f6": {
       "company": "ByteDance",
@@ -26921,6 +26971,11 @@
       "company": "True Anomaly",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "GSE Engineering Intern"
+    },
+    "a47607b0881d0392": {
+      "company": "Cisco",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Engineer Intern, Data & AI"
     },
     "a478a8d728256626": {
       "company": "Zoox",
@@ -31547,6 +31602,11 @@
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "Support Associate"
     },
+    "c1710e12e3cce621": {
+      "company": "KLA",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Engineering Intern, AI/ML for Diagnostics & Calibration"
+    },
     "c17602bf879865f2": {
       "company": "TraceLink",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
@@ -33592,6 +33652,11 @@
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Ingénieur.e qualité conception logiciel F/H"
     },
+    "cd08532ac906c452": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Signal Integrity Intern"
+    },
     "cd131cf4c11f0fcf": {
       "company": "SpaceX",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
@@ -35151,6 +35216,11 @@
       "company": "NEXTON",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Product Designer - Outils Métiers H/F"
+    },
+    "d61b53b977a9cfc5": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Development Engineer Intern, Amazon Leo, Embedded Systems"
     },
     "d62114d2f8206719": {
       "company": "Baxter International",
@@ -41171,6 +41241,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-19T02:53:50.075198+00:00",
       "title": "Creative Product Operations Graduate - International Advertising - Creative and Brand Innovation"
+    },
+    "f85dde39f3530bc2": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-23T17:59:03.236376+00:00",
+      "title": "Software Engineer Intern"
     },
     "f869615d28eee81a": {
       "company": "CACI",
