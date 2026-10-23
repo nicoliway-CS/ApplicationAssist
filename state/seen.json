@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-23T02:06:28.612340+00:00",
+  "last_checked": "2026-10-23T07:59:07.938716+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -10816,6 +10816,11 @@
       "company": "The Nuclear Company",
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
       "title": "AI Applied Research Intern"
+    },
+    "414880dd79c496f8": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-23T07:59:07.938716+00:00",
+      "title": "Electrical Hardware Engineer Intern"
     },
     "414bf491c7c3fcc3": {
       "company": "TRIMEDX",
