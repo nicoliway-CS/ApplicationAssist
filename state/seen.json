@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-22T23:42:10.548402+00:00",
+  "last_checked": "2026-10-23T02:06:28.612340+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4142,6 +4142,11 @@
       "first_seen": "2026-08-22T11:17:38.706195+00:00",
       "title": "Systems Integration Engineer Intern"
     },
+    "1996634eeeb9b404": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T02:06:28.612340+00:00",
+      "title": "Embedded Firmware Co-op"
+    },
     "19a07bc4f132d796": {
       "company": "KLA",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
@@ -6816,6 +6821,11 @@
       "company": "Vanguard",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Technology Leadership Program - Risk & Security - Engineering"
+    },
+    "28d30c419241e38e": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T02:06:28.612340+00:00",
+      "title": "Software Engineer Intern - AWS Database"
     },
     "28df0ddc082d865b": {
       "company": "RTX",
@@ -14872,6 +14882,11 @@
       "first_seen": "2026-09-03T22:14:16.788642+00:00",
       "title": "Software Engineer - Python"
     },
+    "5bcde8bd9d3af119": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T02:06:28.612340+00:00",
+      "title": "ASIC Engineer Early Career Intern"
+    },
     "5bcf8f9cea0cfcaa": {
       "company": "Cafeyn",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
@@ -19526,6 +19541,11 @@
       "company": "Tesla",
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Data Collection Operator - Optimus"
+    },
+    "771ae45b828a13b1": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T02:06:28.612340+00:00",
+      "title": "Junior Software Development Engineer Intern - Jr. Developer Program"
     },
     "771f7b58eae1a7e0": {
       "company": "Rippling",
@@ -30772,6 +30792,11 @@
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Site Reliability Engineer - Data Platform"
     },
+    "bc7f884945faa7ad": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T02:06:28.612340+00:00",
+      "title": "ASIC Engineer Intern"
+    },
     "bc7fc2cd20c801fd": {
       "company": "Texas Water Development Board",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
@@ -36752,6 +36777,11 @@
       "first_seen": "2026-08-19T19:21:53.032708+00:00",
       "title": "Electrochemistry Modeling Intern"
     },
+    "df6ed4f099bdb1b8": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T02:06:28.612340+00:00",
+      "title": "Software Engineer Intern - Embedded Systems"
+    },
     "df76230f9e16981c": {
       "company": "ServiceNow",
       "first_seen": "2026-10-14T00:40:43.533895+00:00",
@@ -41086,6 +41116,11 @@
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-09-16T23:18:11.833845+00:00",
       "title": "Software Engineer Intern - Crypto and Cross Domain Solutions"
+    },
+    "f819bb95365d05fe": {
+      "company": "Amazon",
+      "first_seen": "2026-10-23T02:06:28.612340+00:00",
+      "title": "Software Engineer Intern"
     },
     "f819ea37143adcd3": {
       "company": "Citadel Securities",
