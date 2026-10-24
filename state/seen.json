@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-24T02:05:47.069895+00:00",
+  "last_checked": "2026-10-24T07:38:57.975942+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -9772,6 +9772,11 @@
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Career Accelerator Program - Product Engineer"
     },
+    "3a510320253d82e8": {
+      "company": "Amazon",
+      "first_seen": "2026-10-24T07:38:57.975942+00:00",
+      "title": "Software Development Engineer Intern, Amazon Leo"
+    },
     "3a5772d5b4a06f9f": {
       "company": "Legora",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
@@ -14701,6 +14706,11 @@
       "company": "GitLab",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "AI Transformation Owner, Product & Design"
+    },
+    "5a237be6b1e3b8aa": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-24T07:38:57.975942+00:00",
+      "title": "Digital Design Verification Engineering Intern"
     },
     "5a24adbc39486c25": {
       "company": "John Cockerill",
@@ -23297,6 +23307,11 @@
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Full Stack Software Engineer (Python / React)"
     },
+    "8df9fc61630958d6": {
+      "company": "ASML",
+      "first_seen": "2026-10-24T07:38:57.975942+00:00",
+      "title": "Platform Software Engineer In Test Intern"
+    },
     "8e05318554f566f2": {
       "company": "Invesco",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
@@ -26241,6 +26256,11 @@
       "company": "Citadel Securities",
       "first_seen": "2026-08-16T04:32:05.103736+00:00",
       "title": "Quantitative Researcher PhD Intern"
+    },
+    "a00c6907e9f73d79": {
+      "company": "KLA",
+      "first_seen": "2026-10-24T07:38:57.975942+00:00",
+      "title": "Software Engineering Intern"
     },
     "a010e6fe5a41b356": {
       "company": "ClickHouse",
@@ -30001,6 +30021,11 @@
       "company": "RTX",
       "first_seen": "2026-10-06T02:36:24.800917+00:00",
       "title": "Software Engineer Intern"
+    },
+    "b78c3280a9343ff8": {
+      "company": "KLA",
+      "first_seen": "2026-10-24T07:38:57.975942+00:00",
+      "title": "Software Engineer Intern, C++, Linux"
     },
     "b78de6257651b363": {
       "company": "Grant Thornton",
