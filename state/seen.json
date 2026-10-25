@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-25T00:36:38.439017+00:00",
+  "last_checked": "2026-10-25T05:24:45.247745+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -16521,6 +16521,11 @@
       "company": "Marvell",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Analog Design Intern"
+    },
+    "6521e61b90977a8c": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-25T05:24:45.247745+00:00",
+      "title": "SMAI Probe AI Engineer Intern"
     },
     "6522daa5b4e97a86": {
       "company": "Peraton",
