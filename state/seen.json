@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-26T05:29:08.044415+00:00",
+  "last_checked": "2026-10-26T11:37:24.367424+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -5202,6 +5202,11 @@
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Platform Technologies Language Design Intern"
     },
+    "1fb05f3d2b15d715": {
+      "company": "Netflix",
+      "first_seen": "2026-10-26T11:37:24.367424+00:00",
+      "title": "Software Engineer Intern"
+    },
     "1fb32a49d9322796": {
       "company": "N26",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
@@ -7446,6 +7451,11 @@
       "company": "Keysight Technologies",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "R&D Software Engineer Recent Graduate"
+    },
+    "2c4d299a1db0e350": {
+      "company": "RTX",
+      "first_seen": "2026-10-26T11:37:24.367424+00:00",
+      "title": "Embedded Software Engineering Intern"
     },
     "2c57bb7b3e185dbe": {
       "company": "Mistral Ai",
@@ -20566,6 +20576,11 @@
       "company": "Wayve",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Data Engineer"
+    },
+    "7d25efa7690bc280": {
+      "company": "Adobe",
+      "first_seen": "2026-10-26T11:37:24.367424+00:00",
+      "title": "Machine Learning Engineer Intern"
     },
     "7d28e2a0a7b35933": {
       "company": "ServiceNow",
