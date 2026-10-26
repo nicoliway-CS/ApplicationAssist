@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-26T17:42:12.939246+00:00",
+  "last_checked": "2026-10-26T21:57:19.395938+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -28242,6 +28242,11 @@
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Ingénieur IVVQ embarqué (H/F)"
     },
+    "ab8cfa65e50216eb": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-26T21:57:19.395938+00:00",
+      "title": "Software Engineering Intern"
+    },
     "ab993285876e931a": {
       "company": "Contentsquare",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -31321,6 +31326,11 @@
       "company": "Field AI",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Embedded Systems Engineer"
+    },
+    "be1def7ef2e43611": {
+      "company": "RTX",
+      "first_seen": "2026-10-26T21:57:19.395938+00:00",
+      "title": "Software Engineering Intern"
     },
     "be1eb6ffa38cf4b3": {
       "company": "Sopra Steria",
