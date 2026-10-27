@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-27T01:01:34.908056+00:00",
+  "last_checked": "2026-10-27T06:53:41.811461+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -9712,6 +9712,11 @@
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Product Manager Graduate - Ads Interface Platform - 2027 Start"
     },
+    "3999ecaba639d5b4": {
+      "company": "Aurora Innovation",
+      "first_seen": "2026-10-27T06:53:41.811461+00:00",
+      "title": "Full Stack Engineer Intern"
+    },
     "399e664f1515c836": {
       "company": "VINCI Construction",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
@@ -10416,6 +10421,11 @@
       "company": "PsiQuantum",
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Optical Packaging and Characterization Engineer Intern"
+    },
+    "3e168099fc7ceab1": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-27T06:53:41.811461+00:00",
+      "title": "Hardware Engineer Intern"
     },
     "3e17238b090315da": {
       "company": "Wayve",
@@ -17847,6 +17857,11 @@
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Analog IC Design Engineering Intern"
     },
+    "6bde4a4e536ce21e": {
+      "company": "Aurora Innovation",
+      "first_seen": "2026-10-27T06:53:41.811461+00:00",
+      "title": "Data & ML Platform Engineer Intern"
+    },
     "6bdff4bfa1b0dc34": {
       "company": "Laio",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -19721,6 +19736,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Formal Verification Engineer"
+    },
+    "76ca7d1ba476c80e": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-27T06:53:41.811461+00:00",
+      "title": "Software Engineer Intern"
     },
     "76cac256ad330b50": {
       "company": "Tesla",
@@ -29282,6 +29302,11 @@
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Responsable Bureau d'Études Électricité HTB (H/F)"
     },
+    "b1cfe1c90d1e28ec": {
+      "company": "Aurora Innovation",
+      "first_seen": "2026-10-27T06:53:41.811461+00:00",
+      "title": "AI Engineer Intern"
+    },
     "b1d33ba1e98a88d4": {
       "company": "Honeywell",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -30841,6 +30866,11 @@
       "company": "Aleph",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "Operations Coordinator (IT Department)- Fixed term contract"
+    },
+    "bb34508ad2502db2": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-27T06:53:41.811461+00:00",
+      "title": "Associate – Software Engineering Intern"
     },
     "bb35cf475f371b84": {
       "company": "TikTok",
@@ -40676,6 +40706,11 @@
       "company": "Clinical Ink",
       "first_seen": "2026-08-18T02:52:33.893582+00:00",
       "title": "Data Management Intern"
+    },
+    "f3448ec434ed2c2d": {
+      "company": "Lockheed Martin",
+      "first_seen": "2026-10-27T06:53:41.811461+00:00",
+      "title": "Software Engineer Intern"
     },
     "f346ebb2d3e9bf21": {
       "company": "McDonald's France",
