@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-27T12:47:44.360873+00:00",
+  "last_checked": "2026-10-27T18:24:27.845576+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -12637,6 +12637,11 @@
       "first_seen": "2026-08-16T08:24:56.392400+00:00",
       "title": "Production Programmer – Entry Level SQL Developer"
     },
+    "4cacb248e299c472": {
+      "company": "Apple",
+      "first_seen": "2026-10-27T18:24:27.845576+00:00",
+      "title": "Software Engineer Intern, Core OS"
+    },
     "4cbfef15740bfa3b": {
       "company": "Modjo",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
@@ -21782,6 +21787,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "Quantitative Systematic Trading Intern - PhD"
     },
+    "8437db99f45e38a6": {
+      "company": "RTX",
+      "first_seen": "2026-10-27T18:24:27.845576+00:00",
+      "title": "Embedded Software Engineer Intern"
+    },
     "843ba369f9c15179": {
       "company": "Hermès",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -30137,6 +30147,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "New Grad 2026: Machine Learning/Research Engineer (Ads Core Global)"
     },
+    "b6fc29e185a6b7d8": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-27T18:24:27.845576+00:00",
+      "title": "AI Engineer Intern, Platform"
+    },
     "b6fdb4627b842986": {
       "company": "Topcon Positioning",
       "first_seen": "2026-08-21T13:42:10.347462+00:00",
@@ -33141,6 +33156,11 @@
       "company": "SOGECLAIR",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Junior Fatigue & DT Engineer (m/w/d)"
+    },
+    "c7e52b3f7f9b5721": {
+      "company": "RTX",
+      "first_seen": "2026-10-27T18:24:27.845576+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "c7e8446625b47316": {
       "company": "IonQ",
@@ -37922,6 +37942,11 @@
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Software Engineer Intern - Software Engineer - IT Apps"
     },
+    "e3bdb26b62f998b7": {
+      "company": "General Dynamics Mission Systems, Inc.",
+      "first_seen": "2026-10-27T18:24:27.845576+00:00",
+      "title": "Software Test Engineering Intern, Space and Embedded Crypto"
+    },
     "e3c45e17988ade5b": {
       "company": "SpaceX",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
@@ -41486,6 +41511,11 @@
       "company": "Colliers France",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Chargé(e) de Marketing – Pôle Transaction (H/F)"
+    },
+    "f7a8665afadb918c": {
+      "company": "RTX",
+      "first_seen": "2026-10-27T18:24:27.845576+00:00",
+      "title": "Software Engineer Intern"
     },
     "f7ac244223d9b146": {
       "company": "LiveFlow",
