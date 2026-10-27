@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-26T21:57:19.395938+00:00",
+  "last_checked": "2026-10-27T01:01:34.908056+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -9637,6 +9637,11 @@
       "first_seen": "2026-10-21T00:16:27.358787+00:00",
       "title": "AI Engineer Intern"
     },
+    "394567c869fc41ac": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-27T01:01:34.908056+00:00",
+      "title": "Software Engineer Intern"
+    },
     "39538619e5ff1d71": {
       "company": "NTT DATA",
       "first_seen": "2026-09-02T18:27:00.115446+00:00",
@@ -15451,6 +15456,11 @@
       "company": "Goldman Sachs",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Software Engineer"
+    },
+    "5ddb165b13549e3c": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-27T01:01:34.908056+00:00",
+      "title": "Software Engineering Intern"
     },
     "5ddf49ede9ff78a2": {
       "company": "Geneva Trading",
@@ -22992,6 +23002,11 @@
       "first_seen": "2026-08-22T15:17:12.322025+00:00",
       "title": "AI Analyst Intern - Consumer Business Unit"
     },
+    "8b5c553d5e02f969": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-27T01:01:34.908056+00:00",
+      "title": "Software Engineer Intern"
+    },
     "8b5f9b3a89316c31": {
       "company": "Microchip Technology",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
@@ -24912,6 +24927,11 @@
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Ingénieur / Ingénieure DevOps"
     },
+    "974f6dc80250839b": {
+      "company": "Boston Dynamics",
+      "first_seen": "2026-10-27T01:01:34.908056+00:00",
+      "title": "Systems Test Engineer Co-op"
+    },
     "97536c6da7511f36": {
       "company": "ArianeGroup",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -25842,6 +25862,11 @@
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Field Service Technician - Batavia-Cincinnati Region"
     },
+    "9cb900a984fbeaed": {
+      "company": "Analog Devices",
+      "first_seen": "2026-10-27T01:01:34.908056+00:00",
+      "title": "Embedded Systems Co-op"
+    },
     "9cbd19867bfe1590": {
       "company": "Scout AI",
       "first_seen": "2026-08-16T22:17:30.641045+00:00",
@@ -26566,6 +26591,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "AI Hardware Design Engineer Intern - AI Hardware Design Engineer - AI Hardware"
+    },
+    "a11354cce704dde6": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-10-27T01:01:34.908056+00:00",
+      "title": "Software Test Engineer Intern"
     },
     "a12433623ce2d784": {
       "company": "TikTok",
@@ -29286,6 +29316,11 @@
       "company": "Radiance Technologies",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Entry Level Microelectronics Research and Development Engineer"
+    },
+    "b1fd6bbeecdf2f17": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-10-27T01:01:34.908056+00:00",
+      "title": "Analog Design Engineer Intern"
     },
     "b2012797cd4465df": {
       "company": "DellFor Technologies",
