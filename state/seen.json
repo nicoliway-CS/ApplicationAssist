@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-27T18:24:27.845576+00:00",
+  "last_checked": "2026-10-27T22:41:23.580366+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1466,6 +1466,11 @@
       "company": "Seagate Technology",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "Firmware Engineer - Early Career"
+    },
+    "08d44af6678f2f0f": {
+      "company": "ASML",
+      "first_seen": "2026-10-27T22:41:23.580366+00:00",
+      "title": "Frontend Developer Intern"
     },
     "08d9f5f3e0ba4c92": {
       "company": "ElevenLabs",
@@ -26322,6 +26327,11 @@
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Field Service Technician - Loveland-Cincinnati Region"
     },
+    "9f6b5e0f405b8f71": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-10-27T22:41:23.580366+00:00",
+      "title": "Software Engineer Intern"
+    },
     "9f6ef85c3bd9fb1e": {
       "company": "Stanley Black & Decker",
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
@@ -31651,6 +31661,11 @@
       "company": "Asure",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Associate AI Software Engineer"
+    },
+    "bf8f63e15761e12d": {
+      "company": "Boston Dynamics",
+      "first_seen": "2026-10-27T22:41:23.580366+00:00",
+      "title": "Electrical Engineer Co-op"
     },
     "bfa12fa7b1d8ebeb": {
       "company": "ArianeGroup",
@@ -37726,6 +37741,11 @@
       "company": "Eluvio",
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "New Grad: Software Engineer, AI Core Apps"
+    },
+    "e26fa0653b43309c": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-27T22:41:23.580366+00:00",
+      "title": "Product Yield Enhancement Software Engineer Intern"
     },
     "e27bca0e616fe99c": {
       "company": "Travelers",
