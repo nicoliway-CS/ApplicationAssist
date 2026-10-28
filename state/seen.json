@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-28T19:55:36.857547+00:00",
+  "last_checked": "2026-10-28T23:41:28.911707+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4236,6 +4236,11 @@
       "company": "Just Eat Takeaway.com",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "Software Developer – Marketing Automation"
+    },
+    "19e3949ae8a37177": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Software Engineer Intern"
     },
     "19f51d29c854dded": {
       "company": "OVHcloud",
@@ -8552,6 +8557,11 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Gestionnaire de configuration logiciel - Spatial (H/F)"
     },
+    "3298a6af92a5873d": {
+      "company": "RTX",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Software Engineer Intern"
+    },
     "329a5af3102c8935": {
       "company": "Microchip Technology",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
@@ -11821,6 +11831,11 @@
       "company": "RTX",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "Software Engineer 1 - Test Solutions"
+    },
+    "46f0636f29543a0b": {
+      "company": "ASML",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Data Engineer Co-op Intern"
     },
     "46f4500b9d696430": {
       "company": "IXL Learning",
@@ -17967,6 +17982,11 @@
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "Site Reliability Engineer (w/m/d)"
     },
+    "6c9e4771438d538f": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Embedded Software Engineering Intern"
+    },
     "6cbb8b166696a14b": {
       "company": "Rivian and Volkswagen Group Technologies",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
@@ -24047,6 +24067,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Equity Trader Intern"
     },
+    "9170a47ff4c15a91": {
+      "company": "LinkedIn",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Software Engineer Intern, First Play"
+    },
     "91907dbbbbbdcbf7": {
       "company": "Insilico Logix",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
@@ -25796,6 +25821,11 @@
       "company": "Apple",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "ASIC Design and Integration Engineer"
+    },
+    "9bfdf5b9705e2b4c": {
+      "company": "LinkedIn",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Software Engineer Intern - First Play"
     },
     "9c020ebda326eb47": {
       "company": "ByteDance",
@@ -36767,6 +36797,11 @@
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "New Grad 2026: Software Engineer - Frontend"
     },
+    "dc9eb215cff5f855": {
+      "company": "RTX",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Electrical Engineer Intern"
+    },
     "dca018be170a6f37": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T18:48:54.184840+00:00",
@@ -38661,6 +38696,11 @@
       "company": "Riot Platforms",
       "first_seen": "2026-08-22T13:28:23.721118+00:00",
       "title": "Mining Technician - Operations Department"
+    },
+    "e780e6b008fad471": {
+      "company": "ASML",
+      "first_seen": "2026-10-28T23:41:28.911707+00:00",
+      "title": "Software Development Engineer in Test Intern"
     },
     "e784e96b994ca66e": {
       "company": "Ile-De-France Mobilités",
