@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-28T14:33:57.315799+00:00",
+  "last_checked": "2026-10-28T19:55:36.857547+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -5251,6 +5251,11 @@
       "company": "SiFive",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Platform Technologies Language Design Intern"
+    },
+    "1faf499ab26033df": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-28T19:55:36.857547+00:00",
+      "title": "Embedded Software Engineer Intern"
     },
     "1fb05f3d2b15d715": {
       "company": "Netflix",
@@ -20977,6 +20982,11 @@
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Solid State Magnetic Resonance Spectroscopist - Postdoctoral Researcher"
     },
+    "7e7de4c21cccc937": {
+      "company": "RTX",
+      "first_seen": "2026-10-28T19:55:36.857547+00:00",
+      "title": "Hardware Electrical Engineer Intern"
+    },
     "7e7fdffeb08a4347": {
       "company": "TikTok",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -30692,6 +30702,11 @@
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Intern - Crewed Land"
     },
+    "b97dcbf6f3e12ed1": {
+      "company": "RTX",
+      "first_seen": "2026-10-28T19:55:36.857547+00:00",
+      "title": "Hardware Electrical Engineering Co-op"
+    },
     "b9846d91573ca489": {
       "company": "Cadence Design Systems",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
@@ -37341,6 +37356,11 @@
       "company": "United Smart Tech",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "AI Engineer - Agents & Experimentation"
+    },
+    "dfb5eca1da898bbd": {
+      "company": "RTX",
+      "first_seen": "2026-10-28T19:55:36.857547+00:00",
+      "title": "Software Engineer Co-op"
     },
     "dfbb5765a5efcab1": {
       "company": "Apple",
