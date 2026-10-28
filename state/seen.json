@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-28T01:50:11.491173+00:00",
+  "last_checked": "2026-10-28T07:35:04.162936+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -696,6 +696,11 @@
       "company": "Etched.ai",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
       "title": "DV Intern"
+    },
+    "0422c6292faf55e8": {
+      "company": "RTX",
+      "first_seen": "2026-10-28T07:35:04.162936+00:00",
+      "title": "Receiver – & Processing Architecture Software Engineer Intern - Exciter"
     },
     "042951785a1c3253": {
       "company": "Montenson",
@@ -1626,6 +1631,11 @@
       "company": "IMC",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Hardware Engineer Intern"
+    },
+    "09d55874271caf61": {
+      "company": "Shield AI",
+      "first_seen": "2026-10-28T07:35:04.162936+00:00",
+      "title": "Electrical Engineer Intern - Hardware Test"
     },
     "09f9dee56feaaaf4": {
       "company": "Northrop Grumman",
@@ -28227,6 +28237,11 @@
       "first_seen": "2026-08-15T07:27:51.384218+00:00",
       "title": "AI Product Manager Intern - Content Ecosystem"
     },
+    "aaf0ac401fc1cd0e": {
+      "company": "Shield AI",
+      "first_seen": "2026-10-28T07:35:04.162936+00:00",
+      "title": "Software Engineer Intern"
+    },
     "aaf1e31539418839": {
       "company": "Hager",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
@@ -28686,6 +28701,11 @@
       "company": "RH",
       "first_seen": "2026-08-17T23:19:23.898789+00:00",
       "title": "Digital Experience Coordinator"
+    },
+    "adee1afc66baa935": {
+      "company": "Samsung",
+      "first_seen": "2026-10-28T07:35:04.162936+00:00",
+      "title": "Power-Thermal Simulation Software Engineer Intern"
     },
     "adf6b52bb16c9d64": {
       "company": "Argonne National Laboratory",
@@ -30416,6 +30436,11 @@
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Ingénieur projet Data Center F/H"
+    },
+    "b84bcea43edf1bd2": {
+      "company": "Shield AI",
+      "first_seen": "2026-10-28T07:35:04.162936+00:00",
+      "title": "Software Engineer Intern"
     },
     "b84bf2e6ff7a97fc": {
       "company": "QuEra Computing",
@@ -35291,6 +35316,11 @@
       "company": "Lennar Corporation",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Software Engineer 1"
+    },
+    "d4b0fa7b1bc25ac2": {
+      "company": "Shield AI",
+      "first_seen": "2026-10-28T07:35:04.162936+00:00",
+      "title": "Software Engineer Intern"
     },
     "d4b2269ea9a13a13": {
       "company": "Seagate Technology",
