@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-29T16:28:30.906862+00:00",
+  "last_checked": "2026-10-29T21:28:24.867318+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -27987,6 +27987,11 @@
       "first_seen": "2026-08-18T06:37:11.543032+00:00",
       "title": "Forensic Analytics Summer Scholar Intern - Forensic Analytics"
     },
+    "a8c1e2cdafe218af": {
+      "company": "Micron Technology",
+      "first_seen": "2026-10-29T21:28:24.867318+00:00",
+      "title": "ASIC Digital Design Intern"
+    },
     "a8cbdb9c92ac2682": {
       "company": "Elastic",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -40176,6 +40181,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Ingénieur Electronique Numérique (F/H)"
+    },
+    "ef89ef25ec1747ec": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-29T21:28:24.867318+00:00",
+      "title": "ASIC Verification Engineering Intern"
     },
     "ef92ca66bde99fea": {
       "company": "Helsing",
