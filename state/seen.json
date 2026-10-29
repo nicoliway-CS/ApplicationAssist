@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-29T03:00:01.550290+00:00",
+  "last_checked": "2026-10-29T09:26:53.166629+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -27907,6 +27907,11 @@
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": ".NET Developer"
     },
+    "a88b843f3b4b0108": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-10-29T09:26:53.166629+00:00",
+      "title": "Software Engineering Intern"
+    },
     "a88d96556356857c": {
       "company": "NTT DATA",
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
@@ -41731,6 +41736,11 @@
       "company": "Ursa Major",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Configuration Engineer 1"
+    },
+    "f82ff3ed1de7258a": {
+      "company": "Tesla",
+      "first_seen": "2026-10-29T09:26:53.166629+00:00",
+      "title": "Software Engineer Intern - Software Engineer - Infotainment Platforms Validation"
     },
     "f831a0f2417cc3c2": {
       "company": "Nokia",
