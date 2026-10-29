@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-29T09:26:53.166629+00:00",
+  "last_checked": "2026-10-29T16:28:30.906862+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -11777,6 +11777,11 @@
       "first_seen": "2026-08-14T09:57:26.394964+00:00",
       "title": "Software Engineer I - Embedded Software"
     },
+    "467f50865e04f351": {
+      "company": "KLA",
+      "first_seen": "2026-10-29T16:28:30.906862+00:00",
+      "title": "Software Engineer Intern"
+    },
     "46891fc1b1d02919": {
       "company": "ASML",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
@@ -11811,6 +11816,11 @@
       "company": "Pacific Northwest National Laboratory",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Postdoctoral Research Associate - Nuclear Non-Proliferation"
+    },
+    "46c200d6d45e5b50": {
+      "company": "KLA",
+      "first_seen": "2026-10-29T16:28:30.906862+00:00",
+      "title": "Software Engineer Intern"
     },
     "46c2b89bfd39f540": {
       "company": "Cole Engineering Services",
@@ -16541,6 +16551,11 @@
       "company": "Springs Window Fashions",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Software Engineering Intern - Summer 2027"
+    },
+    "6402234fde834a70": {
+      "company": "Tesla",
+      "first_seen": "2026-10-29T16:28:30.906862+00:00",
+      "title": "Data Engineer Intern - Energy"
     },
     "64035c9db5654102": {
       "company": "Tesla",
