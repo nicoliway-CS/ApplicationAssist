@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-28T23:41:28.911707+00:00",
+  "last_checked": "2026-10-29T03:00:01.550290+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -10976,6 +10976,11 @@
       "company": "Chicago Trading Company",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Quantitative Trading Intern"
+    },
+    "41408a6784f28512": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-10-29T03:00:01.550290+00:00",
+      "title": "AI/ML Software Development and Engineering Intern"
     },
     "4140a035254a0e51": {
       "company": "WEC Energy Group",
