@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-30T14:37:38.303771+00:00",
+  "last_checked": "2026-10-30T19:45:09.960934+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -13781,6 +13781,11 @@
       "company": "Northrop Grumman",
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Software Engineer Intern - Aeronautics Systems"
+    },
+    "533d22fb8c0b6bc4": {
+      "company": "Amazon",
+      "first_seen": "2026-10-30T19:45:09.960934+00:00",
+      "title": "Software Development Engineer Intern, Machine Learning/Automated Reasoning"
     },
     "533f9541ae691e4d": {
       "company": "TWC - Rosk x Brigad",
