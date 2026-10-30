@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-29T21:28:24.867318+00:00",
+  "last_checked": "2026-10-30T01:23:15.017456+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3096,6 +3096,11 @@
       "company": "Point72",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Point72 Academy Investment Analyst Program for Upcoming Graduates"
+    },
+    "128bda9da6523048": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "Compiler Software Engineer Intern"
     },
     "129272bfc820172d": {
       "company": "Makai Labs",
@@ -10042,6 +10047,11 @@
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "GESTIONNAIRE RH DU PERSONNEL ISOLE TERRE"
     },
+    "3b70b893c7e645d0": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "ASIC Verification Engineer Intern"
+    },
     "3b743533477e9cd9": {
       "company": "Google",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
@@ -10741,6 +10751,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T10:19:05.651526+00:00",
       "title": "Research Scientist Intern - Trust and Safety"
+    },
+    "3fbbb70cfac2851c": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "Digital Design Backend Engineering Intern - 3D and AI Flows"
     },
     "3fbc46147a56bfd3": {
       "company": "Garmin",
@@ -13647,6 +13662,11 @@
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "New Grad 2026: Software Engineer (Ads ML Infrastructure)"
     },
+    "52733782c0aff802": {
+      "company": "RTX",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "Software Engineer Intern"
+    },
     "5277b7e9ffa55007": {
       "company": "Liva AI",
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
@@ -14151,6 +14171,11 @@
       "company": "Noblis",
       "first_seen": "2026-08-20T16:30:52.119549+00:00",
       "title": "Targeting Analyst - Multiple Levels"
+    },
+    "55d3223752286136": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "AI Systems Software Engineer Intern"
     },
     "55d3d500fd7546b0": {
       "company": "Sierra Space",
@@ -16841,6 +16866,11 @@
       "company": "Hewlett Packard Enterprise",
       "first_seen": "2026-10-21T10:40:27.777572+00:00",
       "title": "Embedded Software Engineer Intern"
+    },
+    "65afaaf4ad07ed24": {
+      "company": "RTX",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "Electrical Engineering Intern"
     },
     "65b8e8c789101929": {
       "company": "Qonto",
@@ -34097,6 +34127,11 @@
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Strategic Analytics Fellow"
     },
+    "cd017ed66cd19d49": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "VLSI CAD Timing Intern - Applied AI"
+    },
     "cd027deec2af2ab2": {
       "company": "Safran",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
@@ -38161,6 +38196,11 @@
       "company": "Radix Trading",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Quantitative Technologist Intern, C++"
+    },
+    "e42a20512308ba60": {
+      "company": "Samsung",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "Systems Software Engineer Intern"
     },
     "e42ec8f40640179e": {
       "company": "Noblis",
@@ -42626,6 +42666,11 @@
       "company": "ADT",
       "first_seen": "2026-08-19T21:21:30.125750+00:00",
       "title": "Installation Technician"
+    },
+    "fda959dfb400ec90": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-30T01:23:15.017456+00:00",
+      "title": "Compiler Software Engineer Intern"
     },
     "fda965c63a25f3da": {
       "company": "CenturyLink",
