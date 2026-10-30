@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-30T19:45:09.960934+00:00",
+  "last_checked": "2026-10-30T23:19:27.145902+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2211,6 +2211,11 @@
       "company": "Microsoft",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Data Center Technician"
+    },
+    "0d75630d5377bb0c": {
+      "company": "Stripe",
+      "first_seen": "2026-10-30T23:19:27.145902+00:00",
+      "title": "Machine Learning Engineer Intern"
     },
     "0d8d58aca37c340f": {
       "company": "Astreya",
@@ -11327,6 +11332,11 @@
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Performance Engineer"
     },
+    "43604587651c8b72": {
+      "company": "Amazon",
+      "first_seen": "2026-10-30T23:19:27.145902+00:00",
+      "title": "Software Development Engineer Intern"
+    },
     "4375b3b2045a01a1": {
       "company": "United Smart Tech",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
@@ -18571,6 +18581,11 @@
       "company": "John Deere",
       "first_seen": "2026-08-15T05:20:57.554432+00:00",
       "title": "Sensor Software Design Student - Product Engineering"
+    },
+    "6feb989969668ef6": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-30T23:19:27.145902+00:00",
+      "title": "Software Engineering Intern"
     },
     "6ff70480e7b58fc6": {
       "company": "Aquatic Capital Management",
@@ -30897,6 +30912,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Field Technician"
     },
+    "ba320225c3b8e1e8": {
+      "company": "Amazon",
+      "first_seen": "2026-10-30T23:19:27.145902+00:00",
+      "title": "Software Engineer Intern - Machine Learning/Automated Reasoning"
+    },
     "ba377198e062cc8f": {
       "company": "Centific",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
@@ -32051,6 +32071,11 @@
       "company": "Radix Trading",
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Quantitative Technologist C++ Intern"
+    },
+    "c1574d49594c5eb9": {
+      "company": "RTX",
+      "first_seen": "2026-10-30T23:19:27.145902+00:00",
+      "title": "Electrical Engineer Co-op - Winter/Spring 2027"
     },
     "c157f6ce15613e2f": {
       "company": "T-Mobile",
@@ -33666,6 +33691,11 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Cybersecurity System Engineer"
+    },
+    "ca320b3a02398ef7": {
+      "company": "Nokia",
+      "first_seen": "2026-10-30T23:19:27.145902+00:00",
+      "title": "Software Engineer Co-op"
     },
     "ca3b9cafbd9f08e6": {
       "company": "Visa",
@@ -35736,6 +35766,11 @@
       "company": "Baxter International",
       "first_seen": "2026-08-14T20:27:44.417742+00:00",
       "title": "Field Service Technician 1 - 2nd Shift"
+    },
+    "d627518d89612465": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-10-30T23:19:27.145902+00:00",
+      "title": "Software Engineer Intern"
     },
     "d630e891fd1a467a": {
       "company": "Trustpilot",
