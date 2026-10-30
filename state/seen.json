@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-30T01:23:15.017456+00:00",
+  "last_checked": "2026-10-30T07:47:38.090678+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -22396,6 +22396,11 @@
       "company": "Tesla",
       "first_seen": "2026-10-18T11:47:49.123719+00:00",
       "title": "Firmware Intern - SoC Firmware Engineer - SI Hardware Infrastructure"
+    },
+    "86e0759370fbced8": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-30T07:47:38.090678+00:00",
+      "title": "AI Systems Software Engineering Intern"
     },
     "86e0e30504679e2f": {
       "company": "Axon",
