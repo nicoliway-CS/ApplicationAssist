@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-31T08:59:11.049490+00:00",
+  "last_checked": "2026-10-31T15:00:30.487344+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -27641,6 +27641,11 @@
       "company": "Tesla",
       "first_seen": "2026-09-14T22:47:49.941818+00:00",
       "title": "System Integration and Test Automation Engineer Intern - Energy Engineering"
+    },
+    "a61b6b0402fd3fd6": {
+      "company": "NVIDIA",
+      "first_seen": "2026-10-31T15:00:30.487344+00:00",
+      "title": "Software Engineering Intern"
     },
     "a61d71a4b483589c": {
       "company": "FlexAI",
