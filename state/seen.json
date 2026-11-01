@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-10-31T22:52:47.915589+00:00",
+  "last_checked": "2026-11-01T01:34:13.231577+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2921,6 +2921,11 @@
       "company": "Oyster",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Payroll Specialist (Germany)"
+    },
+    "1139ce30226c76b0": {
+      "company": "KLA",
+      "first_seen": "2026-11-01T01:34:13.231577+00:00",
+      "title": "Software Engineering Intern"
     },
     "113ed2894b0991f1": {
       "company": "TikTok",
@@ -25001,6 +25006,11 @@
       "company": "TETRAMEM",
       "first_seen": "2026-08-16T18:22:35.506114+00:00",
       "title": "Software Engineer Intern, Embedded"
+    },
+    "96cc7ebb12ca98ee": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-01T01:34:13.231577+00:00",
+      "title": "DevOps Engineer Intern"
     },
     "96cd98ee37534286": {
       "company": "Helsing",
