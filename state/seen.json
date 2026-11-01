@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-01T08:15:44.825842+00:00",
+  "last_checked": "2026-11-01T15:30:36.545086+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -14222,6 +14222,11 @@
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Fullstack Developer"
     },
+    "55ff62ac8e1a4bf1": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-11-01T15:30:36.545086+00:00",
+      "title": "Software Engineering Intern"
+    },
     "560628c765297413": {
       "company": "GoCardless",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -14596,6 +14601,11 @@
       "company": "Moderna",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Data Scientist - Research"
+    },
+    "5819f65d09073f17": {
+      "company": "TikTok",
+      "first_seen": "2026-11-01T15:30:36.545086+00:00",
+      "title": "Machine Learning Engineer Intern, Brand Ads"
     },
     "581b54a0d209f32f": {
       "company": "Dropbox",
@@ -17466,6 +17476,11 @@
       "company": "Northrop Grumman",
       "first_seen": "2026-08-21T02:58:59.617439+00:00",
       "title": "Associate Embedded Software Engineer - Manufacturing"
+    },
+    "68f07b21fb9b6b7d": {
+      "company": "Samsung Semiconductor",
+      "first_seen": "2026-11-01T15:30:36.545086+00:00",
+      "title": "Systems Software Engineering Intern"
     },
     "68f357bb33dedd94": {
       "company": "GliaCell Technologies",
@@ -27292,6 +27307,11 @@
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "System Administrator (w/m/d) Defense Products"
     },
+    "a3e17eff37951b80": {
+      "company": "Amazon",
+      "first_seen": "2026-11-01T15:30:36.545086+00:00",
+      "title": "Software Development Engineer Intern, Annapurna Labs"
+    },
     "a3e6dd71743d6287": {
       "company": "PlanetArt",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -34176,6 +34196,11 @@
       "company": "Openai",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Applied AI Engineer, Cyber"
+    },
+    "ccf20fa61d0e6caf": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-01T15:30:36.545086+00:00",
+      "title": "Software Engineering Intern"
     },
     "ccfa3a776db55873": {
       "company": "BlueLabs Analytics",
