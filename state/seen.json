@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-02T10:08:05.041251+00:00",
+  "last_checked": "2026-11-02T20:32:12.332878+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -816,6 +816,11 @@
       "company": "Kyndryl",
       "first_seen": "2026-08-14T14:16:53.712819+00:00",
       "title": "Associate Creative Technologist - Early Career Consult Program"
+    },
+    "04bf9c394535888f": {
+      "company": "KLA",
+      "first_seen": "2026-11-02T20:32:12.332878+00:00",
+      "title": "Software Engineer Intern"
     },
     "04c01b19ef8cb541": {
       "company": "Tesla",
@@ -8662,6 +8667,11 @@
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "Associate Product Manager - Vault CRM Suite"
     },
+    "331b5b114462d12e": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-02T20:32:12.332878+00:00",
+      "title": "Software Engineer Intern"
+    },
     "3322da09647f32e2": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -14376,6 +14386,11 @@
       "company": "KeyBank",
       "first_seen": "2026-08-14T11:52:03.613028+00:00",
       "title": "Analytics and Quantitative Modeling Intern - Analytics & Quantitative Modeling"
+    },
+    "56d1ce15c9752a6b": {
+      "company": "RTX",
+      "first_seen": "2026-11-02T20:32:12.332878+00:00",
+      "title": "Systems Security Engineer Intern, Raytheon"
     },
     "56d821d12075eba7": {
       "company": "NTT DATA",
