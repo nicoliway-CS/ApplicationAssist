@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-03T02:41:37.555656+00:00",
+  "last_checked": "2026-11-03T10:10:23.520243+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -13882,6 +13882,11 @@
       "first_seen": "2026-08-14T22:18:29.310098+00:00",
       "title": "Dynamic Server Support"
     },
+    "53a2c7536b568e39": {
+      "company": "Micron Technology",
+      "first_seen": "2026-11-03T10:10:23.520243+00:00",
+      "title": "Data Center SSD Firmware Intern"
+    },
     "53a76c5e5f4224c0": {
       "company": "Atlas Energy Solutions",
       "first_seen": "2026-08-16T09:23:59.402626+00:00",
@@ -26942,6 +26947,11 @@
       "first_seen": "2026-08-15T23:16:58.280001+00:00",
       "title": "Associate/Undergraduate Intern"
     },
+    "a17dc41859dc6642": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-11-03T10:10:23.520243+00:00",
+      "title": "Software Engineer Intern"
+    },
     "a17ddaf00edb6c0b": {
       "company": "Amgen",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
@@ -28641,6 +28651,11 @@
       "company": "ElevenLabs",
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Forward Deployed Engineer - Software Engineer - Denmark"
+    },
+    "ac80332197dac91e": {
+      "company": "ASML",
+      "first_seen": "2026-11-03T10:10:23.520243+00:00",
+      "title": "Electrical Engineer Co-op Intern"
     },
     "ac81dabe3a691d7a": {
       "company": "Maven Securities",
@@ -39616,6 +39631,11 @@
       "company": "Apple",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "SoC Physical Design Engineer - Static Timing Analysis"
+    },
+    "ebf135fc03521a1f": {
+      "company": "RTX",
+      "first_seen": "2026-11-03T10:10:23.520243+00:00",
+      "title": "Software Engineer Co-op"
     },
     "ebf22255dc66f0f1": {
       "company": "Oracle",
