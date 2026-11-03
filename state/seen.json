@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-03T10:10:23.520243+00:00",
+  "last_checked": "2026-11-03T18:06:34.044134+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -976,6 +976,11 @@
       "company": "Copart",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Software Engineer Intern"
+    },
+    "05f10189e4384ba5": {
+      "company": "Dell Technologies",
+      "first_seen": "2026-11-03T18:06:34.044134+00:00",
+      "title": "Software Engineering Undergraduate Intern, CSG"
     },
     "05f442f7db16277a": {
       "company": "The Home Depot",
