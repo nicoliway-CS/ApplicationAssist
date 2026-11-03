@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-03T18:06:34.044134+00:00",
+  "last_checked": "2026-11-03T23:44:23.310097+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -281,6 +281,11 @@
       "company": "American Express",
       "first_seen": "2026-09-01T20:29:50.139147+00:00",
       "title": "AI Engineer 1 - Enterprise Technology Services"
+    },
+    "016c6343c3f2d4b3": {
+      "company": "RTX",
+      "first_seen": "2026-11-03T23:44:23.310097+00:00",
+      "title": "Software Engineering Intern"
     },
     "016f9cc08f7e7c54": {
       "company": "AXA",
@@ -1131,6 +1136,11 @@
       "company": "Varda Space",
       "first_seen": "2026-08-15T01:01:59.082181+00:00",
       "title": "Flight Software Intern - Spring 2027"
+    },
+    "06a76a9e523d3793": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-11-03T23:44:23.310097+00:00",
+      "title": "Hardware Engineering Intern"
     },
     "06a846a81d7889c8": {
       "company": "StudyFetch",
@@ -6697,6 +6707,11 @@
       "first_seen": "2026-08-14T17:49:54.203423+00:00",
       "title": "Big Data Lead - BIBA Practice"
     },
+    "273e69dc1b650d44": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-11-03T23:44:23.310097+00:00",
+      "title": "Ground Software Engineer Intern"
+    },
     "2744b91c740b667a": {
       "company": "Northwood Space",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
@@ -8531,6 +8546,11 @@
       "company": "Cummins",
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "Electronic Systems Product Engineer"
+    },
+    "3245c03c7be66c46": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-03T23:44:23.310097+00:00",
+      "title": "Software Engineer Intern, Teamwork Experiences"
     },
     "32468b3cc8b73fc4": {
       "company": "AstraZeneca",
@@ -12491,6 +12511,11 @@
       "company": "Pariveda Solutions",
       "first_seen": "2026-08-15T09:21:55.838277+00:00",
       "title": "Entry Level Software Engineer"
+    },
+    "4ae55812ed9cbe9a": {
+      "company": "Meta",
+      "first_seen": "2026-11-03T23:44:23.310097+00:00",
+      "title": "ASIC Engineer Intern - Formal Verification"
     },
     "4ae6193f8a44113a": {
       "company": "ByteDance",
@@ -29562,6 +29587,11 @@
       "first_seen": "2026-08-23T14:19:45.240815+00:00",
       "title": "Engineering Co-op"
     },
+    "b1b9dd6523db7535": {
+      "company": "TikTok",
+      "first_seen": "2026-11-03T23:44:23.310097+00:00",
+      "title": "Machine Learning Engineer Intern"
+    },
     "b1baf27698a28167": {
       "company": "Nokia",
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
@@ -36471,6 +36501,11 @@
       "company": "Anduril",
       "first_seen": "2026-10-14T05:32:24.238762+00:00",
       "title": "Firmware Engineer Intern"
+    },
+    "d95ac0e8afb3432e": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-11-03T23:44:23.310097+00:00",
+      "title": "Hardware Engineer Intern"
     },
     "d95c0865d33f96ec": {
       "company": "Credit Genie",
