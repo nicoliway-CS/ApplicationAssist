@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-02T20:32:12.332878+00:00",
+  "last_checked": "2026-11-03T02:41:37.555656+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2191,6 +2191,11 @@
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Électromécanicien - Machines Tournantes (H/F)"
+    },
+    "0d2441115baf9c89": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Software Engineer Intern - AI/ML"
     },
     "0d26f3323d11a642": {
       "company": "Novartis",
@@ -4606,6 +4611,11 @@
       "company": "xAI",
       "first_seen": "2026-08-15T18:22:58.871200+00:00",
       "title": "Software Engineer - Evals"
+    },
+    "1b8f5748782f2dba": {
+      "company": "Shield AI",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Embedded Firmware Intern"
     },
     "1b9354e8fc9f240b": {
       "company": "XAnge",
@@ -10622,6 +10632,11 @@
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "RESPONSABLE AUTOMATISME INFORMATIQUE INDUSTRIELLE H/F"
     },
+    "3ee630e293a3fd84": {
+      "company": "Applied Materials",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Electrical Engineer Intern"
+    },
     "3eeb0d5c2a028ee7": {
       "company": "Duonext",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -10866,6 +10881,11 @@
       "company": "Doctolib",
       "first_seen": "2026-08-30T01:00:31.565111+00:00",
       "title": "AI Talent Pool"
+    },
+    "40548a282584be3d": {
+      "company": "Applied Materials",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Software Engineer Intern"
     },
     "405a02678d16cb2a": {
       "company": "Susquehanna International Group (SIG)",
@@ -23467,6 +23487,11 @@
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Business Support Specialist - German speaking"
     },
+    "8cd07b8f2db54732": {
+      "company": "Tesla",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Software Engineering Intern, People Products"
+    },
     "8cd0c9c8d70153fc": {
       "company": "TikTok",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -28542,6 +28567,11 @@
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "Marketing Technology & Analytics Intern"
     },
+    "abc70ad4fee2bb1c": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Software Engineer Intern"
+    },
     "abd2ceed59451bd0": {
       "company": "Isahit - Compte de tests",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -29991,6 +30021,11 @@
       "company": "PTC",
       "first_seen": "2026-08-16T16:19:59.112255+00:00",
       "title": "Junior Software Engineer"
+    },
+    "b4ec340fb8ff4f98": {
+      "company": "Motorola Solutions",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Software Engineer Intern, Cybersecurity Services"
     },
     "b4f0ebc72fe67e9d": {
       "company": "Wyetech",
@@ -38582,6 +38617,11 @@
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
       "title": "Policy Analyst Intern - Center for Public Service"
     },
+    "e5ab1e5bc0c84268": {
+      "company": "Skydio",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Electrical Engineer Intern"
+    },
     "e5ac20de07e33f04": {
       "company": "Nebius",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -40936,6 +40976,11 @@
       "company": "Zello",
       "first_seen": "2026-08-15T12:30:49.946689+00:00",
       "title": "Analytics Intern"
+    },
+    "f2a23a0bd6c2e3c3": {
+      "company": "Motorola Solutions",
+      "first_seen": "2026-11-03T02:41:37.555656+00:00",
+      "title": "Software Engineer Cybersecurity Services Intern"
     },
     "f2a29d40803e4450": {
       "company": "Texas A&M University System",
