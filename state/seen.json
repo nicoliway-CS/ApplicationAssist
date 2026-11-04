@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-03T23:44:23.310097+00:00",
+  "last_checked": "2026-11-04T03:28:38.519551+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -16277,6 +16277,11 @@
       "first_seen": "2026-08-19T01:01:59.073134+00:00",
       "title": "AI Intern"
     },
+    "61eedf029e1d151e": {
+      "company": "Marvell",
+      "first_seen": "2026-11-04T03:28:38.519551+00:00",
+      "title": "Hardware Signal Integrity Intern"
+    },
     "61f196fba8a235dc": {
       "company": "Taktile",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -30107,6 +30112,11 @@
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
       "title": "John S. Foster"
     },
+    "b516e0465aef8b4d": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-04T03:28:38.519551+00:00",
+      "title": "Software Engineer Intern"
+    },
     "b5173ae501dc9539": {
       "company": "ByteDance",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
@@ -30926,6 +30936,11 @@
       "company": "ConeTec Group",
       "first_seen": "2026-08-14T12:58:09.144479+00:00",
       "title": "Field Geologist/Engineer"
+    },
+    "b94c2d964236e78e": {
+      "company": "RTX",
+      "first_seen": "2026-11-04T03:28:38.519551+00:00",
+      "title": "Software Engineer Intern"
     },
     "b951acb39a406aa8": {
       "company": "Micron Technology",
@@ -32011,6 +32026,11 @@
       "company": "PayPal",
       "first_seen": "2026-09-04T23:41:20.502615+00:00",
       "title": "Software Engineer New Grad - Software Engineering"
+    },
+    "bff215e6a87e7a09": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-11-04T03:28:38.519551+00:00",
+      "title": "Flight Software Engineer Intern"
     },
     "c0176ba957ea3330": {
       "company": "HNTB",
