@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-04T11:38:56.759806+00:00",
+  "last_checked": "2026-11-04T18:54:59.305138+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -8381,6 +8381,11 @@
       "company": "2020 Companies",
       "first_seen": "2026-08-14T21:21:34.501342+00:00",
       "title": "Android Sales Expert"
+    },
+    "317c9192d8614f12": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-11-04T18:54:59.305138+00:00",
+      "title": "Software Engineer Intern"
     },
     "317ce1d5fead7537": {
       "company": "Commure",
@@ -27422,6 +27427,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Trading Compliance Associate"
     },
+    "a3f976863d3fc168": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-11-04T18:54:59.305138+00:00",
+      "title": "Software Engineer Intern"
+    },
     "a3fa34941945c4bd": {
       "company": "Nexstar",
       "first_seen": "2026-08-16T05:23:57.003207+00:00",
@@ -37741,6 +37751,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
       "title": "Machine Learning Engineer Graduate - E-Commerce Knowledge Graph - PhD"
+    },
+    "e0260d5a871576ce": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-11-04T18:54:59.305138+00:00",
+      "title": "Software Engineering Intern"
     },
     "e03987aacac2067f": {
       "company": "Wise",
