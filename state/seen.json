@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-04T23:59:06.038838+00:00",
+  "last_checked": "2026-11-05T05:03:17.989554+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -1176,6 +1176,11 @@
       "company": "OVHcloud",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur SRE Storage & AIOps H/F/N"
+    },
+    "06f0b3f11d308c5b": {
+      "company": "RTX",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "06f60f38d454dd45": {
       "company": "Pennsylvania State University",
@@ -8102,6 +8107,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Data Science Associate"
     },
+    "2fe49472bfc1d0b1": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Digital Design Verification Engineer Intern"
+    },
     "2fe9d704d4a1c386": {
       "company": "mc2i",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -9091,6 +9101,11 @@
       "company": "HD Supply",
       "first_seen": "2026-08-16T06:33:53.375662+00:00",
       "title": "Associate Application Engineer"
+    },
+    "3573b4fa06d2588b": {
+      "company": "PayPal",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Software Engineer Intern"
     },
     "357677cf50dd0cf4": {
       "company": "TikTok",
@@ -14802,6 +14817,11 @@
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Junior Static Stress Engineer (m/w/d)"
     },
+    "58ee4d66ba3907a2": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Analog IC Design Engineer Intern"
+    },
     "58f21ed8b9544d20": {
       "company": "Hudson River Trading",
       "first_seen": "2026-08-17T01:03:25.280249+00:00",
@@ -15821,6 +15841,11 @@
       "company": "Lamons",
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Business Intelligence Analyst"
+    },
+    "5f0916b15d7d94f1": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "VLSI Timing Methodology Intern"
     },
     "5f1793ed4fdae8ec": {
       "company": "Helsing",
@@ -17351,6 +17376,11 @@
       "company": "GlobalFoundries",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Packaging Integration Engineer New Grad"
+    },
+    "67cf12ace634e202": {
+      "company": "PayPal",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Software Engineer Intern"
     },
     "67db79bc77c73eb2": {
       "company": "Honeywell",
@@ -19497,6 +19527,11 @@
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "Solution Engineer - French Speaker"
     },
+    "7447765b4c953ce4": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Digital Design Verification Engineer Intern"
+    },
     "7447af13f07be73b": {
       "company": "Eureden",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -19541,6 +19576,11 @@
       "company": "Mayflower",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Kotlin/Java Developer (UF)"
+    },
+    "7470dbd1c54e96d3": {
+      "company": "Meta",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "ASIC EDA Infrastructure Engineer Intern"
     },
     "7474675f8130abfa": {
       "company": "Celonis",
@@ -20221,6 +20261,11 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Ingénieur Système plateforme numérique (F/H)"
+    },
+    "786fd6626a13ec65": {
+      "company": "PayPal",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Machine Learning Engineer PhD Intern"
     },
     "787028d755258e3b": {
       "company": "Voyager Technologies",
@@ -26261,6 +26306,11 @@
       "company": "Magazino",
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Robot Perception/ML Engineer (w/m/d) Autonomous Mobile Robots"
+    },
+    "9d6b56cb167bbdae": {
+      "company": "Texas Instruments",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Analog Design Verification Engineer Intern"
     },
     "9d71c04d36304fd4": {
       "company": "Detroit Lions",
@@ -34407,6 +34457,11 @@
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieure / Ingénieur logiciel fullstack"
     },
+    "cd2c5d417cf8e3bf": {
+      "company": "PayPal",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Machine Learning Engineer Intern"
+    },
     "cd2f09fc5cf0ba40": {
       "company": "Tesla",
       "first_seen": "2026-08-20T01:02:09.664623+00:00",
@@ -38046,6 +38101,11 @@
       "company": "NRG Energy",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
       "title": "Field Service Professional"
+    },
+    "e1dd663e2b2cfb06": {
+      "company": "Northrop Grumman",
+      "first_seen": "2026-11-05T05:03:17.989554+00:00",
+      "title": "Software Engineer Co-op Intern"
     },
     "e1dea6dff87e35d1": {
       "company": "TikTok",
