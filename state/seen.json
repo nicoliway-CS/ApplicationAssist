@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-05T05:03:17.989554+00:00",
+  "last_checked": "2026-11-05T13:33:06.335688+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3077,6 +3077,11 @@
       "first_seen": "2026-09-01T01:36:14.974477+00:00",
       "title": "Machine Learning Engineer"
     },
+    "123639c007de039c": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Software Engineer Intern"
+    },
     "124efb54db4c3d0c": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -5776,6 +5781,11 @@
       "company": "Stryker",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Associate Installation Technician"
+    },
+    "21ffb19968740fac": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Software Engineer Intern"
     },
     "220077a1cd2ff010": {
       "company": "Cadence Design Systems",
@@ -14197,6 +14207,11 @@
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Chargé de formation H/F"
     },
+    "552e927b4ade9596": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Electrical Engineering Intern, FPGA"
+    },
     "5544cc9d28603ee5": {
       "company": "StarSling",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
@@ -14341,6 +14356,11 @@
       "company": "Jabil",
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Electrical Assembler"
+    },
+    "563a87f9b59a69d7": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Electrical Engineering Intern - FPGA"
     },
     "56401589df28ffa3": {
       "company": "Qualcomm Innovation Center, Inc.",
@@ -14981,6 +15001,11 @@
       "company": "Dynatrace",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Solutions Engineer"
+    },
+    "59dbbecfb4a07d8f": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Software Engineer Intern"
     },
     "59ea223bf513ba7f": {
       "company": "Keysight Technologies",
@@ -18237,6 +18262,11 @@
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
       "title": "Systems Design Engineer New Grad"
     },
+    "6d012a08b02d946a": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Hardware/Electrical Engineer Intern"
+    },
     "6d088511c63ece6d": {
       "company": "Path Robotics",
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
@@ -19696,6 +19726,11 @@
       "company": "Vanguard",
       "first_seen": "2026-08-18T07:34:47.632154+00:00",
       "title": "Entry Level Application Engineer"
+    },
+    "75017b7ae5c0abec": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Electrical Engineer Intern"
     },
     "7519264687733847": {
       "company": "RTX",
@@ -21861,6 +21896,11 @@
       "company": "Chevron Corporation",
       "first_seen": "2026-08-15T20:18:45.254888+00:00",
       "title": "Information Technology Engineer - Software Engineer"
+    },
+    "830b2ce8c4c09a3d": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Software Engineer Intern"
     },
     "8320eac14bdb4255": {
       "company": "McDonald's",
@@ -26872,6 +26912,11 @@
       "first_seen": "2026-08-14T19:45:04.665811+00:00",
       "title": "RFIC Design Intern"
     },
+    "a0cf7b158cbcde93": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Software Engineer for Crypto & Cross Domain Solutions Intern"
+    },
     "a0d8556673f62d37": {
       "company": "SAFRAN POWER UNITS",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -28001,6 +28046,11 @@
       "company": "ByteDance",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Research Scientist in Multimodal Interaction and World Model – Graduates - Seed"
+    },
+    "a76e906b387be855": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Software Engineer Intern"
     },
     "a77250a81eae7f8d": {
       "company": "RWS",
@@ -31701,6 +31751,11 @@
       "company": "UL Solutions",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Associate Data Scientist"
+    },
+    "bd6332f2ce6b9ac6": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "Software Engineering Intern"
     },
     "bd75d1b89fe941f2": {
       "company": "Meridian Partners",
@@ -38207,6 +38262,11 @@
       "first_seen": "2026-10-27T22:41:23.580366+00:00",
       "title": "Product Yield Enhancement Software Engineer Intern"
     },
+    "e276def6c0ff369e": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "FPGA Engineer Intern"
+    },
     "e27bca0e616fe99c": {
       "company": "Travelers",
       "first_seen": "2026-09-01T07:11:59.514123+00:00",
@@ -39496,6 +39556,11 @@
       "company": "Mayflower",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Penetration Tester (Web & API)"
+    },
+    "ea2045251f7bea05": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-05T13:33:06.335688+00:00",
+      "title": "FPGA Engineer Intern"
     },
     "ea327d30b0cd6a45": {
       "company": "ByteDance",
