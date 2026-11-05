@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-05T13:33:06.335688+00:00",
+  "last_checked": "2026-11-05T20:50:57.476825+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -28632,6 +28632,11 @@
       "first_seen": "2026-08-16T01:05:25.226247+00:00",
       "title": "Data Analyst Intern"
     },
+    "ab1a3e1a3200e30b": {
+      "company": "Palantir Technologies",
+      "first_seen": "2026-11-05T20:50:57.476825+00:00",
+      "title": "Software Engineer Intern, Sovereign AI Systems"
+    },
     "ab2ba454039c6ba9": {
       "company": "TikTok",
       "first_seen": "2026-08-15T08:23:34.961554+00:00",
@@ -33871,6 +33876,11 @@
       "company": "RTE, Le réseau de transport d'électricité",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Chargé d'études réseaux électriques HT (F/H)"
+    },
+    "c917eb8f875669b9": {
+      "company": "Shield AI",
+      "first_seen": "2026-11-05T20:50:57.476825+00:00",
+      "title": "Software Engineer Co-op"
     },
     "c92c8f4532cd7cff": {
       "company": "Meyer Distributing",
@@ -43111,6 +43121,11 @@
       "company": "FormFactor",
       "first_seen": "2026-08-14T04:46:09.690148+00:00",
       "title": "Field Service Engineer - Probe Card"
+    },
+    "fdf958c89d28f810": {
+      "company": "RTX",
+      "first_seen": "2026-11-05T20:50:57.476825+00:00",
+      "title": "Systems Security Engineer Intern"
     },
     "fe01db2a8f00f49f": {
       "company": "Faros AI",
