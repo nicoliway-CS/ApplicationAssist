@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-06T01:12:12.333728+00:00",
+  "last_checked": "2026-11-06T08:37:18.636437+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -14097,6 +14097,11 @@
       "first_seen": "2026-08-14T08:12:22.520853+00:00",
       "title": "Software Engineer I"
     },
+    "548bae6b7c50cb99": {
+      "company": "Zoox",
+      "first_seen": "2026-11-06T08:37:18.636437+00:00",
+      "title": "Software Engineer Intern - Software Platforms & Product"
+    },
     "548c3a09525ffd12": {
       "company": "Chicago Trading Company",
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
@@ -21701,6 +21706,11 @@
       "company": "Stripe",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Intern - Summer or Winter"
+    },
+    "81740e8e12e153fb": {
+      "company": "Zoox",
+      "first_seen": "2026-11-06T08:37:18.636437+00:00",
+      "title": "Software Engineer Intern - Software Systems"
     },
     "817b83cf094352f8": {
       "company": "American Express",
@@ -30327,6 +30337,11 @@
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "Technician 1 - Building and Construction"
     },
+    "b572f8ab97add25f": {
+      "company": "Zoox",
+      "first_seen": "2026-11-06T08:37:18.636437+00:00",
+      "title": "Software Engineer Intern - Autonomy Software"
+    },
     "b573b7529cd61aed": {
       "company": "onsemi",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
@@ -34081,6 +34096,11 @@
       "company": "Datadog",
       "first_seen": "2026-10-26T17:42:12.939246+00:00",
       "title": "Software Engineer Intern"
+    },
+    "cad25a5b3f578cb2": {
+      "company": "Zoox",
+      "first_seen": "2026-11-06T08:37:18.636437+00:00",
+      "title": "Hardware Engineer Intern - Vehicle Systems"
     },
     "cad7dc702bd6225b": {
       "company": "John Deere",
@@ -43381,6 +43401,11 @@
       "company": "National Laboratory of the Rockies",
       "first_seen": "2026-08-15T14:18:16.921895+00:00",
       "title": "Focused Ion Beam, Electron Microscopy, and Autonomous Characterization Intern - Multiple Teams"
+    },
+    "ff86fa2df3ef144b": {
+      "company": "Zoox",
+      "first_seen": "2026-11-06T08:37:18.636437+00:00",
+      "title": "Software Engineer Intern, Software Platforms & Product"
     },
     "ff933877b8f7c2db": {
       "company": "Doctrine",
