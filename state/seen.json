@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-06T16:22:25.246170+00:00",
+  "last_checked": "2026-11-06T21:48:34.206950+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -4331,6 +4331,11 @@
       "company": "RTX",
       "first_seen": "2026-08-20T15:30:02.191911+00:00",
       "title": "Software Development Intern"
+    },
+    "1a3a4a4d4b908df9": {
+      "company": "Notion",
+      "first_seen": "2026-11-06T21:48:34.206950+00:00",
+      "title": "Software Engineering Intern, Frontend"
     },
     "1a3c5081fead0245": {
       "company": "Sysco",
