@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-05T20:50:57.476825+00:00",
+  "last_checked": "2026-11-06T01:12:12.333728+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -10372,6 +10372,11 @@
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
       "title": "Graduate Trading Applications Specialist"
     },
+    "3cffa315a0acca2d": {
+      "company": "Shield AI",
+      "first_seen": "2026-11-06T01:12:12.333728+00:00",
+      "title": "Software Engineer Co-op Intern"
+    },
     "3d0d92d4203daec1": {
       "company": "Johns Hopkins Applied Physics Laboratory",
       "first_seen": "2026-08-14T10:59:33.977587+00:00",
@@ -15431,6 +15436,11 @@
       "company": "XPENG Motors",
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "AI Infrastructure Onboard Performance Intern"
+    },
+    "5c6fec939084be10": {
+      "company": "Shield AI",
+      "first_seen": "2026-11-06T01:12:12.333728+00:00",
+      "title": "Software Engineer Intern Co-op"
     },
     "5c7866698da29db9": {
       "company": "Goldman Sachs",
@@ -42061,6 +42071,11 @@
       "company": "VINCI Construction",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "Pilote d'installation en carrière F/H"
+    },
+    "f76eeb1b43e55672": {
+      "company": "RTX",
+      "first_seen": "2026-11-06T01:12:12.333728+00:00",
+      "title": "Software Engineering Intern"
     },
     "f782af6d01c23259": {
       "company": "Westinghouse Electric Company",
