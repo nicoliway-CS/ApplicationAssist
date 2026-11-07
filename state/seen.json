@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-07T07:52:46.937331+00:00",
+  "last_checked": "2026-11-07T14:26:05.213766+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -14806,6 +14806,11 @@
       "company": "Neo4j",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Software Engineer - Cloud Platform (Networks)"
+    },
+    "587c1a2d9f94c64b": {
+      "company": "Tesla",
+      "first_seen": "2026-11-07T14:26:05.213766+00:00",
+      "title": "Software Engineer Intern - SI Reinforcement Learning"
     },
     "587fb180a8ddb0c5": {
       "company": "Physicians Mutual",
