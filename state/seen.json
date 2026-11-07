@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-06T21:48:34.206950+00:00",
+  "last_checked": "2026-11-07T01:19:39.508770+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -19777,6 +19777,11 @@
       "first_seen": "2026-08-14T23:18:16.442997+00:00",
       "title": "CESM Software Engineer 1 - Computer Engineering"
     },
+    "752c6d05732e20d1": {
+      "company": "Varda Space Industries",
+      "first_seen": "2026-11-07T01:19:39.508770+00:00",
+      "title": "Site Reliability Intern"
+    },
     "752ed0210e27470d": {
       "company": "Zoox",
       "first_seen": "2026-08-21T01:05:05.928595+00:00",
@@ -29397,6 +29402,11 @@
       "first_seen": "2026-08-21T18:31:55.450328+00:00",
       "title": "Product Management Intern - Product Marketing"
     },
+    "afa4589a6c4138ef": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-11-07T01:19:39.508770+00:00",
+      "title": "Electrical Engineering Intern"
+    },
     "afa79a0b853da145": {
       "company": "Google",
       "first_seen": "2026-08-24T15:35:53.002058+00:00",
@@ -36216,6 +36226,11 @@
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Scrum Master DDIT US&I"
+    },
+    "d6d5f797ea12de6a": {
+      "company": "Tesla",
+      "first_seen": "2026-11-07T01:19:39.508770+00:00",
+      "title": "Software Engineer Intern - SI Reinforcement Learning"
     },
     "d6e0ae6d6d5a941e": {
       "company": "Groupement Mousquetaires",
