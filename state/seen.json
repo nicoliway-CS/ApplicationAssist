@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-08T02:50:21.136399+00:00",
+  "last_checked": "2026-11-08T09:37:10.600016+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -24201,6 +24201,11 @@
       "company": "Hermès",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "CDI - Responsable Pôle ERP & FINANCE (H/F)"
+    },
+    "90429d1d9423985d": {
+      "company": "Klaviyo",
+      "first_seen": "2026-11-08T09:37:10.600016+00:00",
+      "title": "Software Engineer Intern"
     },
     "90493e8744e3bd91": {
       "company": "Lawrence Livermore National Laboratory (LLNL)",
