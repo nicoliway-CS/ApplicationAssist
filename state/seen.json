@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-09T07:17:53.439543+00:00",
+  "last_checked": "2026-11-09T17:52:01.238762+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -426,6 +426,11 @@
       "company": "Istari Digital",
       "first_seen": "2026-08-15T13:26:58.843477+00:00",
       "title": "Product Specialist"
+    },
+    "028a33ae252beba2": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "Electrical Hardware Engineer Intern"
     },
     "02a05e8e3cef2274": {
       "company": "Graphcore",
@@ -9602,6 +9607,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Research Scientist - Seed AI Foundation Model Infrastructure"
     },
+    "384becc3c4441c98": {
+      "company": "Varda Space Industries",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "Flight Software Intern"
+    },
     "385db8b34f3491a1": {
       "company": "SNCF Connect & Tech",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
@@ -16407,6 +16417,11 @@
       "first_seen": "2026-08-15T04:26:11.264863+00:00",
       "title": "Software Development Consultant - Technology Consulting"
     },
+    "620ab96214aca5ec": {
+      "company": "Cisco",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "Software Engineer Intern, Full-Stack / Backend I"
+    },
     "62126e0524fc3518": {
       "company": "Cigna Group",
       "first_seen": "2026-09-03T07:44:50.065300+00:00",
@@ -18307,6 +18322,11 @@
       "first_seen": "2026-08-16T17:16:19.544473+00:00",
       "title": "Machine Builder"
     },
+    "6d09e609488b187c": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "Full-Stack Software Engineer Intern"
+    },
     "6d1183b4aac88da7": {
       "company": "MARGO",
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
@@ -19331,6 +19351,11 @@
       "company": "Tower Health",
       "first_seen": "2026-08-15T11:17:10.483092+00:00",
       "title": "Electronic Security Systems Engineer"
+    },
+    "728b502e0c023972": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "Full-Stack Software Engineer Intern"
     },
     "728dc9e486d044a0": {
       "company": "Capgemini",
@@ -25066,6 +25091,11 @@
       "company": "mc2i",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "AI Consultant - Brussels M/F"
+    },
+    "95aad185efdfb21e": {
+      "company": "Marvell",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "AI-Native Development Platform Engineer Intern"
     },
     "95c56e9b09e5b89b": {
       "company": "BlackRock",
@@ -38482,6 +38512,11 @@
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "Software Engineer, North for Finance"
     },
+    "e30ff22d805bf43d": {
+      "company": "RTX",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "Software Engineer Intern"
+    },
     "e31f87535240e3a8": {
       "company": "eXalt",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -42516,6 +42551,11 @@
       "company": "Crowe",
       "first_seen": "2026-08-14T15:47:55.768010+00:00",
       "title": "AI Engineering Intern"
+    },
+    "f9ab595d71908ca9": {
+      "company": "xAI",
+      "first_seen": "2026-11-09T17:52:01.238762+00:00",
+      "title": "Software Engineer Co-op"
     },
     "f9bbf167c1a0c9ad": {
       "company": "Argonne National Laboratory",
