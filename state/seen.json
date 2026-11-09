@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-09T00:10:44.923954+00:00",
+  "last_checked": "2026-11-09T07:17:53.439543+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -691,6 +691,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-20T02:53:31.506475+00:00",
       "title": "Software Engineer Intern - TikTok Search Architecture"
+    },
+    "040c64a81354deba": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-11-09T07:17:53.439543+00:00",
+      "title": "Hardware Engineer Intern"
     },
     "0413e3452a343562": {
       "company": "NTT DATA",
