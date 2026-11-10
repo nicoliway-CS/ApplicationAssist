@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-10T07:49:39.601951+00:00",
+  "last_checked": "2026-11-10T15:51:17.305196+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -12796,6 +12796,11 @@
       "company": "Microsoft",
       "first_seen": "2026-09-18T06:44:43.489893+00:00",
       "title": "Electrical Engineer Intern - 6-Month Program"
+    },
+    "4c78075da7cb7250": {
+      "company": "Waymo",
+      "first_seen": "2026-11-10T15:51:17.305196+00:00",
+      "title": "Software Engineer Intern, Multiverse"
     },
     "4c7e164db931c64c": {
       "company": "Edwards Lifesciences",
@@ -27997,6 +28002,11 @@
       "first_seen": "2026-08-16T19:19:04.698208+00:00",
       "title": "Software Engineer – New Grad"
     },
+    "a623a9e22231d7c8": {
+      "company": "Tesla",
+      "first_seen": "2026-11-10T15:51:17.305196+00:00",
+      "title": "Mobile Application Developer Intern"
+    },
     "a6292000d3f55553": {
       "company": "Clicks",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -33321,6 +33331,11 @@
       "company": "Tesla",
       "first_seen": "2026-09-10T00:40:43.436629+00:00",
       "title": "Software Engineer Intern - IT Apps"
+    },
+    "c5776378fa97ace2": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-10T15:51:17.305196+00:00",
+      "title": "Linux Automation Intern, Linux Integration and Test Engineer"
     },
     "c57b341d0992a6ed": {
       "company": "Adobe",
