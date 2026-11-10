@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-09T17:52:01.238762+00:00",
+  "last_checked": "2026-11-10T00:53:42.586891+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -6202,6 +6202,11 @@
       "first_seen": "2026-08-18T01:01:17.517776+00:00",
       "title": "Data Science Intern - College to Corporate IT"
     },
+    "243bb23ca51bb184": {
+      "company": "RTX",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "Digital Hardware Design Engineer Co-op"
+    },
     "243d280f3b7280f1": {
       "company": "Tesla",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
@@ -12067,6 +12072,11 @@
       "first_seen": "2026-08-15T16:19:45.939902+00:00",
       "title": "Camera Software Engineer, AI Platforms"
     },
+    "4758381238b3e126": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "Software Engineer Intern"
+    },
     "4767937658ec62d6": {
       "company": "Gannett Fleming",
       "first_seen": "2026-08-14T01:39:53.379301+00:00",
@@ -14196,6 +14206,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-15T02:48:38.271125+00:00",
       "title": "SDET, Software Development Engineer in Test Graduate (TikTok Eng Test-Privacy Product)"
+    },
+    "54eed3a2b74f41de": {
+      "company": "ASML",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "AI Engineer Co-op Intern"
     },
     "55037741bdf5a764": {
       "company": "TikTok",
@@ -16841,6 +16856,11 @@
       "company": "Cisive",
       "first_seen": "2026-08-16T15:17:52.058884+00:00",
       "title": "Software Development Intern"
+    },
+    "6477138acc9188bd": {
+      "company": "Amazon",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "Software Engineer Intern"
     },
     "647bb9d79f98d5ed": {
       "company": "Apple",
@@ -23442,6 +23462,11 @@
       "first_seen": "2026-08-25T11:23:38.468711+00:00",
       "title": "Trading Automation and Operations Intern"
     },
+    "8b70b48102ef769a": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "FPGA Engineer Intern"
+    },
     "8b791afa35b635fc": {
       "company": "Microchip Technology",
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
@@ -25122,6 +25147,11 @@
       "first_seen": "2026-08-16T11:17:02.331773+00:00",
       "title": "Embedded Software Engineer"
     },
+    "95e01267bbf80213": {
+      "company": "KLA Corporation",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "Electrical Engineering Intern"
+    },
     "95e3d97b10ead187": {
       "company": "TikTok",
       "first_seen": "2026-08-15T03:35:35.751166+00:00",
@@ -26116,6 +26146,11 @@
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Tehnik inženiringa lokacije I (m/ž/d)"
+    },
+    "9b6dc5e5eac7faa9": {
+      "company": "RTX",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "Electronic Warfare Electrical Engineer Intern"
     },
     "9b7a8a6b753cc740": {
       "company": "NVIDIA",
@@ -28831,6 +28866,11 @@
       "company": "Socomec",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Ingénieur cybersécurité produits F/H/X"
+    },
+    "abdee1e40891bcff": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "Software Engineer Intern"
     },
     "abf12ed1e101f7df": {
       "company": "Linking Talents",
@@ -38636,6 +38676,11 @@
       "company": "Thales",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Ingénieur en Algorithmie et Traitement – Domaine Radar (F/H)"
+    },
+    "e3de0b9e459dfad4": {
+      "company": "RTX",
+      "first_seen": "2026-11-10T00:53:42.586891+00:00",
+      "title": "Digital Hardware Design Engineer Co-op"
     },
     "e3e487123d94d46e": {
       "company": "Tesla",
