@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-10T15:51:17.305196+00:00",
+  "last_checked": "2026-11-10T21:29:16.870523+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -386,6 +386,11 @@
       "company": "SpaceX",
       "first_seen": "2026-08-16T13:27:58.449051+00:00",
       "title": "Software Engineer - Hardware Test & Automation - Starlink"
+    },
+    "0206375471365a6e": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-10T21:29:16.870523+00:00",
+      "title": "Systems and Software Development Intern"
     },
     "021189495442a940": {
       "company": "Meta",
@@ -3631,6 +3636,11 @@
       "company": "Thales",
       "first_seen": "2026-09-03T22:14:16.788642+00:00",
       "title": "IVQ Operations Engineer (NATO Project)"
+    },
+    "153705c4b63c79e3": {
+      "company": "General Dynamics Mission Systems",
+      "first_seen": "2026-11-10T21:29:16.870523+00:00",
+      "title": "Systems and Software Development Intern"
     },
     "154a1162d32f0898": {
       "company": "Safran Aircraft Engines",
@@ -13277,6 +13287,11 @@
       "first_seen": "2026-08-16T12:32:11.666760+00:00",
       "title": "Software Development Engineer Graduate - SDN Traffic Intelligence & Control"
     },
+    "4ef9b805ccdd3202": {
+      "company": "Palantir Technologies",
+      "first_seen": "2026-11-10T21:29:16.870523+00:00",
+      "title": "Software Engineer Intern, Data Connectors"
+    },
     "4efd9c0fa917620f": {
       "company": "Bracebridge Capital",
       "first_seen": "2026-08-15T21:17:32.939774+00:00",
@@ -18502,6 +18517,11 @@
       "first_seen": "2026-08-14T06:10:57.247056+00:00",
       "title": "New Grad 2026: Machine Learning Engineer"
     },
+    "6e2f83c3df5a243b": {
+      "company": "KLA",
+      "first_seen": "2026-11-10T21:29:16.870523+00:00",
+      "title": "Software Engineering Intern, C++ and Unix"
+    },
     "6e39faf961e3bbae": {
       "company": "TikTok",
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
@@ -18831,6 +18851,11 @@
       "company": "Hewlett Packard Enterprise",
       "first_seen": "2026-10-30T23:19:27.145902+00:00",
       "title": "Software Engineering Intern"
+    },
+    "6fef9b5ce2e634f3": {
+      "company": "Palantir Technologies",
+      "first_seen": "2026-11-10T21:29:16.870523+00:00",
+      "title": "Software Engineer Intern, Connectivity Platform and Product"
     },
     "6ff70480e7b58fc6": {
       "company": "Aquatic Capital Management",
