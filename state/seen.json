@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-10T00:53:42.586891+00:00",
+  "last_checked": "2026-11-10T07:49:39.601951+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -3696,6 +3696,11 @@
       "company": "Sopra Steria",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "Développeur(euse) Expert – Java Fullstack -  Services Publics - Ile de France"
+    },
+    "159bfc3c67c637ca": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-11-10T07:49:39.601951+00:00",
+      "title": "Software Engineering Intern"
     },
     "15aa6b74e4b60c50": {
       "company": "Tenstorrent",
@@ -34807,6 +34812,11 @@
       "first_seen": "2026-08-15T22:17:06.447322+00:00",
       "title": "Principal Structural Engineer - Structural Analysis"
     },
+    "cdf79c248b9821b4": {
+      "company": "Lockheed Martin",
+      "first_seen": "2026-11-10T07:49:39.601951+00:00",
+      "title": "Software Development Intern"
+    },
     "cdfef2e1a50e40cf": {
       "company": "Uber",
       "first_seen": "2026-08-17T02:56:07.495772+00:00",
@@ -39181,6 +39191,11 @@
       "company": "Atria Group",
       "first_seen": "2026-08-16T23:16:01.566337+00:00",
       "title": "Java Developer - Multiple Teams"
+    },
+    "e68cfdc625a02029": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-11-10T07:49:39.601951+00:00",
+      "title": "Wireless Hardware Engineer Intern"
     },
     "e6a930192babe904": {
       "company": "Apple",
