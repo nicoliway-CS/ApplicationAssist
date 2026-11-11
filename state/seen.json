@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-11T01:31:20.242746+00:00",
+  "last_checked": "2026-11-11T08:29:24.001886+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -2276,6 +2276,11 @@
       "company": "Tesla",
       "first_seen": "2026-08-16T10:19:03.681351+00:00",
       "title": "Software Engineer Intern - Linux Update Systems"
+    },
+    "0da3e769b409e02e": {
+      "company": "TikTok",
+      "first_seen": "2026-11-11T08:29:24.001886+00:00",
+      "title": "Machine Learning Engineer Intern"
     },
     "0da4c977907583a1": {
       "company": "Varsity Brands",
@@ -17032,6 +17037,11 @@
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Java Software Engineer - Payments"
     },
+    "653986a60448d7f0": {
+      "company": "Shield AI",
+      "first_seen": "2026-11-11T08:29:24.001886+00:00",
+      "title": "Electrical Engineer Intern - Hardware Test"
+    },
     "6542f2002589860f": {
       "company": "Northrop Grumman",
       "first_seen": "2026-10-07T20:14:20.308005+00:00",
@@ -18606,6 +18616,11 @@
       "company": "Google",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Intern - Multiple Teams"
+    },
+    "6e909f4b98505501": {
+      "company": "Astranis",
+      "first_seen": "2026-11-11T08:29:24.001886+00:00",
+      "title": "Embedded Software Developer Intern, Network/Payload"
     },
     "6ea6b1b937d4f330": {
       "company": "NVIDIA",
@@ -23906,6 +23921,11 @@
       "company": "Pennsylvania State University",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Signal Processing Research and Development Engineer"
+    },
+    "8db4bff8d417b458": {
+      "company": "Shield AI",
+      "first_seen": "2026-11-11T08:29:24.001886+00:00",
+      "title": "Software Engineer Intern"
     },
     "8dbadb9837d170f0": {
       "company": "SysDream",
@@ -40516,6 +40536,11 @@
       "company": "Toyota Research Institute",
       "first_seen": "2026-08-16T21:16:30.731394+00:00",
       "title": "AI Resident - Learning From Videos - Lfv"
+    },
+    "eda2e7a0394ac8d7": {
+      "company": "Tesla",
+      "first_seen": "2026-11-11T08:29:24.001886+00:00",
+      "title": "Software Developer Intern - IT Apps"
     },
     "eda6c5e5f2e92990": {
       "company": "Analog Devices",
