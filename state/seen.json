@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-11T08:29:24.001886+00:00",
+  "last_checked": "2026-11-11T16:41:14.548078+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -18272,6 +18272,11 @@
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur Cloud SRE H/F"
     },
+    "6c24031786a80587": {
+      "company": "RTX",
+      "first_seen": "2026-11-11T16:41:14.548078+00:00",
+      "title": "Software Engineer Intern"
+    },
     "6c4037b391b4e9f7": {
       "company": "ByteDance",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
@@ -18956,6 +18961,11 @@
       "company": "TikTok",
       "first_seen": "2026-08-14T16:50:24.346084+00:00",
       "title": "Machine Learning Engineer Graduate - E-Commerce Recommendation Mall"
+    },
+    "70434f3c0c510609": {
+      "company": "Cisco",
+      "first_seen": "2026-11-11T16:41:14.548078+00:00",
+      "title": "Software Engineer Intern, Embedded Systems I"
     },
     "70550985bb74063a": {
       "company": "General Dynamics Information Technology",
