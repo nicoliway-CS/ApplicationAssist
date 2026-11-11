@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-11T16:41:14.548078+00:00",
+  "last_checked": "2026-11-11T23:09:19.230384+00:00",
   "postings": {
     "0000eafd4f24cdc1": {
       "company": "Pacific Northwest National Laboratory",
@@ -15777,6 +15777,11 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Co-fondateur·rice & Directeur·rice Général·e — Kafet (Brussels)"
     },
+    "5dc0c26db68b617e": {
+      "company": "Motorola",
+      "first_seen": "2026-11-11T23:09:19.230384+00:00",
+      "title": "Software Engineering Intern"
+    },
     "5dc1603b49dbfc1d": {
       "company": "Kaukahi",
       "first_seen": "2026-08-18T09:28:37.729706+00:00",
@@ -19296,6 +19301,11 @@
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-09-15T17:20:06.597424+00:00",
       "title": "Engineer Intern - Software Engineering"
+    },
+    "71c85b5812899af6": {
+      "company": "RTX",
+      "first_seen": "2026-11-11T23:09:19.230384+00:00",
+      "title": "Software Engineering Intern"
     },
     "71c864dabee3e2e0": {
       "company": "Exelixis",
