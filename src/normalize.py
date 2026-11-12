@@ -6,6 +6,7 @@ import hashlib
 import re
 import unicodedata
 from datetime import datetime, timedelta, timezone
+from urllib.parse import parse_qsl, urlencode, urlsplit, urlunsplit
 
 # Company suffixes stripped before hashing so "Acme" and "Acme, Inc." collapse.
 _COMPANY_SUFFIXES = re.compile(
@@ -180,3 +181,49 @@ def make_id(company: str, title: str, date_mmddyyyy: str) -> str:
     """
     raw = f"{normalize_company(company)}|{normalize_title(title)}|{date_mmddyyyy}"
     return hashlib.sha1(raw.encode("utf-8")).hexdigest()[:16]
+
+
+# Query params that only say who sent the click. Everything else is kept: some
+# ATSs identify the job in the query string (?gh_jid=123, ?jobId=...), so
+# dropping the whole query would merge distinct jobs and silently lose pings --
+# a worse failure than the duplicate ping this exists to prevent.
+_TRACKING_PARAMS = {"ref", "source", "src", "s", "gh_src", "lever-source", "trk",
+                    "campaign", "medium", "referrer", "utm"}
+
+
+def canonical_url(url: str) -> str:
+    """Apply URL reduced to what identifies the job, for cross-source dedupe.
+
+    The same job shows up as `.../jobs/123?utm_source=Simplify&ref=Simplify` in
+    one repo and `.../jobs/123` in another. "" for a missing/non-http URL, so
+    callers can skip it as a key.
+    """
+    url = str(url or "").strip()
+    if not url.lower().startswith("http"):
+        return ""
+    parts = urlsplit(url)
+    query = [(k, v) for k, v in parse_qsl(parts.query, keep_blank_values=True)
+             if k.lower() not in _TRACKING_PARAMS and not k.lower().startswith("utm_")]
+    path = parts.path.rstrip("/")
+    return urlunsplit(("https", parts.netloc.lower().removeprefix("www."), path,
+                       urlencode(sorted(query)), ""))
+
+
+def dedupe_postings(postings: list[dict]) -> list[dict]:
+    """Collapse the same job seen twice -- by dedupe id OR by canonical apply URL.
+
+    The id alone misses cross-source duplicates whenever two repos word a title
+    differently ("... - 2027 Start") or date it differently (speedyapply's
+    age-derived dates drift by a day). First occurrence wins, so source order in
+    config/sources.yaml is precedence: Simplify first, for its term tags.
+    """
+    kept, ids, urls = [], set(), set()
+    for posting in postings:
+        url = canonical_url(posting.get("url"))
+        if posting["id"] in ids or (url and url in urls):
+            continue
+        ids.add(posting["id"])
+        if url:
+            urls.add(url)
+        kept.append(posting)
+    return kept

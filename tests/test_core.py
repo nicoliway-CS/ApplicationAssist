@@ -158,6 +158,26 @@ check("FPGA title defaults to Embedded Systems",
 check("'Data Analyst Intern' matches no category",
       tagger.categorize("Data Analyst Intern"), [])
 
+# Machine Learning category (added 2026-11). Titles below are real, from Simplify.
+for title in ["Machine Learning Intern/Co-op", "AI/ML Engineering Co-op",
+              "Research Scientist Intern - Language and Agents",
+              "Applied Science Intern - Natural Language Processing and Speech Technologies",
+              "Student Researcher - AI Foundation Model Infrastructure",
+              "PhD Research Intern - Generative AI for Physical AI",
+              "Deep Learning Compiler Intern", "AI Engineering Intern"]:
+    check(f"ML: {title!r} tags Machine Learning",
+          "machine_learning" in tagger.categorize(title), True)
+check("'Machine Learning Engineer Intern' is ML only (moved out of SWE)",
+      tagger.categorize("Machine Learning Engineer Intern"), ["machine_learning"])
+check("'Machine Learning Software Engineer Intern' earns ML and SWE",
+      sorted(tagger.categorize("Machine Learning Software Engineer Intern")),
+      ["machine_learning", "software_engineering"])
+# Bare "ai" is deliberately not a pattern -- these are real false positives it would cause.
+for title in ["AI Solutions Intern - Human Resources", "Global Marketing AI & Data Intern",
+              "Business Analytics AI Co-op", "Data Science Intern", "Email Marketing Intern"]:
+    check(f"ML: {title!r} does NOT tag Machine Learning",
+          "machine_learning" in tagger.categorize(title), False)
+
 # enable_other_category: off by default (matches config/role_categories.yaml).
 check("enable_other_category is off by default", tagger.enable_other, False)
 
@@ -273,6 +293,127 @@ multi_result = filter_postings(multi_sample, internship_settings, role_categorie
 check("filter_postings preserves multi-category tagging",
       sorted(multi_result[0]["role_categories"]),
       ["embedded_systems", "software_engineering"])
+
+# --- cross-source dedupe (canonical_url / dedupe_postings) --------------------
+from normalize import canonical_url, dedupe_postings
+
+check("tracking params stripped",
+      canonical_url("https://www.Meta.com/jobs/123/?utm_source=Simplify&ref=Simplify"),
+      "https://meta.com/jobs/123")
+check("job-identifying query params KEPT (else distinct jobs would merge)",
+      canonical_url("https://boards.greenhouse.io/acme?gh_jid=42&utm_medium=x"),
+      "https://boards.greenhouse.io/acme?gh_jid=42")
+check("different gh_jid -> different canonical URL",
+      canonical_url("https://x.io/a?gh_jid=1") != canonical_url("https://x.io/a?gh_jid=2"), True)
+check("non-http URL -> empty", canonical_url("mailto:jobs@acme.com"), "")
+
+dupes = [
+    {"id": "simplify-id", "url": "https://acme.com/jobs/9?utm_source=Simplify", "src": "simplify"},
+    {"id": "speedy-id", "url": "https://acme.com/jobs/9", "src": "speedyapply"},   # same URL
+    {"id": "simplify-id", "url": "", "src": "vansh"},                             # same id
+    {"id": "other", "url": "https://acme.com/jobs/10", "src": "speedyapply"},
+]
+check("dedupe collapses by URL and by id, first source wins",
+      [p["src"] for p in dedupe_postings(dupes)], ["simplify", "speedyapply"])
+check("two URL-less postings with different ids both survive",
+      len(dedupe_postings([{"id": "a", "url": ""}, {"id": "b", "url": ""}])), 2)
+
+# --- markdown adapter: other repos' column names ------------------------------
+from fetch import _parse_markdown_table
+
+speedy_md = """
+| Company | Position | Location | Salary | Posting | Age |
+|---|---|---|---|---|---|
+| <a href="https://meta.com"><strong>Meta</strong></a> | Research Scientist Intern | Menlo Park, CA | $50/hr | <a href="https://metacareers.com/jobs/1"><img src="x"></a> | 3d |
+"""
+rows = _parse_markdown_table(speedy_md, "speedyapply")
+check("speedyapply table parses", len(rows), 1)
+check("speedyapply company cleaned of HTML", rows[0]["company"], "Meta")
+check("'Posting' column read as the apply link", rows[0]["url"], "https://metacareers.com/jobs/1")
+expected_age_date = (datetime.now(timezone.utc) - __import__("datetime").timedelta(days=3)).strftime("%m%d%Y")
+check("'Age' 3d becomes a date 3 days back", rows[0]["date_posted"], expected_age_date)
+
+sndsh_md = """
+| Company | Role | Location | Apply | Added |
+| --- | --- | --- | --- | --- |
+| Google | Software Engineering Intern | Mountain View, CA | [apply](https://google.com/j/1) | 2026-07-20 |
+"""
+rows = _parse_markdown_table(sndsh_md, "sndsh404")
+check("'Apply' markdown link + 'Added' ISO date", (rows[0]["url"], rows[0]["date_posted"]),
+      ("https://google.com/j/1", "07202026"))
+
+# --- internship terms / seasons (src/terms.py) --------------------------------
+from terms import (
+    normalize_source_terms,
+    parse_title_terms,
+    resolve_terms,
+    season_label,
+    season_labels,
+)
+from notify_discord import _batches, build_embed, order_for_notify
+
+check("title 'Intern - Summer 2027'", parse_title_terms("SWE Intern - Summer 2027"), ["Summer 2027"])
+check("title 'Winter/Spring 2027' yields both",
+      parse_title_terms("Co-op - Winter/Spring 2027"), ["Winter 2027", "Spring 2027"])
+check("title year-first '2027 Summer Intern'",
+      parse_title_terms("2027 Summer Software Intern"), ["Summer 2027"])
+check("title range 'Fall 2026 - Spring 2027'",
+      parse_title_terms("Co-op (Fall 2026 - Spring 2027)"), ["Fall 2026", "Spring 2027"])
+check("title 2-digit year \"Summer '27\"", parse_title_terms("Intern Summer '27"), ["Summer 2027"])
+check("autumn is fall", parse_title_terms("Intern - Autumn 2027"), ["Fall 2027"])
+check("yearless season is not guessed", parse_title_terms("Summer Software Intern"), [])
+check("duration is not a year", parse_title_terms("Summer 12 weeks Intern"), [])
+check("'Summer Analyst' is not a term", parse_title_terms("Technology Summer Analyst Intern"), [])
+
+check("source terms: N/A dropped", normalize_source_terms(["N/A"]), [])
+check("source terms canonicalized",
+      normalize_source_terms(["summer 2027", "Winter 2027"]), ["Summer 2027", "Winter 2027"])
+
+# Title beats a contradicting source tag (real case seen in Simplify, 2026-11).
+check("title overrides a wrong source tag",
+      resolve_terms("Firmware Engineer Intern - Fall 2026", ["Summer 2026"]), ["Fall 2026"])
+check("richer source tag kept when title is a subset",
+      resolve_terms("SWE Intern - Summer 2027", ["Summer 2027", "Fall 2027"]),
+      ["Summer 2027", "Fall 2027"])
+check("source tag used when title is silent",
+      resolve_terms("SWE Intern", ["Spring 2027", "Winter 2027"]), ["Winter 2027", "Spring 2027"])
+check("default_terms used when title and source are silent",
+      resolve_terms("SWE Intern", [], ["Summer 2027"]), ["Summer 2027"])
+check("nothing anywhere -> no terms", resolve_terms("SWE Intern", [], None), [])
+
+# Buckets: Winter + Spring share one; Summer and Fall separate.
+check("winter and spring collapse to one bucket",
+      season_labels(["Winter 2027", "Spring 2027"]), ["Winter/Spring 2027"])
+check("summer 27", season_labels(["Summer 2027"]), ["Summer 2027"])
+check("fall 27", season_labels(["Fall 2027"]), ["Fall 2027"])
+check("multi-season label is chronological",
+      season_label(["Fall 2027", "Spring 2027"]), "Winter/Spring 2027 + Fall 2027")
+check("same season, different year are distinct",
+      season_labels(["Winter 2026", "Winter 2027"]), ["Winter/Spring 2026", "Winter/Spring 2027"])
+check("unlisted label", season_label([]), "Term not listed")
+
+# Notifications: grouped by season, never mixed in one message, order preserved.
+def _p(pid, terms, date):
+    return {"id": pid, "company": "Acme", "title": "SWE Intern", "location": "Austin, TX",
+            "terms": terms, "date_posted": date, "role_categories": ["software_engineering"]}
+
+batch_in = [_p("f", ["Fall 2027"], "11102026"), _p("s1", ["Summer 2027"], "11092026"),
+            _p("u", [], "11112026"), _p("w", ["Spring 2027"], "11082026"),
+            _p("s2", ["Summer 2027"], "11112026")]
+ordered = order_for_notify(batch_in)
+check("order_for_notify: earliest season first, unlisted last, newest first within",
+      [p["id"] for p in ordered], ["w", "s2", "s1", "f", "u"])
+batches = _batches(ordered)
+check("one batch per season group", len(batches), 4)
+check("batch header names the season", batches[1][0].splitlines()[0], "## ☀️ Summer 2027")
+check("batches preserve order (main.py relies on sent being a prefix)",
+      [p["id"] for _, b in batches for p in b], [p["id"] for p in ordered])
+big = _batches([_p(str(i), ["Summer 2027"], "11112026") for i in range(13)])
+check("a >10 season group splits into parts", [len(b) for _, b in big], [10, 3])
+check("part numbering in header", big[1][0].endswith("(part 2/2)"), True)
+check("embed author carries the season",
+      build_embed(_p("x", ["Winter 2027"], "11112026"))["author"]["name"],
+      "❄️ Winter/Spring 2027")
 
 print()
 if failures:

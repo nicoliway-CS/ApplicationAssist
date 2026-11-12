@@ -1,5 +1,6 @@
 # Positive-keyword screen that tags each posting with one or more role
-# categories: software_engineering, embedded_systems, hardware_engineering.
+# categories: software_engineering, machine_learning, embedded_systems,
+# hardware_engineering.
 #
 # Same philosophy as the require_title_patterns screen the old eu-tech-jobs
 # source used: a posting must look like the target role from its title,
@@ -86,14 +87,69 @@ categories:
       - test engineer
       - test automation
       - data engineer
-      - machine learning engineer
-      - ml engineer
-      - ai engineer
-      - deep learning engineer
-      - computer vision engineer
-      - nlp engineer
+      # ML/AI engineer titles moved to machine_learning below. "Machine Learning
+      # Software Engineer" still earns both via "software engineer" above.
       - game developer
       - game engineer
+
+  machine_learning:
+    label: "Machine Learning"
+    # Added 2026-11. Before this category existed, ~1,600 active US internship
+    # titles that read as ML/AI ("Machine Learning Intern", "Research Scientist
+    # Intern", "AI/ML Engineering Co-op") matched nothing and were dropped.
+    #
+    # Bare "ai" is deliberately NOT a pattern: sampled titles include "AI
+    # Solutions Intern - Human Resources", "Global Marketing AI & Data Intern"
+    # and "Business Analytics AI Co-op". Every "ai" entry below is qualified.
+    # Bare "ml" IS here -- in a job title it essentially always means machine
+    # learning. Data science / analytics titles are left out on purpose (mostly
+    # dashboards and SQL, not ML); add "data scientist" here if you want them.
+    patterns:
+      - machine learning
+      - ml
+      - mlops
+      - ai/ml
+      - ml/ai
+      - ai engineer
+      - ai engineering
+      - ai developer
+      - ai software
+      - ai research
+      - ai researcher
+      - ai infrastructure
+      - ai platform
+      - ai safety
+      - ai model
+      - ai models
+      - applied ai
+      - generative ai
+      - genai
+      - physical ai
+      - embodied ai
+      - artificial intelligence
+      - deep learning
+      - neural network
+      - neural networks
+      - computer vision
+      - natural language processing
+      - nlp
+      - speech recognition
+      - reinforcement learning
+      - llm
+      - llms
+      - large language model
+      - large language models
+      - foundation model
+      - foundation models
+      - multimodal
+      - perception
+      - prompt engineer
+      # Research/applied-scientist interns on these boards are overwhelmingly ML
+      # (Meta, Microsoft, Amazon, ByteDance). Broader than the rest of this
+      # list -- narrow it if non-ML research roles start showing up.
+      - research scientist
+      - applied scientist
+      - applied science
 
   embedded_systems:
     label: "Embedded Systems"

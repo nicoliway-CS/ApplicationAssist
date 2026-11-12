@@ -2,7 +2,7 @@
 
 Normalized shape:
     id, company, title, location, url, sponsorship_flag, source_repo,
-    date_posted (MMDDYYYY), active
+    date_posted (MMDDYYYY), active, terms (["Summer 2027", ...], see terms.py)
 
 Adapters never raise past `fetch_source`: a source that changes shape is
 logged and skipped so one broken repo can't take down the run.
@@ -13,11 +13,12 @@ from __future__ import annotations
 import json
 import logging
 import re
-from datetime import datetime, timezone
+from datetime import datetime, timedelta, timezone
 
 import requests
 
 from normalize import make_id, normalize_text, to_mmddyyyy
+from terms import normalize_source_terms, resolve_terms
 
 log = logging.getLogger(__name__)
 
@@ -41,6 +42,9 @@ _HREF = re.compile(r'href=["\'](https?://[^"\']+)["\']', re.IGNORECASE)
 _MD_LINK = re.compile(r"\[([^\]]*)\]\((https?://[^)]+)\)")
 _HTML_TAG = re.compile(r"<[^>]+>")
 _BR = re.compile(r"</?br\s*/?>", re.IGNORECASE)
+# speedyapply publishes an "Age" column ("34d") instead of a posting date.
+_AGE = re.compile(r"^(\d+)\s*([hdwm])$", re.IGNORECASE)
+_AGE_UNIT_DAYS = {"h": 0, "d": 1, "w": 7, "m": 30}
 _EMOJI = re.compile(r"[\U0001F000-\U0001FAFF☀-➿️]")
 
 
@@ -64,6 +68,12 @@ def fetch_source(source: dict) -> list[dict]:
         log.warning("source %s: parse failed (%s) -- skipping", name, exc)
         return []
 
+    # Adapters only report what the source itself tagged; the title and the
+    # source's configured default_terms are folded in here, once, for every adapter.
+    default_terms = source.get("default_terms")
+    for posting in postings:
+        posting["terms"] = resolve_terms(posting["title"], posting.get("terms"), default_terms)
+
     if not postings:
         log.warning("source %s: parsed 0 postings (format may have changed)", name)
     else:
@@ -76,7 +86,8 @@ def _parse_simplify_json(text: str, source_name: str) -> list[dict]:
 
     Real fields (verified against the live Summer2027-Internships file):
     company_name, title, locations (a LIST, not a string), url, sponsorship
-    (4-value enum), date_posted (unix epoch int), active, is_visible. Also
+    (4-value enum), date_posted (unix epoch int), active, is_visible, terms (a
+    list like ["Winter 2027", "Spring 2027"], or ["N/A"]). Also
     ships a `category` field (Software/Hardware/AI-ML-Data/Product/Quant)
     that is NOT used here -- see config/role_categories.yaml for why.
     """
@@ -116,6 +127,7 @@ def _parse_simplify_json(text: str, source_name: str) -> list[dict]:
                 "source_repo": source_name,
                 "date_posted": date_posted,
                 "active": bool(row.get("active", True)),
+                "terms": normalize_source_terms(row.get("terms")),
             }
         )
     return postings
@@ -123,6 +135,11 @@ def _parse_simplify_json(text: str, source_name: str) -> list[dict]:
 
 def _parse_markdown_table(text: str, source_name: str) -> list[dict]:
     """README table: | Company | Role | Location | Application/Link | Date |
+
+    Column names vary by repo and are matched loosely (see _map_columns):
+    speedyapply says "Position" / "Posting" / "Age" instead. A README may hold
+    several tables (speedyapply splits FAANG+ / Quant / Other); each header row
+    re-learns the layout.
 
     Verified quirks in the live file: company wrapped in **bold**; multiple
     locations joined by </br>; the link cell is an <a href> around an image,
@@ -146,7 +163,9 @@ def _parse_markdown_table(text: str, source_name: str) -> list[dict]:
 
         # Header row: learn the column order instead of assuming it.
         lowered = [normalize_text(c) for c in cells]
-        if "company" in lowered and any("role" in c or "position" in c for c in lowered):
+        if "company" in lowered and any(
+            "role" in c or "position" in c or "title" in c for c in lowered
+        ):
             columns = _map_columns(lowered)
             continue
         if columns is None:
@@ -177,8 +196,12 @@ def _parse_markdown_table(text: str, source_name: str) -> list[dict]:
                 url = md.group(2)
 
         location = _clean(_BR.sub(" | ", cells[columns["location"]])) if "location" in columns else ""
-        date_raw = cells[columns["date"]] if "date" in columns else ""
-        date_posted = to_mmddyyyy(_clean(date_raw), now=now)
+        if "date" in columns:
+            date_posted = to_mmddyyyy(_clean(cells[columns["date"]]), now=now)
+        elif "age" in columns:
+            date_posted = _age_to_mmddyyyy(_clean(cells[columns["age"]]), now)
+        else:
+            date_posted = ""
 
         sponsorship = "yes" if _SPONSOR_MARKER in title_raw else "unknown"
 
@@ -193,9 +216,25 @@ def _parse_markdown_table(text: str, source_name: str) -> list[dict]:
                 "source_repo": source_name,
                 "date_posted": date_posted,
                 "active": True,
+                "terms": [],  # no term column; title / default_terms fill it in
             }
         )
     return postings
+
+
+def _age_to_mmddyyyy(age: str, now: datetime) -> str:
+    """'34d' -> the date 34 days before `now`. "" if unparseable.
+
+    The age is relative to when the README was last regenerated, not to now,
+    so the derived date can drift by a day between rebuilds -- and the date is
+    part of the dedupe key. That is why main.py also dedupes on the apply URL
+    (normalize.canonical_url): a drifted id still matches its stored URL.
+    """
+    match = _AGE.match(age.strip())
+    if not match:
+        return ""
+    days = int(match.group(1)) * _AGE_UNIT_DAYS[match.group(2).lower()]
+    return (now - timedelta(days=days)).strftime("%m%d%Y")
 
 
 def _map_columns(lowered_header: list[str]) -> dict[str, int]:
@@ -204,14 +243,18 @@ def _map_columns(lowered_header: list[str]) -> dict[str, int]:
     for index, name in enumerate(lowered_header):
         if "company" in name and "company" not in columns:
             columns["company"] = index
-        elif ("role" in name or "position" in name) and "role" not in columns:
+        elif ("role" in name or "position" in name or "title" in name) and "role" not in columns:
             columns["role"] = index
         elif "location" in name and "location" not in columns:
             columns["location"] = index
-        elif ("link" in name or "application" in name) and "link" not in columns:
+        elif (
+            "link" in name or "application" in name or name in ("apply", "posting")
+        ) and "link" not in columns:
             columns["link"] = index
-        elif "date" in name and "date" not in columns:
+        elif ("date" in name or name == "added") and "date" not in columns:
             columns["date"] = index
+        elif name == "age" and "age" not in columns:
+            columns["age"] = index
     if "company" not in columns or "role" not in columns:
         raise ValueError(f"could not locate company/role columns in {lowered_header}")
     return columns

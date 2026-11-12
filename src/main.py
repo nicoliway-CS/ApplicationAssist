@@ -21,7 +21,8 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch import fetch_source  # noqa: E402
 from filter import CompanyMatcher, filter_postings  # noqa: E402
-from notify_discord import notify  # noqa: E402
+from normalize import canonical_url, dedupe_postings  # noqa: E402
+from notify_discord import notify, order_for_notify  # noqa: E402
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_PATH = ROOT / "config" / "sources.yaml"
@@ -30,6 +31,12 @@ NOTIFY_PATH = ROOT / "config" / "notify_companies.yaml"
 STATE_PATH = ROOT / "state" / "seen.json"
 
 log = logging.getLogger("job-alert-bot")
+
+# last_checked is a liveness marker, but writing it changes seen.json, and every
+# change is a commit. At a 5-minute cadence an unconditional write is ~290
+# commits a day of pure noise, so it's refreshed at most this often unless the
+# run changed state anyway.
+LAST_CHECKED_EVERY = timedelta(hours=1)
 
 
 def load_state() -> dict:
@@ -140,23 +147,22 @@ def main() -> int:
     notify_candidates = [p for p in matches if notify_matcher.matches(p.get("company", ""))]
     log.info("%d matches, %d from notify-list companies", len(matches), len(notify_candidates))
 
-    # --- dedupe (cross-source too: same id from two repos collapses here) ---
+    # --- dedupe ---
+    # Same job twice (two repos, or a drifted speedyapply date) collapses by id OR
+    # canonical apply URL before the seen check, so a copy can't sneak past it
+    # under a new id. Stored URLs catch the cross-run version of the same thing.
     seen_ids = set(state["postings"])
-    new_by_id: dict[str, dict] = {}
-    for posting in notify_candidates:
-        if posting["id"] not in seen_ids and posting["id"] not in new_by_id:
-            new_by_id[posting["id"]] = posting
+    seen_urls = {meta.get("url") for meta in state["postings"].values()
+                 if isinstance(meta, dict) and meta.get("url")}
     new_postings = sorted(
-        new_by_id.values(), key=lambda p: p.get("date_posted", ""), reverse=True
+        (p for p in dedupe_postings(notify_candidates)
+         if p["id"] not in seen_ids and canonical_url(p.get("url")) not in seen_urls),
+        key=lambda p: _date_key(p), reverse=True,
     )
     log.info("%d notify-list matches, %d new after dedupe", len(notify_candidates), len(new_postings))
 
-    now_iso = datetime.now(timezone.utc).isoformat()
-    # Updated unconditionally on every non-dry-run so the commit graph shows
-    # the bot is alive even on an hourly run that finds nothing new -- state
-    # would otherwise only change when there's an actual match or a prune,
-    # which can go quiet for a stretch during a slow week.
-    state["last_checked"] = now_iso
+    now = datetime.now(timezone.utc)
+    now_iso = now.isoformat()
 
     # --- bootstrap: record everything, notify about nothing ---
     if bootstrapping:
@@ -166,36 +172,49 @@ def main() -> int:
             log.info("[dry-run] state not written")
             return 0
         for posting in new_postings:
-            state["postings"][posting["id"]] = {
-                "first_seen": now_iso,
-                "company": posting["company"],
-                "title": posting["title"],
-            }
+            _record(state, posting, now_iso)
         state["bootstrapped"] = True
-        prune(state, settings.get("prune_after_days", 90))
-        save_state(state)
+        _finish(state, settings, now, changed=True)
         log.info("seeded. Future runs will notify only on new postings.")
         return 0
 
-    # --- notify ---
-    if not new_postings:
+    # --- freshness: only recent postings are worth a ping ---
+    # A posting can be unseen without being new: a source added to sources.yaml,
+    # or a category added to role_categories.yaml, suddenly qualifies months of
+    # backlog at once (adding machine_learning + speedyapply was ~600). Anything
+    # older than this window is recorded silently instead -- it's still on the
+    # board, it just isn't news. Undated postings are let through: no date is
+    # not evidence of age.
+    max_age = settings.get("notify_max_age_days", 3)
+    fresh, stale = new_postings, []
+    if max_age and max_age > 0:
+        cutoff = (now - timedelta(days=max_age)).strftime("%Y%m%d")
+        fresh = [p for p in new_postings if not _date_key(p) or _date_key(p) >= cutoff]
+        stale = [p for p in new_postings if _date_key(p) and _date_key(p) < cutoff]
+    if stale:
+        log.info("%d unseen postings older than %dd -- recording silently", len(stale), max_age)
+
+    if not fresh:
         log.info("nothing new this run")
         if args.dry_run:
             log.info("[dry-run] state not written")
             return 0
-        removed = prune(state, settings.get("prune_after_days", 90))
-        if removed:
-            log.info("pruned %d stale ids", removed)
-        save_state(state)
+        for posting in stale:
+            _record(state, posting, now_iso, silent=True)
+        _finish(state, settings, now, changed=bool(stale))
         return 0
 
     cap = settings.get("max_notifications_per_run", 60)
-    to_send = new_postings
+    to_send = fresh
     overflow = []
-    if cap and len(new_postings) > cap:
+    if cap and len(fresh) > cap:
         log.warning("%d new postings exceeds cap of %d -- sending %d, deferring the rest",
-                    len(new_postings), cap, cap)
-        to_send, overflow = new_postings[:cap], new_postings[cap:]
+                    len(fresh), cap, cap)
+        to_send, overflow = fresh[:cap], fresh[cap:]
+
+    # The cap above picks the newest postings; only then regroup by season, so a
+    # big Summer batch can't crowd fresher Fall postings past the cap.
+    to_send = order_for_notify(to_send)
 
     webhook_url = os.environ.get("DISCORD_WEBHOOK_URL", "")
     sent = notify(webhook_url, to_send, dry_run=args.dry_run)
@@ -208,20 +227,50 @@ def main() -> int:
     # Only mark what actually went out. A failed batch stays unseen and is
     # retried next run rather than being silently lost.
     for posting in to_send[:sent]:
-        state["postings"][posting["id"]] = {
-            "first_seen": now_iso,
-            "company": posting["company"],
-            "title": posting["title"],
-        }
+        _record(state, posting, now_iso)
+    for posting in stale:
+        _record(state, posting, now_iso, silent=True)
     if overflow:
         log.info("%d postings deferred to the next run", len(overflow))
 
+    _finish(state, settings, now, changed=bool(sent or stale))
+    log.info("state now tracks %d ids", len(state["postings"]))
+    return 0
+
+
+def _date_key(posting: dict) -> str:
+    """MMDDYYYY -> YYYYMMDD so dates sort and compare as strings. "" if undated."""
+    raw = str(posting.get("date_posted", ""))
+    return raw[4:] + raw[:4] if len(raw) == 8 and raw.isdigit() else ""
+
+
+def _record(state: dict, posting: dict, now_iso: str, *, silent: bool = False) -> None:
+    entry = {
+        "first_seen": now_iso,
+        "company": posting["company"],
+        "title": posting["title"],
+    }
+    url = canonical_url(posting.get("url"))
+    if url:
+        entry["url"] = url  # lets a later copy under a different id match (see dedupe)
+    if silent:
+        entry["silent"] = True  # recorded as backlog, never pinged
+    state["postings"][posting["id"]] = entry
+
+
+def _finish(state: dict, settings: dict, now: datetime, *, changed: bool) -> None:
+    """Prune, refresh last_checked if due, and write state only if anything moved."""
     removed = prune(state, settings.get("prune_after_days", 90))
     if removed:
         log.info("pruned %d stale ids", removed)
-    save_state(state)
-    log.info("state now tracks %d ids", len(state["postings"]))
-    return 0
+    try:
+        last = datetime.fromisoformat(str(state.get("last_checked", "")))
+        due = now - last >= LAST_CHECKED_EVERY
+    except (ValueError, TypeError):  # missing, garbled, or naive timestamp
+        due = True
+    if changed or removed or due:
+        state["last_checked"] = now.isoformat()
+        save_state(state)
 
 
 if __name__ == "__main__":

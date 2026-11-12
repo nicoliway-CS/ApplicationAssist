@@ -40,6 +40,37 @@ sources:
   - name: vanshb03/Summer2027-Internships
     adapter: markdown_table
     url: https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/README.md
+    # The README table has no term column, but its scope is Summer 2027 only --
+    # off-season roles live in a separate OFFSEASON_README.md there (verified
+    # 2026-11). Used only when a title doesn't name its own season + year; see
+    # src/terms.py. Remove this line and those rows show as "Term not listed".
+    default_terms: [Summer 2027]
+
+  # --- Added 2026-11 --------------------------------------------------------
+  # Order matters: when the same job is in two sources, the FIRST one listed
+  # wins the dedupe (src/normalize.py dedupe_postings). Simplify stays first
+  # for its term tags; these come after.
+  #
+  # vanshb03's Fall/Winter/Spring list -- same table shape as its main README,
+  # but mixed seasons, so no default_terms: titles name their own season or
+  # show "Term not listed". ~35 roles the other sources didn't have.
+  - name: vanshb03/Summer2027-Internships (off-season)
+    adapter: markdown_table
+    url: https://raw.githubusercontent.com/vanshb03/Summer2027-Internships/main/OFFSEASON_README.md
+
+  # speedyapply: biggest gain measured 2026-11 (~320 SWE + ~100 AI roles not in
+  # the sources above). Two quirks handled in code: an "Age" column ("34d")
+  # instead of a date, and titles worded differently from Simplify's ("... -
+  # 2027 Start"), so the same job only dedupes against Simplify's copy by apply
+  # URL, not by id. The README holds the USA internship tables only; new-grad
+  # and international lists are separate files there and aren't fetched.
+  - name: speedyapply/2027-SWE-College-Jobs
+    adapter: markdown_table
+    url: https://raw.githubusercontent.com/speedyapply/2027-SWE-College-Jobs/main/README.md
+
+  - name: speedyapply/2027-AI-College-Jobs
+    adapter: markdown_table
+    url: https://raw.githubusercontent.com/speedyapply/2027-AI-College-Jobs/main/README.md
 
 settings:
   # Only consider postings still marked active/open by the source.
@@ -116,3 +147,10 @@ settings:
   # notification at all -- see README -- so this caps that (much smaller)
   # pool, not the full board.
   max_notifications_per_run: 60
+
+  # Only ping for postings dated within this many days. An unseen posting older
+  # than this is recorded silently (it stays on the board) -- that's what keeps
+  # adding a source or a category from dumping months of backlog into Discord.
+  # 3 rather than 1 so a day of Actions outage or a source that dates a little
+  # late still pings. 0 = no limit (ping every unseen posting, any age).
+  notify_max_age_days: 3

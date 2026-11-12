@@ -8,6 +8,8 @@ import time
 
 import requests
 
+from terms import season_label, season_sort_key
+
 log = logging.getLogger(__name__)
 
 EMBEDS_PER_MESSAGE = 10  # Discord's hard cap
@@ -16,17 +18,57 @@ TIMEOUT = 20
 
 CATEGORY_LABELS = {
     "software_engineering": "Software Engineering",
+    "machine_learning": "Machine Learning",
     "embedded_systems": "Embedded Systems",
     "hardware_engineering": "Hardware Engineering",
     "other": "Other",
 }
 CATEGORY_COLORS = {
     "software_engineering": 0x2ECC71,
+    "machine_learning": 0xE91E63,
     "embedded_systems": 0x3498DB,
     "hardware_engineering": 0xE67E22,
     "other": 0x95A5A6,
 }
 DEFAULT_COLOR = 0x95A5A6
+
+
+def order_for_notify(postings: list[dict]) -> list[dict]:
+    """Season groups together (earliest season first, unlisted last), newest first within.
+
+    main.py marks `to_send[:sent]` as seen, so it must call this BEFORE notify() and
+    pass the reordered list -- notify() preserves order, it never re-sorts.
+    """
+    by_date = sorted(postings, key=lambda p: p.get("date_posted", ""), reverse=True)
+    return sorted(by_date, key=lambda p: season_sort_key(p.get("terms") or []))
+
+
+def _batches(postings: list[dict]) -> list[tuple[str, list[dict]]]:
+    """Split into (season header, <=10 postings) batches that never mix seasons.
+
+    One season per message is what makes the message-level header honest: a batch
+    that straddled Summer and Fall couldn't carry a single "Summer 2027" banner.
+    Costs at most a few extra webhook posts per run, against a 60-posting cap.
+    """
+    groups: list[tuple[str, list[dict]]] = []
+    for posting in postings:
+        label = season_label(posting.get("terms") or [], emoji=True)
+        if groups and groups[-1][0] == label:
+            groups[-1][1].append(posting)
+        else:
+            groups.append((label, [posting]))
+
+    batches = []
+    for label, group in groups:
+        chunks = [group[i : i + EMBEDS_PER_MESSAGE]
+                  for i in range(0, len(group), EMBEDS_PER_MESSAGE)]
+        for part, chunk in enumerate(chunks, start=1):
+            noun = "posting" if len(group) == 1 else "postings"
+            header = f"## {label}\n{len(group)} new {noun}"
+            if len(chunks) > 1:
+                header += f" (part {part}/{len(chunks)})"
+            batches.append((header, chunk))
+    return batches
 
 
 def build_embed(posting: dict) -> dict:
@@ -35,6 +77,7 @@ def build_embed(posting: dict) -> dict:
     location = posting.get("location", "Unspecified")
     categories = posting.get("role_categories") or []
     cat_labels = " / ".join(CATEGORY_LABELS.get(c, c) for c in categories) or "Uncategorized"
+    season = season_label(posting.get("terms") or [], emoji=True)
 
     bits = [
         f"\U0001F4CD {location}",
@@ -43,6 +86,10 @@ def build_embed(posting: dict) -> dict:
     ]
 
     embed = {
+        # Author renders as a bold line ABOVE the title -- the most prominent slot an
+        # embed has short of the title itself, so the season is the first thing read
+        # even when an embed is seen on its own (e.g. in a mobile push preview).
+        "author": {"name": season[:256]},
         "title": f"{company} — {title}"[:256],
         "description": " · ".join(bits)[:4096],
         "color": CATEGORY_COLORS.get(categories[0] if categories else "other", DEFAULT_COLOR),
@@ -62,7 +109,11 @@ def _pretty_date(mmddyyyy: str) -> str:
 
 
 def notify(webhook_url: str, postings: list[dict], *, dry_run: bool = False) -> int:
-    """Send postings as batched embeds. Returns the count successfully sent."""
+    """Send postings as season-grouped batched embeds, in the order given.
+
+    Returns the count successfully sent; those are always a prefix of `postings`.
+    Pass the list through order_for_notify() first so seasons arrive grouped.
+    """
     if not postings:
         return 0
     if not webhook_url and not dry_run:
@@ -70,18 +121,17 @@ def notify(webhook_url: str, postings: list[dict], *, dry_run: bool = False) -> 
         return 0
 
     sent = 0
-    batches = [
-        postings[i : i + EMBEDS_PER_MESSAGE]
-        for i in range(0, len(postings), EMBEDS_PER_MESSAGE)
-    ]
+    batches = _batches(postings)
 
-    for index, batch in enumerate(batches, start=1):
-        payload = {"embeds": [build_embed(p) for p in batch]}
+    for index, (header, batch) in enumerate(batches, start=1):
+        payload = {"content": header, "embeds": [build_embed(p) for p in batch]}
         if dry_run:
-            log.info("[dry-run] batch %d/%d: %d embeds", index, len(batches), len(batch))
+            log.info("[dry-run] batch %d/%d: %d embeds -- %s",
+                     index, len(batches), len(batch), header.replace("\n", " · "))
             for posting in batch:
-                log.info("[dry-run]   %s — %s (%s)",
-                         posting.get("company"), posting.get("title"), posting.get("location"))
+                log.info("[dry-run]   %s — %s (%s) [%s]",
+                         posting.get("company"), posting.get("title"), posting.get("location"),
+                         season_label(posting.get("terms") or []))
             sent += len(batch)
             continue
 

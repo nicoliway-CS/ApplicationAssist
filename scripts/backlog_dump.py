@@ -32,6 +32,8 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from fetch import fetch_source  # noqa: E402
 from filter import CompanyMatcher, filter_postings  # noqa: E402
+from normalize import dedupe_postings  # noqa: E402
+from terms import season_label  # noqa: E402
 
 log = logging.getLogger("backlog")
 
@@ -56,6 +58,7 @@ def posted_at(posting: dict) -> datetime | None:
 
 CATEGORY_LABELS = {
     "software_engineering": "Software Engineering",
+    "machine_learning": "Machine Learning",
     "embedded_systems": "Embedded Systems",
     "hardware_engineering": "Hardware Engineering",
     "other": "Other",
@@ -100,8 +103,8 @@ def render(postings: list[dict], cutoff: datetime, missing: int) -> str:
             continue
         emitted.update(p["id"] for p in rows)
         lines += [f"## {heading} ({len(rows)})", ""]
-        lines += ["| Posted | Company | Role | Location | Link |",
-                  "|---|---|---|---|---|"]
+        lines += ["| Posted | Season | Company | Role | Location | Link |",
+                  "|---|---|---|---|---|---|"]
         for p in sorted(rows, key=posted_at, reverse=True):
             d = posted_at(p)
             date = f"{d:%m/%d}" if d else "?"
@@ -111,7 +114,8 @@ def render(postings: list[dict], cutoff: datetime, missing: int) -> str:
             company = str(p.get("company", "")).replace("|", "/")
             title = str(p.get("title", "")).replace("|", "/")
             location = str(p.get("location", "")).replace("|", " / ")
-            lines.append(f"| {date} | {company} | {title} | {location} | {link} |")
+            season = season_label(p.get("terms") or [])
+            lines.append(f"| {date} | {season} | {company} | {title} | {location} | {link} |")
         lines.append("")
     return "\n".join(lines)
 
@@ -156,9 +160,7 @@ def main() -> int:
         posting["_notified"] = notify_matcher.matches(posting.get("company", ""))
 
     # Dedupe before the window test: the same id can arrive from two repos.
-    by_id: dict[str, dict] = {}
-    for posting in matches:
-        by_id.setdefault(posting["id"], posting)
+    by_id = {p["id"]: p for p in dedupe_postings(matches)}
 
     in_window = [p for p in by_id.values()
                  if (d := posted_at(p)) is not None and d >= cutoff]

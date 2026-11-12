@@ -15,3 +15,6 @@ env/
 .DS_Store
 .idea/
 .vscode/
+
+# Local Claude Code context, not shared.
+CLAUDE.md

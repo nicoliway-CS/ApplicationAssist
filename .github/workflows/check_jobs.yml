@@ -2,15 +2,18 @@ name: check-jobs
 
 on:
   schedule:
-    # Hourly. GitHub frequently delays scheduled runs on shared runners; treat
-    # this as "roughly hourly", not a guarantee.
+    # Every 5 minutes -- GitHub's minimum. Was hourly; changed 2026-11 because a
+    # ping an hour late can mean applying after the first wave of applicants.
     #
-    # Deliberately not more frequent: each run bills as a full Actions minute
-    # (jobs round UP), so hourly costs ~730 of the 2,000 free private-repo
-    # minutes per month. Half-hourly was ~1,460 — under the cap, but with no
-    # headroom. The sources only update a few times a day, so the extra
-    # frequency bought nothing.
-    - cron: "0 * * * *"
+    # Free only because the repo is PUBLIC (unlimited Actions minutes). On a
+    # private repo this would be ~8,600 billed minutes/month against a 2,000
+    # free tier and Actions would stop within the first week -- go back to
+    # hourly ("0 * * * *") if this repo is ever made private.
+    #
+    # Offset from :00 on purpose: GitHub delays (and under load drops) scheduled
+    # runs most at the top of the hour. Expect real gaps of 5-15 minutes, not 5.
+    # Simplify updates many times an hour, so the extra frequency pays off there.
+    - cron: "2-59/5 * * * *"
   workflow_dispatch:
     inputs:
       dry_run:

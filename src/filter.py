@@ -5,7 +5,8 @@ A posting passes if:
     (1) it is US-located, AND
     (2) its title looks like an internship/co-op (require_internship_title_patterns), AND
     (3) its title matches at least one role category in config/role_categories.yaml
-        (software_engineering / embedded_systems / hardware_engineering), unless
+        (software_engineering / machine_learning / embedded_systems /
+        hardware_engineering), unless
         enable_other_category is on, in which case a no-match posting is kept
         and tagged "other" instead of dropped.
 

@@ -38,6 +38,8 @@ sys.path.insert(0, str(ROOT / "src"))
 
 from fetch import fetch_source  # noqa: E402
 from filter import CompanyMatcher, filter_postings  # noqa: E402
+from normalize import dedupe_postings  # noqa: E402
+from terms import UNLISTED_LABEL, label_sort_key, season_labels  # noqa: E402
 
 log = logging.getLogger("board")
 
@@ -62,6 +64,7 @@ BOARD_TZ = ZoneInfo("America/New_York")
 # the badge text.
 CATEGORY_HINTS = {
     "software_engineering": "General SWE, backend, frontend, full-stack",
+    "machine_learning": "ML/AI engineering, applied & research science",
     "embedded_systems": "Firmware, RTOS, microcontrollers, IoT",
     "hardware_engineering": "PCB, ASIC/VLSI, digital design",
     "other": "Matched no category -- audit for keyword gaps",
@@ -74,7 +77,8 @@ def build_categories(role_categories_config: dict) -> list[tuple[str, str, str, 
         for key, spec in (role_categories_config.get("categories") or {}).items()
     }
     labels.setdefault("other", "Other")
-    order = ["software_engineering", "embedded_systems", "hardware_engineering", "other"]
+    order = ["software_engineering", "machine_learning", "embedded_systems",
+             "hardware_engineering", "other"]
     return [
         (key, labels[key], CATEGORY_HINTS.get(key, ""), labels[key])
         for key in order
@@ -146,6 +150,8 @@ def build_rows(
             "rc": categories,
             "g": primary_category(posting, category_order),
             "s": str(posting.get("source_repo", "")).split("/")[-1],
+            # Season buckets ("Winter/Spring 2027"...); [] = term not listed.
+            "se": season_labels(posting.get("terms") or []),
         }
         if is_new:
             row["n"] = 1
@@ -178,6 +184,22 @@ def render(rows: list[dict], categories: list[tuple[str, str, str, str]], genera
             f'<span class="ct">{counts[key]}</span></button>'
         )
 
+    # Season dropdown: every bucket present, chronological, with counts. A row in two
+    # buckets counts toward both, matching how the filter shows it under either.
+    season_counts: dict[str, int] = {}
+    unlisted = 0
+    for r in rows:
+        for label in r["se"]:
+            season_counts[label] = season_counts.get(label, 0) + 1
+        if not r["se"]:
+            unlisted += 1
+    season_counts = dict(sorted(season_counts.items(), key=lambda kv: label_sort_key(kv[0])))
+    season_options = [f'<option value="">All seasons ({len(rows)})</option>']
+    season_options += [f'<option value="{esc(label)}">{esc(label)} ({n})</option>'
+                       for label, n in season_counts.items()]
+    if unlisted:
+        season_options.append(f'<option value="-">{esc(UNLISTED_LABEL)} ({unlisted})</option>')
+
     companies = sorted({r["c"] for r in rows if r["c"]})
     companies_html = "\n      ".join(f'<option value="{esc(c)}">' for c in companies)
 
@@ -188,7 +210,7 @@ def render(rows: list[dict], categories: list[tuple[str, str, str, str]], genera
     clock = f"{local.hour % 12 or 12}:{local:%M %p %Z}"
     standfirst = (
         f'<strong>{len(rows)}</strong> US internship/co-op postings currently open in '
-        "Software Engineering, Embedded Systems, or Hardware Engineering. "
+        "Software Engineering, Machine Learning, Embedded Systems, or Hardware Engineering. "
         f'<strong>{notified_count}</strong> are from a company on your notify list '
         "and already pinged Discord. "
         + (f'<strong>{undated}</strong> carry no date from the source and are grouped '
@@ -207,6 +229,7 @@ def render(rows: list[dict], categories: list[tuple[str, str, str, str]], genera
         "__TIERS__": "\n      ".join(cards_html),
         "__CHIPS__": "\n      " + "\n      ".join(chips_html),
         "__COMPANIES__": companies_html,
+        "__SEASONS__": "".join(season_options),
         "__ACTIVE__": json.dumps({key: True for key, *_ in categories}),
         # Inline JSON inside a <script> block: the only sequence that can break
         # out is a literal "</script>", so neutralise the slash.
@@ -264,11 +287,8 @@ def main() -> int:
 
     matches = filter_postings(postings, settings, role_categories_config)
 
-    by_id: dict[str, dict] = {}
-    for posting in matches:
-        by_id.setdefault(posting["id"], posting)
-
-    selected = list(by_id.values())
+    # Same job from two repos collapses here (by id or apply URL), so it's one row.
+    selected = dedupe_postings(matches)
     if args.max_age_days > 0:
         cutoff = (datetime.now(timezone.utc) - timedelta(days=args.max_age_days)).strftime("%Y-%m-%d")
         before = len(selected)
