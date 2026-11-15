@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-15T03:02:06.082919+00:00",
+  "last_checked": "2026-11-15T10:41:55.730073+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -17041,11 +17041,6 @@
       "first_seen": "2026-10-28T23:41:28.911707+00:00",
       "title": "Software Engineer Intern - First Play"
     },
-    "9c020ebda326eb47": {
-      "company": "ByteDance",
-      "first_seen": "2026-08-17T03:49:39.264795+00:00",
-      "title": "New Grad 2026: Software Development Engineer in Test Graduate"
-    },
     "9c04bcb81c09d7bb": {
       "company": "Safran Aircraft Engines",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
@@ -20954,11 +20949,6 @@
       "company": "Northrop Grumman",
       "first_seen": "2026-11-04T03:28:38.519551+00:00",
       "title": "Flight Software Engineer Intern"
-    },
-    "c03615609a83ea47": {
-      "company": "ByteDance",
-      "first_seen": "2026-08-17T03:49:39.264795+00:00",
-      "title": "New Grad 2026: Backend Software Engineer Graduate"
     },
     "c03e92092382f9a4": {
       "company": "Rivian",
