@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-15T17:26:12.447655+00:00",
+  "last_checked": "2026-11-15T21:59:16.633712+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -2568,6 +2568,13 @@
       "silent": true,
       "title": "Machine Learning Engineer Intern - Trust and Safety",
       "url": "https://lifeattiktok.com/search/7662672554084059445"
+    },
+    "165149e18346acb6": {
+      "company": "TikTok",
+      "first_seen": "2026-11-15T21:59:16.633712+00:00",
+      "silent": true,
+      "title": "Machine Learning Engineer Intern - E-Commerce Governance",
+      "url": "https://lifeattiktok.com/search/7674029136531015941"
     },
     "16871d32acfbb6ab": {
       "company": "Google",
@@ -13689,6 +13696,13 @@
       "first_seen": "2026-09-25T02:02:29.781333+00:00",
       "title": "Software Engineer Intern - Core, Infrastructure & Security"
     },
+    "7c57ccd0adb6a165": {
+      "company": "TikTok",
+      "first_seen": "2026-11-15T21:59:16.633712+00:00",
+      "silent": true,
+      "title": "Data Engineer Intern - Data Platform Global Live",
+      "url": "https://lifeattiktok.com/search/7674032146438162693"
+    },
     "7c734179f60e4a98": {
       "company": "SumUp",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
@@ -24722,11 +24736,6 @@
       "company": "Axon",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "Technical Support Engineer"
-    },
-    "e16b7af82850593a": {
-      "company": "General Dynamics Mission Systems",
-      "first_seen": "2026-08-17T20:22:27.941773+00:00",
-      "title": "ASIC FPGA Engineer"
     },
     "e171bea996b5df11": {
       "company": "Cloudflare",
