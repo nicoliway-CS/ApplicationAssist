@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-16T08:40:14.514427+00:00",
+  "last_checked": "2026-11-16T18:56:18.097430+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -490,11 +490,6 @@
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Cloud DevOps Engineer"
     },
-    "043e1cad5f5a7b1d": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-18T15:27:45.947507+00:00",
-      "title": "Integration/Test Engineering Intern"
-    },
     "044f85a0832c08a8": {
       "company": "General Motors",
       "first_seen": "2026-09-01T20:29:50.139147+00:00",
@@ -697,11 +692,6 @@
       "silent": true,
       "title": "Research Scientist Intern - Ads Recommendations",
       "url": "https://metacareers.com/jobs/1691709792593561"
-    },
-    "068074c1de271c2c": {
-      "company": "Electrosonic",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Lab Technician - AV"
     },
     "068e07d5e87f183c": {
       "company": "TikTok",
@@ -1839,11 +1829,6 @@
       "first_seen": "2026-10-10T15:35:57.490340+00:00",
       "title": "Software Engineering Intern"
     },
-    "10eb63b85a3b5016": {
-      "company": "Micron Technology",
-      "first_seen": "2026-08-18T16:26:58.927371+00:00",
-      "title": "Digital Design Engineer New Grad - Mixed Signal Design Engineer - HBM"
-    },
     "10f217126b39bf34": {
       "company": "Legora",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
@@ -2624,11 +2609,6 @@
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "Foreur F/H"
     },
-    "1846e66c803685b4": {
-      "company": "Northrop Grumman",
-      "first_seen": "2026-08-18T16:26:58.927371+00:00",
-      "title": "Associate Cyber Software Engineer"
-    },
     "1854883f2e0f7218": {
       "company": "Verition Fund Management",
       "first_seen": "2026-08-19T23:19:21.358666+00:00",
@@ -2909,11 +2889,6 @@
       "company": "LinkedIn",
       "first_seen": "2026-10-21T19:42:03.419180+00:00",
       "title": "Software Engineer Intern"
-    },
-    "1b181803a5c3a03c": {
-      "company": "Circet USA",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Wireless Field Technician & Coordinator"
     },
     "1b30598ecf3f65e8": {
       "company": "TikTok",
@@ -3211,11 +3186,6 @@
       "company": "Crowe",
       "first_seen": "2026-08-21T10:26:15.239909+00:00",
       "title": "AI Functional Intern"
-    },
-    "1dcc656a3eb99f96": {
-      "company": "i2G Systems",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Electronic Security Installer - Special Projects"
     },
     "1dd113536dd39881": {
       "company": "ABB",
@@ -3785,16 +3755,6 @@
       "title": "Applied Science Intern - Recommender Systems/ Information Retrieval - Machine Learning",
       "url": "https://amazon.jobs/en/jobs/10564598/2027-applied-science-internship-recommender-systems-information-retrieval-machine-learning-united-states-phd-student-science-recruiting"
     },
-    "22c6e5c23a15a498": {
-      "company": "National Reconnaissance Office",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Summer Internship - Dr. Chris Scolese"
-    },
-    "22ea704ee8139f60": {
-      "company": "TikTok",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Data Science Project Intern - Advertisement Team"
-    },
     "22f99e99ffe9d8e4": {
       "company": "Northrop Grumman",
       "first_seen": "2026-08-18T23:18:33.174995+00:00",
@@ -3836,11 +3796,6 @@
       "company": "Qblox",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "FPGA Design Engineer"
-    },
-    "235ed489137d5d52": {
-      "company": "Draper",
-      "first_seen": "2026-08-18T15:27:45.947507+00:00",
-      "title": "Full Stack Web Development Co-op - Spring 2027"
     },
     "236608b364613503": {
       "company": "Atos",
@@ -5819,11 +5774,6 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Dessinateur projeteur CREO (H/F)"
     },
-    "369f2a5460557ffc": {
-      "company": "Sherwin-Williams",
-      "first_seen": "2026-08-18T16:26:58.927371+00:00",
-      "title": "IT Database Engineer Co-op"
-    },
     "36a5f8815993c994": {
       "company": "Vanguard",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
@@ -6455,11 +6405,6 @@
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Frontend Engineer (H/F)"
     },
-    "3c9e8026bd80d7c1": {
-      "company": "Northrop Grumman",
-      "first_seen": "2026-08-18T16:26:58.927371+00:00",
-      "title": "Associate Cable Engineer Technical Services"
-    },
     "3ca7ea9b9344fde6": {
       "company": "Anduril",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
@@ -6643,11 +6588,6 @@
       "company": "Tyson Foods",
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
       "title": "IT Product Owner 1"
-    },
-    "3e507fcc875a9d00": {
-      "company": "TikTok",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Category Management Project Intern"
     },
     "3e568c0358c87902": {
       "company": "Stantec",
@@ -7023,11 +6963,6 @@
       "company": "Skild AI",
       "first_seen": "2026-08-25T09:31:34.606759+00:00",
       "title": "Robot Operator"
-    },
-    "424feedb0ae464d5": {
-      "company": "Sciemo",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Data Scientist"
     },
     "425d6561849e50b6": {
       "company": "General Dynamics Mission Systems",
@@ -8112,11 +8047,6 @@
       "company": "Manutan",
       "first_seen": "2026-08-26T10:31:24.621022+00:00",
       "title": "Commercial sédentaire H/F"
-    },
-    "4c9b025b9b116b2a": {
-      "company": "ADT",
-      "first_seen": "2026-08-18T16:26:58.927371+00:00",
-      "title": "Service Technician"
     },
     "4c9b3228b62090fd": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
@@ -9431,11 +9361,6 @@
       "first_seen": "2026-11-07T14:26:05.213766+00:00",
       "title": "Software Engineer Intern - SI Reinforcement Learning"
     },
-    "587fb180a8ddb0c5": {
-      "company": "Physicians Mutual",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Actuarial Opportunities - Pet Insurance Product Management"
-    },
     "5880af2ca3c69898": {
       "company": "Augsburg University",
       "first_seen": "2026-08-19T01:01:59.073134+00:00",
@@ -9620,11 +9545,6 @@
       "company": "Resideo",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
       "title": "Firmware Engineer 1"
-    },
-    "5a4479f4c4818a22": {
-      "company": "Zoox",
-      "first_seen": "2026-08-18T12:38:43.249448+00:00",
-      "title": "Student Worker - Data Analyst"
     },
     "5a46cfd1b8419bd8": {
       "company": "EDF",
@@ -9982,11 +9902,6 @@
       "first_seen": "2026-11-11T23:09:19.230384+00:00",
       "title": "Software Engineering Intern"
     },
-    "5dc1603b49dbfc1d": {
-      "company": "Kaukahi",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Geospatial Analyst"
-    },
     "5dc25e70b033724e": {
       "company": "Catalist",
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
@@ -10043,11 +9958,6 @@
       "company": "Datadog",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Manager I, Applied AI - Distilled Models"
-    },
-    "5e3c9458d5ce957a": {
-      "company": "Zoox",
-      "first_seen": "2026-08-18T12:38:43.249448+00:00",
-      "title": "Analyst Student Worker"
     },
     "5e63b1c4ab15fc13": {
       "company": "Sopra Steria",
@@ -10132,11 +10042,6 @@
       "company": "NTT DATA",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Semantic Software Engineer"
-    },
-    "5f33ec78749784ef": {
-      "company": "Pillar Innovations",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Panel Shop Technician 1 - Manufacturing & Installation"
     },
     "5f69aa7a9cb3cf2d": {
       "company": "Canon",
@@ -10223,11 +10128,6 @@
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Junior Medical Science Liaison Asma (Sicilia, Calabria) (Sost. Maternità)"
-    },
-    "6059b01d4d9c8491": {
-      "company": "WOOD Consulting Services",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Software Engineer 0 - Entry-Level Software Engineering"
     },
     "607cd66f1dba6927": {
       "company": "RTX",
@@ -10357,11 +10257,6 @@
       "company": "Tesla",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Embedded Systems Software Engineer Intern - AI Platforms"
-    },
-    "6189d1af6200c3f7": {
-      "company": "Oakland County, Michigan",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Engineering Aide"
     },
     "619b2811deb815bd": {
       "company": "Link Consulting",
@@ -11645,11 +11540,6 @@
       "company": "MARGO",
       "first_seen": "2026-09-01T13:02:29.035756+00:00",
       "title": "Machine Learning Engineer – Practice IA MARGO"
-    },
-    "6d20a6c1e832b38c": {
-      "company": "TikTok",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Software Engineer Intern - TikTok Search Data Infrastructure"
     },
     "6d2af27be08f9e46": {
       "company": "Scientific Games",
@@ -13021,11 +12911,6 @@
       "company": "Deloitte",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "Chargé de Marketing Stratégie & Performance F/H - (CDD 6 mois)"
-    },
-    "79e9ddb4243b43b2": {
-      "company": "Metal Exchange",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Recycled Metals Buyer - Non Ferrous Trading Division"
     },
     "79ecc2a5bdda30fe": {
       "company": "Echo Global Logistics",
@@ -15002,11 +14887,6 @@
       "first_seen": "2026-10-05T22:56:53.176662+00:00",
       "title": "Hardware Engineer Intern"
     },
-    "8d97941a459ee1c8": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-18T15:27:45.947507+00:00",
-      "title": "Application Developer Associate"
-    },
     "8db0b5d1e5b31247": {
       "company": "Pennsylvania State University",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -16094,11 +15974,6 @@
       "first_seen": "2026-09-19T01:46:37.766972+00:00",
       "title": "Software Engineer Intern"
     },
-    "97d278e48bf03b92": {
-      "company": "TikTok",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Software Engineer Intern - TikTok Search Data Infra"
-    },
     "97e0e62c32d81462": {
       "company": "GE Aerospace",
       "first_seen": "2026-08-19T01:01:59.073134+00:00",
@@ -16751,11 +16626,6 @@
       "company": "Applied Materials",
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
       "title": "Physicist/Scientist - Advanced Degree"
-    },
-    "9eb8f278ff13cbb6": {
-      "company": "Duluth Trading Company",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Seasonal Retail Associate"
     },
     "9ebb87fa7e3a27be": {
       "company": "Decathlon",
@@ -17959,11 +17829,6 @@
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "AGENT EN 2ND OEUVRE EN REGIE INFRA"
-    },
-    "aa2dad3d048ef001": {
-      "company": "TikTok",
-      "first_seen": "2026-08-18T10:24:18.710632+00:00",
-      "title": "Product Manager Intern - Business Integrity"
     },
     "aa391dbdd0617920": {
       "company": "Tesla",
@@ -19731,11 +19596,6 @@
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Research Scientist - Global Frontier Tech Recruitment Program"
     },
-    "bb2fefa2c73e4c1e": {
-      "company": "Publicis Groupe",
-      "first_seen": "2026-08-18T11:22:10.678797+00:00",
-      "title": "Search Analyst - SEM"
-    },
     "bb31674349f971a7": {
       "company": "Mayflower",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
@@ -20808,11 +20668,6 @@
       "first_seen": "2026-08-19T01:01:59.073134+00:00",
       "title": "Digital & AI Transformation Intern 1 - Internship Program"
     },
-    "c5d0a4df6b48287d": {
-      "company": "CAE",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Simulator Technician"
-    },
     "c5d600a77ca2d710": {
       "company": "Meritis",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
@@ -20852,11 +20707,6 @@
       "company": "Analog Devices",
       "first_seen": "2026-08-21T23:20:06.012597+00:00",
       "title": "Product Engineer - Product Development"
-    },
-    "c65329a12f12e5a7": {
-      "company": "WOOD Consulting Services",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Software Engineer"
     },
     "c655b75530f07146": {
       "company": "Helsing",
@@ -21121,11 +20971,6 @@
       "silent": true,
       "title": "Part time Software Engineer Co-op - Remote",
       "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-CO-AURORA-S75--16800-E-Centretech-Pkwy--BLDG-S75/Part-time-Software-Engineer-Co-op--Remote-_01883452"
-    },
-    "c87fc73629d6dece": {
-      "company": "Electronic Systems",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Printer Deployment Technician"
     },
     "c88aca88aab7fa1d": {
       "company": "Naboo",
@@ -21438,11 +21283,6 @@
       "first_seen": "2026-08-21T06:40:06.643649+00:00",
       "title": "Field Service Technician"
     },
-    "cb9b20d3a84dddef": {
-      "company": "State Street",
-      "first_seen": "2026-08-18T16:26:58.927371+00:00",
-      "title": "Software Engineer New Grad"
-    },
     "cb9b941140afa4ef": {
       "company": "CESI",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
@@ -21623,11 +21463,6 @@
       "company": "L3Harris Technologies",
       "first_seen": "2026-10-21T10:40:27.777572+00:00",
       "title": "Electrical Engineering Intern"
-    },
-    "cccd223d150214d6": {
-      "company": "Samsung",
-      "first_seen": "2026-08-18T13:39:12.604133+00:00",
-      "title": "Spinner Technician - Spinner Equipment"
     },
     "ccea80b68237728f": {
       "company": "Openai",
@@ -22158,11 +21993,6 @@
       "company": "Microsoft",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Hardware Engineer Intern"
-    },
-    "d19d21a973e4da18": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Software Engineer Intern"
     },
     "d1acda190e4e5fff": {
       "company": "ByteDance",
@@ -24749,11 +24579,6 @@
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Architecte data  (F/H)"
     },
-    "e8e453584a7afa0f": {
-      "company": "Johnson Controls",
-      "first_seen": "2026-08-18T15:27:45.947507+00:00",
-      "title": "Software Engineer 1 - Data Center Engineering"
-    },
     "e8f06e4ca63d6a7f": {
       "company": "Analog Devices",
       "first_seen": "2026-11-12T11:51:45.625509+00:00",
@@ -26441,11 +26266,6 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Agente Call Center"
     },
-    "f7f820cebd275b40": {
-      "company": "Electro Rent",
-      "first_seen": "2026-08-18T09:28:37.729706+00:00",
-      "title": "Electronic Technician 1"
-    },
     "f7fa8d6d7c5cb0d4": {
       "company": "BP",
       "first_seen": "2026-09-04T05:26:51.111189+00:00",
@@ -26544,11 +26364,6 @@
       "company": "Microsoft",
       "first_seen": "2026-10-23T23:42:16.991557+00:00",
       "title": "Software Engineer Intern - Security & Identity"
-    },
-    "f91d785b96e306b3": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-18T15:27:45.947507+00:00",
-      "title": "Associate Integration/Test Engineer"
     },
     "f924792ed8ee988b": {
       "company": "Micron Technology",
