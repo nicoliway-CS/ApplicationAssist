@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-17T10:55:31.950522+00:00",
+  "last_checked": "2026-11-17T19:38:48.801475+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -1567,11 +1567,6 @@
       "first_seen": "2026-08-31T22:23:38.257373+00:00",
       "title": "R&D Applications"
     },
-    "0ef103b784f0ba42": {
-      "company": "EBSCO",
-      "first_seen": "2026-08-19T11:21:17.823512+00:00",
-      "title": "Product Manager - AI Exchange"
-    },
     "0efdc50e7172a42d": {
       "company": "Legora",
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
@@ -1699,11 +1694,6 @@
       "company": "Workday",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "Data Platform Engineer - Cybersecurity"
-    },
-    "0fe60e525bd760a0": {
-      "company": "Honeywell",
-      "first_seen": "2026-08-19T12:38:53.888025+00:00",
-      "title": "Application Engineer 1 - Training - Building Automation - CX Learning & Enablement"
     },
     "0febce23fdb99c5f": {
       "company": "ByteDance",
@@ -2724,11 +2714,6 @@
       "first_seen": "2026-08-20T23:22:07.393129+00:00",
       "title": "Data Engineer Intern"
     },
-    "1a4e8c6c8d71e96c": {
-      "company": "Aramark",
-      "first_seen": "2026-08-19T12:38:53.888025+00:00",
-      "title": "Student Hospitality Manager"
-    },
     "1a57c4377d867351": {
       "company": "RTX",
       "first_seen": "2026-10-08T00:29:21.849064+00:00",
@@ -3390,11 +3375,6 @@
       "company": "Just Eat Takeaway.com",
       "first_seen": "2026-08-28T08:54:56.187303+00:00",
       "title": "Country Analytics - Junior Data Engineer"
-    },
-    "209c33545eae0603": {
-      "company": "SAM",
-      "first_seen": "2026-08-19T12:38:53.888025+00:00",
-      "title": "Geospatial Field Technician 1"
     },
     "20a9be820053f133": {
       "company": "Microsoft",
@@ -7150,11 +7130,6 @@
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Electrical Engineer"
     },
-    "4658a4a489f99c04": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-19T19:21:53.032708+00:00",
-      "title": "Associate Software Engineer - Software Engineering"
-    },
     "465d46b8086fb1fe": {
       "company": "Naval Group [FR]",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
@@ -8024,6 +7999,13 @@
       "silent": true,
       "title": "Applied Scientist Intern",
       "url": "https://jobs.ashbyhq.com/ramp/b39ceb08-a0a7-4f8b-a760-2fb88e209956"
+    },
+    "4dfa435e6738f8f7": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Deep Learning Computer Architecture Intern",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning-Computer-Architecture_JR2023491"
     },
     "4e11fa52d86bf72a": {
       "company": "Amgen",
@@ -11100,11 +11082,6 @@
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Forward Deployed Engineer - Global Public Sector"
     },
-    "6b253016cfcae01e": {
-      "company": "Northrop Grumman",
-      "first_seen": "2026-08-19T14:29:22.950665+00:00",
-      "title": "Software Engineer Intern - Aeronautics Systems"
-    },
     "6b2dd2dacdf50526": {
       "company": "RATP Digital & Innovation",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
@@ -11386,6 +11363,13 @@
       "title": "AI Research Intern",
       "url": "https://salesforce.wd12.myworkdayjobs.com/Futureforce_Internships/job/California---Palo-Alto/Summer-2027-Intern---AI-Research_JR365111"
     },
+    "6ea6b1b937d4f330": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Systems Software Engineering Intern",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Systems-Software-Engineering_JR2023492"
+    },
     "6ea6c1ce9cb06ca6": {
       "company": "Hello Pomelo",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
@@ -11415,11 +11399,6 @@
       "company": "Armadin",
       "first_seen": "2026-10-14T00:40:43.533895+00:00",
       "title": "Frontend Engineer Intern - Member of Technical Staff"
-    },
-    "6eee21183cd00cb0": {
-      "company": "Glass Roots Construction",
-      "first_seen": "2026-08-19T19:21:53.032708+00:00",
-      "title": "Fiber Optic Splicer"
     },
     "6ef502b61f7af0a1": {
       "company": "Adyen",
@@ -12087,6 +12066,13 @@
       "first_seen": "2026-09-14T22:47:49.941818+00:00",
       "title": "Hardware Engineer Intern"
     },
+    "74c10f7a62d411b8": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Mixed Signal Design Intern",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Mixed-Signal-Design_JR2023502"
+    },
     "74dcbd47fad5a9dc": {
       "company": "Stime",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
@@ -12633,11 +12619,6 @@
       "company": "B-HIVE",
       "first_seen": "2026-08-26T08:39:03.715410+00:00",
       "title": "Ingénieur Méthodes en Génie Civil H/F"
-    },
-    "7a98264eff5f7bd6": {
-      "company": "Northrop Grumman",
-      "first_seen": "2026-08-19T13:40:57.362875+00:00",
-      "title": "Cabling & Harnessing Technician - Level 2 or 3"
     },
     "7aaaa4701a6e6d22": {
       "company": "Western Digital",
@@ -15639,11 +15620,6 @@
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Agent Technique 3 H/F"
     },
-    "9871cac03eb978f4": {
-      "company": "Micron Technology",
-      "first_seen": "2026-08-19T11:21:17.823512+00:00",
-      "title": "Design Engineer New Grad"
-    },
     "987266bbd428cbff": {
       "company": "Talisker",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -15903,6 +15879,13 @@
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
       "title": "CHEF DE PROJET EN MAITRISE D'OEUVRE"
+    },
+    "9bceadc6efb2e5e2": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Hardware ASIC Design Intern - Hardware",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-ASIC-Design_JR2023486"
     },
     "9bfdf5b9705e2b4c": {
       "company": "LinkedIn",
@@ -16431,11 +16414,6 @@
       "first_seen": "2026-10-01T16:43:16.046380+00:00",
       "title": "Software Engineer Intern"
     },
-    "a0bdd7ae43d03bf3": {
-      "company": "Marmon Holdings",
-      "first_seen": "2026-08-19T14:29:22.950665+00:00",
-      "title": "Data & Process Automation Intern - Duty Drawback"
-    },
     "a0cf7b158cbcde93": {
       "company": "General Dynamics Mission Systems",
       "first_seen": "2026-11-05T13:33:06.335688+00:00",
@@ -16517,6 +16495,13 @@
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
       "title": "AI Builder, Emerging Talent - UK & Ireland Market"
+    },
+    "a172aec24a717cd4": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Hardware Physical Design / VLSI Intern",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Physical-Design---VLSI_JR2023501"
     },
     "a17dc41859dc6642": {
       "company": "Northrop Grumman",
@@ -16903,6 +16888,13 @@
       "company": "Mollie",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Full Stack Engineer II"
+    },
+    "a5ae96e0e5542de0": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Hardware Engineering Intern",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Hardware-Engineering_JR2023508-1"
     },
     "a5b33dd45ea08e5d": {
       "company": "Meta",
@@ -17380,6 +17372,12 @@
       "company": "Neo4j",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Software Engineer - Aura, Instances"
+    },
+    "aa4fa4230d9360dd": {
+      "company": "Analog Devices",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "title": "Embedded Hardware & Firmware Intern, Health Solutions",
+      "url": "https://go.vansh.nyc/1Bm"
     },
     "aa5b3e22cd99ba0a": {
       "company": "Northrop Grumman",
@@ -18460,6 +18458,13 @@
       "title": "Software Engineer Intern - 2027 - Austin - TX",
       "url": "https://boards.greenhouse.io/cloudflare/jobs/8199958?gh_jid=8199958"
     },
+    "b503d0840a231f86": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Software Engineering Intern",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Software-Engineering_JR2023495"
+    },
     "b516e0465aef8b4d": {
       "company": "Microsoft",
       "first_seen": "2026-11-04T03:28:38.519551+00:00",
@@ -18665,11 +18670,6 @@
       "company": "Eureden",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Saisonnier pour la collecte de maïs H/F"
-    },
-    "b7204ce28a0a81bb": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-19T19:21:53.032708+00:00",
-      "title": "Application Developer Associate - Enterprise Data and AI"
     },
     "b726341111f48e91": {
       "company": "Cummins",
@@ -20337,6 +20337,13 @@
       "company": "RTX",
       "first_seen": "2026-08-24T23:19:20.028808+00:00",
       "title": "Software Engineer 1"
+    },
+    "c7dea0fa1024e0c6": {
+      "company": "ByteDance",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Machine Learning Engineer Intern - E-Commerce Risk Control - PhD",
+      "url": "https://jobs.bytedance.com/en/position/7675478684795881781/detail"
     },
     "c7e1544263379b39": {
       "company": "Link Consulting",
@@ -22946,10 +22953,12 @@
       "first_seen": "2026-08-21T16:29:13.769073+00:00",
       "title": "Software Development Intern"
     },
-    "df60ef5c5b8eee08": {
-      "company": "Bosch Home Comfort",
-      "first_seen": "2026-08-19T19:21:53.032708+00:00",
-      "title": "Electrochemistry Modeling Intern"
+    "df54efa744a87354": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Software Engineer: Security & Identity Intern Opportunities for University Students - Redmond",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393556922930"
     },
     "df6ed4f099bdb1b8": {
       "company": "Amazon",
@@ -23450,11 +23459,6 @@
       "company": "Noblis",
       "first_seen": "2026-08-20T16:30:52.119549+00:00",
       "title": "Biometrics Intelligence Analyst"
-    },
-    "e4302ce765bb121f": {
-      "company": "ASML",
-      "first_seen": "2026-08-19T12:38:53.888025+00:00",
-      "title": "Optical Fabrication Technician - CWW Front End"
     },
     "e44740c6aad35412": {
       "company": "AMD",
@@ -24344,11 +24348,6 @@
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Product Analyst Associate - Accounting Systems"
     },
-    "ecd3d11e964a8c59": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-19T19:21:53.032708+00:00",
-      "title": "Associate – Software Engineer"
-    },
     "ecfc4ec1b0d937a4": {
       "company": "NTT DATA",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -24618,6 +24617,13 @@
       "silent": true,
       "title": "Software Engineering Intern - Vehicle Controls - Summer 2027",
       "url": "https://jobs.ashbyhq.com/rivianvw.tech/cb3559f0-2514-45f1-8d36-a11fa1dded0c"
+    },
+    "ef05512eb703cf0c": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-17T19:38:48.801475+00:00",
+      "silent": true,
+      "title": "Deep Learning Intern - Deep Learning Applications and Algorithms - Deep Learning Frameworks and Libraries",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/NVIDIA-2027-Internships--Deep-Learning_JR2023497-1"
     },
     "ef184a7be8103a45": {
       "company": "Micron Technology",
