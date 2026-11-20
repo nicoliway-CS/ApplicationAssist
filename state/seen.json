@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-20T04:12:50.934535+00:00",
+  "last_checked": "2026-11-20T12:59:04.440315+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -69,6 +69,12 @@
       "company": "Rivian",
       "first_seen": "2026-10-01T02:35:39.147997+00:00",
       "title": "Software Engineer Intern Co-op - Applied AI"
+    },
+    "00acfa559f2a32d1": {
+      "company": "Honeywell Aerospace",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "title": "Embedded Engineer Intern",
+      "url": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119843"
     },
     "00b231df21902433": {
       "company": "The Product Crew",
@@ -2454,11 +2460,6 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Learning Experience Designer - Leadership M/f/d"
     },
-    "198d816ede8b93b6": {
-      "company": "Analog Devices",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Systems Integration Engineer Intern"
-    },
     "1996634eeeb9b404": {
       "company": "Amazon",
       "first_seen": "2026-10-23T02:06:28.612340+00:00",
@@ -2584,6 +2585,12 @@
       "silent": true,
       "title": "Research Engineer Intern - Agentic Systems & AI Infrastructure - Tiktok-Generalized Arch",
       "url": "https://lifeattiktok.com/search/7667935568626043141"
+    },
+    "1ad87b86d511ef72": {
+      "company": "Honeywell Aerospace",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "title": "Semiconductor Engineer Intern",
+      "url": "https://go.vansh.nyc/1E3"
     },
     "1afdf75be2e1f1be": {
       "company": "TikTok",
@@ -5919,11 +5926,6 @@
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Adjoint Responsable Travaux Neufs H/F"
     },
-    "3e04e1fb5a424ebf": {
-      "company": "BP",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Reservoir Engineer Intern - Summer Internship"
-    },
     "3e168099fc7ceab1": {
       "company": "Hewlett Packard Enterprise",
       "first_seen": "2026-10-27T06:53:41.811461+00:00",
@@ -6221,11 +6223,6 @@
       "company": "Hewlett Packard Enterprise",
       "first_seen": "2026-10-23T07:59:07.938716+00:00",
       "title": "Electrical Hardware Engineer Intern"
-    },
-    "414bf491c7c3fcc3": {
-      "company": "TRIMEDX",
-      "first_seen": "2026-08-22T10:19:23.703368+00:00",
-      "title": "Imaging Engineer 1"
     },
     "41573e2ead3b230b": {
       "company": "Bonial",
@@ -9107,6 +9104,12 @@
       "first_seen": "2026-08-25T17:28:26.650732+00:00",
       "title": "Site Reliability Engineer - Observability"
     },
+    "5ea68f9f82ab538b": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "title": "Finance AI Engineering Intern",
+      "url": "https://go.vansh.nyc/1Eh"
+    },
     "5ea906adcf28e1d0": {
       "company": "Wise",
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
@@ -9463,6 +9466,12 @@
       "silent": true,
       "title": "Software Engineer Intern - CIS Knowledge Bank",
       "url": "https://jobs.bytedance.com/en/position/7675345626188335365/detail"
+    },
+    "628181d2b9dd9afc": {
+      "company": "Honeywell Aerospace",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "title": "Semiconductor Engineer Intern",
+      "url": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119888"
     },
     "628690341eab5828": {
       "company": "KLA",
@@ -10260,6 +10269,12 @@
       "company": "Tesla",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Data Collection Operator - Optimus - Afternoon Shift"
+    },
+    "6a2cade8a9927f03": {
+      "company": "Honeywell Aerospace",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "title": "Software Engineer Intern",
+      "url": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119718"
     },
     "6a2fcbd428e0489d": {
       "company": "Cohere",
@@ -11477,11 +11492,6 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Architecte logiciel d'IHM Cockpit expérimenté"
-    },
-    "76ae9aa3cba53b38": {
-      "company": "Tesla",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Software Engineer - Traction Control - Chassis Controls"
     },
     "76ca7d1ba476c80e": {
       "company": "L3Harris Technologies",
@@ -12851,6 +12861,13 @@
       "company": "Veepee",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
       "title": "Android Developer - Core Team (W/M/X) (copy)"
+    },
+    "86713e91dc69b737": {
+      "company": "TikTok",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "silent": true,
+      "title": "Software Engineer Intern",
+      "url": "https://lifeattiktok.com/search/7676276048527214901"
     },
     "86714a0539d6d813": {
       "company": "TikTok",
@@ -15114,11 +15131,6 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Ingénieur V&V système Contrôle Aérien / ATM (F/H)"
     },
-    "9e6fc3c76211f6d7": {
-      "company": "Northrop Grumman",
-      "first_seen": "2026-08-22T09:23:17.789186+00:00",
-      "title": "Software Systems Engineer"
-    },
     "9e9bb10fa768923b": {
       "company": "Back Market",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -16576,11 +16588,6 @@
       "company": "Capgemini",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieure / Ingénieur logiciel fullstack expérimenté"
-    },
-    "ad34ae57b327ef80": {
-      "company": "AMERICAN SYSTEMS",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Field Service Technician Intern - Transitioning Military"
     },
     "ad78a52e93c61620": {
       "company": "LinkedIn",
@@ -18167,11 +18174,6 @@
       "title": "AI/ML Developer Intern",
       "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/San-Jose-California/AI-ML-Developer-Intern_1217413"
     },
-    "be592607a6d8bd9a": {
-      "company": "Analog Devices",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Algorithm Development Engineer Intern"
-    },
     "be75636260ee118d": {
       "company": "Textron",
       "first_seen": "2026-09-08T23:43:19.497123+00:00",
@@ -19675,11 +19677,6 @@
       "first_seen": "2026-11-10T07:49:39.601951+00:00",
       "title": "Software Development Intern"
     },
-    "ce03e6aaf8546d6a": {
-      "company": "Northrop Grumman",
-      "first_seen": "2026-08-22T09:23:17.789186+00:00",
-      "title": "Software Engineer"
-    },
     "ce0c12c1ec4d87e2": {
       "company": "mc2i",
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
@@ -20118,6 +20115,12 @@
       "company": "N26",
       "first_seen": "2026-08-26T18:56:56.150816+00:00",
       "title": "iOS Engineer - Digital Identity"
+    },
+    "d26c72572923aa0f": {
+      "company": "Cisco",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "title": "AI Researcher II Intern",
+      "url": "https://go.vansh.nyc/1Eb"
     },
     "d28e87c8f6c1a7fd": {
       "company": "Cologix",
@@ -20935,11 +20938,6 @@
       "company": "Daktronics",
       "first_seen": "2026-08-24T21:24:57.651805+00:00",
       "title": "Hardware Design Co-op Intern - Firmware"
-    },
-    "d994d0d6f7ce193f": {
-      "company": "Hitachi",
-      "first_seen": "2026-08-22T11:17:38.706195+00:00",
-      "title": "Engineering Intern"
     },
     "d99b9a541ff835bc": {
       "company": "Thales",
@@ -21814,6 +21812,12 @@
       "company": "Stripe",
       "first_seen": "2026-09-02T00:56:04.972795+00:00",
       "title": "Software Engineer - New Grad"
+    },
+    "e2dca3e87e4ca200": {
+      "company": "Honeywell Aerospace",
+      "first_seen": "2026-11-20T12:59:04.440315+00:00",
+      "title": "AI Software Engineer Intern",
+      "url": "https://icfcjb.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/Aerospace/job/119880"
     },
     "e2dd12d629fcbae4": {
       "company": "ViaSat",
@@ -24075,11 +24079,6 @@
       "title": "Research Scientist Intern - Physical Engineering AI",
       "url": "https://metacareers.com/jobs/1081255008061721"
     },
-    "f8b8eefd89fecc20": {
-      "company": "Northrop Grumman",
-      "first_seen": "2026-08-22T09:23:17.789186+00:00",
-      "title": "Software Engineer - COR"
-    },
     "f8daa2711843f385": {
       "company": "SAFRAN POWER UNITS",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
@@ -24128,11 +24127,6 @@
       "silent": true,
       "title": "Software Engineering Summer Intern - Masters - Santa Clara - CA",
       "url": "https://amat.wd1.myworkdayjobs.com/en-US/external/job/Santa-ClaraCA/Software-Engineering-Summer-Intern--Masters---Santa-Clara--CA-_R2630705"
-    },
-    "f939d97e38757c76": {
-      "company": "Maven Securities",
-      "first_seen": "2026-08-22T09:23:17.789186+00:00",
-      "title": "Graduate Developer"
     },
     "f93b00aee3a0c5bc": {
       "company": "Wake It Up",
