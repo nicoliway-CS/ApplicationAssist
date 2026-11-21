@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-21T02:06:07.264563+00:00",
+  "last_checked": "2026-11-21T09:41:31.936757+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -14015,11 +14015,6 @@
       "first_seen": "2026-09-17T23:09:39.530982+00:00",
       "title": "SRAM Software Engineer Intern"
     },
-    "926d7f1a7d74f500": {
-      "company": "Tesla",
-      "first_seen": "2026-08-23T09:24:09.197614+00:00",
-      "title": "Vision Engineering Technician - Vision Automation - Semi"
-    },
     "92815a964e3aa0ae": {
       "company": "ByteDance",
       "first_seen": "2026-11-11T01:31:20.242746+00:00",
@@ -16581,11 +16576,6 @@
       "company": "ASML",
       "first_seen": "2026-11-03T10:10:23.520243+00:00",
       "title": "Electrical Engineer Co-op Intern"
-    },
-    "ac81dabe3a691d7a": {
-      "company": "Maven Securities",
-      "first_seen": "2026-08-23T09:24:09.197614+00:00",
-      "title": "Developer New Grad"
     },
     "ac8a569fe71ec196": {
       "company": "Sopra Steria",
@@ -24746,6 +24736,13 @@
       "company": "GoCardless",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Credit Risk Administrator"
+    },
+    "fea0398c9518360d": {
+      "company": "TikTok",
+      "first_seen": "2026-11-21T09:41:31.936757+00:00",
+      "silent": true,
+      "title": "Software Engineer Project Intern - Content AI Infrastructure",
+      "url": "https://lifeattiktok.com/search/7621299118434961669"
     },
     "fea8aedb01dde190": {
       "company": "NXP Semiconductors",
