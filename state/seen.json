@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-21T09:41:31.936757+00:00",
+  "last_checked": "2026-11-21T16:57:45.489379+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -5318,11 +5318,6 @@
       "title": "Software Engineering - 2026 Spring Co-Op",
       "url": "https://motorolasolutions.wd5.myworkdayjobs.com/en-US/careers/job/Chicago-IL/Software-Engineering---2026-Spring-Co-Op_R67662"
     },
-    "3792da02bc0f39ab": {
-      "company": "KET-Kentucky Educational Television",
-      "first_seen": "2026-08-23T14:19:45.240815+00:00",
-      "title": "Television Broadcast Engineer"
-    },
     "37dbdf075eb1698a": {
       "company": "MongoDB",
       "first_seen": "2026-08-27T02:52:09.126891+00:00",
@@ -7272,6 +7267,12 @@
       "company": "Microsoft",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Firmware Engineer Intern"
+    },
+    "4c217482a5e1615c": {
+      "company": "Cadence Design Systems",
+      "first_seen": "2026-11-21T16:57:45.489379+00:00",
+      "title": "Software Engineer Intern - Circuit Simulation infrastructure",
+      "url": "https://cadence.wd1.myworkdayjobs.com/Univ_Careers/job/SAN-JOSE/Software-Engineering-Intern---Circuit-Simulation-infrastructure_R57254"
     },
     "4c54d36145f01412": {
       "company": "Seagate Technology",
@@ -9590,11 +9591,6 @@
       "company": "Société Générale",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
       "title": "Chef de projet IRB Model Change"
-    },
-    "632f87099f70e507": {
-      "company": "Eurofins",
-      "first_seen": "2026-08-23T10:19:36.681192+00:00",
-      "title": "Business Intelligence Intern"
     },
     "6330f26f13b7599a": {
       "company": "Elastic",
@@ -17041,11 +17037,6 @@
       "company": "Deliveryhero",
       "first_seen": "2026-09-03T12:33:33.765462+00:00",
       "title": "Data Analyst II Rider Experience"
-    },
-    "b19f4c481b6923a4": {
-      "company": "Mach Industries",
-      "first_seen": "2026-08-23T14:19:45.240815+00:00",
-      "title": "Engineering Co-op"
     },
     "b1a126d70fe51b6a": {
       "company": "Meta",
