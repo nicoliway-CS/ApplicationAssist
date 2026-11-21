@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-20T20:59:45.715393+00:00",
+  "last_checked": "2026-11-21T02:06:07.264563+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -3956,6 +3956,12 @@
       "first_seen": "2026-09-02T00:56:04.972795+00:00",
       "title": "New Grad 2026: Software Engineer"
     },
+    "289fc6eb3031a395": {
+      "company": "Rivian",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "Software Engineering Intern, AI Platform, Autonomy",
+      "url": "https://go.vansh.nyc/1F3"
+    },
     "289fe7a428139767": {
       "company": "Temporis Experts & Cadres",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -4179,6 +4185,12 @@
       "company": "Thales",
       "first_seen": "2026-08-30T13:29:49.474134+00:00",
       "title": "SRE Trusted Platform"
+    },
+    "2b0b9f7b17e84824": {
+      "company": "Raytheon",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "Software Engineering Intern - Summer 2027",
+      "url": "https://globalhr.wd5.myworkdayjobs.com/en-US/rec_rtx_ext_gateway/job/US-IN-INDIANAPOLIS-206--3939-Priority-Way-S-Dr--PRIORITY-BLDG-6/Software-Engineering-Intern--Summer-2027-_01890571"
     },
     "2b179e53d0edb8b7": {
       "company": "Groupement Mousquetaires",
@@ -4681,11 +4693,6 @@
       "company": "EDF",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Ingénieur/Ingénieure Fonctionnement Interface Réseau HTB F/H"
-    },
-    "3085941b817a5274": {
-      "company": "GlobalFoundries",
-      "first_seen": "2026-08-22T23:16:59.642605+00:00",
-      "title": "Technology Architecture and Competitiveness Engineer New Grad - Structural Analysis"
     },
     "3087cca9d17b3267": {
       "company": "Artelys",
@@ -5571,6 +5578,13 @@
       "company": "Micron Technology",
       "first_seen": "2026-09-18T23:40:19.202391+00:00",
       "title": "ASIC Digital Design Intern"
+    },
+    "3a0be5dffc69f7d5": {
+      "company": "Meta",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "silent": true,
+      "title": "Software Engineer Intern - Machine Learning - PhD",
+      "url": "https://metacareers.com/jobs/2180490782513668"
     },
     "3a2a44ee849fe894": {
       "company": "Deliveroo",
@@ -7265,6 +7279,12 @@
       "title": "Embedded Firmware Intern, Research Group",
       "url": "https://go.vansh.nyc/1zt"
     },
+    "4c5e9e54bee704a3": {
+      "company": "Hewlett Packard Enterprise",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "AI Engineering Technical Intern",
+      "url": "https://hpe.wd5.myworkdayjobs.com/en-US/jobsathpe/job/Sunnyvale-California/AI-Engineering-Technical-Intern_1218702"
+    },
     "4c6bb674bbf76538": {
       "company": "Liberty Mutual",
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
@@ -8138,6 +8158,12 @@
       "company": "Microsoft",
       "first_seen": "2026-08-24T23:19:20.028808+00:00",
       "title": "Data Center Technician"
+    },
+    "54e0f892d9455e74": {
+      "company": "Microsoft",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "Research Intern - AI /Machine Learning Numerics & Efficiency",
+      "url": "https://apply.careers.microsoft.com/careers/job/1970393557076215"
     },
     "54eed3a2b74f41de": {
       "company": "ASML",
@@ -14811,6 +14837,12 @@
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
       "title": "Manager, SAP Platform & Integrations"
     },
+    "9aef1e7703471dcf": {
+      "company": "Lucid Motors",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "AI/ML Intern - Vehicle Infotainment - Summer 2027",
+      "url": "https://lucidmotors.com/careers/search/5290923007?gh_jid=5290923007"
+    },
     "9af7b1269acc55fd": {
       "company": "Noota",
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
@@ -15258,6 +15290,12 @@
       "company": "RTX",
       "first_seen": "2026-09-08T23:43:19.497123+00:00",
       "title": "Software Engineer Intern - Summer/Fall 2027 - Mission Engineering / Operational Analysis"
+    },
+    "9fd76a854ccc537c": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "ASIC Verification Engineer Intern",
+      "url": "https://wd5.myworkdaysite.com/recruiting/microchiphr/External/job/CA---San-Jose---3870-N-First-St/Intern---Engineering--ASIC-Verification-_R4973-26"
     },
     "9fdc3f7d4d23e7e0": {
       "company": "Skydio",
@@ -15708,6 +15746,12 @@
       "company": "AstraZeneca",
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Vice President,  Investment Decisions, Rare Disease"
+    },
+    "a4a6d639293830b9": {
+      "company": "Tesla",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "Software Engineer Intern - SI Hardware Architecture Simulation",
+      "url": "https://tesla.com/careers/search/job/290756"
     },
     "a4a8c86b7c4f12c5": {
       "company": "Legora",
@@ -18711,11 +18755,6 @@
       "company": "Pennylane",
       "first_seen": "2026-08-26T04:35:44.652509+00:00",
       "title": "Customer Support Specialist - Contabilidad - España 🇪🇸"
-    },
-    "c467ac11e2ec4494": {
-      "company": "Avride",
-      "first_seen": "2026-08-23T01:06:25.420948+00:00",
-      "title": "Robot Service Technician Assistant"
     },
     "c468b9f464257707": {
       "company": "PAYPLUG",
@@ -23116,6 +23155,13 @@
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Forward Deployed Engineer"
     },
+    "ef581ffc6f4447ba": {
+      "company": "General Dynamics Information Technology",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "silent": true,
+      "title": "AI/ML Data Science and Engineering Intern",
+      "url": "https://go.vansh.nyc/1hS"
+    },
     "ef586b71e824fff5": {
       "company": "Gcore",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -23399,6 +23445,12 @@
       "silent": true,
       "title": "Machine Learning Engineer Intern - Search Quality",
       "url": "https://lifeattiktok.com/search/7665475460339665157"
+    },
+    "f1ed0b2ea344b5b4": {
+      "company": "ServiceNow",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "Security Software Engineer Intern",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162827365"
     },
     "f1f26b2112858ce9": {
       "company": "Nokia",
@@ -24764,6 +24816,12 @@
       "company": "Skydio",
       "first_seen": "2026-10-23T23:42:16.991557+00:00",
       "title": "Embedded Software Engineer Intern"
+    },
+    "ffa4e14f1af619cd": {
+      "company": "Microchip Technology",
+      "first_seen": "2026-11-21T02:06:07.264563+00:00",
+      "title": "ASIC Verification Engineer Intern",
+      "url": "https://go.vansh.nyc/1F9"
     },
     "ffb83d36f99d5349": {
       "company": "Meritis",
