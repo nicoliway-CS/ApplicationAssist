@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-22T17:27:15.970503+00:00",
+  "last_checked": "2026-11-22T22:43:24.719473+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -855,11 +855,6 @@
       "first_seen": "2026-10-23T17:59:03.236376+00:00",
       "title": "Software Development Engineer Intern, Embedded Systems"
     },
-    "08edcd58bfd9f19e": {
-      "company": "SteerBridge",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Junior Software Engineer"
-    },
     "08f9eae0c35e83ac": {
       "company": "RTX",
       "first_seen": "2026-10-23T17:59:03.236376+00:00",
@@ -960,11 +955,6 @@
       "title": "Software Engineer Intern - Global Traffic Architecture",
       "url": "https://jobs.bytedance.com/en/position/7672557061679483189/detail"
     },
-    "0a0553de1a683696": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineer Intern"
-    },
     "0a148026251bad40": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -989,11 +979,6 @@
       "company": "Link Consulting",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Administrateur Linux (H/F)"
-    },
-    "0a50c2611e091727": {
-      "company": "Duke Energy",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Associate Geographic Information Systems Technologist OR Geographic Information Systems Technologist"
     },
     "0a535c8ed16bfca9": {
       "company": "Rivian",
@@ -1192,11 +1177,6 @@
       "company": "Celonis",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Associate (AI) Solution Consultant (Benelux) - Orbit Program"
-    },
-    "0caa3d7e9c9b0ff5": {
-      "company": "Worcester Polytechnic Institute",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Graduate Research Assistant - Fire Protection Engineering - JM"
     },
     "0caf5d28816d418b": {
       "company": "AUTO1 Group",
@@ -1481,11 +1461,6 @@
       "company": "MBDA France",
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Coordinateur industrialisation IA produit F/H"
-    },
-    "0f211910a1e9a962": {
-      "company": "Canadian Solar",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Data Analysis Intern - Quality"
     },
     "0f23b25534a63099": {
       "company": "OVHcloud",
@@ -1858,11 +1833,6 @@
       "first_seen": "2026-10-23T23:42:16.991557+00:00",
       "title": "Software Engineer Intern - MS/PhD - ML Frameworks and Efficiency"
     },
-    "130d8060d6d20579": {
-      "company": "Booz Allen",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineer Intern"
-    },
     "131e3b8b1eb3b54b": {
       "company": "MSX International",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
@@ -1936,11 +1906,6 @@
       "company": "RTE, Le réseau de transport d'électricité",
       "first_seen": "2026-08-26T11:25:54.908213+00:00",
       "title": "Ingénieur / Chargé d'études géotechnique"
-    },
-    "13b827ca75c79109": {
-      "company": "LPL Financial Holdings",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Service Transformation & Data Analytics Intern"
     },
     "13bc478f20cd1b1f": {
       "company": "Qblox",
@@ -2098,11 +2063,6 @@
       "first_seen": "2026-09-17T23:09:39.530982+00:00",
       "title": "FPGA Design Intern"
     },
-    "14e4cf4fac2faf34": {
-      "company": "Kodiak Robotics",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Planning Intern - Mission Planning"
-    },
     "14ece5d30d2501e5": {
       "company": "Meta",
       "first_seen": "2026-11-12T11:51:45.625509+00:00",
@@ -2188,11 +2148,6 @@
       "company": "Focal Systems",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
       "title": "Data Quality Analyst (AI Model Data Analyst)"
-    },
-    "1598589193d8ea4a": {
-      "company": "Procter & Gamble",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "IT Project & Product Manager Intern"
     },
     "15997c6b855425a5": {
       "company": "Thales",
@@ -2594,11 +2549,6 @@
       "company": "TikTok",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Software Engineer Project Intern - Model Infrastructure"
-    },
-    "1b01705ac9263d98": {
-      "company": "University of Virginia",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Technical Research Assistant Intern"
     },
     "1b0ab41ab609ef87": {
       "company": "Meta",
@@ -3384,11 +3334,6 @@
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
       "title": "Solutions Engineer, Professional Services DACH"
     },
-    "226b1b6c78d27c5b": {
-      "company": "S&B Engineers and Constructors",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Integrated Logistics and Support Intern"
-    },
     "228a3e97bc0f0850": {
       "company": "Celonis",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -3895,11 +3840,6 @@
       "title": "Research Scientist Intern - GenAI Safety",
       "url": "https://metacareers.com/jobs/993713283787464"
     },
-    "286227ae4ec1c498": {
-      "company": "Freddie Mac",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Technology Intern - Enterprise Operations + Technology"
-    },
     "28707fa94530af23": {
       "company": "Mollie",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
@@ -4333,11 +4273,6 @@
       "first_seen": "2026-08-26T14:40:55.788639+00:00",
       "title": "SAP AI Consultant (w/m/x)"
     },
-    "2ccdb3479c224e34": {
-      "company": "Freddie Mac",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Single-Family Data Intern"
-    },
     "2cfd10c904e9b152": {
       "company": "Hyatt Vacation Club",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
@@ -4466,11 +4401,6 @@
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "Expert Active Directory (F/H)"
     },
-    "2ea3227cc70a270b": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Associate Software Engineer - Ts/Sci"
-    },
     "2ea72549a667af46": {
       "company": "Anthropic",
       "first_seen": "2026-08-25T16:32:47.225706+00:00",
@@ -4489,11 +4419,6 @@
       "silent": true,
       "title": "Software Engineer - Intern - Connectivity Platform and Product",
       "url": "https://jobs.lever.co/palantir/130ee501-bd22-4d44-b651-39581ef97743"
-    },
-    "2ed4862d6e07d8b3": {
-      "company": "Nucor",
-      "first_seen": "2026-08-24T22:21:52.269064+00:00",
-      "title": "Electrical Assembler"
     },
     "2ed9a25c3cd11a85": {
       "company": "Garmin",
@@ -4563,11 +4488,6 @@
       "company": "SIMPLON",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Responsable du Développement Commercial"
-    },
-    "2f68740b9b4f69a4": {
-      "company": "Booz Allen",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Developer"
     },
     "2f6940ab78eeac23": {
       "company": "Palo Alto Networks",
@@ -5204,11 +5124,6 @@
       "first_seen": "2026-08-26T07:42:41.982603+00:00",
       "title": "Dessinateur projeteur CREO (H/F)"
     },
-    "36a5f8815993c994": {
-      "company": "Vanguard",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Entry Level Application Engineer"
-    },
     "36d933b3ed7d7a3a": {
       "company": "Webnet",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
@@ -5630,11 +5545,6 @@
       "company": "RTX",
       "first_seen": "2026-10-21T15:40:49.917575+00:00",
       "title": "Software Engineer Intern"
-    },
-    "3b61c5b5bb6f7f73": {
-      "company": "Target",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Associate Technical Developer - Footwear"
     },
     "3b6c56e6e9a71070": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
@@ -6692,11 +6602,6 @@
       "first_seen": "2026-09-04T14:45:17.696237+00:00",
       "title": "Data Analyst Power BI"
     },
-    "4710982c5e026192": {
-      "company": "Micron Technology",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Realtime Defect Analysis Intern - Yield Technology"
-    },
     "4712b9a3af3c3218": {
       "company": "Rivian",
       "first_seen": "2026-11-12T11:51:45.625509+00:00",
@@ -6784,6 +6689,12 @@
       "company": "Wise",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "Backend Engineer - NorthAm"
+    },
+    "485e82a8f746c6d2": {
+      "company": "GlobalFoundries",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "title": "AI/ML Analytics Intern - Digital Manufacturing - Summer 2027",
+      "url": "https://globalfoundries.wd1.myworkdayjobs.com/en-US/external/job/USA---New-York---Malta/AI-ML-Analytics-Intern--Digital-Manufacturing--Summer-2027-_JR-2604570"
     },
     "486960d65af177be": {
       "company": "Lago",
@@ -7084,11 +6995,6 @@
       "title": "Software Engineer Intern",
       "url": "https://jobs.bytedance.com/en/position/7668373268886161669/detail"
     },
-    "4ae6c53e021e012b": {
-      "company": "Procter & Gamble",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Data & AI Engineering Intern"
-    },
     "4aea3f61eda04625": {
       "company": "Novartis",
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
@@ -7176,11 +7082,6 @@
       "company": "Mayflower",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "QA Full-stack Engineer"
-    },
-    "4bf4c811b3822077": {
-      "company": "Raymond James Financial",
-      "first_seen": "2026-08-24T22:21:52.269064+00:00",
-      "title": "Marketing Associate - Marketing Data Insights"
     },
     "4bf6866636be9ef7": {
       "company": "Xcellent Technology Solutions",
@@ -7355,11 +7256,6 @@
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
       "title": "LeanTech Software Engineer - CDI Paris - Theodo"
     },
-    "4d40f0f8ce014369": {
-      "company": "Freddie Mac",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Multifamily Digital Product Analysis Intern - Summer 2027"
-    },
     "4d4ada63825a47c4": {
       "company": "GlobalFoundries",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
@@ -7413,11 +7309,6 @@
       "silent": true,
       "title": "Research Scientist Intern - Audio AI",
       "url": "https://metacareers.com/jobs/1160814043168431"
-    },
-    "4ddd6909c1c36633": {
-      "company": "Argonne National Laboratory",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Postbaccalaureate Appointee"
     },
     "4ddf6cbe5520208d": {
       "company": "Ramp",
@@ -7617,11 +7508,6 @@
       "silent": true,
       "title": "2027 Software Engineering Intern - Colorado Springs",
       "url": "https://ngc.wd1.myworkdayjobs.com/en-US/northrop_grumman_external_site/job/United-States-Colorado-Colorado-Springs/XMLNAME-2027-Software-Engineering-Intern---Colorado-Springs_R10256259"
-    },
-    "4fb1828e6e5d6a9a": {
-      "company": "Atoms",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Robotics Software Engineer Intern"
     },
     "4fc6c8a167fbeae4": {
       "company": "Liksi",
@@ -7870,11 +7756,6 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Ingénieur Algorithmes et Performances de Systèmes de Navigation H/F"
-    },
-    "520bab6099e891c7": {
-      "company": "DuCharme, McMillen & Associates",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Development Intern - Spring 2027"
     },
     "5231e8b098528183": {
       "company": "Coherent",
@@ -9205,11 +9086,6 @@
       "title": "Applied Deep Learning PhD Research Intern - Reinforcement Learning for LLMs",
       "url": "https://nvidia.wd5.myworkdayjobs.com/NVIDIAExternalCareerSite/job/US-CA-Santa-Clara/Applied-Deep-Learning-PhD-Research-Intern--Reinforcement-Learning-for-LLMs---Fall-2026_JR2012398"
     },
-    "604bf6042c27de8d": {
-      "company": "The Hartford",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Data Engineer Intern - Technology, Data, AI, and Operations"
-    },
     "604fcd12415c167b": {
       "company": "Microsoft",
       "first_seen": "2026-11-12T11:51:45.625509+00:00",
@@ -9355,11 +9231,6 @@
       "company": "Link Consulting",
       "first_seen": "2026-08-29T15:27:23.778871+00:00",
       "title": "Responsable ERP - IFS Cloud (H/F)"
-    },
-    "61a634737dd5ec13": {
-      "company": "Freddie Mac",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Multifamily Software Development Intern - Summer 2027"
     },
     "61a647c8b5ca0794": {
       "company": "Amazon",
@@ -9591,11 +9462,6 @@
       "company": "Meta",
       "first_seen": "2026-10-14T00:40:43.533895+00:00",
       "title": "Signal Integrity Intern"
-    },
-    "63f1f9fc6bf42396": {
-      "company": "Springs Window Fashions",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineering Intern - Summer 2027"
     },
     "6402234fde834a70": {
       "company": "Tesla",
@@ -9956,11 +9822,6 @@
       "company": "Helsing",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Production Engineer - Software Integration"
-    },
-    "67cab21055bda692": {
-      "company": "GlobalFoundries",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Packaging Integration Engineer New Grad"
     },
     "67cf12ace634e202": {
       "company": "PayPal",
@@ -10509,11 +10370,6 @@
       "silent": true,
       "title": "Software Engineer Intern - TikTok Search Data Infrastructure",
       "url": "https://lifeattiktok.com/search/7675129440242010421"
-    },
-    "6d2af27be08f9e46": {
-      "company": "Scientific Games",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Field Service Technician - West Union-Cincinnati Region"
     },
     "6d7b98c8c1f24d20": {
       "company": "Mayflower",
@@ -11697,11 +11553,6 @@
       "first_seen": "2026-08-25T01:03:30.610318+00:00",
       "title": "Public Health Tobacco Control and Prevention Intern"
     },
-    "7902b48c803393f6": {
-      "company": "MSA Safety",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineer Intern - Product Development - Summer 2027"
-    },
     "790fff0f8f39d21f": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T05:30:39.801035+00:00",
@@ -12475,11 +12326,6 @@
       "first_seen": "2026-10-07T01:03:37.311380+00:00",
       "title": "ASIC Physical Design Co-op"
     },
-    "828521689f7063a1": {
-      "company": "Kodiak Robotics",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "AI/ML Intern - Artificial Intelligence/Machine Learning"
-    },
     "82a90ed3fefc9037": {
       "company": "Kingfisher",
       "first_seen": "2026-08-26T16:15:12.430446+00:00",
@@ -12780,11 +12626,6 @@
       "company": "OZITEM",
       "first_seen": "2026-09-02T14:56:34.436204+00:00",
       "title": "Ingénieur d'Affaires IT - H/F"
-    },
-    "863469d6a0864d04": {
-      "company": "The Hartford",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineer Intern - Tech & Data Program"
     },
     "86419a98e926cb53": {
       "company": "Tesla",
@@ -13829,11 +13670,6 @@
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Junior Generative AI Application Developer - Technology - Applications Development"
     },
-    "91a9ec70c28f05e6": {
-      "company": "Scientific Games",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Field Service Technician - Wilmington-Cincinnati Region"
-    },
     "91abe4688c2057f2": {
       "company": "SAFRAN POWER UNITS",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
@@ -13950,6 +13786,12 @@
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
       "title": "Research Scientist - Quantum Chemistry - Global Frontier Tech Recruitment Program - 2027 Start - PhD"
     },
+    "9325305172645d27": {
+      "company": "ServiceNow",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "title": "Security Software Engineer Intern",
+      "url": "https://jobs.smartrecruiters.com/ServiceNow/744000162827365-security-software-engineer-intern?oga=true"
+    },
     "9325ff0a6861c14d": {
       "company": "Salesforce",
       "first_seen": "2026-08-25T22:22:36.176168+00:00",
@@ -14042,11 +13884,6 @@
       "first_seen": "2026-08-26T21:40:13.442055+00:00",
       "title": "Especialista en Data"
     },
-    "941abdbd6ec072b3": {
-      "company": "Freddie Mac",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Developer Intern - Single-Family"
-    },
     "941dc1f1d2603e96": {
       "company": "Open",
       "first_seen": "2026-08-27T13:42:56.005553+00:00",
@@ -14130,11 +13967,6 @@
       "company": "Galadrim",
       "first_seen": "2026-08-26T13:52:12.804415+00:00",
       "title": "AI Engineer - Freelance - Madrid"
-    },
-    "949763a516055f5f": {
-      "company": "Fannie Mae",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Technology Program Intern"
     },
     "94a4e1d4b1507998": {
       "company": "GlobalFoundries",
@@ -14299,11 +14131,6 @@
       "title": "AI Software Engineer Intern",
       "url": "https://go.vansh.nyc/1zB"
     },
-    "96642681b109f920": {
-      "company": "Cisco",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineer 2"
-    },
     "967f58d83c1c7d1b": {
       "company": "Nebius",
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
@@ -14404,6 +14231,13 @@
       "first_seen": "2026-08-25T21:24:15.487539+00:00",
       "title": "Associate Clinical Programmer - Clinical Data Operations"
     },
+    "97378ffe1e42012b": {
+      "company": "Skydio",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "silent": true,
+      "title": "Autonomy Engineer Intern - Computer Vision / Deep Learning - 2027",
+      "url": "https://jobs.ashbyhq.com/skydio/ae4a6f7d-a240-4fa2-8c8e-04cc906e4ef9"
+    },
     "974c7e52526a6266": {
       "company": "Capgemini",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
@@ -14442,11 +14276,6 @@
       "company": "LFB",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Gestionnaire de formation H/F"
-    },
-    "97a7b5d307c0ad3e": {
-      "company": "Procter & Gamble",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Data Scientist Intern"
     },
     "97ab321bc4d08b9f": {
       "company": "TikTok",
@@ -14770,11 +14599,6 @@
       "first_seen": "2026-08-28T20:40:44.657355+00:00",
       "title": "Founding Engineer"
     },
-    "9ba45edcce206a25": {
-      "company": "Capco",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Associate Talent Program"
-    },
     "9bb9727b67aae368": {
       "company": "Civils de la Défense - Ministère des Armées et des Anciens combattants",
       "first_seen": "2026-08-26T06:41:48.626303+00:00",
@@ -14860,11 +14684,6 @@
       "company": "Mayflower",
       "first_seen": "2026-08-25T20:24:36.980013+00:00",
       "title": "Brand Designer"
-    },
-    "9cb44a8a81c41e2f": {
-      "company": "Scientific Games",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Field Service Technician - Batavia-Cincinnati Region"
     },
     "9cb900a984fbeaed": {
       "company": "Analog Devices",
@@ -15115,11 +14934,6 @@
       "company": "Kelerian Group",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Consultant(e)s en pilotage de la performance : Data et mise en place de solutions (Anaplan / Pigment)"
-    },
-    "9f68010bf6de0d07": {
-      "company": "Scientific Games",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Field Service Technician - Loveland-Cincinnati Region"
     },
     "9f6b5e0f405b8f71": {
       "company": "Northrop Grumman",
@@ -15376,11 +15190,6 @@
       "company": "Amgen",
       "first_seen": "2026-08-25T18:34:59.986854+00:00",
       "title": "Mitarbeiter wissenschaftlicher Außendienst (m/w/d) Hämatologie/Onkologie SF2, Gebiet: Berlin-Potsdam"
-    },
-    "a1951538794d3432": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Associate Field Engineer"
     },
     "a1add1f7327e3c21": {
       "company": "Broadcom",
@@ -15799,11 +15608,6 @@
       "first_seen": "2026-08-29T22:18:02.733630+00:00",
       "title": "Marketing Automation & Data Specialist (m/w/d) in Dresden"
     },
-    "a6430e9d4d17fb20": {
-      "company": "Zebra Technologies",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Repair Services Associate 1"
-    },
     "a64a25880e25070e": {
       "company": "Texas Instruments",
       "first_seen": "2026-10-09T23:36:54.640192+00:00",
@@ -15902,11 +15706,6 @@
       "first_seen": "2026-11-05T13:33:06.335688+00:00",
       "title": "Software Engineer Intern"
     },
-    "a77dcff6c9ffaeb6": {
-      "company": "L3Harris Technologies",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Associate Software Engineer"
-    },
     "a78a0c46fe923c92": {
       "company": "American Express",
       "first_seen": "2026-09-02T05:27:26.231700+00:00",
@@ -15928,11 +15727,6 @@
       "company": "RTX",
       "first_seen": "2026-09-08T23:43:19.497123+00:00",
       "title": "FPGA Electrical Design Engineer Intern"
-    },
-    "a7e61d90cbf2c8ad": {
-      "company": "Cisco",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineer 1"
     },
     "a8081a420d6e3997": {
       "company": "ByteDance",
@@ -16105,11 +15899,6 @@
       "first_seen": "2026-11-12T11:51:45.625509+00:00",
       "title": "Software Engineer Intern",
       "url": "https://careers-gdms.icims.com/jobs/75637/software-engineer-intern/job"
-    },
-    "a975db0aecc6a8b9": {
-      "company": "Westinghouse Electric Company",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Computer Engineering / Software Engineering Intern"
     },
     "a98adf6f15cf94a1": {
       "company": "Anduril",
@@ -16334,6 +16123,12 @@
       "company": "Northrop Grumman",
       "first_seen": "2026-10-26T21:57:19.395938+00:00",
       "title": "Software Engineering Intern"
+    },
+    "ab8f2892573bf3c7": {
+      "company": "Rivian",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "title": "Software Engineering Intern - AI Platform - Autonomy - Summer 2027",
+      "url": "https://us-careers-rivian.icims.com/jobs/37339/job"
     },
     "ab993285876e931a": {
       "company": "Contentsquare",
@@ -16678,6 +16473,13 @@
       "company": "L3Harris Technologies",
       "first_seen": "2026-11-07T01:19:39.508770+00:00",
       "title": "Electrical Engineering Intern"
+    },
+    "afa79a0b853da145": {
+      "company": "Google",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "silent": true,
+      "title": "Software Engineer Intern",
+      "url": "https://google.com/about/careers/applications/jobs/results/91436104816698054"
     },
     "afb15276f1f2a98b": {
       "company": "Kingfisher",
@@ -17743,6 +17545,13 @@
       "title": "Embedded Software Engineer Intern - Lidar",
       "url": "https://jobs.ashbyhq.com/aurora-operations-inc/8bd8b0b9-143a-400d-97d0-b3f70d9ee868/application?embed=true"
     },
+    "bb0a4769fa5276f4": {
+      "company": "Skydio",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "silent": true,
+      "title": "PhD Autonomy Engineer Intern - Deep Learning / Computer Vision - 2027",
+      "url": "https://jobs.ashbyhq.com/skydio/f1a72f5b-6157-47c1-8de9-379a32c7419f"
+    },
     "bb222d9e9481186d": {
       "company": "ByteDance",
       "first_seen": "2026-09-03T19:37:17.688890+00:00",
@@ -18075,6 +17884,12 @@
       "title": "Research Scientist Intern - Perception - Displays and Graphics",
       "url": "https://metacareers.com/jobs/1500136678656794"
     },
+    "bf03312120bd47de": {
+      "company": "Meta",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "title": "Research Scientist Intern - Security & Integrity - PhD",
+      "url": "https://metacareers.com/jobs/4110138665949300"
+    },
     "bf03bc52f0cff2d2": {
       "company": "B-HIVE",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
@@ -18141,6 +17956,13 @@
       "company": "Textron",
       "first_seen": "2026-09-05T04:31:14.101800+00:00",
       "title": "Integration Test Engineer Intern - Marine"
+    },
+    "bfcdbddd6ffa3b70": {
+      "company": "Analog Devices",
+      "first_seen": "2026-11-22T22:43:24.719473+00:00",
+      "silent": true,
+      "title": "Digital Design Engineer Intern",
+      "url": "https://analogdevices.wd1.myworkdayjobs.com/External/job/US-NC-Durham/Digital-Design-Engineer-Intern_R265298"
     },
     "bfecfc7cff85877d": {
       "company": "Adobe",
@@ -18256,11 +18078,6 @@
       "company": "Assystem",
       "first_seen": "2026-08-26T03:01:14.819359+00:00",
       "title": "Planificateur / OPC Expérimenté Ferroviaire H/F"
-    },
-    "c1354a603f8cb5af": {
-      "company": "Clarity Innovations",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Data Scientist"
     },
     "c1437c9710b6727b": {
       "company": "Deloitte Luxembourg",
@@ -18933,11 +18750,6 @@
       "company": "Polynom",
       "first_seen": "2026-08-31T17:50:38.499502+00:00",
       "title": "Forward Deployed AI Engineer"
-    },
-    "c8392e44a9477572": {
-      "company": "Intel",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Packaging Module Development Engineer"
     },
     "c83a8253e412887f": {
       "company": "Datadog",
@@ -19769,11 +19581,6 @@
       "first_seen": "2026-08-29T03:03:51.468303+00:00",
       "title": "Security Engineer, Incident Response"
     },
-    "d09e96f0928ff399": {
-      "company": "Zebra Technologies",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Repair Services Associate - Support I"
-    },
     "d0ac84fba2d3480f": {
       "company": "Qualcomm",
       "first_seen": "2026-09-01T01:36:14.974477+00:00",
@@ -19972,11 +19779,6 @@
       "title": "AI Researcher II Intern",
       "url": "https://go.vansh.nyc/1Eb"
     },
-    "d28e87c8f6c1a7fd": {
-      "company": "Cologix",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "DCIM Analyst"
-    },
     "d29053b44157bde9": {
       "company": "CGI",
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
@@ -20053,11 +19855,6 @@
       "company": "Thales",
       "first_seen": "2026-08-26T01:05:34.047838+00:00",
       "title": "Cybersécurité - Consultant Homologation (F/H)"
-    },
-    "d36e3c334e1200c1": {
-      "company": "Garmin",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Engineer Intern"
     },
     "d377c5d7644ca400": {
       "company": "Western Digital",
@@ -20353,11 +20150,6 @@
       "silent": true,
       "title": "Software Engineer - Internship - Data Connectors",
       "url": "https://jobs.lever.co/palantir/45e4617d-d658-4b30-8dc9-378ca84a027a"
-    },
-    "d60e12f551b10715": {
-      "company": "BP",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Reservoir Engineer Graduate - Subsurface Technology"
     },
     "d613b25ec61aacf9": {
       "company": "Thales",
@@ -20759,11 +20551,6 @@
       "first_seen": "2026-08-27T23:33:01.384660+00:00",
       "title": "Chef·fe de Projet People Ops & Data RH"
     },
-    "d98df5cb7231607b": {
-      "company": "Daktronics",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Hardware Design Co-op Intern - Firmware"
-    },
     "d99b9a541ff835bc": {
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
@@ -21075,11 +20862,6 @@
       "first_seen": "2026-09-10T05:23:25.980515+00:00",
       "title": "Software Engineer Intern - Client Solutions Group Engineering"
     },
-    "dd297f344ab18c55": {
-      "company": "BTI Solutions",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Korean Bilingual AMR Engineer"
-    },
     "dd2b53d9087cdc82": {
       "company": "Skydio",
       "first_seen": "2026-11-12T11:51:45.625509+00:00",
@@ -21169,11 +20951,6 @@
       "company": "Thales",
       "first_seen": "2026-08-25T23:22:26.595413+00:00",
       "title": "Cloud DevOps Engineer"
-    },
-    "ddf608ecf9acd753": {
-      "company": "Micron Technology",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Advanced Spectroscopy and Nanoscale Materials Characterization Intern"
     },
     "ddf963539e304562": {
       "company": "Analog Devices",
@@ -21948,11 +21725,6 @@
       "first_seen": "2026-08-25T19:28:28.798625+00:00",
       "title": "Software Engineering - Distributed Agentic AI Systems"
     },
-    "e63a8f748aed8fb4": {
-      "company": "Micron Technology",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Thin Films Equipment Engineering Intern - EDE"
-    },
     "e63e93c7dd49a867": {
       "company": "Datadog",
       "first_seen": "2026-08-29T10:44:04.369231+00:00",
@@ -22463,11 +22235,6 @@
       "title": "Research Scientist Intern - Humanoid Control & Dexterous Manipulation",
       "url": "https://metacareers.com/jobs/1832390484751700"
     },
-    "ebcf4742a15e75af": {
-      "company": "The Hartford",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Data Engineer Intern - Tech & Data Program"
-    },
     "ebdf4ce006ef5356": {
       "company": "Baker Hughes",
       "first_seen": "2026-09-03T07:44:50.065300+00:00",
@@ -22597,11 +22364,6 @@
       "title": "Machine Learning Engineer Intern",
       "url": "https://lifeattiktok.com/search/7675847556668295429"
     },
-    "ed3356575b4d9f72": {
-      "company": "Johnson & Johnson",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Data Operations & Analytics Co-op"
-    },
     "ed340f12ee3c7ae8": {
       "company": "Thales",
       "first_seen": "2026-09-03T22:14:16.788642+00:00",
@@ -22683,11 +22445,6 @@
       "company": "RTX",
       "first_seen": "2026-09-19T01:46:37.766972+00:00",
       "title": "Digital Hardware Design Engineer Co-op - Winter/Spring"
-    },
-    "edc95ad48132a2f9": {
-      "company": "Waabi",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Fleet Specialist - Night Shift"
     },
     "edcdda89f3572712": {
       "company": "MongoDB",
@@ -23470,11 +23227,6 @@
       "title": "Software Engineer Intern - Ads Interface",
       "url": "https://lifeattiktok.com/search/7669705785962727733"
     },
-    "f4e2c38ffa719574": {
-      "company": "Monolithic Power Systems",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "AI Developer Intern"
-    },
     "f4ee738167433466": {
       "company": "Cloudflare",
       "first_seen": "2026-11-12T11:51:45.625509+00:00",
@@ -24106,11 +23858,6 @@
       "first_seen": "2026-08-26T12:44:14.109128+00:00",
       "title": "Chargé de Relation Client (H/F)"
     },
-    "fada3f03a9feee2c": {
-      "company": "DuCharme, McMillen & Associates",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Software Developer Intern"
-    },
     "faf647d7065f5981": {
       "company": "OneStock",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
@@ -24415,11 +24162,6 @@
       "company": "SOGECLAIR",
       "first_seen": "2026-08-26T09:36:40.293205+00:00",
       "title": "Mechanical Systems Integration (MSI) Designer (m/w/d)"
-    },
-    "fe41ef81579cf446": {
-      "company": "Canon",
-      "first_seen": "2026-08-24T21:24:57.651805+00:00",
-      "title": "Field Service Technician 1"
     },
     "fe51a3834128f2a4": {
       "company": "ClickHouse",
