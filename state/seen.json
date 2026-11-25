@@ -1,6 +1,6 @@
 {
   "bootstrapped": true,
-  "last_checked": "2026-11-25T03:46:54.501576+00:00",
+  "last_checked": "2026-11-25T13:37:49.426813+00:00",
   "postings": {
     "001daa79a0b237af": {
       "company": "Crédit Agricole",
@@ -3857,6 +3857,12 @@
       "first_seen": "2026-08-29T19:09:09.047883+00:00",
       "title": "Open application - Scientist/Mechanical Engineer"
     },
+    "3f1c6e767bf575c7": {
+      "company": "NVIDIA",
+      "first_seen": "2026-11-25T13:37:49.426813+00:00",
+      "title": "Software Engineering Intern, Simulation Technology",
+      "url": "https://go.vansh.nyc/1J0"
+    },
     "3f29b89bd24a54d3": {
       "company": "Salesforce",
       "first_seen": "2026-10-19T23:58:50.892752+00:00",
@@ -4316,6 +4322,12 @@
       "company": "KLA",
       "first_seen": "2026-10-29T16:28:30.906862+00:00",
       "title": "Software Engineer Intern"
+    },
+    "46cad3793a9441bd": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-11-25T13:37:49.426813+00:00",
+      "title": "Software Engineer Intern",
+      "url": "https://go.vansh.nyc/1J1"
     },
     "46d9be9e0aeeb74f": {
       "company": "Paccar",
@@ -7044,6 +7056,12 @@
       "company": "KLA",
       "first_seen": "2026-09-30T19:40:38.772787+00:00",
       "title": "Software Engineer Intern"
+    },
+    "6f3e839952badb1c": {
+      "company": "Motorola",
+      "first_seen": "2026-11-25T13:37:49.426813+00:00",
+      "title": "Software Engineering Intern",
+      "url": "https://go.vansh.nyc/1J2"
     },
     "6f3ef30bcd6a76b7": {
       "company": "Waymo",
@@ -12381,6 +12399,12 @@
       "company": "ByteDance",
       "first_seen": "2026-09-03T16:54:32.660528+00:00",
       "title": "Multi-Cloud CDN Scheduling Platform Engineer Graduate - CDN Platform"
+    },
+    "c5ab8cfa2d7daeb8": {
+      "company": "L3Harris Technologies",
+      "first_seen": "2026-11-25T13:37:49.426813+00:00",
+      "title": "Software Engineer Intern",
+      "url": "https://jobs.l3harris.com/job/Melbourne-Software-Engineer-Intern-FL-32919/1453684500?ats=successfactors"
     },
     "c5b53fd33358908b": {
       "company": "Argonne National Laboratory",
