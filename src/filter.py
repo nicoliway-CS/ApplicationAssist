@@ -56,6 +56,10 @@ def compile_title_exclusions(patterns) -> re.Pattern | None:
     return compile_term_patterns(patterns)
 
 
+# Words in a group key that capitalize() would mangle.
+_INDUSTRY_WORDS = {"ai": "AI", "ml": "ML", "av": "AV", "evtol": "eVTOL", "&": "&"}
+
+
 class CompanyMatcher:
     """Resolve a posting's company field to a notify-list company, or None.
 
@@ -88,8 +92,11 @@ class CompanyMatcher:
         # with, so deleting a group never changes the file's shape.
         if isinstance(groups, dict):
             names = [n for group in groups.values() for n in (group or [])]
+            # Group key per company -- shown in Discord as the industry label.
+            self._groups = {str(n): str(key) for key, group in groups.items() for n in (group or [])}
         else:
             names = list(groups)
+            self._groups = {}
 
         pairs = [(str(n), str(n)) for n in names if n]  # (name to match, parent to report)
         for parent, alias_list in (config.get("aliases") or {}).items():
@@ -138,6 +145,16 @@ class CompanyMatcher:
 
     def matches(self, company: str) -> bool:
         return self.resolve(company) is not None
+
+    def industry(self, parent: str) -> str:
+        """Display label for the group a resolved company sits in, or "".
+
+        "aerospace_and_defense" -> "Aerospace & Defense". Derived from the YAML
+        group key so renaming a group renames the label with no code change.
+        """
+        key = self._groups.get(parent, "")
+        words = key.replace("_and_", " & ").replace("_", " ").split()
+        return " ".join(_INDUSTRY_WORDS.get(w, w.capitalize()) for w in words)
 
 
 class RoleCategoryTagger:

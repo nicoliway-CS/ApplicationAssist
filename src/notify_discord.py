@@ -16,6 +16,10 @@ from terms import season_label, season_sort_key
 log = logging.getLogger(__name__)
 
 EMBEDS_PER_MESSAGE = 10  # Discord's hard cap
+# Message flag: post normally but send no push/desktop notification ("@silent").
+SUPPRESS_NOTIFICATIONS = 1 << 12
+# Phone lock screens cut a push preview off around here; keep the summary inside it.
+SUMMARY_MAX_CHARS = 150
 MAX_RETRIES = 4
 TIMEOUT = 20
 
@@ -97,10 +101,18 @@ def _batches(postings: list[dict]) -> list[tuple[str, list[dict]]]:
 
     The summary line is the message's text content. It's kept short because it's
     what a phone push notification shows -- embeds alone push as a blank alert.
+    A lone posting (the usual case at a 5-minute cadence) names the role too, so
+    the push alone says whether it's worth opening.
     """
     batches = []
     for i in range(0, len(postings), EMBEDS_PER_MESSAGE):
         chunk = postings[i : i + EMBEDS_PER_MESSAGE]
+        if len(chunk) == 1:
+            line = f"🔔 {display_company(chunk[0])} — {chunk[0].get('title', 'Unknown role')}"
+            if len(line) > SUMMARY_MAX_CHARS:
+                line = line[: SUMMARY_MAX_CHARS - 1].rstrip() + "…"
+            batches.append((line, chunk))
+            continue
         companies = list(dict.fromkeys(p.get("notify_company") or p.get("company", "Unknown")
                                        for p in chunk))
         shown = ", ".join(companies[:4])
@@ -135,7 +147,12 @@ def build_embed(posting: dict, today: date | None = None) -> dict:
         "title": f"[{tag}] {company} — {title}"[:256],
         "description": "\n".join(lines)[:4096],
         "color": CATEGORY_COLORS.get(primary, DEFAULT_COLOR),
-        "footer": {"text": f"via {posting.get('source_repo', '') or 'unknown source'}"},
+        # Footer = the smallest text an embed has, which is the point: the industry
+        # (notify_companies.yaml group) is context, not something to read first.
+        "footer": {"text": " · ".join(filter(None, [
+            posting.get("notify_industry", ""),
+            f"via {posting.get('source_repo', '') or 'unknown source'}",
+        ]))},
     }
     # Discord rejects the whole payload if `url` is present but not a valid URL.
     url = posting.get("url") or ""
@@ -163,14 +180,19 @@ def posted_phrase(mmddyyyy: str, today: date) -> str:
 
 
 def send_day_separator(webhook_url: str, day: date, *, dry_run: bool = False) -> bool:
-    """Post the day divider. main.py remembers the day so it's sent once, not per run."""
+    """Post the day divider, silently. main.py remembers the day so it's sent once.
+
+    Silent because it's a visual marker for scrolling the channel, not news: without
+    the flag every day's first alert would arrive as two pushes, the first one
+    just a date.
+    """
     content = day_separator(day)
     if dry_run:
         log.info("[dry-run] day separator: %s", content.splitlines()[-1])
         return True
     if not webhook_url:
         return False
-    return _post_with_retry(webhook_url, {"content": content})
+    return _post_with_retry(webhook_url, {"content": content, "flags": SUPPRESS_NOTIFICATIONS})
 
 
 def notify(webhook_url: str, postings: list[dict], *, dry_run: bool = False) -> int:

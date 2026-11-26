@@ -152,7 +152,8 @@ def main() -> int:
     for posting in matches:
         parent = notify_matcher.resolve(posting.get("company", ""))
         if parent:
-            notify_candidates.append(dict(posting, notify_company=parent))
+            notify_candidates.append(dict(posting, notify_company=parent,
+                                          notify_industry=notify_matcher.industry(parent)))
     log.info("%d matches, %d from notify-list companies", len(matches), len(notify_candidates))
 
     # --- dedupe ---

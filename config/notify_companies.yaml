@@ -14,6 +14,13 @@
 #   Add, remove, and regroup freely. Rebuilt 2026-11 from a hand-written list.
 #   Removed then, so they never ping: Runway, Together AI, SambaNova, Cohere,
 #   Hugging Face, Nuro, Vercel, Airtable, Instacart, Motorola Mobility.
+#   Trimmed again 2026-11-26: lesser-known AI labs, semis, industrial and most
+#   aerospace names (aerospace cut to the primes + SpaceX/Blue Origin/Anduril).
+#
+# GROUP NAMES SHOW IN DISCORD
+#   Each notification's footer names the group its company is in, e.g.
+#   "aerospace_and_defense" -> "Aerospace & Defense". Renaming a group renames
+#   the label; an alias shows its parent's group.
 #
 # HOW MATCHING WORKS (src/filter.py CompanyMatcher)
 #   Only the posting's company field is checked, never the title. Names are
@@ -24,11 +31,10 @@
 #   Start-anchored, not anywhere-in-the-name: an anywhere match let "Applied
 #   Materials" hit "Johns Hopkins Applied Physics Laboratory".
 #
-#   Some entries use a longer name than you'd say out loud ("Relativity Space",
-#   "Lucid Motors", "Archer Aviation", "Aurora Innovation", "Fidelity
-#   Investments") because the short name is ALSO a different company that posts
-#   SWE internships (Relativity the legal-software company, Lucid Software,
-#   Archer Daniels Midland, ...). Add the short form under `exact:` if a source
+#   Some entries use a longer name than you'd say out loud ("Lucid Motors",
+#   "Archer Aviation", "Aurora Innovation", "Fidelity Investments") because the
+#   short name is ALSO a different company that posts SWE internships (Lucid
+#   Software, Archer Daniels Midland, ...). Add the short form under `exact:` if a source
 #   writes it bare.
 #
 # MAINTENANCE
@@ -127,21 +133,11 @@ notify:
     - xAI
     - Scale AI
     - Perplexity
-    - Cerebras
-    - Groq
     - Anysphere
-    - Cognition
-    - Glean
-    - Harvey
-    - Sierra
     - ElevenLabs
     - Character.AI
     - Replit
-    - Abridge
-    - Lambda
     - Physical Intelligence
-    - Thinking Machines Lab
-    - Safe Superintelligence
 
   banking_and_finance:
     - JPMorgan Chase
@@ -204,62 +200,28 @@ notify:
     - Marvell
     - Micron
     - Texas Instruments
-    - Analog Devices
     - Microchip
-    - Infineon
-    - STMicroelectronics
-    - NXP
     - GlobalFoundries
-    - Applied Materials
-    - Lam Research
     - KLA
     - ASML
     - Synopsys
     - Cadence
-    - Arm
-    - SiFive
     - Western Digital
     - SanDisk
-    - Seagate
     - Solidigm
-    - Silicon Labs
-    - Renesas
-    - Nordic Semiconductor
-    - onsemi
-    - Cirrus Logic
-    - Skyworks
     - Qorvo
-    - Lattice Semiconductor
-    - Altera
-    - Monolithic Power Systems
-    - Tenstorrent
 
   industrial_devices_and_medical:
     - Honeywell
     - Rockwell Automation
     - Emerson
-    - Siemens
-    - ABB
-    - Schneider Electric
     - Eaton
-    - Johnson Controls
     - Lutron
-    - Ralliant
-    - Keysight
-    - Zebra Technologies
-    - Garmin
     - Bose
-    - Sonos
     - Logitech
     - Medtronic
     - Abbott
-    - Boston Scientific
-    - Stryker
-    - Dexcom
-    - Intuitive Surgical
     - GE HealthCare
-    - Jabil
-    - Universal Creative
     - Walt Disney Imagineering
 
   telecom:
@@ -277,30 +239,8 @@ notify:
     - Lockheed Martin
     - Northrop Grumman
     - RTX
-    - L3Harris
     - General Dynamics
-    - BAE Systems
-    - Leidos
-    - SAIC
-    - GE Aerospace
-    - Textron
     - Anduril
-    - Shield AI
-    - Saronic
-    - Rocket Lab
-    - Firefly Aerospace
-    - Relativity Space
-    - Sierra Space
-    - Redwire
-    - Axiom Space
-    - Astranis
-    - Varda Space Industries
-    - MIT Lincoln Laboratory
-    - JHU APL
-    - Sandia National Laboratories
-    - Draper
-    - MITRE
-    - NASA JPL
 
   robotics_drones_and_evtol:
     - Boston Dynamics
@@ -343,7 +283,6 @@ aliases:
   Capital One: [Discover, Discover Financial]
   # Alternate spellings the sources use for the same company.
   Texas Instruments: [TI]
-  Arm: [Arm Holdings]
   Snap Inc: [Snapchat]
   Citi: [Citigroup, Citibank]
   JPMorgan Chase: [JPMorgan, J.P. Morgan, JP Morgan, JPMorganChase]
@@ -356,17 +295,9 @@ aliases:
   IMC Trading: [IMC]
   Susquehanna: [SIG, Susquehanna International Group]
   Anysphere: [Cursor]
-  Cognition: [Cognition AI, Cognition Labs]
-  Harvey: [Harvey AI]
-  Lambda: [Lambda Labs]
   Perplexity: [Perplexity AI]
-  Thinking Machines Lab: [Thinking Machines]
-  Safe Superintelligence: [SSI]
   Figure AI: [Figure]
   AMD: [Advanced Micro Devices]
-  onsemi: [ON Semiconductor]
-  Silicon Labs: [Silicon Laboratories]
-  Intuitive Surgical: [Intuitive]
   Walt Disney Imagineering: [Disney Imagineering]
   GM: [General Motors]
   Progressive: [Progressive Insurance]
@@ -374,29 +305,16 @@ aliases:
   Booking Holdings: [Booking.com]
   Electronic Arts: [EA]
   Arista Networks: [Arista]
-  MIT Lincoln Laboratory: [MIT Lincoln Lab, Lincoln Laboratory]
-  JHU APL: [Johns Hopkins APL, Johns Hopkins Applied Physics Laboratory,
-            Johns Hopkins University Applied Physics Laboratory]
-  Sandia National Laboratories: [Sandia]
-  Draper: [Draper Laboratory, Charles Stark Draper Laboratory]
-  NASA JPL: [JPL, Jet Propulsion Laboratory, NASA Jet Propulsion Laboratory]
-  L3Harris: [L3 Harris]
 
 # Whole-company-field match only, never a start-of-name match. For names short
-# or common enough that a whole-word prefix still misfires: "Sierra" would hit
-# "Sierra Nevada Corporation", "Lambda" "Lambda School", "Ring" "Ring Power",
-# "Block" "Block Engineering". Spacing/punctuation differences still match
+# or common enough that a whole-word prefix still misfires: "Ring" would hit
+# "Ring Power", "Block" "Block Engineering", "Discover" "Discovery Education". Spacing/punctuation differences still match
 # ("T.I." = "TI"). Any name here must also appear above as an entry or alias.
 exact:
   - TI
   - NI
-  - Arm
   - HP
   - Ring
-  - Sierra
-  - Lambda
-  - Cognition
-  - Harvey
   - Block
   - Square
   - Discover
@@ -404,13 +322,10 @@ exact:
   - Snap Inc
   - Cursor
   - Figure
-  - Intuitive
   - EA
   - IMC
   - SIG
   - HRT
-  - SSI
-  - JPL
   - AWS
   - GM
   - Progressive

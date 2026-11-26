@@ -238,9 +238,8 @@ check("legal suffix tolerated", notify.matches("NVIDIA, Inc."), True)
 
 # The whole point of prefix-anchoring rather than substring matching --
 # carried over from the old sponsor list's own guard case.
-# JHU APL is on the list itself since 2026-11, so the guard is now WHICH entry wins.
-check("'Applied Materials' does NOT claim Johns Hopkins APL",
-      notify.resolve("Johns Hopkins Applied Physics Laboratory"), "JHU APL")
+check("'Applied Materials' does NOT match Johns Hopkins APL",
+      notify.resolve("Johns Hopkins Applied Physics Laboratory"), None)
 
 # Unlike the old h1b_sponsors.yaml, cleared-defense primes are IN this list on
 # purpose -- there's no sponsorship-eligibility reason to exclude them for a
@@ -261,16 +260,26 @@ for company in ["Armadin", "HPR (Hyannis Port Research)", "Metaphor", "Squarespa
 for company, parent in [("Hewlett Packard Enterprise", "HPE"), ("HP Inc.", "HP"),
                         ("Raytheon", "RTX"), ("Collins Aerospace", "RTX"),
                         ("TikTok", "ByteDance"), ("Square", "Block"), ("TI", "Texas Instruments"),
-                        ("Arm", "Arm"), ("Amazon Web Services", "Amazon"), ("Ring", "Amazon"),
+                        ("Amazon Web Services", "Amazon"), ("Ring", "Amazon"),
                         ("Meta Platforms", "Meta"), ("Citadel Securities", "Citadel Securities"),
                         ("Citadel", "Citadel"), ("DE Shaw", "D. E. Shaw"),
                         ("D.E. Shaw & Co.", "D. E. Shaw"), ("US Bank", "U.S. Bank"),
-                        ("Johns Hopkins Applied Physics Laboratory", "JHU APL"),
                         ("Motorola Solutions", "Motorola Solutions"), ("Snap", "Snap Inc")]:
     check(f"{company!r} resolves to {parent!r}", notify.resolve(company), parent)
 for removed in ["Instacart", "Runway", "Together AI", "SambaNova", "Cohere", "Hugging Face",
-                "Nuro", "Vercel", "Airtable"]:
+                "Nuro", "Vercel", "Airtable",
+                # trimmed 2026-11-26
+                "Cerebras", "Sierra", "Lambda", "Arm", "Analog Devices", "NXP", "Keysight",
+                "Garmin", "Siemens", "L3Harris", "Rocket Lab", "Johns Hopkins APL", "JPL"]:
     check(f"removed company {removed!r} never matches", notify.matches(removed), False)
+
+# Industry label = the YAML group, prettified; an alias gets its parent's group.
+for parent, label in [("SpaceX", "Aerospace & Defense"), ("RTX", "Aerospace & Defense"),
+                      ("Anthropic", "AI & ML"), ("Tesla", "Automotive & AV"),
+                      ("Goldman Sachs", "Banking & Finance"), ("Google", "Big Tech"),
+                      ("Figure AI", "Robotics Drones & eVTOL")]:
+    check(f"industry label for {parent!r}", notify.industry(parent), label)
+check("alias reports parent's industry", notify.industry(notify.resolve("TikTok")), "Big Tech")
 
 # Every `exact:` name must exist as an entry or alias, or it silently does nothing.
 _listed = {CompanyMatcher._tokens(n) for g in notify_config["notify"].values() for n in g}
@@ -438,6 +447,14 @@ batches = _batches(ordered)
 check("batches preserve order (main.py relies on sent being a prefix)",
       [p["id"] for _, b in batches for p in b], [p["id"] for p in ordered])
 check("batch summary line names the count", batches[0][0].startswith("🔔 5 new postings"), True)
+check("a lone posting's summary names company and role",
+      _batches([_p("x", ["Summer 2027"], "11112026")])[0][0], "🔔 Acme — SWE Intern")
+check("lone summary shows the parent name for an alias",
+      _batches([dict(_p("x", [], ""), company="TikTok", notify_company="ByteDance")])[0][0],
+      "🔔 ByteDance (TikTok) — SWE Intern")
+_long = _batches([dict(_p("x", [], ""), title="Software Engineer Intern " * 12)])[0][0]
+check("long lone summary is cut to fit a push preview",
+      (len(_long) <= 150, _long.endswith("…")), (True, True))
 big = _batches([_p(str(i), ["Summer 2027"], "11112026") for i in range(13)])
 check("over 10 postings splits into messages", [len(b) for _, b in big], [10, 3])
 check("embed author carries the season",
