@@ -1,6 +1,10 @@
 # Positive-keyword screen that tags each posting with one or more role
-# categories: software_engineering, machine_learning, embedded_systems,
-# hardware_engineering.
+# categories: software_engineering, machine_learning, embedded_systems.
+#
+# Hardware Engineering was a fourth category until 2026-11; removed at the
+# user's ask (Discord AND board) -- only SWE, AI/ML and Embedded are wanted.
+# A hardware-ish title that also reads as embedded ("Embedded Hardware
+# Engineer", FPGA) still lands under Embedded Systems.
 #
 # Same philosophy as the require_title_patterns screen the old eu-tech-jobs
 # source used: a posting must look like the target role from its title,
@@ -30,8 +34,8 @@ options:
   # FPGA work straddles embedded and hardware. Defaulting to embedded because
   # most CS/CE new-grad-adjacent FPGA reqs are digital-logic/verification
   # work reached from an embedded-systems track, not analog/board-level
-  # hardware -- but this is a judgment call, not a measurement. Set to
-  # "hardware" or "both" if you disagree.
+  # hardware -- but this is a judgment call, not a measurement. ("hardware"
+  # and "both" only do anything if a hardware_engineering category exists.)
   fpga_category: embedded   # embedded | hardware | both
 
   # If true, a posting matching none of the three categories is kept and
@@ -91,6 +95,29 @@ categories:
       # Software Engineer" still earns both via "software engineer" above.
       - game developer
       - game engineer
+      # Added 2026-11. Bare "software" / "developer" are safe in an internship
+      # title once sales/marketing titles are excluded in sources.yaml. Bank
+      # tech programs title SWE roles "Technology Analyst" / "Engineering
+      # Summer Analyst" (Goldman, Morgan Stanley) with no SWE word at all.
+      # Deliberately NOT added: bare "mobile", "cloud", "infrastructure" (hits
+      # civil "Water Infrastructure Intern") and "technology intern" (hits IT
+      # helpdesk "Information Technology Intern").
+      - software
+      - developer
+      - back-end
+      - front-end
+      - full-stack
+      - ios
+      - android
+      - cloud engineering
+      - cloud software
+      - infrastructure engineering
+      - software infrastructure
+      - technology analyst
+      - technology summer analyst
+      - engineering analyst
+      - engineering summer analyst
+      - computer science
 
   machine_learning:
     label: "Machine Learning"
@@ -150,6 +177,14 @@ categories:
       - research scientist
       - applied scientist
       - applied science
+      # Added 2026-11. "ai intern" is the one bare-ish AI form allowed: a title
+      # like "Software Engineer, AI Intern" otherwise only reads as SWE. Data
+      # science stays out (see above).
+      - research engineer
+      - autonomy
+      - autonomous systems
+      - autonomous driving
+      - ai intern
 
   embedded_systems:
     label: "Embedded Systems"
@@ -174,37 +209,13 @@ categories:
       - low level software
       - avionics software
       - flight software
-
-  hardware_engineering:
-    label: "Hardware Engineering"
-    patterns:
-      - hardware engineer
-      - hardware engineering
-      - hardware design
-      - pcb
-      - printed circuit board
-      - asic
-      - vlsi
-      - digital design
-      - rtl design
-      - rtl engineer
-      - verilog
-      - vhdl
-      - chip design
-      - ic design
-      - soc design
-      - silicon engineer
-      - semiconductor engineer
-      - analog design
-      - mixed signal
-      - signal integrity
-      - hardware design engineer
-      - avionics hardware
-      # Bare below, deliberately broader than everything above -- kept at the
-      # requester's explicit ask rather than silently narrowed. "Electrical
-      # Engineer" alone can't be told apart from a power-grid/building-systems
-      # EE role by keyword matching alone; it is a real gap. If it proves
-      # noisy in practice, replace it with qualified phrases like the ones
-      # above (asic/vlsi/digital-design engineer) instead of the bare term.
-      - electrical engineer
-      - electrical engineering
+      # Added 2026-11.
+      - mcu
+      - bsp
+      - board support
+      - kernel
+      - bootloader
+      - low-level
+      - low level
+      - bare-metal
+      - controls software

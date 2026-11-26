@@ -60,7 +60,6 @@ CATEGORY_LABELS = {
     "software_engineering": "Software Engineering",
     "machine_learning": "Machine Learning",
     "embedded_systems": "Embedded Systems",
-    "hardware_engineering": "Hardware Engineering",
     "other": "Other",
 }
 

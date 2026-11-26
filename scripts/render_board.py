@@ -66,7 +66,6 @@ CATEGORY_HINTS = {
     "software_engineering": "General SWE, backend, frontend, full-stack",
     "machine_learning": "ML/AI engineering, applied & research science",
     "embedded_systems": "Firmware, RTOS, microcontrollers, IoT",
-    "hardware_engineering": "PCB, ASIC/VLSI, digital design",
     "other": "Matched no category -- audit for keyword gaps",
 }
 
@@ -77,8 +76,7 @@ def build_categories(role_categories_config: dict) -> list[tuple[str, str, str, 
         for key, spec in (role_categories_config.get("categories") or {}).items()
     }
     labels.setdefault("other", "Other")
-    order = ["software_engineering", "machine_learning", "embedded_systems",
-             "hardware_engineering", "other"]
+    order = ["software_engineering", "machine_learning", "embedded_systems", "other"]
     return [
         (key, labels[key], CATEGORY_HINTS.get(key, ""), labels[key])
         for key in order

@@ -6,25 +6,30 @@
 #   is the noise control on top of it: Discord only fires for postings from a
 #   company on this list. It is not a signal about sponsorship or eligibility
 #   (there is none to track here -- see README), just "companies I actually
-#   want pinged for."
+#   want pinged for." The role filter (SWE / AI-ML / Embedded only, see
+#   role_categories.yaml) applies to every company here, hardware and
+#   aerospace names included.
 #
 # THIS LIST IS YOURS
-#   Unlike the old h1b_sponsors.yaml it replaces, there is no external data
-#   source backing these names -- USCIS H-1B filings say nothing about
-#   whether a company is worth your time as a US-citizen intern applicant.
-#   Add, remove, and regroup freely. It's seeded with big tech plus the
-#   aerospace/defense/robotics names relevant to embedded and hardware work,
-#   but the whole point is that you keep it current, not that it's complete.
+#   Add, remove, and regroup freely. Rebuilt 2026-11 from a hand-written list.
+#   Removed then, so they never ping: Runway, Together AI, SambaNova, Cohere,
+#   Hugging Face, Nuro, Vercel, Airtable, Instacart, Motorola Mobility.
 #
-# HOW MATCHING WORKS
-#   Names are normalized (lowercased, de-accented, legal suffixes stripped)
-#   and matched exactly OR as a prefix, so "Amazon" catches "Amazon Web
-#   Services" and "Amazon Robotics" without a separate entry for each.
-#   Prefix-anchored rather than substring-anchored, carried over deliberately
-#   from the original sponsor list: a contains-match let "Applied Materials"
-#   hit "Johns Hopkins Applied Physics Laboratory" during testing there. Keep
-#   entries as the SHORTEST distinctive form of the name -- "Capital One", not
-#   "Capital One Financial Corporation".
+# HOW MATCHING WORKS (src/filter.py CompanyMatcher)
+#   Only the posting's company field is checked, never the title. Names are
+#   lowercased, de-accented, and legal suffixes ("Inc", "LLC") stripped. An
+#   entry matches when the company name STARTS with it as whole words:
+#     "Amazon"  matches  "Amazon Web Services", "Amazon Robotics"
+#     "Square"  does NOT match "Squarespace";  "Arm" does NOT match "Armadin"
+#   Start-anchored, not anywhere-in-the-name: an anywhere match let "Applied
+#   Materials" hit "Johns Hopkins Applied Physics Laboratory".
+#
+#   Some entries use a longer name than you'd say out loud ("Relativity Space",
+#   "Lucid Motors", "Archer Aviation", "Aurora Innovation", "Fidelity
+#   Investments") because the short name is ALSO a different company that posts
+#   SWE internships (Relativity the legal-software company, Lucid Software,
+#   Archer Daniels Midland, ...). Add the short form under `exact:` if a source
+#   writes it bare.
 #
 # MAINTENANCE
 #   Add a company: put it in the group that fits, shortest distinctive name.
@@ -32,7 +37,6 @@
 #   whatever groups remain, so removing one changes nothing else.
 
 notify:
-  # --- Big tech -------------------------------------------------------------
   big_tech:
     - Amazon
     - Google
@@ -50,25 +54,46 @@ notify:
     - Qualcomm
     - LinkedIn
     - Uber
+    - Lyft
     - Airbnb
     - PayPal
     - ServiceNow
     - Atlassian
     - Palantir
-    - Dell Technologies
-    - Hewlett Packard Enterprise
+    - Dell
+    - HPE
     - HP
-    - Motorola
-    - TikTok
+    - Motorola Solutions
     - ByteDance
     - Spotify
-    - Snap
+    - Snap Inc
     - Reddit
+    - Pinterest
     - DoorDash
-    - Instacart
+    - Bloomberg
+    - Workday
+    - Intuit
+    - Autodesk
+    - Shopify
+    - Zoom
+    - Twilio
+    - HubSpot
+    - Dropbox
+    - Roblox
+    - Electronic Arts
+    - Epic Games
+    - Riot Games
+    - Discord
+    - eBay
+    - Expedia
+    - Booking Holdings
+    - Zillow
+    - Duolingo
+    - Chewy
+    - Samsung
+    - Sony
 
-  # --- Software, infra, dev tools, security ---------------------------------
-  software_and_infra:
+  software_infra_and_security:
     - Snowflake
     - Databricks
     - MongoDB
@@ -76,38 +101,103 @@ notify:
     - Cloudflare
     - Stripe
     - Block
-    - Square
     - Okta
     - CrowdStrike
     - Palo Alto Networks
+    - Zscaler
+    - Fortinet
+    - SentinelOne
     - GitLab
     - Figma
     - Notion
-    - Vercel
-    - Airtable
     - Rippling
     - Ramp
-    - HashiCorp
     - Elastic
+    - Confluent
+    - Akamai
+    - Nutanix
+    - NetApp
+    - Pure Storage
+    - Arista Networks
+    - CoreWeave
 
-  # --- AI / ML labs and platforms --------------------------------------------
   ai_and_ml:
     - Anthropic
     - OpenAI
     - xAI
     - Scale AI
-    - Cohere
-    - Hugging Face
     - Perplexity
-    - Runway
-    - Groq
     - Cerebras
-    - SambaNova
-    - Together AI
-    - Weights & Biases
+    - Groq
+    - Anysphere
+    - Cognition
+    - Glean
+    - Harvey
+    - Sierra
+    - ElevenLabs
+    - Character.AI
+    - Replit
+    - Abridge
+    - Lambda
     - Physical Intelligence
+    - Thinking Machines Lab
+    - Safe Superintelligence
 
-  # --- Semiconductors and hardware -------------------------------------------
+  banking_and_finance:
+    - JPMorgan Chase
+    - Goldman Sachs
+    - Morgan Stanley
+    - Bank of America
+    - Citi
+    - Wells Fargo
+    - Capital One
+    - U.S. Bank
+    - PNC
+    - Truist
+    - American Express
+    - Visa
+    - Mastercard
+    - Fidelity Investments
+    - Charles Schwab
+    - BlackRock
+    - Vanguard
+    - State Street
+    - BNY
+    - Northern Trust
+    - Barclays
+    - Deutsche Bank
+    - HSBC
+    - UBS
+    - Raymond James
+
+  trading_and_quant:
+    - Citadel
+    - Citadel Securities
+    - Jane Street
+    - Two Sigma
+    - D. E. Shaw
+    - Hudson River Trading
+    - Jump Trading
+    - Optiver
+    - IMC Trading
+    - Susquehanna
+    - Virtu
+
+  fintech_and_insurance:
+    - Coinbase
+    - Robinhood
+    - Plaid
+    - Chime
+    - Affirm
+    - Brex
+    - Apex Fintech Solutions
+    - Liberty Mutual
+    - State Farm
+    - Allstate
+    - Progressive
+    - USAA
+    - GEICO
+
   semiconductors_and_hardware:
     - AMD
     - Broadcom
@@ -115,42 +205,88 @@ notify:
     - Micron
     - Texas Instruments
     - Analog Devices
-    - Microchip Technology
+    - Microchip
     - Infineon
     - STMicroelectronics
-    - NXP Semiconductors
+    - NXP
     - GlobalFoundries
     - Applied Materials
     - Lam Research
     - KLA
     - ASML
     - Synopsys
-    - Cadence Design Systems
+    - Cadence
     - Arm
     - SiFive
     - Western Digital
+    - SanDisk
     - Seagate
+    - Solidigm
+    - Silicon Labs
+    - Renesas
+    - Nordic Semiconductor
+    - onsemi
+    - Cirrus Logic
+    - Skyworks
+    - Qorvo
+    - Lattice Semiconductor
+    - Altera
+    - Monolithic Power Systems
+    - Tenstorrent
+
+  industrial_devices_and_medical:
+    - Honeywell
+    - Rockwell Automation
+    - Emerson
+    - Siemens
+    - ABB
+    - Schneider Electric
+    - Eaton
+    - Johnson Controls
+    - Lutron
+    - Ralliant
+    - Keysight
+    - Zebra Technologies
+    - Garmin
+    - Bose
+    - Sonos
+    - Logitech
+    - Medtronic
+    - Abbott
+    - Boston Scientific
+    - Stryker
+    - Dexcom
+    - Intuitive Surgical
+    - GE HealthCare
+    - Jabil
+    - Universal Creative
+    - Walt Disney Imagineering
+
+  telecom:
     - Nokia
     - Ericsson
-    - Samsung
-    - Sony
+    - Ciena
+    - Verizon
+    - AT&T
+    - T-Mobile
 
-  # --- Aerospace, defense, and robotics ---------------------------------------
-  # The reason this group exists at all -- these rarely showed up on the old
-  # bot's radar because cleared-defense primes were deliberately excluded from
-  # the sponsor list there (see git history). None of that logic applies here.
-  aerospace_defense_and_robotics:
-    - Blue Origin
+  aerospace_and_defense:
     - SpaceX
+    - Blue Origin
     - Boeing
     - Lockheed Martin
     - Northrop Grumman
     - RTX
-    - Raytheon
     - L3Harris
     - General Dynamics
-    - Honeywell
+    - BAE Systems
+    - Leidos
+    - SAIC
+    - GE Aerospace
+    - Textron
     - Anduril
+    - Shield AI
+    - Saronic
     - Rocket Lab
     - Firefly Aerospace
     - Relativity Space
@@ -159,24 +295,122 @@ notify:
     - Axiom Space
     - Astranis
     - Varda Space Industries
+    - MIT Lincoln Laboratory
+    - JHU APL
+    - Sandia National Laboratories
+    - Draper
+    - MITRE
+    - NASA JPL
+
+  robotics_drones_and_evtol:
     - Boston Dynamics
     - Figure AI
     - Agility Robotics
     - Skydio
-    - Shield AI
+    - Zipline
     - Joby Aviation
     - Archer Aviation
-    - Zipline
-    - Aurora Innovation
-    - Waymo
-    - Zoox
-    - Nuro
-    - GE Aerospace
-    - Collins Aerospace
-    - Textron
 
-  # --- Automotive and mobility -------------------------------------------
-  automotive_and_mobility:
+  automotive_and_av:
     - Tesla
     - Rivian
     - Lucid Motors
+    - GM
+    - Ford
+    - Stellantis
+    - Toyota
+    - Bosch
+    - Aptiv
+    - Applied Intuition
+    - Waymo
+    - Zoox
+    - Aurora Innovation
+
+# Match these names too, but report (and dedupe) them as the parent. A posting
+# from "TikTok" shows in Discord as "ByteDance (TikTok)".
+aliases:
+  RTX: [Raytheon, Collins Aerospace, Pratt & Whitney]
+  ByteDance: [TikTok]
+  Block: [Square, Cash App]
+  Amazon: [AWS, Amazon Web Services, Kuiper, Project Kuiper, Ring, Twitch]
+  Google: [Alphabet, DeepMind, Google DeepMind, Wiz]
+  Meta: [Instagram, WhatsApp, Reality Labs]
+  Microsoft: [GitHub]
+  IBM: [HashiCorp, Red Hat]
+  CoreWeave: [Weights & Biases]
+  HPE: [Hewlett Packard Enterprise, Juniper Networks]
+  Emerson: [NI, National Instruments]
+  Capital One: [Discover, Discover Financial]
+  # Alternate spellings the sources use for the same company.
+  Texas Instruments: [TI]
+  Arm: [Arm Holdings]
+  Snap Inc: [Snapchat]
+  Citi: [Citigroup, Citibank]
+  JPMorgan Chase: [JPMorgan, J.P. Morgan, JP Morgan, JPMorganChase]
+  Bank of America: [BofA]
+  American Express: [Amex]
+  Charles Schwab: [Schwab]
+  BNY: [BNY Mellon, Bank of New York Mellon]
+  D. E. Shaw: [DE Shaw]
+  Hudson River Trading: [HRT]
+  IMC Trading: [IMC]
+  Susquehanna: [SIG, Susquehanna International Group]
+  Anysphere: [Cursor]
+  Cognition: [Cognition AI, Cognition Labs]
+  Harvey: [Harvey AI]
+  Lambda: [Lambda Labs]
+  Perplexity: [Perplexity AI]
+  Thinking Machines Lab: [Thinking Machines]
+  Safe Superintelligence: [SSI]
+  Figure AI: [Figure]
+  AMD: [Advanced Micro Devices]
+  onsemi: [ON Semiconductor]
+  Silicon Labs: [Silicon Laboratories]
+  Intuitive Surgical: [Intuitive]
+  Walt Disney Imagineering: [Disney Imagineering]
+  GM: [General Motors]
+  Progressive: [Progressive Insurance]
+  Apex Fintech Solutions: [Apex Fintech]
+  Booking Holdings: [Booking.com]
+  Electronic Arts: [EA]
+  Arista Networks: [Arista]
+  MIT Lincoln Laboratory: [MIT Lincoln Lab, Lincoln Laboratory]
+  JHU APL: [Johns Hopkins APL, Johns Hopkins Applied Physics Laboratory,
+            Johns Hopkins University Applied Physics Laboratory]
+  Sandia National Laboratories: [Sandia]
+  Draper: [Draper Laboratory, Charles Stark Draper Laboratory]
+  NASA JPL: [JPL, Jet Propulsion Laboratory, NASA Jet Propulsion Laboratory]
+  L3Harris: [L3 Harris]
+
+# Whole-company-field match only, never a start-of-name match. For names short
+# or common enough that a whole-word prefix still misfires: "Sierra" would hit
+# "Sierra Nevada Corporation", "Lambda" "Lambda School", "Ring" "Ring Power",
+# "Block" "Block Engineering". Spacing/punctuation differences still match
+# ("T.I." = "TI"). Any name here must also appear above as an entry or alias.
+exact:
+  - TI
+  - NI
+  - Arm
+  - HP
+  - Ring
+  - Sierra
+  - Lambda
+  - Cognition
+  - Harvey
+  - Block
+  - Square
+  - Discover
+  - Citi
+  - Snap Inc
+  - Cursor
+  - Figure
+  - Intuitive
+  - EA
+  - IMC
+  - SIG
+  - HRT
+  - SSI
+  - JPL
+  - AWS
+  - GM
+  - Progressive

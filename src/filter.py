@@ -5,8 +5,7 @@ A posting passes if:
     (1) it is US-located, AND
     (2) its title looks like an internship/co-op (require_internship_title_patterns), AND
     (3) its title matches at least one role category in config/role_categories.yaml
-        (software_engineering / machine_learning / embedded_systems /
-        hardware_engineering), unless
+        (software_engineering / machine_learning / embedded_systems), unless
         enable_other_category is on, in which case a no-match posting is kept
         and tagged "other" instead of dropped.
 
@@ -22,7 +21,9 @@ from __future__ import annotations
 import logging
 import re
 
-from normalize import compile_term_patterns, normalize_company, normalize_text
+from normalize import (
+    compile_term_patterns, normalize_company, normalize_text, strip_company_suffix,
+)
 
 log = logging.getLogger(__name__)
 
@@ -56,19 +57,33 @@ def compile_title_exclusions(patterns) -> re.Pattern | None:
 
 
 class CompanyMatcher:
-    """Exact-or-prefix membership test against a curated company list.
+    """Resolve a posting's company field to a notify-list company, or None.
 
-    Used for config/notify_companies.yaml (which companies page Discord).
-    Matching is exact-or-prefix on the normalized company name, so one entry
-    ("Amazon") covers "Amazon Web Services" and "Amazon Robotics". A contains
-    match was tried first and rejected in the list this was carried over
-    from: it let "Applied Materials" match "Johns Hopkins Applied Physics
-    Laboratory", which is exactly the kind of false positive prefix-anchoring
-    avoids.
+    Used for config/notify_companies.yaml (which companies page Discord). Only
+    the company field is ever looked at, never the title.
+
+    An entry matches when the company name STARTS with it as whole words, so
+    "Amazon" covers "Amazon Web Services" but "Arm" can't cover "Armadin" and
+    "Square" can't cover "Squarespace". The old rule compared space-stripped
+    strings, which had no word boundary: live data (2026-11) showed "HP" hitting
+    "HPR (Hyannis Port Research)", "Arm" hitting "Armadin", "Meta" hitting
+    "Metaphor". Start-anchored on purpose rather than anywhere-in-the-name: a
+    contains match let "Applied Materials" hit "Johns Hopkins Applied Physics
+    Laboratory", and would let "Sierra" hit "Sierra Nevada Corporation".
+
+    Names listed under `exact:` must equal the whole company field instead --
+    for names short or common enough that even a whole-word prefix misfires
+    ("TI", "Ring", "Lambda"). Equality is checked on the space-stripped form, so
+    "D.E. Shaw" / "DE Shaw" and "U.S. Bank" / "US Bank" still meet.
+
+    `aliases:` map other names to a parent ("Raytheon" -> RTX). A hit on an
+    alias reports the parent, so Discord shows one name per company and
+    main.py can collapse the same job posted under two names.
     """
 
     def __init__(self, config: dict | None, key: str = "notify"):
-        groups = (config or {}).get(key) or {}
+        config = config or {}
+        groups = config.get(key) or {}
         # Accept either a flat list or the grouped dict the config ships
         # with, so deleting a group never changes the file's shape.
         if isinstance(groups, dict):
@@ -76,34 +91,53 @@ class CompanyMatcher:
         else:
             names = list(groups)
 
-        self.names = {self._key(n) for n in names if n}
-        self.names.discard("")
-        # Longest first so the most specific entry wins when reporting a hit.
-        self._ordered = sorted(self.names, key=len, reverse=True)
+        pairs = [(str(n), str(n)) for n in names if n]  # (name to match, parent to report)
+        for parent, alias_list in (config.get("aliases") or {}).items():
+            pairs += [(str(a), str(parent)) for a in (alias_list or []) if a]
+        exact = {normalize_company(n) for n in (config.get("exact") or []) if n}
+
+        self._entries: list[tuple[tuple[str, ...], str, str, bool]] = []
+        for name, parent in pairs:
+            tokens = self._tokens(name)
+            if tokens:
+                squashed = "".join(tokens)
+                self._entries.append((tokens, squashed, parent, squashed in exact))
+        # Most words first, then longest, so "Citadel Securities" beats "Citadel"
+        # and "Hewlett Packard Enterprise" (-> HPE) beats any shorter "Hewlett" entry.
+        self._entries.sort(key=lambda e: (len(e[0]), len(e[1])), reverse=True)
+        self.names = {parent for _, _, parent, _ in self._entries}
 
     @staticmethod
-    def _key(name: str) -> str:
-        """Normalized form, with a leading article dropped.
+    def _tokens(name: str) -> tuple[str, ...]:
+        """Lowercased words, legal suffix and a leading "the" dropped.
 
-        Sources are inconsistent about it -- "The Home Depot" appears with
-        the article, most names without. Stripping it on both sides means
-        the list doesn't need duplicate entries.
+        Sources are inconsistent about the article -- "The Home Depot" appears
+        with it, most names without -- so it's stripped on both sides.
         """
-        normalized = normalize_company(name)
-        if normalized.startswith("the") and len(normalized) > 5:
-            return normalized[3:]
-        return normalized
+        cleaned = strip_company_suffix(name)
+        words = re.sub(r"[^a-z0-9]+", " ", cleaned).split()
+        if len(words) > 1 and words[0] == "the":
+            words = words[1:]
+        return tuple(words)
 
     def __bool__(self) -> bool:
-        return bool(self.names)
+        return bool(self._entries)
+
+    def resolve(self, company: str) -> str | None:
+        """The parent company name to report, or None if not on the list."""
+        tokens = self._tokens(company)
+        if not tokens:
+            return None
+        squashed = "".join(tokens)
+        for entry_tokens, entry_squashed, parent, exact_only in self._entries:
+            if squashed == entry_squashed:
+                return parent
+            if not exact_only and tokens[: len(entry_tokens)] == entry_tokens:
+                return parent
+        return None
 
     def matches(self, company: str) -> bool:
-        normalized = self._key(company)
-        if not normalized:
-            return False
-        if normalized in self.names:
-            return True
-        return any(normalized.startswith(name) for name in self._ordered)
+        return self.resolve(company) is not None
 
 
 class RoleCategoryTagger:

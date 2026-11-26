@@ -137,8 +137,9 @@ check("plain software title tags Software Engineering",
       tagger.categorize("Software Engineer Intern"), ["software_engineering"])
 check("firmware title tags Embedded Systems",
       tagger.categorize("Firmware Engineer Intern"), ["embedded_systems"])
-check("ASIC title tags Hardware Engineering",
-      tagger.categorize("ASIC Design Engineer Intern"), ["hardware_engineering"])
+# Hardware Engineering was removed 2026-11 (only SWE / AI-ML / Embedded wanted).
+for title in ["ASIC Design Engineer Intern", "Analog Design Intern", "PCB Design Intern"]:
+    check(f"hardware-only {title!r} matches no category", tagger.categorize(title), [])
 
 # A title can earn more than one category.
 multi = tagger.categorize("Embedded Software Engineer Intern")
@@ -237,8 +238,9 @@ check("legal suffix tolerated", notify.matches("NVIDIA, Inc."), True)
 
 # The whole point of prefix-anchoring rather than substring matching --
 # carried over from the old sponsor list's own guard case.
-check("'Applied Materials' does NOT match Johns Hopkins APL",
-      notify.matches("Johns Hopkins Applied Physics Laboratory"), False)
+# JHU APL is on the list itself since 2026-11, so the guard is now WHICH entry wins.
+check("'Applied Materials' does NOT claim Johns Hopkins APL",
+      notify.resolve("Johns Hopkins Applied Physics Laboratory"), "JHU APL")
 
 # Unlike the old h1b_sponsors.yaml, cleared-defense primes are IN this list on
 # purpose -- there's no sponsorship-eligibility reason to exclude them for a
@@ -248,6 +250,33 @@ for name in ["Northrop Grumman", "RTX", "Lockheed Martin"]:
     check(f"{name} IS on the notify list (unlike the old sponsor list)", notify.matches(name), True)
 
 check("empty company is not a match", notify.matches(""), False)
+
+# Whole-word, start-anchored. The first three were live false hits (2026-11) under
+# the old space-stripped prefix rule; the rest are the cases the rule must prevent.
+for company in ["Armadin", "HPR (Hyannis Port Research)", "Metaphor", "Squarespace",
+                "Blockchain Capital", "Armada", "Intellias", "Sierra Nevada Corporation",
+                "Lambda School", "Ring Power", "Texas Roadhouse", "Motorola Mobility",
+                "Relativity", "Lucid Software", "Archer Daniels Midland"]:
+    check(f"no false company match: {company!r}", notify.resolve(company), None)
+for company, parent in [("Hewlett Packard Enterprise", "HPE"), ("HP Inc.", "HP"),
+                        ("Raytheon", "RTX"), ("Collins Aerospace", "RTX"),
+                        ("TikTok", "ByteDance"), ("Square", "Block"), ("TI", "Texas Instruments"),
+                        ("Arm", "Arm"), ("Amazon Web Services", "Amazon"), ("Ring", "Amazon"),
+                        ("Meta Platforms", "Meta"), ("Citadel Securities", "Citadel Securities"),
+                        ("Citadel", "Citadel"), ("DE Shaw", "D. E. Shaw"),
+                        ("D.E. Shaw & Co.", "D. E. Shaw"), ("US Bank", "U.S. Bank"),
+                        ("Johns Hopkins Applied Physics Laboratory", "JHU APL"),
+                        ("Motorola Solutions", "Motorola Solutions"), ("Snap", "Snap Inc")]:
+    check(f"{company!r} resolves to {parent!r}", notify.resolve(company), parent)
+for removed in ["Instacart", "Runway", "Together AI", "SambaNova", "Cohere", "Hugging Face",
+                "Nuro", "Vercel", "Airtable"]:
+    check(f"removed company {removed!r} never matches", notify.matches(removed), False)
+
+# Every `exact:` name must exist as an entry or alias, or it silently does nothing.
+_listed = {CompanyMatcher._tokens(n) for g in notify_config["notify"].values() for n in g}
+_listed |= {CompanyMatcher._tokens(a) for al in notify_config["aliases"].values() for a in al}
+for name in notify_config["exact"]:
+    check(f"exact name {name!r} is on the list", CompanyMatcher._tokens(name) in _listed, True)
 check("missing notify config degrades safely", bool(CompanyMatcher(None)), False)
 
 # --- filter_postings end-to-end ----------------------------------------------
@@ -350,7 +379,9 @@ from terms import (
     season_label,
     season_labels,
 )
-from notify_discord import _batches, build_embed, order_for_notify
+from datetime import date
+
+from notify_discord import _batches, build_embed, day_separator, order_for_notify, posted_phrase
 
 check("title 'Intern - Summer 2027'", parse_title_terms("SWE Intern - Summer 2027"), ["Summer 2027"])
 check("title 'Winter/Spring 2027' yields both",
@@ -392,7 +423,7 @@ check("same season, different year are distinct",
       season_labels(["Winter 2026", "Winter 2027"]), ["Winter/Spring 2026", "Winter/Spring 2027"])
 check("unlisted label", season_label([]), "Term not listed")
 
-# Notifications: grouped by season, never mixed in one message, order preserved.
+# Notifications: ordered by season, order preserved across batches.
 def _p(pid, terms, date):
     return {"id": pid, "company": "Acme", "title": "SWE Intern", "location": "Austin, TX",
             "terms": terms, "date_posted": date, "role_categories": ["software_engineering"]}
@@ -404,16 +435,65 @@ ordered = order_for_notify(batch_in)
 check("order_for_notify: earliest season first, unlisted last, newest first within",
       [p["id"] for p in ordered], ["w", "s2", "s1", "f", "u"])
 batches = _batches(ordered)
-check("one batch per season group", len(batches), 4)
-check("batch header names the season", batches[1][0].splitlines()[0], "## ☀️ Summer 2027")
 check("batches preserve order (main.py relies on sent being a prefix)",
       [p["id"] for _, b in batches for p in b], [p["id"] for p in ordered])
+check("batch summary line names the count", batches[0][0].startswith("🔔 5 new postings"), True)
 big = _batches([_p(str(i), ["Summer 2027"], "11112026") for i in range(13)])
-check("a >10 season group splits into parts", [len(b) for _, b in big], [10, 3])
-check("part numbering in header", big[1][0].endswith("(part 2/2)"), True)
+check("over 10 postings splits into messages", [len(b) for _, b in big], [10, 3])
 check("embed author carries the season",
       build_embed(_p("x", ["Winter 2027"], "11112026"))["author"]["name"],
       "❄️ Winter/Spring 2027")
+
+# Posted dates: relative to the reader's day, with the calendar date alongside.
+thu = date(2026, 11, 26)
+check("posted today", posted_phrase("11262026", thu), "Posted **today** (Thu, Nov 26)")
+check("posted yesterday", posted_phrase("11252026", thu), "Posted **yesterday** (Wed, Nov 25)")
+check("posted N days ago", posted_phrase("11232026", thu), "Posted **3 days ago** (Mon, Nov 23)")
+check("future-dated: no negative age", posted_phrase("11272026", thu), "Posted Fri, Nov 27")
+check("undated", posted_phrase("", thu), "Posted date not listed")
+check("embed leads with the posted date",
+      build_embed(_p("x", ["Summer 2027"], "11252026"), thu)["description"].splitlines()[0],
+      "🗓️ Posted **yesterday** (Wed, Nov 25)")
+check("day separator names the day", day_separator(thu).splitlines()[-1],
+      "## 📅 Thursday, November 26")
+
+# --- notify decision end-to-end (company + title -> tag or skip) ----------------
+from notify_discord import primary_tag  # noqa: E402
+
+
+def notify_decision(company, title):
+    """What Discord does with one posting: (tag, parent) or a skip reason."""
+    posting = {"id": "x", "company": company, "title": f"{title}", "location": "Austin, TX",
+               "active": True}
+    if not filter_postings([posting], settings, role_categories_config):
+        return "skip"
+    parent = notify.resolve(company)
+    if not parent:
+        return "skip (no company match)"
+    return primary_tag(posting["role_categories"])[1], parent
+
+
+for company, title, expected in [
+    ("Physical Intelligence", "ML Research Intern", ("AI/ML", "Physical Intelligence")),
+    ("Hewlett Packard Enterprise", "Software Engineer Intern", ("SWE", "HPE")),
+    ("Squarespace", "Software Engineer Intern", "skip (no company match)"),
+    ("Raytheon", "Embedded Software Intern", ("EMBEDDED", "RTX")),
+    ("TikTok", "Backend Engineer Intern", ("SWE", "ByteDance")),
+    ("Texas Instruments", "Embedded Software Intern", ("EMBEDDED", "Texas Instruments")),
+    ("Texas Instruments", "Analog Design Intern", "skip"),
+    ("Lockheed Martin", "Mechanical Engineering Intern", "skip"),
+    ("SpaceX", "Flight Software Engineering Intern", ("EMBEDDED", "SpaceX")),
+    ("Lutron", "Firmware Engineering Intern", ("EMBEDDED", "Lutron")),
+    ("Goldman Sachs", "Engineering Summer Analyst", ("SWE", "Goldman Sachs")),
+    ("Morgan Stanley", "Technology Analyst Intern", ("SWE", "Morgan Stanley")),
+    ("JPMorgan Chase", "Investment Banking Summer Analyst", "skip"),
+    ("Tesla", "Software Engineer, AI Intern", ("AI/ML", "Tesla")),
+    ("Instacart", "Software Engineer Intern", "skip (no company match)"),
+    # Skip words beat category keywords; PhD-only roles are skipped.
+    ("Google", "PhD Research Intern - Generative AI", "skip"),
+    ("Salesforce", "Software Engineer Intern", ("SWE", "Salesforce")),
+]:
+    check(f"notify: {company!r} / {title!r}", notify_decision(company, title), expected)
 
 print()
 if failures:

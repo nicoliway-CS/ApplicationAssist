@@ -5,9 +5,12 @@ from __future__ import annotations
 import logging
 import re
 import time
+from datetime import date, datetime
+from zoneinfo import ZoneInfo
 
 import requests
 
+from normalize import normalize_company
 from terms import season_label, season_sort_key
 
 log = logging.getLogger(__name__)
@@ -20,17 +23,63 @@ CATEGORY_LABELS = {
     "software_engineering": "Software Engineering",
     "machine_learning": "Machine Learning",
     "embedded_systems": "Embedded Systems",
-    "hardware_engineering": "Hardware Engineering",
     "other": "Other",
 }
 CATEGORY_COLORS = {
     "software_engineering": 0x2ECC71,
     "machine_learning": 0xE91E63,
     "embedded_systems": 0x3498DB,
-    "hardware_engineering": 0xE67E22,
     "other": 0x95A5A6,
 }
+# Discord shows ONE tag per posting; a title matching several categories takes the
+# first here ("Embedded Software Intern" -> EMBEDDED, "Software Engineer, AI
+# Intern" -> AI/ML). The board still shows every category a posting earned.
+TAG_PRIORITY = [
+    ("embedded_systems", "EMBEDDED"),
+    ("machine_learning", "AI/ML"),
+    ("software_engineering", "SWE"),
+]
+
+
+def primary_tag(categories: list[str]) -> tuple[str, str]:
+    """(category key, short tag) by TAG_PRIORITY; ("other", "OTHER") if none."""
+    for key, tag in TAG_PRIORITY:
+        if key in categories:
+            return key, tag
+    return "other", "OTHER"
+
+
+def display_company(posting: dict) -> str:
+    """The notify-list name, with the posting's own name after it if different.
+
+    "ByteDance (TikTok)": reported as the parent, as asked, but the name you'd
+    search on the careers site stays visible. A mere spelling variant
+    ("NVIDIA, Inc." vs "NVIDIA") isn't worth the parentheses.
+    """
+    raw = posting.get("company") or "Unknown"
+    parent = posting.get("notify_company")
+    if not parent or normalize_company(parent) == normalize_company(raw):
+        return raw
+    return f"{parent} ({raw})"
 DEFAULT_COLOR = 0x95A5A6
+
+# "Today" for day separators and "posted today/yesterday" means the reader's day,
+# not UTC's -- a UTC date would flip at 7-8 PM Eastern and stamp evening postings
+# with tomorrow. Same zone the board uses (scripts/render_board.py).
+NOTIFY_TZ = ZoneInfo("America/New_York")
+
+
+def today_local() -> date:
+    return datetime.now(NOTIFY_TZ).date()
+
+
+def day_separator(day: date) -> str:
+    """Content-only message that starts each day's notifications in the channel.
+
+    Discord's own date dividers are small and only show between users' messages;
+    with one webhook posting all day they're easy to miss, so this draws its own.
+    """
+    return f"━━━━━━━━━━━━━━━━━━━━━━━━\n## \U0001F4C5 {day:%A, %B} {day.day}"
 
 
 def order_for_notify(postings: list[dict]) -> list[dict]:
@@ -44,56 +93,49 @@ def order_for_notify(postings: list[dict]) -> list[dict]:
 
 
 def _batches(postings: list[dict]) -> list[tuple[str, list[dict]]]:
-    """Split into (season header, <=10 postings) batches that never mix seasons.
+    """Split into (summary line, <=10 postings) batches, preserving order.
 
-    One season per message is what makes the message-level header honest: a batch
-    that straddled Summer and Fall couldn't carry a single "Summer 2027" banner.
-    Costs at most a few extra webhook posts per run, against a 60-posting cap.
+    The summary line is the message's text content. It's kept short because it's
+    what a phone push notification shows -- embeds alone push as a blank alert.
     """
-    groups: list[tuple[str, list[dict]]] = []
-    for posting in postings:
-        label = season_label(posting.get("terms") or [], emoji=True)
-        if groups and groups[-1][0] == label:
-            groups[-1][1].append(posting)
-        else:
-            groups.append((label, [posting]))
-
     batches = []
-    for label, group in groups:
-        chunks = [group[i : i + EMBEDS_PER_MESSAGE]
-                  for i in range(0, len(group), EMBEDS_PER_MESSAGE)]
-        for part, chunk in enumerate(chunks, start=1):
-            noun = "posting" if len(group) == 1 else "postings"
-            header = f"## {label}\n{len(group)} new {noun}"
-            if len(chunks) > 1:
-                header += f" (part {part}/{len(chunks)})"
-            batches.append((header, chunk))
+    for i in range(0, len(postings), EMBEDS_PER_MESSAGE):
+        chunk = postings[i : i + EMBEDS_PER_MESSAGE]
+        companies = list(dict.fromkeys(p.get("notify_company") or p.get("company", "Unknown")
+                                       for p in chunk))
+        shown = ", ".join(companies[:4])
+        if len(companies) > 4:
+            shown += f" +{len(companies) - 4} more"
+        noun = "posting" if len(chunk) == 1 else "postings"
+        batches.append((f"\U0001F514 {len(chunk)} new {noun}: {shown}", chunk))
     return batches
 
 
-def build_embed(posting: dict) -> dict:
-    company = posting.get("company", "Unknown")
+def build_embed(posting: dict, today: date | None = None) -> dict:
+    company = display_company(posting)
     title = posting.get("title", "Unknown role")
     location = posting.get("location", "Unspecified")
     categories = posting.get("role_categories") or []
     cat_labels = " / ".join(CATEGORY_LABELS.get(c, c) for c in categories) or "Uncategorized"
     season = season_label(posting.get("terms") or [], emoji=True)
+    primary, tag = primary_tag(categories)
 
-    bits = [
+    # One fact per line: the old single " · "-joined line buried the posted date in
+    # the footer, the smallest and greyest text an embed has.
+    lines = [
+        f"\U0001F5D3\uFE0F {posted_phrase(posting.get('date_posted', ''), today or today_local())}",
         f"\U0001F4CD {location}",
-        f"\U0001F3F7️ {cat_labels}",
-        f"_{posting.get('source_repo', '')}_",
+        f"\U0001F3F7\uFE0F {cat_labels}",
     ]
 
     embed = {
         # Author renders as a bold line ABOVE the title -- the most prominent slot an
-        # embed has short of the title itself, so the season is the first thing read
-        # even when an embed is seen on its own (e.g. in a mobile push preview).
+        # embed has short of the title itself, so the season is the first thing read.
         "author": {"name": season[:256]},
-        "title": f"{company} — {title}"[:256],
-        "description": " · ".join(bits)[:4096],
-        "color": CATEGORY_COLORS.get(categories[0] if categories else "other", DEFAULT_COLOR),
-        "footer": {"text": f"Posted {_pretty_date(posting.get('date_posted', ''))}"},
+        "title": f"[{tag}] {company} — {title}"[:256],
+        "description": "\n".join(lines)[:4096],
+        "color": CATEGORY_COLORS.get(primary, DEFAULT_COLOR),
+        "footer": {"text": f"via {posting.get('source_repo', '') or 'unknown source'}"},
     }
     # Discord rejects the whole payload if `url` is present but not a valid URL.
     url = posting.get("url") or ""
@@ -102,14 +144,37 @@ def build_embed(posting: dict) -> dict:
     return embed
 
 
-def _pretty_date(mmddyyyy: str) -> str:
-    if len(mmddyyyy) == 8 and mmddyyyy.isdigit():
-        return f"{mmddyyyy[:2]}/{mmddyyyy[2:4]}/{mmddyyyy[4:]}"
-    return "unknown date"
+def posted_phrase(mmddyyyy: str, today: date) -> str:
+    """'Posted **today** (Thu, Nov 26)' / '**yesterday**' / '**3 days ago**'.
+
+    Relative first because that's the question being asked ("how fresh is this?");
+    the weekday + date stays alongside so it can be matched to a day separator.
+    """
+    try:
+        posted = datetime.strptime(mmddyyyy, "%m%d%Y").date()
+    except (TypeError, ValueError):
+        return "Posted date not listed"
+    age = (today - posted).days
+    stamp = f"{posted:%a, %b} {posted.day}"
+    if age < 0:  # a source dated it ahead of our clock; don't print "-1 days ago"
+        return f"Posted {stamp}"
+    rel = "today" if age == 0 else "yesterday" if age == 1 else f"{age} days ago"
+    return f"Posted **{rel}** ({stamp})"
+
+
+def send_day_separator(webhook_url: str, day: date, *, dry_run: bool = False) -> bool:
+    """Post the day divider. main.py remembers the day so it's sent once, not per run."""
+    content = day_separator(day)
+    if dry_run:
+        log.info("[dry-run] day separator: %s", content.splitlines()[-1])
+        return True
+    if not webhook_url:
+        return False
+    return _post_with_retry(webhook_url, {"content": content})
 
 
 def notify(webhook_url: str, postings: list[dict], *, dry_run: bool = False) -> int:
-    """Send postings as season-grouped batched embeds, in the order given.
+    """Send postings as batched embeds, in the order given.
 
     Returns the count successfully sent; those are always a prefix of `postings`.
     Pass the list through order_for_notify() first so seasons arrive grouped.
@@ -122,16 +187,19 @@ def notify(webhook_url: str, postings: list[dict], *, dry_run: bool = False) -> 
 
     sent = 0
     batches = _batches(postings)
+    today = today_local()
 
     for index, (header, batch) in enumerate(batches, start=1):
-        payload = {"content": header, "embeds": [build_embed(p) for p in batch]}
+        payload = {"content": header, "embeds": [build_embed(p, today) for p in batch]}
         if dry_run:
             log.info("[dry-run] batch %d/%d: %d embeds -- %s",
-                     index, len(batches), len(batch), header.replace("\n", " · "))
+                     index, len(batches), len(batch), header)
             for posting in batch:
-                log.info("[dry-run]   %s — %s (%s) [%s]",
-                         posting.get("company"), posting.get("title"), posting.get("location"),
-                         season_label(posting.get("terms") or []))
+                log.info("[dry-run]   [%s] %s — %s (%s) [%s] %s",
+                         primary_tag(posting.get("role_categories") or [])[1],
+                         display_company(posting), posting.get("title"), posting.get("location"),
+                         season_label(posting.get("terms") or []),
+                         posted_phrase(posting.get("date_posted", ""), today).replace("**", ""))
             sent += len(batch)
             continue
 

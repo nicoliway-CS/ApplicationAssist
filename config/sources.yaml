@@ -138,6 +138,19 @@ settings:
     - product marketing
     - social media
     - content marketing
+    # Added 2026-11 as hard overrides (they beat any category keyword). Bare
+    # "manufacturing", "supply chain", "marketing" and "recruit" were proposed
+    # too and left out: measured 2026-11 they only removed real SWE/ML roles
+    # ("Manufacturing Software Engineer Intern", TikTok's "... Recruitment
+    # Program" research interns). PhD is here because PhD-only internships
+    # aren't open to an undergrad (~220 of them on 2026-11-26).
+    - mechanical
+    - sales
+    - legal
+    - accounting
+    - investment banking
+    - business analyst
+    - phd
 
   # Drop seen-ids first observed more than this many days ago.
   prune_after_days: 90

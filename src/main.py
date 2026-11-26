@@ -21,8 +21,10 @@ sys.path.insert(0, str(Path(__file__).parent))
 
 from fetch import fetch_source  # noqa: E402
 from filter import CompanyMatcher, filter_postings  # noqa: E402
-from normalize import canonical_url, dedupe_postings  # noqa: E402
-from notify_discord import notify, order_for_notify  # noqa: E402
+from normalize import canonical_url, dedupe_postings, normalize_title  # noqa: E402
+from notify_discord import (  # noqa: E402
+    notify, order_for_notify, send_day_separator, today_local,
+)
 
 ROOT = Path(__file__).resolve().parent.parent
 SOURCES_PATH = ROOT / "config" / "sources.yaml"
@@ -144,18 +146,26 @@ def main() -> int:
     # ever needs to track that narrower pool -- the board re-derives its full
     # picture from the live sources on every render rather than from state.
     matches = filter_postings(all_postings, settings, role_categories_config)
-    notify_candidates = [p for p in matches if notify_matcher.matches(p.get("company", ""))]
+    # notify_company is the list's name for it, aliases resolved ("TikTok" ->
+    # ByteDance). Display and alias-dedupe only: `company` and the id are untouched.
+    notify_candidates = []
+    for posting in matches:
+        parent = notify_matcher.resolve(posting.get("company", ""))
+        if parent:
+            notify_candidates.append(dict(posting, notify_company=parent))
     log.info("%d matches, %d from notify-list companies", len(matches), len(notify_candidates))
 
     # --- dedupe ---
     # Same job twice (two repos, or a drifted speedyapply date) collapses by id OR
     # canonical apply URL before the seen check, so a copy can't sneak past it
     # under a new id. Stored URLs catch the cross-run version of the same thing.
+    # Then the same title + date under two names of one company (TikTok and
+    # ByteDance) collapses too -- the id hashes the raw name, so it can't.
     seen_ids = set(state["postings"])
     seen_urls = {meta.get("url") for meta in state["postings"].values()
                  if isinstance(meta, dict) and meta.get("url")}
     new_postings = sorted(
-        (p for p in dedupe_postings(notify_candidates)
+        (p for p in _collapse_aliases(dedupe_postings(notify_candidates))
          if p["id"] not in seen_ids and canonical_url(p.get("url")) not in seen_urls),
         key=lambda p: _date_key(p), reverse=True,
     )
@@ -217,6 +227,16 @@ def main() -> int:
     to_send = order_for_notify(to_send)
 
     webhook_url = os.environ.get("DISCORD_WEBHOOK_URL", "")
+
+    # First notification of the (Eastern) day gets a date divider above it. The day
+    # is stored in state so a 5-minute cadence can't repeat it every run.
+    today = today_local()
+    separator_sent = False
+    if state.get("last_day_separator") != today.isoformat():
+        separator_sent = send_day_separator(webhook_url, today, dry_run=args.dry_run)
+        if separator_sent and not args.dry_run:
+            state["last_day_separator"] = today.isoformat()
+
     sent = notify(webhook_url, to_send, dry_run=args.dry_run)
     log.info("notified on %d/%d postings", sent, len(to_send))
 
@@ -233,9 +253,26 @@ def main() -> int:
     if overflow:
         log.info("%d postings deferred to the next run", len(overflow))
 
-    _finish(state, settings, now, changed=bool(sent or stale))
+    _finish(state, settings, now, changed=bool(sent or stale or separator_sent))
     log.info("state now tracks %d ids", len(state["postings"]))
     return 0
+
+
+def _collapse_aliases(postings: list[dict]) -> list[dict]:
+    """Drop a posting already present under another name of the same parent company.
+
+    Runs BEFORE the seen-filter, like dedupe_postings, so on the next run the
+    first copy (seen) still shadows the second rather than letting it ping.
+    """
+    kept, keys = [], set()
+    for posting in postings:
+        key = (posting.get("notify_company"), normalize_title(posting.get("title", "")),
+               posting.get("date_posted", ""))
+        if key in keys:
+            continue
+        keys.add(key)
+        kept.append(posting)
+    return kept
 
 
 def _date_key(posting: dict) -> str:

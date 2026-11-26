@@ -42,8 +42,13 @@ def slug(text: str) -> str:
     return _NON_ALNUM.sub("", normalize_text(text))
 
 
+def strip_company_suffix(name: str) -> str:
+    """normalize_text, minus a trailing legal suffix ("Acme, Inc." -> "acme")."""
+    return _COMPANY_SUFFIXES.sub("", normalize_text(name))
+
+
 def normalize_company(name: str) -> str:
-    return slug(_COMPANY_SUFFIXES.sub("", normalize_text(name)))
+    return slug(strip_company_suffix(name))
 
 
 def normalize_title(title: str) -> str:

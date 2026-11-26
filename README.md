@@ -1,10 +1,10 @@
 # Internship Alert Bot
 
-Watches public internship-listing repos, filters them down to **US internships/co-ops** in **Software Engineering, Machine Learning, Embedded Systems, or Hardware Engineering**, and posts matches from a curated company list to a Discord channel. It also publishes a browsable board of everything currently open to GitHub Pages, filterable by category, company, and notify status.
+Watches public internship-listing repos, filters them down to **US internships/co-ops** in **Software Engineering, Machine Learning, or Embedded Systems**, and posts matches from a curated company list to a Discord channel. It also publishes a browsable board of everything currently open to GitHub Pages, filterable by category, company, and notify status.
 
 Runs entirely on GitHub Actions cron — no server, no database, no hosting bill. State is a single JSON file committed back to the repo.
 
-Built for a US-citizen CS undergrad not graduating until 2028, where sponsorship and country-of-residence aren't the question — the two that matter are *"is this in Software Engineering, Machine Learning, Embedded Systems, or Hardware Engineering?"* and *"is it a company I actually want a ping for?"* This started as a fork of a bot built for the opposite problem (EU-location-or-visa-sponsorship filtering for an international candidate); most of what follows is about how the filtering logic changed shape, not just what it excludes.
+Built for a US-citizen CS undergrad not graduating until 2028, where sponsorship and country-of-residence aren't the question — the two that matter are *"is this in Software Engineering, Machine Learning, or Embedded Systems?"* and *"is it a company I actually want a ping for?"* This started as a fork of a bot built for the opposite problem (EU-location-or-visa-sponsorship filtering for an international candidate); most of what follows is about how the filtering logic changed shape, not just what it excludes.
 
 ## Setup
 
@@ -29,7 +29,9 @@ Everything tunable lives in [config/](config/) — sources, role-category keywor
 
 ## How it decides
 
-A posting is kept if it is **US-located** AND **looks like an internship/co-op** AND **its title matches at least one role category** (Software Engineering, Machine Learning, Embedded Systems, or Hardware Engineering).
+A posting is kept if it is **US-located** AND **looks like an internship/co-op** AND **its title matches at least one role category** (Software Engineering, Machine Learning, or Embedded Systems).
+
+**Hardware Engineering was removed in 2026-11**, from both Discord and the board. Only SWE, AI/ML and Embedded roles are wanted, at every company, hardware and aerospace names included. A hardware-ish title that also reads as embedded ("Embedded Hardware Engineer", FPGA) still shows up as Embedded. Titles matching a skip word in `exclude_title_patterns` (mechanical, sales, legal, accounting, investment banking, business analyst, PhD...) are dropped even when they contain a category keyword.
 
 **US-only.** US detection runs the same city-name-collision guard the original EU-vs-US bot needed: Dublin CA/OH, Berlin NH, Paris TX, Vienna VA and Naples FL are all real US tech locations, and both source boards carry Canada/EU postings too (vanshb03's board explicitly says it covers "the United States, Canada, or Remote"). Multi-location postings qualify if *any one* location is US.
 
@@ -59,7 +61,7 @@ Other years get the same treatment (Fall 2026, Summer 2028...). A posting can be
 2. **The source's tag**: Simplify's `terms` field. `N/A` is treated as no tag.
 3. **The source's `default_terms`** in [config/sources.yaml](config/sources.yaml). vanshb03's main README has no term column but only lists Summer 2027 (its off-season roles are in a separate file), so it's set to `[Summer 2027]`.
 
-**In Discord**, each run's notifications are grouped by season, earliest first. Each message carries one season only, with a header like `## ☀️ Summer 2027 · 3 new postings`, and each embed repeats the season on its top line. Seasons are grouped *after* the per-run cap has picked the newest postings, so a big Summer batch can't push fresher Fall postings past the cap.
+**In Discord**, the first notification of each day (US Eastern) comes after a date divider (`📅 Thursday, November 26`), sent once a day and tracked in `seen.json` as `last_day_separator`. Each embed shows the season on its top line, then one fact per line: when it was posted (`Posted **yesterday** (Wed, Nov 25)`), location, and category, with the source repo in the footer. The message text is a short summary (`🔔 2 new postings: NVIDIA, SpaceX`) because that's what a phone push notification shows. Within a run, postings are still ordered by season, earliest first, *after* the per-run cap has picked the newest ones.
 
 **On the board**, every row has a season badge, and an "All seasons" dropdown filters to a single bucket (or to *Term not listed*).
 
@@ -105,7 +107,6 @@ Search, category filter chips, a company filter, a notified/not distinction, and
 | Software Engineering | General SWE, backend, frontend, full-stack |
 | Machine Learning | ML/AI engineering, applied & research scientist, CV/NLP/LLM |
 | Embedded Systems | Firmware, RTOS, microcontrollers, IoT |
-| Hardware Engineering | PCB, ASIC/VLSI, digital design |
 | Other | Only appears if `enable_other_category` is on — matched no category, kept for a keyword-gap audit |
 
 Postings older than 60 days are dropped (`--max-age-days`).
@@ -126,7 +127,14 @@ This workflow is the only thing that rebuilds the page. If the board looks like 
 
 [config/notify_companies.yaml](config/notify_companies.yaml) replaces the old `h1b_sponsors.yaml`. There is no external data behind it and no eligibility question it's answering — it's just "companies worth a Discord ping," seeded with big tech plus the aerospace/defense/robotics names relevant to embedded and hardware work (Blue Origin, SpaceX, Honeywell, RTX, Northrop Grumman, Boston Dynamics...). Unlike the old sponsor list, cleared-defense primes are **included** here on purpose — the reason they were excluded before (an international candidate can't clear a clearance requirement) doesn't apply to a US citizen.
 
-Matching is the same exact-or-prefix scheme the sponsor list used: normalized company names match exactly or as a prefix, so "Amazon" covers "Amazon Web Services" and "Amazon Robotics" without a separate entry, and prefix-anchoring (not substring) avoids the false positive that motivated it originally — a contains-match let "Applied Materials" hit "Johns Hopkins Applied Physics Laboratory".
+Matching looks at the company field only, never the title. An entry matches when the company name **starts with it as whole words**: "Amazon" covers "Amazon Web Services", but "Arm" can't hit "Armadin" and "Square" can't hit "Squarespace". The older rule compared space-stripped names with no word boundary, and in live data (2026-11) it matched "HP" to "HPR (Hyannis Port Research)", "Arm" to "Armadin" and "Meta" to "Metaphor". Matching is start-anchored rather than anywhere-in-the-name, because an anywhere match let "Applied Materials" hit "Johns Hopkins Applied Physics Laboratory" and would let "Sierra" hit "Sierra Nevada Corporation".
+
+Two more sections in the file:
+
+- **`exact:`** lists names that must equal the whole company field, because they're short or common enough that even a whole-word prefix misfires (TI, NI, Arm, Ring, Sierra, Lambda, Block...).
+- **`aliases:`** maps other names to a parent ("Raytheon" → RTX, "TikTok" → ByteDance). Discord shows `ByteDance (TikTok)`. The same title and date posted under two names of one company is collapsed before the seen check, so it pings once.
+
+Discord shows one category tag per posting, in the title: `[EMBEDDED] Lutron — Firmware Engineering Intern`. When a title matches several categories, the priority is EMBEDDED > AI/ML > SWE. The board still shows every category a posting earned.
 
 This list is meant to be hand-edited. Add or remove companies freely; deleting a whole group changes nothing else, since the loader flattens whatever groups remain.
 
@@ -215,7 +223,7 @@ Running this in public exposes what you're looking at. Worth deciding deliberate
 .github/workflows/heartbeat.yml    weekly liveness report
 .github/workflows/board.yml        daily Pages build + deploy
 config/sources.yaml                source repos, adapters, tunables
-config/role_categories.yaml        role-category keyword screen (SWE/ML/embedded/hardware)
+config/role_categories.yaml        role-category keyword screen (SWE/ML/embedded)
 config/notify_companies.yaml       curated companies that page Discord
 src/fetch.py                       per-source adapters
 src/normalize.py                   text/date normalization, dedupe key + URL dedupe, term patterns
